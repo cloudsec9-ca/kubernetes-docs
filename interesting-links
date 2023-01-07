@@ -348,44 +348,75 @@ https://twitter.com/LinuxHandbook/status/1473904236878602241
 https://twitter.com/LaqOvSomething/status/1475584036558950401
 	https://venturebeat.com/security/kubernetes-security-will-have-a-breakout-year-in-2022/
 https://twitter.com/joshrosso/status/1473717163659862019
+	https://joshrosso.com/docs/2021/2021-12-21-production-k8s/
 https://twitter.com/kubesploit/status/1476297535694200837
+	https://aninditabasak.medium.com/a-lap-around-kubernetes-security-vulnerability-scanning-tools-checkov-kube-hunter-kube-bench-4ffda92c4cf1
 https://twitter.com/alexellisuk/status/1475836136836763651
+	https://alexellisuk.medium.com/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a
 https://twitter.com/learnk8s/status/1476993078997172236
+	https://medium.com/@senthilrch/kubernetes-network-polices-are-they-really-useful-c3a153c49316
 https://twitter.com/learnk8s/status/1477235064605974537
+	https://mjarosie.github.io/dev/2021/09/15/iam-roles-for-kubernetes-service-accounts-deep-dive.html
 https://twitter.com/mariofusco/status/1474419042647789571
+	https://www.youtube.com/watch?v=X48VuDVv0do
 https://twitter.com/CivoCloud/status/1477946851236192261
+	https://medium.com/nerd-for-tech/etcd-the-easy-way-4c01e243f285
 https://twitter.com/K3sDaily/status/1476540737898651651
+	https://getbetterdevops.io/7-essential-tools-to-be-more-efficient-on-kubernetes/
 https://twitter.com/kubesploit/status/1477385167929028621
+	https://www.armosec.io/blog/kubernetes-security-frameworks-and-guidance/
 https://twitter.com/K8sArchitect/status/1478773342786236419
+	https://dbexamstudy.blogspot.com/2021/11/is-kubernetes-slowing-down-my-database.html
 https://twitter.com/pavangudiwada_/status/1479280765162512386
 https://twitter.com/Aviboy2006/status/1479660169399189506
 https://twitter.com/kelseyhightower/status/1480376762815053826
+	https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md#whats-new-major-themes
 https://twitter.com/gp_pulipaka/status/1480011533770006530
 https://twitter.com/iximiuz/status/1480212377077436419
+	https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology/
 https://twitter.com/kodekloud1/status/1480605378564038658
+	https://kodekloud.com/blog/kubernetes-security-best-practices/
 https://twitter.com/learnk8s/status/1481608206753632261
+	https://learnk8s.io/kubernetes-network-packets
 https://twitter.com/kubernetesio/status/1482016153723490306
+	https://kubernetes.io/blog/2021/12/16/kubernetes-1-23-statefulset-pvc-auto-deletion/
 https://twitter.com/freeCodeCamp/status/1482065480877760520
+	https://www.freecodecamp.org/news/certified-kubernetes-administrator-study-guide-cka/
 https://twitter.com/sudiptamalakar4/status/1482751302845317124
+	https://dzone.com/articles/intelligently-adapt-kubernetes-clusters-to-use-spo
 https://twitter.com/itsmesumanc/status/1482981852302700546
+	https://github.com/moabukar/CKS-Exercises-Certified-Kubernetes-Security-Specialist
 https://twitter.com/learnk8s/status/1483514588402528264
+	https://cloud.redhat.com/blog/global-load-balancer-approaches
 https://twitter.com/raesene/status/1483758822636281861
+	https://kubernetes.io/blog/2022/01/19/secure-your-admission-controllers-and-webhooks/
 https://twitter.com/learnk8s/status/1483876976326758415
+	https://www.containiq.com/post/debugging-kubernetes-nodes-in-not-ready-state
 https://twitter.com/0xdhf/status/1484562594576932867
+	https://github.com/grafeas/kritis
 https://twitter.com/pavangudiwada_/status/1484831632150638592
 https://twitter.com/kubesploit/status/1483907179677732869
+	https://getbetterdevops.io/k8s-ingress-with-letsencrypt/
 https://twitter.com/kubesploit/status/1484997559974248453
+	https://github.com/4ARMED/kubeletmein
 https://twitter.com/iximiuz/status/1483180111579000834
 https://twitter.com/urlichsanais/status/1486318384434266120
+	https://twitter.com/urlichsanais/status/1486318384434266120
 https://twitter.com/_SteveGiguere_/status/1486411477640744962
+	https://bridgecrew.io/blog/mitigate-linux-kernel-vulnerability-cve-2022-0185-kubernetes-container-escape-checkov/
 https://twitter.com/CloudIslamabad/status/1487000943531069449
+	https://devopscube.com/build-docker-image-kubernetes-pod/
 https://twitter.com/Pethuraj/status/1485694239518658560
 https://twitter.com/rothgar/status/1487229025328107520
 https://twitter.com/archyufa/status/1488251511926837254
+	https://community.cncf.io/events/details/cncf-cloud-native-canada-presents-february-2022-eastern-canadian-cncf-meetup-cluster-management-with-kyverno-observability-with-application-metrics/
 https://twitter.com/mattfarina/status/1486422452276240386
+	https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived/
 https://twitter.com/csantanapr/status/1485101618039341057
+	https://www.santana.dev/blog/homelab-1
 https://twitter.com/SurakshaSogaria/status/1483083044957614094
 https://twitter.com/kubernetesio/status/1489606393879572483
+	https://blog.alexellis.io/primer-accessing-kubernetes-services/
 https://twitter.com/smdistefano/status/1487799185973858305
 https://twitter.com/madhuakula/status/1490402006858674184
 https://twitter.com/Didicodes/status/1490705345387376644
@@ -835,8 +866,38 @@ https://twitter.com/intonenetworks/status/1606616947776446464
 	https://intone.com/data-pool-organizing-data-with-security/
 https://twitter.com/NaveenS16/status/1607033487386869760
 	https://techblost.com/what-is-gitops/
-https://twitter.com/bmuschko/status/1605298799454302208
-	https://www.oreilly.com/library/view/certified-kubernetes-security/9781098132965/ch04.html
 https://twitter.com/eyalestrin/status/1606885022631448577
 	https://blogs.oracle.com/cloud-infrastructure/post/running-tetragon-ebpf-based-on-kubernetes
+https://twitter.com/JoeZeif/status/1607802353943732224
+	https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/
+https://twitter.com/DoctorOfTheData/status/1607884705676034048
+	https://www.techrepublic.com/article/how-to-delete-kubernetes-namespace/
+https://twitter.com/TheGhostJapan1/status/1608293932865146882
+	https://github.com/SunWeb3Sec/Kubernetes-security
+https://twitter.com/wefactorit/status/1608308595485212672
+	https://medium.com/@owibdw/install-kubernetes-cluster-on-ubuntu-22-04-lts-83cef904e848
+https://twitter.com/kubesploit/status/1608164593909497858
+	https://github.com/kubernetes-sigs/security-profiles-operator
+https://twitter.com/isitmohit/status/1608904110442708994
+	https://medium.com/@mohitmishra3333/namespace-in-kubernetes-explained-using-cupboard-example-ef63fdb1796b
+https://twitter.com/CloudNativeTR/status/1608524563435950086
+	https://medium.com/opensight-ch/kubernetes-nginx-waf-part-1-ingress-hardening-with-mod-security-and-owasp-crs-3cb1215cddfd
+https://twitter.com/adrienjoly/status/1608801588482813955
+	https://dev.to/pavanbelagatti/devops-trends-for-developers-in-2023-345b
+https://twitter.com/WyriHaximus/status/1609687089531994112
+	https://blog.wyrihaximus.net/2023/01/migrating-from-self-hosted-in-k8s-databases-to-managed-hosted-at-digital-ocean/
+https://twitter.com/TheNJDevOpsGuy/status/1609906520766009344
+	https://web.archive.org/web/20230102204843/https://twitter.com/TheNJDevOpsGuy/status/1609906520766009344
+https://twitter.com/AppSecEngineer/status/1610320617726697473
+	https://www.youtube.com/watch?v=P2U1B0nmPGg
+https://twitter.com/brendandburns/status/1610369253240352768
+	https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-container-image-management
+https://twitter.com/AppSecEngineer/status/1610674678594506752
+	https://www.appsecengineer.com/blog/how-do-i-learn-container-security
+https://twitter.com/thebinarybot/status/1610981502090633217
+	https://github.com/aquasecurity/kube-hunter
+https://twitter.com/kainlite/status/1611150683239063553
+	https://techsquad.rocks/blog/cloud_native_applications_with_kubebuilder_and_kind_aka_kubernetes_operators/
+https://twitter.com/BretFisher/status/1611382864699969536
+	https://podcast.bretfisher.com/episodes/software-supply-chain-security-with-chainguard
 https://kccnceu2021.sched.com/
