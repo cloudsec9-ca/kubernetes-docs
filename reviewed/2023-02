@@ -1,0 +1,7 @@
+# A list of reviewed entries with some notes
+
+URL reference: https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html
+DateReviewed: 2023-02-12
+Description: Coming from OWASP, you know it's going to be impactful recommendations and good stuff. I haven't gone through the whole thing in great detail, but they do a great job of explaining and have a solid gameplan. It looks like the approach is through the lifecycle, and it goes through all of the bits and tells you what the best practices are.
+BottomLine: Recommended
+===
