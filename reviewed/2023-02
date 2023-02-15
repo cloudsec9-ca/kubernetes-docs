@@ -5,3 +5,8 @@ DateReviewed: 2023-02-12
 Description: Coming from OWASP, you know it's going to be impactful recommendations and good stuff. I haven't gone through the whole thing in great detail, but they do a great job of explaining and have a solid gameplan. It looks like the approach is through the lifecycle, and it goes through all of the bits and tells you what the best practices are.
 BottomLine: Recommended
 ===
+URL reference: https://www.forbes.com/sites/adrianbridgwater/2023/02/14/the-path-to-cleaner-cloud-containers/
+DateReviewed: 2023-02-14
+Description: This being a Forbes article, I wasn't expecting a heavy tech focus, and while it does include lots of acronyms, it is a bit light on the tech. It focuses a lot on a specific product while trying to seem like it's surveying the field, but doesn't do a great job of explaining why this product is the exemplar, and doesn't really talk to other tools, what they do, and why this approach is the best. Have to say I'm not a big fan of the "cleaning" theme the author uses through much of the article. There is a sprinkle of facts and a bit from the CNCF, but generally it's a light piece. Might be good to see the more biz-side appraoch to Kubernetes and Cloud security, but most of this should be common knowledge for Cloud pros.
+BottomLine: Decent read
+===
