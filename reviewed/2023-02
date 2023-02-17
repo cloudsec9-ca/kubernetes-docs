@@ -35,3 +35,8 @@ DateReviewed: 2023-02-17
 Description: A good intro to someone who is early in the learning curve associated with doing Kubernetes deployments. Goes over a bunch of the basics, mentions some tools and technics that can be helpful, and points out things that are easy to get wrong.
 BottomLine: Good starting troubleshooting guide
 ===
+URL reference: https://www.solo.io/topics/kubernetes-api-gateway/
+DateReviewed: 2023-02-17
+Description: This piece covers a newer bit of K8s tech, the "API Gateway". The idea here is to have a wrapper that provides security and auditing as well as allowing the core scalability the K8s provides. They cover a few options for Gateways, talking about provider offerings (Azure and AWS API gateway), Nginx K8s Gateays and the slightly advertis-y "Solo gloo mesh". Overall a good intro, and it isn't too heavy on the ad side so it's worth a read.
+BottomLine: Ok perspective on newer feature 
+===
