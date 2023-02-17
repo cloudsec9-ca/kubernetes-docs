@@ -38,5 +38,10 @@ BottomLine: Good starting troubleshooting guide
 URL reference: https://www.solo.io/topics/kubernetes-api-gateway/
 DateReviewed: 2023-02-17
 Description: This piece covers a newer bit of K8s tech, the "API Gateway". The idea here is to have a wrapper that provides security and auditing as well as allowing the core scalability the K8s provides. They cover a few options for Gateways, talking about provider offerings (Azure and AWS API gateway), Nginx K8s Gateays and the slightly advertis-y "Solo gloo mesh". Overall a good intro, and it isn't too heavy on the ad side so it's worth a read.
-BottomLine: Ok perspective on newer feature 
+BottomLine: Ok perspective on newer feature
+===
+URL reference: https://www.information-age.com/exploiting-kubernetes-next-frontier-of-cyber-security-19861/
+DateReviewed: 2023-02-17
+Description: It seems this article is written more to appeal to non-cloud or non-container people, rather than people that have container experience. It has decent balance, but the risk of new cloud or container deployments is that where old applications that were brittle were behind secure firewalls, things like Kubernetes are moving those into places where they might have to up their security. Worth a read, but keep caveats in mind.
+BottomLine: Okay opinion piece
 ===
