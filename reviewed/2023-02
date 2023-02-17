@@ -25,3 +25,8 @@ DateReviewed: 2023-02-17
 Description: Takes on the tricky bit of deploying stateful apps in a container to Kubernetes. Talks about both storage and getting state set up. For storage, it mentions local but recommends remote persistent, and talks about both cloud provider storage and an option for self-hosted K8s. For state, it chats about using native Kubernetes features and also mentions a way to do this if using Helm.
 BottomLine: Good read
 ===
+URL reference: https://blog.aquasec.com/privilege-escalation-kubernetes-rbac
+DateReviewed: 2023-02-17
+Description: This article looks at a unique way to access Kubernetes workloads -- through the APIs that are exposed by both the control plane and on individual nodes. It walks us through how things are set up, what the exposure might be, how to take advantage of it, and how to mitigate or prevent it.
+BottomLine: Interesting attack
+===
