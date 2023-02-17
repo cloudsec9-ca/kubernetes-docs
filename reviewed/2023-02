@@ -20,3 +20,8 @@ DateReviewed: 2023-02-15
 Description: While I agree that visualization tools are valuable, this article starts slow and the first two diagrams are on the weak side of trying to help you understand things -- they seem lightweight, hard to read and don't really say much. Now, reading the text the tool seems nice, as it generates up to date and on the fly diagrams, enabling you to see a real-time view, which is great. But the diagrams they use in support don't pop and tell you a story. I think an animated GIF or a short video demo might have worked a lot better. 
 BottomLine: Interesting tool, not a great article
 ===
+URL reference: https://tom-sapak.medium.com/provisioning-stateful-apps-in-kubernetes-f9b0ac05975f
+DateReviewed: 2023-02-17
+Description: Takes on the tricky bit of deploying stateful apps in a container to Kubernetes. Talks about both storage and getting state set up. For storage, it mentions local but recommends remote persistent, and talks about both cloud provider storage and an option for self-hosted K8s. For state, it chats about using native Kubernetes features and also mentions a way to do this if using Helm.
+BottomLine: Good read
+===
