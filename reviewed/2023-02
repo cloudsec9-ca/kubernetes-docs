@@ -45,3 +45,8 @@ DateReviewed: 2023-02-17
 Description: It seems this article is written more to appeal to non-cloud or non-container people, rather than people that have container experience. It has decent balance, but the risk of new cloud or container deployments is that where old applications that were brittle were behind secure firewalls, things like Kubernetes are moving those into places where they might have to up their security. Worth a read, but keep caveats in mind.
 BottomLine: Okay opinion piece
 ===
+URL reference: https://kubernetes.io/docs/concepts/security/security-checklist/
+DateReviewed: 2023-02-21
+Description: This is a great starting spot for security with Kubernetes. This covers basic things everyone should at least be aware of and check, and goes through many of the components and bits of Kubernetes to show you what you have to consider. As a checklist doesn't know your threat model, this isn't enough on it's own, but it's a great place to get the ball rolling.
+BottomLine: Essential starting security read
+===
