@@ -60,3 +60,8 @@ DateReviewed: 2023-02-24
 Description: More of journey then an article, it touches on various ways of running applications and how using Kubernetes brings new approaches to that. It talks about options for running Kubernetes, how any app can expose an API, and the thought that you tell Kubernetes the state you want to have and that it's job is to make and keep that state, which implicitly includes some self-healing capabilities. They also touch a bit on up and coming tools.
 BottomLine: A good survey of the Kubernetes approach
 ===
+URL reference: https://itnext.io/kubernetes-sandbox-environments-with-virtual-clusters-fb465b296777
+DateReviewed: 2023-02-24
+Description: This article talks about a new approach to Kubernetes using something called virtual clusters. Like a virtual machine, the clusters run "under" a hosted layout -- in this case, called the "host cluster". This allows developers to have wide lattitude and control of their virtual cluster, while not needing to set up resources to roll out a cluster per developer, as the "host cluster" would be shared. It's an interesting concept to check in to.
+BottomLine: New approach for development type clusters, interesting
+===
