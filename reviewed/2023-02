@@ -70,3 +70,8 @@ DateReviewed: 2023-02-24
 Description: This piece starts by talking about "day 2", the time after the ribbon cutting on new things is done and now they have to be maintained and secured. It starts out strong by talking about how alerting can be overwhelming, and it can be hard to do triage which tends to lead to alert fatigue. It has two paragraphs to talk about lots of new parts and security being challenges, and then both have the exact same closing sentence -- that issues can created downtime, data loss and security issue. They allude to Grafana and GraphQL, but complain they make it hard to get a comprehensive view of the data. So, you should try their product, because it slices and dices, and is better -- but it's not in early preview launch yet. I understand marketing and building hype, but just saying your product will be better isn't great.
 BottomLine: A too early promo
 ===
+URL reference: https://medium.com/paypal-tech/scaling-kubernetes-to-over-4k-nodes-and-200k-pods-29988fad6ed
+DateReviewed: 2023-02-24
+Description: This is a deep dive into understanding and deploying Kubernetes at a massive scale. They topped out at 4k nodes and 200k pods, which is mindblowing. There were lots of lessons learned that they relate, and they document what their resources looked like and many of the hurdles they had to leap to get things to be stable. While most Kubernetes clusters will be smaller and more managable, it is interesting to see that it is possible to run big numbers of pods and resources, even if it does mean some tweaks.
+BottomLine: Good resource for large clusters
+===
