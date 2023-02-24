@@ -55,3 +55,8 @@ DateReviewed: 2023-02-22
 Description: While this one hits a bunch of major points, it also handwaves a bit too hard at most of them. Early on it has a bit of YAML, and I felt like we were going to get technical, but that was just teasing. The company that sponsored this is doing roles roles for RBAC, and after that section is done, things fall off a bit. In the least privilege section, it states that you should do this, and I agree. But the hard part is figuring out how much you need -- which they don't address at all. So, the things they talk about are good, they just don't say much about them, which is disappointing. Also, there is a tag for "ZeroTrust", and they don't mentione this at all in the actual article.
 BottomLine: Skim for the main points
 ===
+URL reference: https://www.eficode.com/blog/the-future-of-kubernetes-takeaways-from-the-devops-conference-fireside-chat
+DateReviewed: 2023-02-24
+Description: More of journey then an article, it touches on various ways of running applications and how using Kubernetes brings new approaches to that. It talks about options for running Kubernetes, how any app can expose an API, and the thought that you tell Kubernetes the state you want to have and that it's job is to make and keep that state, which implicitly includes some self-healing capabilities. They also touch a bit on up and coming tools.
+BottomLine: A good survey of the Kubernetes approach
+===
