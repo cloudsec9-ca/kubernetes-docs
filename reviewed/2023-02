@@ -65,3 +65,8 @@ DateReviewed: 2023-02-24
 Description: This article talks about a new approach to Kubernetes using something called virtual clusters. Like a virtual machine, the clusters run "under" a hosted layout -- in this case, called the "host cluster". This allows developers to have wide lattitude and control of their virtual cluster, while not needing to set up resources to roll out a cluster per developer, as the "host cluster" would be shared. It's an interesting concept to check in to.
 BottomLine: New approach for development type clusters, interesting
 ===
+URL reference: https://helo.io/blog/the-day-2-blues-navigating-the-noisy-world-of-observability-and-security
+DateReviewed: 2023-02-24
+Description: This piece starts by talking about "day 2", the time after the ribbon cutting on new things is done and now they have to be maintained and secured. It starts out strong by talking about how alerting can be overwhelming, and it can be hard to do triage which tends to lead to alert fatigue. It has two paragraphs to talk about lots of new parts and security being challenges, and then both have the exact same closing sentence -- that issues can created downtime, data loss and security issue. They allude to Grafana and GraphQL, but complain they make it hard to get a comprehensive view of the data. So, you should try their product, because it slices and dices, and is better -- but it's not in early preview launch yet. I understand marketing and building hype, but just saying your product will be better isn't great.
+BottomLine: A too early promo
+===
