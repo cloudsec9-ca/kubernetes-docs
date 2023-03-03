@@ -1,0 +1,6 @@
+
+URL reference: https://thenewstack.io/ambient-mesh-sidestepping-the-sidecar/
+DateReviewed: 2023-03-02
+Description: The apparent focus of this article is how using an ambient mesh allows you to not use sidecars, or so the title says. Sidecars have issues, but they never really explain that, or tell us how mesh handles this really, other than handwaving that sidecars require "high skill". Now I personally know just a bit about sidecars, and I understand the concept of mesh, but none of that was enhanced by reading this article. I get that sidecars require another container that you save if you don't use them, and they talk a bit about that. We then go on a journey through the marketing tent talking about "friction" and "zero trust", with no examples or concrete tie to mesh. Oh, and before the end, we are told there is a place sometimes for sidecars. There is also an example, where they mention that deploying needs careful planning with sidecars, because they are coupled closely to the application? Now, there IS a short video, but I get the feeling that an editor cut something out, because a bunch of the connections are not there.
+BottomLine: Buzzword compliant without much meat
+===
