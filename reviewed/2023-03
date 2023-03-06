@@ -9,3 +9,8 @@ DateReviewed: 2023-03-03
 Description: I'll admit I was expecting a bit more when the upfront graphic was a fully drawn out Kubernetes cluster, and I thought this would be a deep dive. But this is actually an announcement and a bit of tech trivia, and for that it is simple, clear, and to the point. Apparently before Kubernetes v1.19, logs went to flat string, but as of .19, you can now output JSON formatted logs. I'm not sure this changes things for human viewers, but it allows parsing tools a chance to pull bits out for observability and alerting, so that is good.
 BottomLine: Good new feature announcement
 ===
+URL reference: https://www.infoworld.com/article/3663734/kubernetes-users-struggle-with-security-red-hat-survey-says.html
+DateReviewed: 2023-03-05
+Description: Another article that starts strong and ends with a whimper. Starting with a solid premise that something that is complex to set up can be a challenge to secure, it backs up some statements with numbers. But, other times it btings gems like "sometimes leading to the loss [of money]". Now the article is based on a RedHat survey, but it feels like the take here is more about "containers bad and scary". It does talk about building security into the process and mentions devsecops, and ends with some RedHat recommendations.
+BottomLine: Handwavy overview, ok as a quick first glance
+===
