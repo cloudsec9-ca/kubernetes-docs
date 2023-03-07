@@ -14,3 +14,8 @@ DateReviewed: 2023-03-05
 Description: Another article that starts strong and ends with a whimper. Starting with a solid premise that something that is complex to set up can be a challenge to secure, it backs up some statements with numbers. But, other times it btings gems like "sometimes leading to the loss [of money]". Now the article is based on a RedHat survey, but it feels like the take here is more about "containers bad and scary". It does talk about building security into the process and mentions devsecops, and ends with some RedHat recommendations.
 BottomLine: Handwavy overview, ok as a quick first glance
 ===
+URL reference: https://grahamcluley.com/feed-sponsor-sysdig-2/
+DateReviewed: 2023-03-06
+Description: Okay, I really liked the premise of this article, and had hopes -- there isn't a lot about cost or budgeting for Kubernetes. And, if you don't know what you are using, you might be overspending -- fair point. But a few paragraphs in, we are shocked to learn that only 38% of developers can predict cloud spend within 10%. So wait, devs have to write good code, fast, and do so securely, AND be able to forecast usage to be able to predict spend? I can't say I'm onboard with that bit. I think there is a lot of opportunity to talk about tuning K8s, and getting a better fit for workloads -- but this artticle handwaves at that, and pitches - a commercial product. Now, I'm not against including paid products in the mix, but it's curious that the report that is used for much of the article AND the sponsor just happen to be the same as the product pitched? The report might be worth a look, but this article is a bust.
+BottomLine: Just a thinly-veiled product pitch
+==
