@@ -19,3 +19,8 @@ DateReviewed: 2023-03-06
 Description: Okay, I really liked the premise of this article, and had hopes -- there isn't a lot about cost or budgeting for Kubernetes. And, if you don't know what you are using, you might be overspending -- fair point. But a few paragraphs in, we are shocked to learn that only 38% of developers can predict cloud spend within 10%. So wait, devs have to write good code, fast, and do so securely, AND be able to forecast usage to be able to predict spend? I can't say I'm onboard with that bit. I think there is a lot of opportunity to talk about tuning K8s, and getting a better fit for workloads -- but this artticle handwaves at that, and pitches - a commercial product. Now, I'm not against including paid products in the mix, but it's curious that the report that is used for much of the article AND the sponsor just happen to be the same as the product pitched? The report might be worth a look, but this article is a bust.
 BottomLine: Just a thinly-veiled product pitch
 ==
+URL reference: https://medium.com/@blgreco72/debugging-kubernetes-services-locally-8cb14bf8745a
+DateReviewed: 2023-03-08
+Description: This article is a pretty decent tutorial into doing local debugging. The idea isn't just to do your development locally, but to actual run and be able to debug in a local debugger the microservice code. The tutorial goes through what you need to set up, disable, and configure to get your remote Kubernetes cluster to talk to your local host for the service, and how to use that in your debugger. I love this idea, and while I haven't yet tried this myself, I'm goint to circle back to try this for sure.
+BottomLine: A good walkthrough on using local debuggers with remote Kubernetes clusters
+==
