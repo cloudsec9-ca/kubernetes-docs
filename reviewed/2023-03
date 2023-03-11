@@ -24,3 +24,8 @@ DateReviewed: 2023-03-08
 Description: This article is a pretty decent tutorial into doing local debugging. The idea isn't just to do your development locally, but to actual run and be able to debug in a local debugger the microservice code. The tutorial goes through what you need to set up, disable, and configure to get your remote Kubernetes cluster to talk to your local host for the service, and how to use that in your debugger. I love this idea, and while I haven't yet tried this myself, I'm goint to circle back to try this for sure.
 BottomLine: A good walkthrough on using local debuggers with remote Kubernetes clusters
 ==
+URL reference: https://www.globalsign.com/en/blog/why-mtls-should-be-everywhere-kubernetes
+DateReviewed: 2023-03-10
+Description: Another article I like the premise/title of, so that is a decent start. It then talks about the uptake in Kubernetes, and the corresponding uptick in attacks. And then it mentions ransomware -- which might be a threat, sure -- but only that in relation to Kubernetes, which seems odd. We then talk about what mTLS is, and why it's good, yay. And then we dive into -- phishing attacks, brute force, and malicious API requests, which are protected supposedly by mTLS? So, while mTLS can help limit blast radius, it doesn't focus on these attacks. The article then talks about man-in-the-middle attacks, which in fact mTLS _does_ help address; but I guess having one good thing isn't enough? The article then dives into issues with cert management. Now, while I overall think mTLS is a good thing, this article doesn't make the case very well.
+BottomLine: Good premise, poor evidence and examples in the body
+==
