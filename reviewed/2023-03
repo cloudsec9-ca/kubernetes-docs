@@ -29,3 +29,8 @@ DateReviewed: 2023-03-10
 Description: Another article I like the premise/title of, so that is a decent start. It then talks about the uptake in Kubernetes, and the corresponding uptick in attacks. And then it mentions ransomware -- which might be a threat, sure -- but only that in relation to Kubernetes, which seems odd. We then talk about what mTLS is, and why it's good, yay. And then we dive into -- phishing attacks, brute force, and malicious API requests, which are protected supposedly by mTLS? So, while mTLS can help limit blast radius, it doesn't focus on these attacks. The article then talks about man-in-the-middle attacks, which in fact mTLS _does_ help address; but I guess having one good thing isn't enough? The article then dives into issues with cert management. Now, while I overall think mTLS is a good thing, this article doesn't make the case very well.
 BottomLine: Good premise, poor evidence and examples in the body
 ==
+URL reference: https://devops.com/optimizing-cloud-costs-for-devops-with-ai-assisted-kubernetes/
+DateReviewed: 2023-03-11
+Description: This article starts by outlining why you want to control costs, and the common approaches, and why there isn't a perfect fit today. Then, alluding to a specific tool, we journey through what is needed, which includes ease of use, support for everything, HA, easy to start, and secure. Magic! And, that's all we get, because while we do get platitudes about how great the tool is, there is no actual examples or walkthroughs. Oh, and AI too!! Except, not a whisker of information on how AI is used or makes any of this better. This tool might be awesome, but there is ZERO reason advanced in this article.
+BottomLine: Where's the beef is an understatement - skip
+==
