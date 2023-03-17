@@ -39,3 +39,8 @@ DateReviewed: 2023-03-16
 Description: This is a decent hands on tutorial, explaining how to allow and disallow various pods or namespaces from communicating. It starts strong with the prerequisites, then goes through things step by step, and it seems like a decent approach. Minor issues: it says it's a 4 minute read, but it'll take longer than that to do the walk through; and there is a mix of imparative and declarative approaches, where I wish it would be consistent. I haven't used Linkerd but this tutorial motivates me to give it a whirl!
 BottomLine: Decent approach to allow & disallow at a pod/namespace level using Linkerd
 ==
+URL reference: https://www.tigera.io/blog/waf-is-woefully-insufficient-in-todays-container-based-applications-heres-why/
+DateReviewed: 2023-03-17
+Description: I don't really agree with the premise of this article, but let's see what type of argument it makes. It starts strong by explaining WAFs, and highlighting strengths and weaknesses. And then, it goes a bit downhill. It rails against using WAFs only, and later on has to honk the "zero-trust" horn; but there isn't an enumeration of zero trust, and good security is about layers, not a single technology or control. And at the end, the article admits that we just have to modify how we use WAFs, not abandon them completely.
+BottomLine: Title very clickbaity, and article light on evidence and illustration of its points
+==
