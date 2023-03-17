@@ -34,3 +34,8 @@ DateReviewed: 2023-03-11
 Description: This article starts by outlining why you want to control costs, and the common approaches, and why there isn't a perfect fit today. Then, alluding to a specific tool, we journey through what is needed, which includes ease of use, support for everything, HA, easy to start, and secure. Magic! And, that's all we get, because while we do get platitudes about how great the tool is, there is no actual examples or walkthroughs. Oh, and AI too!! Except, not a whisker of information on how AI is used or makes any of this better. This tool might be awesome, but there is ZERO reason advanced in this article.
 BottomLine: Where's the beef is an understatement - skip
 ==
+URL reference: https://itnext.io/how-to-use-linkerd-to-restrict-access-to-certain-services-a0122b35dede
+DateReviewed: 2023-03-16
+Description: This is a decent hands on tutorial, explaining how to allow and disallow various pods or namespaces from communicating. It starts strong with the prerequisites, then goes through things step by step, and it seems like a decent approach. Minor issues: it says it's a 4 minute read, but it'll take longer than that to do the walk through; and there is a mix of imparative and declarative approaches, where I wish it would be consistent. I haven't used Linkerd but this tutorial motivates me to give it a whirl!
+BottomLine: Decent approach to allow & disallow at a pod/namespace level using Linkerd
+==
