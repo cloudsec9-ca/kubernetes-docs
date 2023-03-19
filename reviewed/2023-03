@@ -44,3 +44,8 @@ DateReviewed: 2023-03-17
 Description: I don't really agree with the premise of this article, but let's see what type of argument it makes. It starts strong by explaining WAFs, and highlighting strengths and weaknesses. And then, it goes a bit downhill. It rails against using WAFs only, and later on has to honk the "zero-trust" horn; but there isn't an enumeration of zero trust, and good security is about layers, not a single technology or control. And at the end, the article admits that we just have to modify how we use WAFs, not abandon them completely.
 BottomLine: Title very clickbaity, and article light on evidence and illustration of its points
 ==
+URL reference: https://itnext.io/using-cosign-keyless-signature-with-github-actions-de675a1e18a2
+DateReviewed: 2023-03-18
+Description: I like an article that starts strong with prerequisites and background, and this one is all good - it explains what code signing is, and why you need it, and then explains a bit about what "keyless" code signing is. It then explains how he workflow works, and has an example config with how it is invoked. It has links to a few things including another example, and some of the definitions and background. Now, the article doesn't purport to be a tutorial, but says it's a "step by step" guide while only waving at the steps. They do mention that to be useful, you have to add verification on the image consumption side, so there is that. But one miss is explaining that it's "keyless" because it uses ephemeral keys, and the verification you get is one of being untampered, but no assurance of the source of the image -- so you'll have to trust your Image repository to do that for you.
+BottomLine: Interesting concept, but wish it would have been a fuller tutorial
+==
