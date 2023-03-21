@@ -49,3 +49,8 @@ DateReviewed: 2023-03-18
 Description: I like an article that starts strong with prerequisites and background, and this one is all good - it explains what code signing is, and why you need it, and then explains a bit about what "keyless" code signing is. It then explains how he workflow works, and has an example config with how it is invoked. It has links to a few things including another example, and some of the definitions and background. Now, the article doesn't purport to be a tutorial, but says it's a "step by step" guide while only waving at the steps. They do mention that to be useful, you have to add verification on the image consumption side, so there is that. But one miss is explaining that it's "keyless" because it uses ephemeral keys, and the verification you get is one of being untampered, but no assurance of the source of the image -- so you'll have to trust your Image repository to do that for you.
 BottomLine: Interesting concept, but wish it would have been a fuller tutorial
 ==
+URL reference: https://github.com/aws/aws-node-termination-handler
+DateReviewed: 2023-03-20
+Description: This is an AWS built little gem for using within any Kubernetes cluster inside of AWS, managed or not. It seems quite featureful, with two different flavours to choose from and good high level docs. A surprise for me was a testing mockup which simulates things like spot interruption, which is a nice find. It's pretty well laid out, and since it's written in Go I haven't a clue on code quality, but it's got lots of tests and docs, and being well organized bodes well.
+BottomLine: Neat little find to help with Kubernetes graceful shutdowns on AWS
+==
