@@ -54,3 +54,8 @@ DateReviewed: 2023-03-20
 Description: This is an AWS built little gem for using within any Kubernetes cluster inside of AWS, managed or not. It seems quite featureful, with two different flavours to choose from and good high level docs. A surprise for me was a testing mockup which simulates things like spot interruption, which is a nice find. It's pretty well laid out, and since it's written in Go I haven't a clue on code quality, but it's got lots of tests and docs, and being well organized bodes well.
 BottomLine: Neat little find to help with Kubernetes graceful shutdowns on AWS
 ==
+URL reference: https://www.cncf.io/blog/2022/05/24/kubernetes-ephemeral-container-security/
+DateReviewed: 2023-03-23
+Description: This article starts strong and just keeps on going; it knows what it it is, and has focus and drive. It's focused on something called Ephemeral containers, which allow you to do things that your typical best-practice immutable containers can't do -- contain extra tools, writeable file spaces, etc. And it approaches this from a security perspective -- how do you enable them if you need them, and just as important, how can you deny them if you don't want them? It's got some technical bits including config examples, so bravo.
+BottomLine: Recommended if you need or have exposure to Ephemeral containers.
+==
