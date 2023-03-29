@@ -69,3 +69,8 @@ DateReviewed: 2023-03-27
 Description: Okay, so this article starts slow and peters out from there. It starts with a decent premise -- this tool can help you -- but then falls down a gaping hole. It claims Helm can help in this, but doesn't even bother to explain what Helm is or how it could help. Lots of buzzwords and hype, but no honest discussion or explaination. Honestly, I think Helm can be a good tool paired with Kubernetes, but there is nothing other than handwaving here.
 BottomLine: Save your time and read any other article
 ==
+URL reference: https://medium.com/@stompnoe/kubernetes-security-guide-40c8e0b3f275
+DateReviewed: 2023-03-27
+Description: Another start strong entry, states it's case and gives you how they want to approach it. We start with quick wins, and these are all easy to understand and actionable bits. Not too many, and none difficult to understand, and with not too much tech detail. Now we're on to next steps, and these are things that require a bit more consideration. Most of them are top-ups to things mentioned in Quick wins, but there are a couple new things. Finally, we get to research, where we do deeper topping up on areas we have considered before. Overall a good piece, not too technical but with enough details and consideration.
+BottomLine: Good overview of Kubernetes security considerations
+==
