@@ -79,3 +79,8 @@ DateReviewed: 2023-03-29
 Description: I actually like the tool written about here, and I like the general approach of the article, but my feel is that it doesn't explain how it's a bit challenging to read Wireshark output for a novice. Starts by explaining the existing tooling and what is missing, and then moves onto what KubeShark/Wireshark do better -- a full picture of network traffic, as opposed to a small slice with built in tools. Goes through how to get, intstall, run and view output. It even has more ideas and a bit about how it evolved (even if it is in the conclusion)
 BottomLine: Good overview on tool for deep-dives on network issues and visibility, recommended
 ==
+URL reference: https://www.cncf.io/blog/2023/03/23/the-4-kubernetes-policy-types/
+DateReviewed: 2023-03-31
+Description: Another strong starter - the intro outlines what will be covered, and then we do a tour of the four policy types. And then ... we drop into some quicksand. While clarifying that some managed providers might not support some of the policy types, there isn't much clarity about when some of these might be appropriate or how they are useful. The article does emphasize getting the basics (built-in admission controlloer and RBAC) sorted first, but it handwaves and buzzword drops without much more.
+BottomLine: Good start and high level definitions, but not as much insight
+==
