@@ -84,3 +84,8 @@ DateReviewed: 2023-03-31
 Description: Another strong starter - the intro outlines what will be covered, and then we do a tour of the four policy types. And then ... we drop into some quicksand. While clarifying that some managed providers might not support some of the policy types, there isn't much clarity about when some of these might be appropriate or how they are useful. The article does emphasize getting the basics (built-in admission controlloer and RBAC) sorted first, but it handwaves and buzzword drops without much more.
 BottomLine: Good start and high level definitions, but not as much insight
 ==
+URL reference: https://www.helpnetsecurity.com/2023/04/01/zenoss-kubernetes-monitoring/
+DateReviewed: 2023-03-31
+Description: This one starts out weak and goes downhill from there. After reading it a couple times, I can tell you that Zenoss is a monitoring platfrom, and they've launched _something_ for Kubernetes. What, how it works, costs, etc? Complete mystery. Lots of buzzwords, but no technical bits and no details. For a "visibility and AI driven" solution, it seems they forgot they have to inform customers on what it does. I honestly have zero clue if this is a sidecar, a pod, something injected into your container, an API addon, or just magic fairy dust sprinkled into the cluster.
+BottomLine: A badly done marketing piece
+==
