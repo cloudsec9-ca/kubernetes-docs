@@ -1,0 +1,6 @@
+
+URL reference: https://itnext.io/kubernetes-security-standoff-6116a312fedd
+DateReviewed: 2023-04-04
+Description: This article start with an anecdotal story, where the author explains how by using AppArmor they had been able to mitigate a serious vulnerablity. Once we get into the meat, the example they use is a legacy app with no source code. We then go through a mini-tutorial on setting up AppArmor. AppArmor is a Linux security tool which uses profiles to allow and deny access. They use an interactive generator, which observes what is going on to build a profile. They explain how to set it up, including reviewing the proposed rules, and note you need it both in your containers AND installed on your nodes to get the most out of it. I have a couple sticking points -- one is that generators may not get ALL of your legitimate usage, so be careful -- and two, while this is one important tool, security is best done in layers, and there are other things you should be doing too.
+BottomLine: Good article on how a Linux-level tool (AppArmor) can be leveraged to be a strong Container security tool.
+==
