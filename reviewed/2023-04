@@ -9,3 +9,8 @@ DateReviewed: 2023-04-05
 Description: Unlike a few recent reviews, this one starts out a bit odd, by conflating cloud and Kubernetes -- as if the only cloud option IS Kubernetes. It then talks about a Fairwinds survey, but drops numbers from a CNCF report. Then, without pointing to evidence, it confidently states that K8s security is trendingin the wrong direction. A bit further on they state that fewer orgs are turning off unneeded services then in 2021, but don't cover why -- better understanding of what is and isn't secure, or more orgs using, or newer users leaving defaults -- it's not clear. We then go through writeable filesystems, privledged access and running as root, all ticking up. We then go through vulnerable images and glance at outdated Helm charts and images, both ticking up as well -- but we don't get a definition of "outdated". Our last is deprecated APIs, which also showed a change -- but is this the Kubernetes API, or other APIs? The article doesn't say. So, while the topics covered are good, the approach and explaination aren't there.
 BottomLine: Good for top-level topics, but lacking in approach and insight
 ==
+URL reference: https://itnext.io/protecting-your-kubernetes-environment-with-kubearmor-76b02fc2209b
+DateReviewed: 2023-04-07
+Description: Simple article with a walkthrough to show how KubeArmor works. They use an image vulnerable to ShellShock, and run an exploit against it in a vanila setup; they then install KubeArmor and show how it protects against these attacks. I like the hands-on approach, and also showing you how a vulnerability works and how it can be mitigated.
+BottomLine: Good general demo of how a Container might be vulnerable and a mitigation technique that works around the issue
+==
