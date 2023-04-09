@@ -14,3 +14,8 @@ DateReviewed: 2023-04-07
 Description: Simple article with a walkthrough to show how KubeArmor works. They use an image vulnerable to ShellShock, and run an exploit against it in a vanila setup; they then install KubeArmor and show how it protects against these attacks. I like the hands-on approach, and also showing you how a vulnerability works and how it can be mitigated.
 BottomLine: Good general demo of how a Container might be vulnerable and a mitigation technique that works around the issue
 ==
+URL reference: https://charlesarea.medium.com/how-to-integrate-legacy-vms-into-container-pipelines-on-kubernetes-with-kubevirt-555137fb3f4a
+DateReviewed: 2023-04-08
+Description: For this article, we're doing a practical hands on walkthrough of KubeVirt, a Kubernetes extension that allows a VM to be run under the cluster. The article starts with the backstory which I love, and then explains and walks through the bits to run the pod that will contain the VM. For the article, they use a Windows VM. It lets us know that by leaning on QEMU, we can do live migration, snapshots and clone our VM. It then goes through a practical walkthrough of each capability, so we can see how to perform them all. It wraps up by mentioning that you can manage most VM limits and permissions through standard Kubenetes tools.
+BottomLine: Good initial walk through of KubeVirt, a way to run VMs in your Kubernetes cluster
+==
