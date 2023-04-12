@@ -29,3 +29,8 @@ DateReviewed: 2023-04-09
 Description: Network policy is the way we allow pods in our Kubernetes cluster to talk to each other, and this article is going to take a look at that. They note that you need a network plugin that supports network policy for your configs to be effective, otherwise you are shouting into a void. They then lay down some terminology and explain how the basics work (default is allow all net traffic).  We then go through a sample YAML files, to understand what the various bits do. Our first visit is to a policy which is "deny all", which should be the basis for us from a security point of view. They then go through a couple scenarios with config files to show how things work. To finish up, it goes through some of the things you can't do with Network policies, like TLS or logging.
 BottomLine: Good starting article for Network Policies
 ==
+URL reference: https://medium.com/@walissonscd/rbac-in-kubernetes-creating-serviceaccounts-roles-and-rolebindings-79affd9b7baf
+DateReviewed: 2023-04-11
+Description: Starts right to the point - this is a tutorial to get acquainted with RBAC. They walk through creating a service account which we'll use to perform things, a role which has permissions and then creating a role binding to attach the role perms to the service account. They then set up both a deployment and a pipeline, to demonstrate how to use the permissions. Short, with tech details and delivers on the upfront promise.
+BottomLine: A great tutorial walk through of RBAC on Kubernetes
+==
