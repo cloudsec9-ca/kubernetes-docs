@@ -34,3 +34,8 @@ DateReviewed: 2023-04-11
 Description: Starts right to the point - this is a tutorial to get acquainted with RBAC. They walk through creating a service account which we'll use to perform things, a role which has permissions and then creating a role binding to attach the role perms to the service account. They then set up both a deployment and a pipeline, to demonstrate how to use the permissions. Short, with tech details and delivers on the upfront promise.
 BottomLine: A great tutorial walk through of RBAC on Kubernetes
 ==
+URL reference: https://www.learnitguide.net/2023/04/understanding-kubernetes-security-and.html
+DateReviewed: 2023-04-15
+Description: This article talks about Kubernetes Security and Observability, and it starts pretty well -- Keep it up to date, secure the API, use the tools that help you be secure. Then we talk about observability, without really talking about what it is; we handwave metrics, logs, tracing and dashboards. We then move right along to improving security and observability, without much foundation. Dips into 4 tools to "improve", for about a paragrpah each. With a bit more tie-together and a bit more about how the tools help improve and why, this might be a decent piece.
+BottomLine: Good as a list to start with but no meaningful insight
+==
