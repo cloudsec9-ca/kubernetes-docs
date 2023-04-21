@@ -39,3 +39,8 @@ DateReviewed: 2023-04-15
 Description: This article talks about Kubernetes Security and Observability, and it starts pretty well -- Keep it up to date, secure the API, use the tools that help you be secure. Then we talk about observability, without really talking about what it is; we handwave metrics, logs, tracing and dashboards. We then move right along to improving security and observability, without much foundation. Dips into 4 tools to "improve", for about a paragrpah each. With a bit more tie-together and a bit more about how the tools help improve and why, this might be a decent piece.
 BottomLine: Good as a list to start with but no meaningful insight
 ==
+URL reference: https://techsquad.rocks/blog/kubernetes_authentication_and_authorization/
+DateReviewed: 2023-04-20
+Description: This article says it talks about Authentication and Authorization, so let's see how it stacks up. Start with a paragraph on each for definitions, which it does an okay job of. It then is going to take us through some hands-on. While I would have liked a bit more of an explaination, it does a good job of walking through namespaces, service accounts, roles and role bindings, and runs through an example with a pod and even does a cleanup at the end.
+BottomLine: Good if basic walkthrough of Authentication and Authorization with Kubernetes
+==
