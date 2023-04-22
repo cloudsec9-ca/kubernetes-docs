@@ -44,3 +44,8 @@ DateReviewed: 2023-04-20
 Description: This article says it talks about Authentication and Authorization, so let's see how it stacks up. Start with a paragraph on each for definitions, which it does an okay job of. It then is going to take us through some hands-on. While I would have liked a bit more of an explaination, it does a good job of walking through namespaces, service accounts, roles and role bindings, and runs through an example with a pod and even does a cleanup at the end.
 BottomLine: Good if basic walkthrough of Authentication and Authorization with Kubernetes
 ==
+URL reference: https://antmediaserver.medium.com/how-to-auto-scale-kubernetes-for-streaming-server-easy-and-quick-guide-af7ed0011c88
+DateReviewed: 2023-04-20
+Description: Um, so yeah, this one starts off very rough - apparently we are doing autoscaling of a Streaming server, and using Ant Media Server for this. But, we don't even dedicate a paragraph to what And Media server is, what it does or why you want it - So I guess that's just assumed? They then proffer a laundry list of providers, and pick OVH as the demo. They walk through the provider stuff and then we get a recipie list of commands to type, without much explaination. They handwave about "organizing an image field" (WTH?), but I digress. In the end, they claim we'll have a cluster that is scalable from 2 to 10 nodes, but we won't have a clue how to manage that. So, I think this could have been a great learning experience and a decent intro to a new piece of software, but it doesn't do any of that.
+BottomLine: Bad foundation and weak explainations - avoid if you can
+==
