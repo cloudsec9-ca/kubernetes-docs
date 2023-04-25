@@ -49,3 +49,8 @@ DateReviewed: 2023-04-20
 Description: Um, so yeah, this one starts off very rough - apparently we are doing autoscaling of a Streaming server, and using Ant Media Server for this. But, we don't even dedicate a paragraph to what And Media server is, what it does or why you want it - So I guess that's just assumed? They then proffer a laundry list of providers, and pick OVH as the demo. They walk through the provider stuff and then we get a recipie list of commands to type, without much explaination. They handwave about "organizing an image field" (WTH?), but I digress. In the end, they claim we'll have a cluster that is scalable from 2 to 10 nodes, but we won't have a clue how to manage that. So, I think this could have been a great learning experience and a decent intro to a new piece of software, but it doesn't do any of that.
 BottomLine: Bad foundation and weak explainations - avoid if you can
 ==
+URL reference: https://infosecwriteups.com/using-kubernetes-plugins-for-better-security-7b083cc3a7b7
+DateReviewed: 2023-04-23
+Description: This one has a good diagram, but doesn't really lay out too much upfront. But it explains the role plugins play, and then goes through a bunch. These include admission, RBAC, CNI and 3rd party plugins. It's all very high level, but it's a decent toe in the water.
+BottomLine: Decent high level overview of Kubernetes plugins
+==
