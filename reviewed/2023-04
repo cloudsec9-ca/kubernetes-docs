@@ -54,3 +54,8 @@ DateReviewed: 2023-04-23
 Description: This one has a good diagram, but doesn't really lay out too much upfront. But it explains the role plugins play, and then goes through a bunch. These include admission, RBAC, CNI and 3rd party plugins. It's all very high level, but it's a decent toe in the water.
 BottomLine: Decent high level overview of Kubernetes plugins
 ==
+URL reference: https://medium.com/google-cloud/kubernetes-security-pillars-of-authentication-aa68019e691a
+DateReviewed: 2023-04-24
+Description: Okay, this article starts out in a folksy conversational style, and I think it might make the topic approachable. We talk about authentication and why it is needed, and then talk about TLS and the role it plays in security and Kubernetes. And ... that is it. Wut? I mean, I'm all for bite-sized bits, but this one has more pictures and promos and ... not much else.
+BottomLine: Drive by high level of auth and TLS, likely skip
+==
