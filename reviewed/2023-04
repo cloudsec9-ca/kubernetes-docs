@@ -59,3 +59,8 @@ DateReviewed: 2023-04-24
 Description: Okay, this article starts out in a folksy conversational style, and I think it might make the topic approachable. We talk about authentication and why it is needed, and then talk about TLS and the role it plays in security and Kubernetes. And ... that is it. Wut? I mean, I'm all for bite-sized bits, but this one has more pictures and promos and ... not much else.
 BottomLine: Drive by high level of auth and TLS, likely skip
 ==
+URL reference: https://www.darkreading.com/attacks-breaches/combating-kubernetes-the-newest-iam-challenge-
+DateReviewed: 2023-04-30
+Description: Starts with a bit of history, then *Record Scratch* a single malware strain 7 years later? Sigh. Next up, it seems there is conflation of pods/containers and .. the entire cluster? Maybe they mean namespaced sub-clusters? So, I thought it might have promise as a high-level guide, and it has a few good points, but any good high-level security guide should do the trick
+BottomLine: Short, a bit confused, and nothing really new or well presented
+==
