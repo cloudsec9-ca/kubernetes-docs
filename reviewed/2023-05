@@ -4,3 +4,8 @@ DateReviewed: 2023-05-02
 Description: As a big title, you might expect big things. But, not in this article; it's not lots of questions, but more like a few high-level ones. It does a good job of explaining why cloud threats are different, why it's important, and why cloud threats are growing. It then ties it's boat to CNAPP, or Cloud Native application protection platform -- which it then describes as an all-in-one solution, but I think has lots of components and is likely an ecosystem. It does touch on OWASP top 10 and Open source software, as well as hawking a Cisco product. After all this, it then talks about different kinds of Cloud services, and thinks like GitOps. Now, it claims to be the ultimate FAQ, and while it does a decent job of covering the questions, I'd say it's a bit of a fail in comprehensiveness or depth.
 BottomLine: Good overview and answers, but not ultimate as claimed
 ==
+URL reference: https://www.cncf.io/blog/2022/09/06/the-2-minute-test-for-kubernetes-pod-security/
+DateReviewed: 2023-05-02
+Description: Okay, it's a 2 minutes test, how long could it actually take? So, it starts off strong, by explaining what Pod security is and why you need it, and what threats are there. It then has a small tutorial/walk through, installing Kyverno and setting it up to scan your cluster. It then uses a sample container image and runs a test, to see what violates the policies they have set. This is a good overview, and does a decent job.
+BottomLine: Good overview and bit of hands on for Pod Security
+==
