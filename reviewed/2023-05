@@ -14,3 +14,8 @@ DateReviewed: 2023-05-03
 Description: Okay, so it has a neat graphic. And then, NADA. It's a table of contents for other posts. And hey, they might be good, but THERE IS NO CONTEXT FOR THEM HERE. Ugh!
 BottomLine: Just a pointer to other posts
 ==
+URL reference: https://medium.com/@rhthmchoudhary123_10210/kubernetes-storage-and-security-982eb50e27cd
+DateReviewed: 2023-05-07
+Description: Starts weak, with no overview or intro, but smack into content. It does a good job of talking about the varieties of long-lived volumes, explaining persistent volumes, volume claims and storage classes. It then dips a toe in security, explaining RBAC, Cluster roles, secrets, configmaps, network policies and TLS. It provides illustrations with YAML stanzas in many cases, to get a feel. It's a higher-level overview, but not a tutorial.
+BottomLine: Actually a really decent high-level overview or storage and security in Kubernetes
+==
