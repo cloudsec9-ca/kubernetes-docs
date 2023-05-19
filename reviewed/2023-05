@@ -19,3 +19,8 @@ DateReviewed: 2023-05-07
 Description: Starts weak, with no overview or intro, but smack into content. It does a good job of talking about the varieties of long-lived volumes, explaining persistent volumes, volume claims and storage classes. It then dips a toe in security, explaining RBAC, Cluster roles, secrets, configmaps, network policies and TLS. It provides illustrations with YAML stanzas in many cases, to get a feel. It's a higher-level overview, but not a tutorial.
 BottomLine: Actually a really decent high-level overview or storage and security in Kubernetes
 ==
+URL reference: https://www.kubenatives.com/p/kubernetes-security-best-practices
+DateReviewed: 2023-05-07
+Description: Good intro where it goes over what we'll cover. I'm not sure I love the way they cover things, as it seems we cover the same areas a few times, but it's a good high-level overview. Talk about RBAC, namespaces, Network Policies, Securing the API, and audit logging. Brings up keeing Kubernetes up to date, and also touches on securing the images used in containers. Quick touches on Resource quotas, Pod Security policies and using Monitoring and alerts. Doesn't bother with a wrap up, but covers a lot of ground for a high level overview.
+BottomLine: High level good but brief introduction to a variety of Kubernetes Security topics
+==
