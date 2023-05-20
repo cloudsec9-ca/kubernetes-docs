@@ -24,3 +24,8 @@ DateReviewed: 2023-05-07
 Description: Good intro where it goes over what we'll cover. I'm not sure I love the way they cover things, as it seems we cover the same areas a few times, but it's a good high-level overview. Talk about RBAC, namespaces, Network Policies, Securing the API, and audit logging. Brings up keeing Kubernetes up to date, and also touches on securing the images used in containers. Quick touches on Resource quotas, Pod Security policies and using Monitoring and alerts. Doesn't bother with a wrap up, but covers a lot of ground for a high level overview.
 BottomLine: High level good but brief introduction to a variety of Kubernetes Security topics
 ==
+URL reference: https://yuminlee2.medium.com/kubernetes-security-contexts-e54624e29d52
+DateReviewed: 2023-05-07
+Description: This is a half tutorial and half walkthrough, and honestly it's not too bad. I like how it goes through security at different levels (pod, container) and explains what you can and can't do. It shows the YAML you need to achieve things, and explains the defaults and why you might want to override them.
+BottomLine: Good basic hands-on with pod/container security in Kubernetes
+==
