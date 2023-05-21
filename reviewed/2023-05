@@ -29,3 +29,8 @@ DateReviewed: 2023-05-07
 Description: This is a half tutorial and half walkthrough, and honestly it's not too bad. I like how it goes through security at different levels (pod, container) and explains what you can and can't do. It shows the YAML you need to achieve things, and explains the defaults and why you might want to override them.
 BottomLine: Good basic hands-on with pod/container security in Kubernetes
 ==
+URL reference: https://www.scmagazine.com/perspective/devops/as-adoption-skyrockets-securing-kubernetes-becomes-critical
+DateReviewed: 2023-05-07
+Description: Okay, so this article starts on an odd foundation for me, which is one of how Kubernetes makes deploying easier. It's true, but the one thing it handwaves over is state -- you can scale easily as long as your app doesn't have global or cross-session state, which it doesn't mention. It then states it is hard to find Kubernetes security experts, but then it says you should hire a 3rd party, but those seem a bit at odds. Then it talks about people collaborating and getting on to the same page. So, overall, I feel this tries to be a conversation starter, but doesn't actual even scratch the surface on actual Kubernetes security.
+BottomLine: Not a great conversation starting piece
+==
