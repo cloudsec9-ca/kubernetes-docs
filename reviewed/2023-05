@@ -44,3 +44,8 @@ DateReviewed: 2023-05-09
 Description: Good intro to start. It goes through why you might want to use shell scripting for security; talks a bit about prereqs and then we start into scripting. It then walks us through an example shell script which ensures that an image is the latest version. Note - while it mentions you need to know scripting, they could have done a bit of a break out what the script does, for beginners or those unfamiliar. It does go through it at a high level, though. It then goes through a few more examples in both bash and powershell. It's a good place to put a toe in.
 BottomLine: Good early intro to using shell scripting for security in Kubernetes
 ==
+URL reference: https://goteleport.com/blog/secure-amazon-eks-access/
+DateReviewed: 2023-05-09
+Description: This has a solid intro, and is actually the first of two parts, so hopefully it is good. They'll be using Teleport to help secure Kubernetes/EKS stuff. They then do the initial Teleport setup, and have some good diagrams to help understanding. They then generate some TP access tokens and run some Helm charts to get the TP agent installed. We are then walked through how to access the clusters, and shown that it automatically adds some bits to a config file -- neat! While this is a neat walk-through, I'm left wondering what Teleport is helping out with. Maybe it's doing identity managemnet? But it's not clear from the article what the use case is.
+BottomLine: Great tutorial on Teleport and setting it up with EKS
+==
