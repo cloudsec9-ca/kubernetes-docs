@@ -64,3 +64,8 @@ DateReviewed: 2023-05-10
 Description: Okay, we reach way back and in the into explain what a container is, and how all the pieces fit together. Then we talk about avoiding running containers as root, and we'll be using Polaris to do some checking on images. Next, we do a high level walk through and find the Polaris report turned into a dashboard, which allows us to spot (among other things) which containers are running as root. They walk through remediating, which shows how to add "runAsNonRoot: True" to the right spot in YAML (w vid), which it explains only adds the API restriction, and not actually changes pod behaviour. They then explain fixups in Docker et al which will enable the behaviour we're after. Finally, we're told about an admission controller option to further restrict pods running as root.
 BottomLine: Very good intro to containers upfront, and decent high level walkthrough of not running containers as root
 ==
+URL reference: https://linuxsecurity.expert/tools/k8guard/
+DateReviewed: 2023-05-11
+Description: This is a light listing of various tools, including this one. It gives a cursory explaination of the tool. It apparently looks for violations of some kind and takes actions. While giving the tool a green 74 (/100?), the latest release is 2018, so 5 years old, so their rating is not worth much.
+BottomLine: Not sure about the tool or even the website for this one.
+==
