@@ -69,3 +69,8 @@ DateReviewed: 2023-05-11
 Description: This is a light listing of various tools, including this one. It gives a cursory explaination of the tool. It apparently looks for violations of some kind and takes actions. While giving the tool a green 74 (/100?), the latest release is 2018, so 5 years old, so their rating is not worth much.
 BottomLine: Not sure about the tool or even the website for this one.
 ==
+URL reference: https://www.suse.com/c/rancher_blog/rancher-desktop-1-0-0-has-arrived/
+DateReviewed: 2023-05-12
+Description: It's an intial announcment, so it's not a deep dive. They have a screenshot, explain it's available on Windows/Mac/Linux, and talk a bit about it. They talk about experience of using it locally, mention it's based on k3s, and that you can choose containerd or dockerd as your engine. They then talk a bit about the roadmap. I've heard lots, but haven't used Rancher, so I can't give an informed opinion. The announcement is good -- not too much hype, focus on what it does.
+BottomLine: Initial announcement note
+==
