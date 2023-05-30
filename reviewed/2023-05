@@ -74,3 +74,8 @@ DateReviewed: 2023-05-12
 Description: It's an intial announcment, so it's not a deep dive. They have a screenshot, explain it's available on Windows/Mac/Linux, and talk a bit about it. They talk about experience of using it locally, mention it's based on k3s, and that you can choose containerd or dockerd as your engine. They then talk a bit about the roadmap. I've heard lots, but haven't used Rancher, so I can't give an informed opinion. The announcement is good -- not too much hype, focus on what it does.
 BottomLine: Initial announcement note
 ==
+URL reference: https://www.suse.com/c/rancher_blog/deciphering-common-misconceptions-about-security-across-kubernetes/
+DateReviewed: 2023-05-13
+Description: This is a short question and answer blurb, which is a good format. I think the actual answers are a bit aggresively pessamistic, but it gives you a good lay of the land. Kubernetes is a framework for running your containers, and out of the box it's more about getting going then being fully secure. So, while a professional reading this would be able to understand, I feel a non-tech exec would be unduly alarmed at what it says.
+BottomLine: Good format but a bit too pessimistic a tone for a good high-level security treatment
+==
