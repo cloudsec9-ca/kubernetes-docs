@@ -89,3 +89,8 @@ DateReviewed: 2023-05-14
 Description: While the second part of a series, this article stands well on its own. It talks about understanding what containers are running in them, where to do things (in the build process), and how to approach services (as immutable and interchangable cogs). Talks also about runtime restrictions and options. Overall a good but high level look at the topic.
 BottomLine: Decent high level overview of DevSecOps
 ==
+URL reference: https://buoyant.io/mtls-guide
+DateReviewed: 2023-05-15
+Description: mTLS is "mutual" TLS, or both-sides using a certificate. It talks a bit about what it is and how it works, so we get an overview. Next it explains why Web TLS is different and why we might want mTLS between services. Then it talks about certificate management - what it is, how it works, and why you need it. We then are led through a mini-tutorial on how to set up mTLS in a mesh. Actually a decent walk through.
+BottomLine: Good primer and starting point for mTLS deployment
+==
