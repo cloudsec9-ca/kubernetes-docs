@@ -84,3 +84,8 @@ DateReviewed: 2023-05-13
 Description: Okay, this is a very decent troubleshooting walk-through. It lays out the ground conditions, and takes you through a whole bunch of reasons your node might be "NotReady". It covers other states, and goes through things like resources overused, network config issue, and then it heads through some examples with commands. This is a good guide and a good approach to troubleshooting in general
 BottomLine: Good on the NotReady state, but decent over approach to troubleshooting
 ==
+URL reference: https://www.redhat.com/en/blog/applying-devsecops-practices-kubernetes-security-analysis-and-remediation
+DateReviewed: 2023-05-14
+Description: While the second part of a series, this article stands well on its own. It talks about understanding what containers are running in them, where to do things (in the build process), and how to approach services (as immutable and interchangable cogs). Talks also about runtime restrictions and options. Overall a good but high level look at the topic.
+BottomLine: Decent high level overview of DevSecOps
+==
