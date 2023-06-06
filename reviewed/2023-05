@@ -94,3 +94,8 @@ DateReviewed: 2023-05-15
 Description: mTLS is "mutual" TLS, or both-sides using a certificate. It talks a bit about what it is and how it works, so we get an overview. Next it explains why Web TLS is different and why we might want mTLS between services. Then it talks about certificate management - what it is, how it works, and why you need it. We then are led through a mini-tutorial on how to set up mTLS in a mesh. Actually a decent walk through.
 BottomLine: Good primer and starting point for mTLS deployment
 ==
+URL reference: https://sysdig.com/blog/kubernetes-capacity-planning/
+DateReviewed: 2023-05-16
+Description: This article talks about Kubernetes limits and requests. This allows you to constrain your deployments, to ensure a specific container doesn't consume all the cpu/network/disk bandwidth on a node. They actually walk you through detecting overprovisioned spots -- where you've allocated more CPU or memory then you are using -- and correcting it. They use some supporting graphs to show the inital and then corrected versions.
+BottomLine: Good intro to rightsizing your capacity in Kubernetes
+==
