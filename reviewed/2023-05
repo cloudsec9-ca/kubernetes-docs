@@ -99,3 +99,8 @@ DateReviewed: 2023-05-16
 Description: This article talks about Kubernetes limits and requests. This allows you to constrain your deployments, to ensure a specific container doesn't consume all the cpu/network/disk bandwidth on a node. They actually walk you through detecting overprovisioned spots -- where you've allocated more CPU or memory then you are using -- and correcting it. They use some supporting graphs to show the inital and then corrected versions.
 BottomLine: Good intro to rightsizing your capacity in Kubernetes
 ==
+URL reference: https://vzilla.co.uk/vzilla-blog/project_pace-kasten-k10-demo-environment-for-everyone
+DateReviewed: 2023-05-20
+Description: A nice walkthrough/perspective on a paticular distro of kubernetes. Not quite a tutorial, but lots of tech details and insights.
+BottomLine: Nice walkthrough on how to set up a specific flavor of Kubernetes
+==
