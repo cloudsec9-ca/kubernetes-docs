@@ -104,3 +104,8 @@ DateReviewed: 2023-05-20
 Description: A nice walkthrough/perspective on a paticular distro of kubernetes. Not quite a tutorial, but lots of tech details and insights.
 BottomLine: Nice walkthrough on how to set up a specific flavor of Kubernetes
 ==
+URL reference: https://blog.quarkslab.com/kdigger-a-context-discovery-tool-for-kubernetes.html
+DateReviewed: 2023-05-25
+Description: This article talks about kdigger, but also lays a foundation if you don't know what Kubernetes is. The tool was written as part of a CTF, and they point out that it can be damaging -- so don't run this with admin privs in a prod setting. They run through the usage detials of the tool, and then we are shown a couple of demos, where they explain how they used kdigger to help them figure out the "flags" that were hidden in the target enviornment.
+BottomLine: A neat tool and a good quick intro to Kubernetes
+==
