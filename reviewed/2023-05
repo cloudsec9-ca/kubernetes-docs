@@ -109,3 +109,7 @@ DateReviewed: 2023-05-25
 Description: This article talks about kdigger, but also lays a foundation if you don't know what Kubernetes is. The tool was written as part of a CTF, and they point out that it can be damaging -- so don't run this with admin privs in a prod setting. They run through the usage detials of the tool, and then we are shown a couple of demos, where they explain how they used kdigger to help them figure out the "flags" that were hidden in the target enviornment.
 BottomLine: A neat tool and a good quick intro to Kubernetes
 ==
+URL reference: https://drive.google.com/file/d/1pliACPD4WQhV9oGgeDbLWWufrxaZrW4L/view
+DateReviewed: 2023-05-28
+Description: This is a slide deck, so just giving impressions. Start with bios and background, and what their company does - hacks and secures Kubernetes. Pod treasure map is interesting perspective on how to approach Kubernetes/containers. They outline attacker vs defender thinking. Also, if you don't know what to do, take on the attacker role and figure things out from there. There are a few demos where they show how attackers gain access into your container envs.
+BottomLine: Good enumeration of a few attacks and some interesting perspective on approaches
