@@ -113,3 +113,8 @@ URL reference: https://drive.google.com/file/d/1pliACPD4WQhV9oGgeDbLWWufrxaZrW4L
 DateReviewed: 2023-05-28
 Description: This is a slide deck, so just giving impressions. Start with bios and background, and what their company does - hacks and secures Kubernetes. Pod treasure map is interesting perspective on how to approach Kubernetes/containers. They outline attacker vs defender thinking. Also, if you don't know what to do, take on the attacker role and figure things out from there. There are a few demos where they show how attackers gain access into your container envs.
 BottomLine: Good enumeration of a few attacks and some interesting perspective on approaches
+URL reference: https://www.insight.com/en_US/content-and-resources/techtalk/deciphering-common-misconceptions-about-security-across-kubernetes.html
+DateReviewed: 2023-05-29
+Description: This is a 10 minute episode of a semi-podcast. Good start where they ground things (K8s isn't a security platform) and a lot of things are up to implmentors. Points out there is a bit of much between "outside" traffic vs. interior traffic. Chat a bit about zero days and understanding your network. They then talk about public cloud providers and if they give you "enough" security (they say no). A bit of advertising at the end.
+BottomLine: Decent audio chat on Kubernetes security, but it's quick and not deep
+==
