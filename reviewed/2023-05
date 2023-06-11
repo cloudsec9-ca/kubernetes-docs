@@ -118,3 +118,8 @@ DateReviewed: 2023-05-29
 Description: This is a 10 minute episode of a semi-podcast. Good start where they ground things (K8s isn't a security platform) and a lot of things are up to implmentors. Points out there is a bit of much between "outside" traffic vs. interior traffic. Chat a bit about zero days and understanding your network. They then talk about public cloud providers and if they give you "enough" security (they say no). A bit of advertising at the end.
 BottomLine: Decent audio chat on Kubernetes security, but it's quick and not deep
 ==
+URL reference: https://www.tigera.io/blog/kubernetes-security-issues-an-examination-of-major-attacks/
+DateReviewed: 2023-05-30
+Description: Explains the attack opportunity and what TTPs are to start, so we're off and running from the get-go. They are using cases for illustration. Our first two cases are Docker -- malicious images and open Docker. Both bad, but for sure we should be mitigating these. Next is a cluster misconfig that is actually a bad cloud config; still bad but you have to understand where you are running. Our last case is actually good if quick, where they barrel through a laundry list of possible issues with Kubernetes and it's supporting tools. While I like the idea of this article, it could have been stronger on the Kubernetes parts.
+BottomLine: Good touch on container and cloud sec -- but not super focused on Kubernetes
+==
