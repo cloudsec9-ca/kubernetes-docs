@@ -3,3 +3,8 @@ DateReviewed: 2023-06-02
 Description: This article explains what a security champion is, why they are needed, and what happens when they aren't there. Champions act as the catalyst between tech people (devs but also other IT) and the formal security org. I like the approach and advocacy of tackling security early and being thorough.
 BottomLine: Good piece arguing for using Security Champions
 ==
+URL reference: https://cloudsecdocs.com/container_security/theory/secure_components/pod_security_standards/
+DateReviewed: 2023-06-03
+Description: A quick guide for those switching from PodSecurityPolicy. Goes through how to set the new Pod Security Standards up, how the policies are defined, and how they are enforced. It wraps up with a quick example of the YAML needed to use them.
+BottomLine: Good quick reference and intro to Pod Security Standard
+==
