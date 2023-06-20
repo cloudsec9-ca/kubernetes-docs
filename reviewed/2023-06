@@ -8,3 +8,8 @@ DateReviewed: 2023-06-03
 Description: A quick guide for those switching from PodSecurityPolicy. Goes through how to set the new Pod Security Standards up, how the policies are defined, and how they are enforced. It wraps up with a quick example of the YAML needed to use them.
 BottomLine: Good quick reference and intro to Pod Security Standard
 ==
+URL reference: https://blog.cloudsecque.com/how-to-improve-the-security-of-your-applications-with-kubernetes-security-scanners-cda97fd2f574
+DateReviewed: 2023-06-04
+Description: We start off being told the case for why we want a scanner and how it helps, which is a good foundation. It then goes through things like needed permissions, supported configs and even touches on prices, including free options. We then dig into 5 scanners, talking about what they target and a high level on how they work. Overall, decent, but I wish they'd have touched on the weakness of scanning (a scan today won't find a zero-day discovered next week -- you'll have to wait until your next deployment/update to pick that up.
+BottomLine: Good motivation on Kubernetes security scanners and a touch on a hnadful of such tools
+==
