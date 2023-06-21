@@ -13,3 +13,8 @@ DateReviewed: 2023-06-04
 Description: We start off being told the case for why we want a scanner and how it helps, which is a good foundation. It then goes through things like needed permissions, supported configs and even touches on prices, including free options. We then dig into 5 scanners, talking about what they target and a high level on how they work. Overall, decent, but I wish they'd have touched on the weakness of scanning (a scan today won't find a zero-day discovered next week -- you'll have to wait until your next deployment/update to pick that up.
 BottomLine: Good motivation on Kubernetes security scanners and a touch on a hnadful of such tools
 ==
+URL reference: https://blog.codeswiftr.com/kubernetes-in-azure-a-step-by-step-guide-to-setting-up-a-production-ready-cluster-7336f78d5f7
+DateReviewed: 2023-06-05
+Description: Starts with a good groundwork, explaining why you want Kubernetes and how Azure factors into the equation here. They have a list of prereqs and do a handwave at how to get one of them. They use Terraform as their IaC tool, so the explain the gameplan on how to get the cluster running. First up is creating some storage which will keep track of our TF state. They then set up things like cloud networks and other plumbing, which we need to actually have traffic flow. Next up is logging, done through Log Analytics. We need a way to talk to the cluster from outside, and for that they set up an Application Gateway Ingress Controller and finally they spin up Kubernetes itself. They then show using kubectl to actually talk to the cluster.
+BottomLine: A complete walkthrough of setting up Kubernetes on Azure
+==
