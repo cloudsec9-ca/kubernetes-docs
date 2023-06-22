@@ -18,3 +18,8 @@ DateReviewed: 2023-06-05
 Description: Starts with a good groundwork, explaining why you want Kubernetes and how Azure factors into the equation here. They have a list of prereqs and do a handwave at how to get one of them. They use Terraform as their IaC tool, so the explain the gameplan on how to get the cluster running. First up is creating some storage which will keep track of our TF state. They then set up things like cloud networks and other plumbing, which we need to actually have traffic flow. Next up is logging, done through Log Analytics. We need a way to talk to the cluster from outside, and for that they set up an Application Gateway Ingress Controller and finally they spin up Kubernetes itself. They then show using kubectl to actually talk to the cluster.
 BottomLine: A complete walkthrough of setting up Kubernetes on Azure
 ==
+URL reference: https://securityonline.info/kubeshark-api-traffic-analyzer-for-kubernetes/
+DateReviewed: 2023-06-06
+Description: We start with a brief background on kubeshark, which is an API traffic analyster for Kubernetes. They have a colorful but small screenshot. Kubeshark seems like wireshark, using eBPF to grab all kinds of possible traffic. And it does integration too, it seems. The article lacks use cases -- is it a debugging tool, or should I use it to monitor -- maybe both? The approach is VERY high level, but then they smack an "install & use" link.
+BottomLine: The tool seems interesting, but the article is a bit lightweight
+==
