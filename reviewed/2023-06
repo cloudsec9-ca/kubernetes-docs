@@ -23,3 +23,8 @@ DateReviewed: 2023-06-06
 Description: We start with a brief background on kubeshark, which is an API traffic analyster for Kubernetes. They have a colorful but small screenshot. Kubeshark seems like wireshark, using eBPF to grab all kinds of possible traffic. And it does integration too, it seems. The article lacks use cases -- is it a debugging tool, or should I use it to monitor -- maybe both? The approach is VERY high level, but then they smack an "install & use" link.
 BottomLine: The tool seems interesting, but the article is a bit lightweight
 ==
+URL reference: https://securityboulevard.com/2022/10/zero-trust-the-service-mesh-and-linkerd/
+DateReviewed: 2023-06-07
+Description: Ah, an article on Zero Trust -- let's dig in. We start talking about buzzwords and marketing, and then go through a decent definition of zero trust. Main gist is this is a pivot from perimeter security which we are familiar with on-prem, where there is a boundary and the inside is trusted. They then explain how perimeter security breaks down in the cloud. They introduce three concepts - Identity, Policy, and Enforcement, and explains how each works and why we need them with details. We're now taken through how this can work in Kubernetes, mainly leaning on Linkerd, but with high-level explainations of how things flow. It talks about side cars, mTLS, and automated checks to ensure containers are only talkling to who they need to.
+BottomLine: Good, practical walk through of Zero trust, including a high level glance at doing it on Kubernetes, but still beginner friendly
+==
