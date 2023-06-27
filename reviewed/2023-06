@@ -38,3 +38,8 @@ DateReviewed: 2023-06-08
 Description: Unlike much security focused on inbound issues, this post focuses on traffic leaving the cluster, or Egress. The first issue they surface is that cluster IPs are ephemeral, and might even be NATed, and this can mean having to open up more firewall space than usual. In paticular, while one pod might require access to an external DB, because the outbound IP is the node, any other pod on that node will have access. The solution, using Calico, is to set up an egress gateway, which will only allow the correct pod to use it. The article goes on to talk about a few configs, including different namespaces and load balancing to account for different use cases. A good look at an interesting security approach.
 BottomLine: Good examination of the Calico tool used to restrict egress traffic from a Kubernetes cluster
 ==
+URL reference: https://www.itprotoday.com/hybrid-cloud-and-multicloud/it-pros-lack-time-support-learn-vital-cloud-computing-skills
+DateReviewed: 2023-06-09
+Description: This article is trying to reflect where IT is as an industry with Cloud understanding. They cite a study that says about two-thirds of techs are still at beginning stage in cloud understanding.
+BottomLine: Reflection of where IT techs are in terms of cloud understanding
+==
