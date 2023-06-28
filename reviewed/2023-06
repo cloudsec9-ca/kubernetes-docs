@@ -43,3 +43,8 @@ DateReviewed: 2023-06-09
 Description: This article is trying to reflect where IT is as an industry with Cloud understanding. They cite a study that says about two-thirds of techs are still at beginning stage in cloud understanding.
 BottomLine: Reflection of where IT techs are in terms of cloud understanding
 ==
+URL reference: https://medium.com/@codingkarma/kubernetes-goat-part-1-8718b1345a42
+DateReviewed: 2023-06-10
+Description: This is a first person walkthrough, using Kubernetes Goat. The Goat is an intentionally weak deployment, to learn how to find and fix security issues with your Kubernetes install. In this post, the author focuses on one aspect, basically tracking it all the way through and solving it. There is a promise at the end of further episodes, and this toe-dip has me interested in trying to spin up a version of Goat.
+BottomLine: Good low level walkthrough of learning Kubernetes security practices with Goat
+==
