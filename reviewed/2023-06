@@ -48,3 +48,13 @@ DateReviewed: 2023-06-10
 Description: This is a first person walkthrough, using Kubernetes Goat. The Goat is an intentionally weak deployment, to learn how to find and fix security issues with your Kubernetes install. In this post, the author focuses on one aspect, basically tracking it all the way through and solving it. There is a promise at the end of further episodes, and this toe-dip has me interested in trying to spin up a version of Goat.
 BottomLine: Good low level walkthrough of learning Kubernetes security practices with Goat
 ==
+URL reference: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/releasing-kubernetes-apps-offer-in-microsoft-cloud-marketplace/ba-p/3650628
+DateReviewed: 2023-06-11
+Description: While an interesting bit of info, this is the most awkwardly laid out blog/article. I thought it was a one paragraph blurb on the monitezation offering, but it turns out they have a linked video demo and do a bit of a screenshoted walkthrough. It's neat, I just wish it was done a bit better.
+BottomLine: Interesting Kubernetes SaaS monetiztion but awkward article
+==
+URL reference: https://blog.frankel.ch/learning-auditing-kubernetes-manifests/
+DateReviewed: 2023-06-12
+Description: This is an actual-run walkthrough of a tool called Checkov, which helps you find IaC issues before deploying into Kubernetes. I like his approach -- he runs the tool, digs through the output, explains the issue and whether his thread model needs a fix applied. He has notes and pointers to other resources at the end.
+BottomLine: Good low level interaction with Checkov to demonstrate how to use and mitigate IaC issues before deployment
+==
