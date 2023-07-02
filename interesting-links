@@ -2283,14 +2283,6 @@ https://twitter.com/hackinarticles/status/1675278788664459264
 	NoLinkBecauseTwitterIsLoginOnlyRightNow
 https://twitter.com/osodevops/status/1675216449088913410
 	https://www.weave.works/blog/kubernetes-security-a-complete-guide-to-securing-your-containers
-
-!cd hadoop/jobsearch/github/kubernetes-docs && git commit interesting-links
-https://twitter.com/NaveenS16/status/1669529725491101696
-	https://medium.com/@augustineozor/understanding-the-difference-between-virtualization-and-containerization-9e75f544f3be
-!cd hadoop/jobsearch/github/kubernetes-docs && git commit --date "2023-07-01 15:22:49" interesting-links
-URL reference: 
-DateReviewed: 2023-06-02
-Description: 
-BottomLine: 
-==
+https://twitter.com/ptracesecurity/status/1675610336634851328
+	https://github.com/didil/paperlb
 https://kccnceu2021.sched.com/
