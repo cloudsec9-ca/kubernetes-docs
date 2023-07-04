@@ -63,3 +63,8 @@ DateReviewed: 2023-06-13
 Description: This is a broad but high level introduction to everything that is Kubernetes. It starts with what is Kubernetes, and talks about the components and overview of how different parts fit together. In a paragraph or two, it goes through things like etcd and kubectl, so you know what their functions are. It then talks about cloud managed K8s and various distros, so you know what the options are. It talks about alternatives, and then finishes up by talking about things like security and using Kubernetes in production. It's a good wide-ranging intro.
 BottomLine: Broad, high level intro which touches all of the bits and allows someone with no background to hit the ground running.
 ==
+URL reference: https://blog.getambassador.io/kubernetes-canary-testing-and-release-with-istio-4cbdedcc9914
+DateReviewed: 2023-06-14
+Description: To get started, we are taken through general deployments, and then introduced to the Canary. The idea here is to have a small new version deployed along with the current stable version. Kubernetes does this by allowing a container with the new code to be deployed, and using a load balancer to direct part of the traffic at it. They then go on to explain the advantages of using the canary rollout. We then have an interlude to explain service mesh and how Istio is one. They then do a walkthrough, using Istio and showing us the commands. They prep two docker images and push them to a repo, then create a deployment for the current and canary images. They then prep the Istio bits, and put them into the cluster. They then tweak the balancer, to shift more of the traffic to the canary. I actually like this approach.
+BottomLine: Good high and low level approach to Canary deployment using Istio
+==
