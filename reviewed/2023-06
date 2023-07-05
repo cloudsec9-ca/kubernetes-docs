@@ -68,3 +68,8 @@ DateReviewed: 2023-06-14
 Description: To get started, we are taken through general deployments, and then introduced to the Canary. The idea here is to have a small new version deployed along with the current stable version. Kubernetes does this by allowing a container with the new code to be deployed, and using a load balancer to direct part of the traffic at it. They then go on to explain the advantages of using the canary rollout. We then have an interlude to explain service mesh and how Istio is one. They then do a walkthrough, using Istio and showing us the commands. They prep two docker images and push them to a repo, then create a deployment for the current and canary images. They then prep the Istio bits, and put them into the cluster. They then tweak the balancer, to shift more of the traffic to the canary. I actually like this approach.
 BottomLine: Good high and low level approach to Canary deployment using Istio
 ==
+URL reference: https://labs.withsecure.com/publications/executing-arbitrary-code-executables-in-read-only-filesystems
+DateReviewed: 2023-06-15
+Description: This article starts by explaining what a read only filesystem is, and how it helps in a container situation. It then shows how to work around, with a read-only filesystem in place, and execute code in three different scenarios. It then talks about a few ways we can prevent or detect these novel approaches to running code without file write access. An interesting approach to security and threats, recommend reading it.
+BottomLine: Talks about read only file systems in containers and security issues and mitigations
+==
