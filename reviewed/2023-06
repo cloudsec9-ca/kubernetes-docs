@@ -73,3 +73,8 @@ DateReviewed: 2023-06-15
 Description: This article starts by explaining what a read only filesystem is, and how it helps in a container situation. It then shows how to work around, with a read-only filesystem in place, and execute code in three different scenarios. It then talks about a few ways we can prevent or detect these novel approaches to running code without file write access. An interesting approach to security and threats, recommend reading it.
 BottomLine: Talks about read only file systems in containers and security issues and mitigations
 ==
+URL reference: https://www.securitymagazine.com/articles/98474-the-way-forward-for-kubernetes-security-eliminate-standing-privileges
+DateReviewed: 2023-06-16
+Description: This article first talks a bit about what Kubernetes is, and then explains why containers are good and what benefits they provide. It then pivots to the bad part of Kubernetes -- security, or the lack thereof. They then argue that Kubernetes is configured with too many users and have too many permissions, because it is complex. Further, they argue that the speed of deployment works against security in DevOps, because while security it coveted, if it slows down velocity it should be avoided. Refrershingly, we then talk about JIT privs to tune permissions to needs. They then explore Zero Standing privileges, where all privs are granted on the fly, to be revoked after some specified time and only granted as required. I think it's a good thinkpiece.
+BottomLine: Decent high level review of Kubernetes security weakness and a good approach to mitigate them 
+==
