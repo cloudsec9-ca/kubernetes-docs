@@ -83,3 +83,8 @@ DateReviewed: 2023-06-17
 Description: A short into to a tool called BotKube. This tool integrates with messaging apps like Slack and Microsoft Teams, to pass you messages about your Kubernetes cluster. It has a spiffy arch diagram, which clearly shows how it monitors events to give visibility.
 BottomLine: Interesting into to a tool that can notify from Kubernetes to a mesaging tool like Slack or Teams
 ==
+URL reference: https://www.cncf.io/blog/2022/10/12/learn-about-kubernetes-security-best-practices-for-your-cloud-native-application-development/
+DateReviewed: 2023-06-18
+Description: This short article is an excellent toe-dip into the world of Kubernetes security. Illustrated with a great diagram, they show what the risks are and where they affect the process. The article is littered with links to other spots on specific items, which help provide deeper dives. It really well illustrates that security is a process, and that you have to be proactive from the early stages of development to end up in a secure spot.
+BottomLine: Good high level intro to Cloud and Kubernetes security risks
+==
