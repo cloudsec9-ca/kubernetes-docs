@@ -78,3 +78,8 @@ DateReviewed: 2023-06-16
 Description: This article first talks a bit about what Kubernetes is, and then explains why containers are good and what benefits they provide. It then pivots to the bad part of Kubernetes -- security, or the lack thereof. They then argue that Kubernetes is configured with too many users and have too many permissions, because it is complex. Further, they argue that the speed of deployment works against security in DevOps, because while security it coveted, if it slows down velocity it should be avoided. Refrershingly, we then talk about JIT privs to tune permissions to needs. They then explore Zero Standing privileges, where all privs are granted on the fly, to be revoked after some specified time and only granted as required. I think it's a good thinkpiece.
 BottomLine: Decent high level review of Kubernetes security weakness and a good approach to mitigate them 
 ==
+URL reference: https://securityonline.info/botkube-monitor-your-kubernetes-cluster-debug-critical-deployments/
+DateReviewed: 2023-06-17
+Description: A short into to a tool called BotKube. This tool integrates with messaging apps like Slack and Microsoft Teams, to pass you messages about your Kubernetes cluster. It has a spiffy arch diagram, which clearly shows how it monitors events to give visibility.
+BottomLine: Interesting into to a tool that can notify from Kubernetes to a mesaging tool like Slack or Teams
+==
