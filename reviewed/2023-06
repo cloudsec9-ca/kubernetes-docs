@@ -88,3 +88,8 @@ DateReviewed: 2023-06-18
 Description: This short article is an excellent toe-dip into the world of Kubernetes security. Illustrated with a great diagram, they show what the risks are and where they affect the process. The article is littered with links to other spots on specific items, which help provide deeper dives. It really well illustrates that security is a process, and that you have to be proactive from the early stages of development to end up in a secure spot.
 BottomLine: Good high level intro to Cloud and Kubernetes security risks
 ==
+URL reference: https://www.portainer.io/blog/standalone-policy-enforcement-vs-portainer-pod-security-constraints
+DateReviewed: 2023-06-19
+Description: Like most sec aware articles, this one starts by saying how terrible K8s security is out of the box. It then explains policies in an approachable way and how this is done in Kubernetes. We then go hands on and dive into a bit about Admission Controllers, and how to activate them. They also touch on OPA (Open Policy Agent) as an alternative. We dig into the various bits to get OPA working. Finally, they show how doing this on Portainer is clicking a few buttons. I'm actually more impressed by the _hard walkthroughs_ then the clicky, although I do understand the appeal there.
+BottomLine: Actually decent low-level walk throughs of how to do Policies - with OPA and Admission Controllers
+==
