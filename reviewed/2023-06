@@ -93,3 +93,8 @@ DateReviewed: 2023-06-19
 Description: Like most sec aware articles, this one starts by saying how terrible K8s security is out of the box. It then explains policies in an approachable way and how this is done in Kubernetes. We then go hands on and dive into a bit about Admission Controllers, and how to activate them. They also touch on OPA (Open Policy Agent) as an alternative. We dig into the various bits to get OPA working. Finally, they show how doing this on Portainer is clicking a few buttons. I'm actually more impressed by the _hard walkthroughs_ then the clicky, although I do understand the appeal there.
 BottomLine: Actually decent low-level walk throughs of how to do Policies - with OPA and Admission Controllers
 ==
+URL reference: https://kubernetes.io/docs/tasks/configure-pod-container/enforce-standards-namespace-labels/
+DateReviewed: 2023-06-20
+Description: This article is a bit of walkthrough docs on how to use Pod Security Standards with Namespaces. Starts with laying out what versions of K8s you can use, and the three included policies to get you started. They then walk through a manifest in YAML which sets up the enforcement. It then shows how to both enact this for a specific namespace as well as all namespaces.
+BottomLine: Good low level intro to using Pod Security Standard
+==
