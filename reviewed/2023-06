@@ -103,3 +103,8 @@ DateReviewed: 2023-06-21
 Description: This article starts out strong and lays out some decent setup, and it has a diagram. The premise is simple -- a service has a Load Balancer fronting it, but due to a config error, the underlying instances are reachable. They do a good job upfront of explaining the issues that arise from this. They then walk through how to figure out what services are on the cluster, and the mechanisms that are there to access them. We see a test done, and then they do a port scan and discover that some pods are exposed. They use a CURL command to verify the access. And then ... that's it? No mitigation suggestions or any discussion about how to prevent this.
 BottomLine: Good premise and motivation of the exposure but lacks prevention or mitigation steps
 ==
+URL reference: https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+DateReviewed: 2023-06-22
+Description: Walk through of different types of inbound traffic - NodePorts, LoadBalancers and Ingress. While it has a GKE slant, it does a good job of covering all of the bits. Starts by talking about ClusterIP and using Proxy, but explains this is only for debugging or interactive testing. It then walks through each of NodePort, LoadBalancer, and Ingress, explaining their use cases and any caveats that they have. Has diagrams, and does a pretty decent job.
+BottomLine: Great intro to External inbound traffic and the differences between NodePort, LoadBalancer and Ingress
+==
