@@ -108,3 +108,8 @@ DateReviewed: 2023-06-22
 Description: Walk through of different types of inbound traffic - NodePorts, LoadBalancers and Ingress. While it has a GKE slant, it does a good job of covering all of the bits. Starts by talking about ClusterIP and using Proxy, but explains this is only for debugging or interactive testing. It then walks through each of NodePort, LoadBalancer, and Ingress, explaining their use cases and any caveats that they have. Has diagrams, and does a pretty decent job.
 BottomLine: Great intro to External inbound traffic and the differences between NodePort, LoadBalancer and Ingress
 ==
+URL reference: https://gsantoro.dev/shrink-to-secure-in-kubernetes/
+DateReviewed: 2023-06-23
+Description: This article focuses on reducing the size of your container while arguing that this also improves your security. It lays out a good quick intro, and dives into a bit of history and explains some of the practical bits of how things work. Covers a bit of Docker and the whole VM vs. Container bits. They then talk a bit about initial images based on mainstream OS distros like Debian and newer lightweight distros like Alpine, and the advantages they hold. They then wade through some alternatives, like the Wolfi distro, multi-stage Docker builds, Buildpacks and tools such as Melange and Apko. The idea here is to offer alternatives where we chose the approach that works best for our use case. Finally we look quickly at tools which help secure our built images.
+BottomLine: High level piece motivating use of lightweight images for both performance and security reasons
+==
