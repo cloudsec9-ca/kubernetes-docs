@@ -123,3 +123,8 @@ DateReviewed: 2023-06-25
 Description: Starts with a good bit of motivation - security is something we think about, but it isn't important - until something happens and it is. We dig in by talking about planning - what do you need to do? They explain this means comms with perhaps the network team or others that you need to co-ordinate with. To ensure you follow best practices, they recommend using the CIS benchmarks, which are tracked through some sec tools you can use. We then talk about using CNI to control networking, and touch on Service Mesh. We then go a bit deeper with Network policies and OPA, which allows us to control who can talk to which Namespace. We then gently touch on Authentication and Authorization.
 BottomLine: Overall a good high level intro to the various Kubernetes Security topics
 ==
+URL reference: https://blogs.securityinfinity.com/making-your-kubernetes-environment-more-secure-tips-and-tricks-for-cyber-security/
+DateReviewed: 2023-06-26
+Description: No motivation here, just right into the meat; and here, that means you should get a company to do a review. Next up, a bug bounty program? And to supplement that, you should use vulerability scanners. Um, what? We've been through 3 paragraphs and only one seems in the Kubernetes ballpark -- the other two are good org things, but not K8s focused or specific. We then handwave at hardening your "Kubernetes service", by using built in features. There is a bit more, but honestly this seems like a repurpose of a generic "secure your company" sec article with minor additions and adjustments to make it somewhat Kubernetes related
+BottomLine: Seems like a badly repurposed article to Kubernetes from something more general
+==
