@@ -128,3 +128,8 @@ DateReviewed: 2023-06-26
 Description: No motivation here, just right into the meat; and here, that means you should get a company to do a review. Next up, a bug bounty program? And to supplement that, you should use vulerability scanners. Um, what? We've been through 3 paragraphs and only one seems in the Kubernetes ballpark -- the other two are good org things, but not K8s focused or specific. We then handwave at hardening your "Kubernetes service", by using built in features. There is a bit more, but honestly this seems like a repurpose of a generic "secure your company" sec article with minor additions and adjustments to make it somewhat Kubernetes related
 BottomLine: Seems like a badly repurposed article to Kubernetes from something more general
 ==
+URL reference: https://www.rtinsights.com/kubernetes-security-issues-delaying-application-deployment/
+DateReviewed: 2023-06-27
+Description: We start with Kubernetes makes development easier, but has security issues. It then says orgs have rollout issues due to "Kubernetes" security concerns, and quotes the RH report that 2/3rds of orgs have run into this. But no info is given on what the sec issue was, or how long the delay was. It then speaks to orgs bypassing security, and the fact that since K8s does a lot, it needs care from a security perspective. So, none of this is really K8s specific; when projects get delayed security is often one of the first casualties. Worse, the article doesn't really give any specific recommendations, but handwaves at how the problem should be addressed "across the lifecycle".
+BottomLine: Unfortunately seems like a puff piece
+==
