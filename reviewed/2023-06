@@ -138,3 +138,8 @@ DateReviewed: 2023-06-28
 Description: Okay, this is a weird combo of a promo and a bit of info. It's promoting a conference which is now passed, so I'll ignore that. It actually has a great 5 point approach to understanding how much you pay for Kubernetes, from what things are being run and turning them into items you can match against your cloud bill. I think this part is well done and recommended.
 BottomLine: Some key points on how to approach FinOps to control your Kubernetes spend
 ==
+URL reference: https://ksoc.com/blog/kubernetes-security-basics-series-part-ii-container-security
+DateReviewed: 2023-06-29
+Description: This is the 2nd part on orchestration, but they still include a standalone motivation on advantages containers have on VMs. They then talk about the OS namespaces - process, network and file system. Next is a toe-dip on Control groups, and then the main course - isolation mechanisms. We go on a tour of 4 types, with a bit of explaination of each. They then run through some image threats to understand the landscape. They explain why you need a registry, the role scanning plays in the pipeline, and some best practices. They do draw the distinction between container security and Kubernetes security -- what you are running (apps) vs how you run them (K8s). They give some anecodotes and then wrap up, alluding to a part 3 to talk more about Kubernetes security.
+BottomLine: Good high-level examination of why to use containers, and how to mitigate against possible issues with them
+==
