@@ -1,0 +1,6 @@
+
+URL reference: https://krolcloud.com/blog/anonymous-authentication-in-kubernetes/
+DateReviewed: 2023-07-01
+Description: The article explores a bit on what anonymous users mean in Kubernetes. It seems every access to the Kubernetes API requires a user, and if you don't supply one, it uses the "anonymous" one. Things like health and version are exposed by default. So if you don't want to expose this, the article asks -- how do you turn it off? They explain where this is set, and explain it might have implications in some cases. We pause to talk a bit about RBAC, and how the role a user slots into impacts what it can do. So, what if you want to give the anonymous user MORE access? They walk through adding the perms, and show before/after calls to the API. They then use a few tools to detect such happenings, and show which tools surface the info.
+BottomLine: A good mid-level exploration of Kubernetes explaining the anonymous user permissions
+==
