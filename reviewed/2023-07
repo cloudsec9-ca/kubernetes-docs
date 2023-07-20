@@ -14,3 +14,8 @@ DateReviewed: 2023-07-03
 Description: Short motivation on what can happen if you have a vulnerable pod, and quick background on one way to prevent it. The article does mention there are other tools, but explains why this one is a good choice. The author walks us through the install of the tool (Polaris). He then takes us through the result, which is a pretty display, showing a donut chart of what is good and what is an issue in your cluster. They then dive into a result, showing the issue raised and even how they resolved it. Now the author promotes two adjacent articles, covering CI/CD and Github, to do this as part of your build pipeline, which is fair. 
 BottomLine: A quick intro to Kubernetes security, but getting dirty with a specific tool
 ==
+URL reference: https://blog.aquasec.com/introducing-kbom-kubernetes-bill-of-materials
+DateReviewed: 2023-07-04
+Description: Starts with a bit of motivation about SBOM and what KBOM means and how it differs. So while SBOM is app focused, KBOM tries to bring visibility to your various configs around your cluster. They then travel through a Q&A on a number of questions, including if they are touting a product of theirs -- sort of -- one does and one doesn't do the KBOM. It's an interesting concept.
+BottomLine: Introduces KBOM for Kubernetes and explains how it differs from SBOMs
+==
