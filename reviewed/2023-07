@@ -24,3 +24,8 @@ DateReviewed: 2023-07-05
 Description: Article starts strong by explaining the network focus of Cilium, which is a Container Network Interface (CNI). They explain how Cilium can be used to do Ingress. As well, it exposes the Kubernetes Gateway API, which allows implementors like Cilium to expose external services. Bonus: a good amount of diagrams spinkled in. The author goes through what Cilium can do through the API, including Load balancing. It also supports SNI, which allows multiple names to be served on a single IP. There is a bit dedicated to service mesh with Cilium as well. I'd say this is a great overview and motivation to try Cilium!
 BottomLine: Good broad introduction to Cilium and how it can work in Kubernetes
 ==
+URL reference: https://dev.to/ciscoemerge/building-secure-docker-images-for-production-best-practices-5d0f
+DateReviewed: 2023-07-06
+Description: Our focus in this article is practial security enhancements to our production Docker images. We start by digging into a paticular project, with an image file. We are then treated to a discussion on the differences between production and dev enviroments. To satisfy these varied requirements, we use a different image for dev and prod -- the multi-stage build. They incorporate a scanner to review images we might use in prod for security. Next, they tune the dockerfile, and show how the cache can speed up your build. We also see how to create a user and add a healthcheck, to ensure our app runs properly. They then build and do another scan, to make sure everything is secure. A pretty nice walkthrough.
+BottomLine: Good walkthrough of steps to do some practical basic security on your Docker builds
+==
