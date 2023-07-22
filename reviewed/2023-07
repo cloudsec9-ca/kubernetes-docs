@@ -29,3 +29,8 @@ DateReviewed: 2023-07-06
 Description: Our focus in this article is practial security enhancements to our production Docker images. We start by digging into a paticular project, with an image file. We are then treated to a discussion on the differences between production and dev enviroments. To satisfy these varied requirements, we use a different image for dev and prod -- the multi-stage build. They incorporate a scanner to review images we might use in prod for security. Next, they tune the dockerfile, and show how the cache can speed up your build. We also see how to create a user and add a healthcheck, to ensure our app runs properly. They then build and do another scan, to make sure everything is secure. A pretty nice walkthrough.
 BottomLine: Good walkthrough of steps to do some practical basic security on your Docker builds
 ==
+URL reference: https://securityboulevard.com/2023/07/navigating-kubernetes-and-cloud-native-security/
+DateReviewed: 2023-07-07
+Description: We start with a decent motivating paragraph, then follow with a definition of Cloud Native security. They talk about IaC, DevOps and various providers. Next we talk about Cloud Native security, where a key aspect is automation, and where we need to think about scaling and updates. The chat about the imporance of integrating security into this pipeline, and a few strategies that can help. They talk also about vulnerabilities and misconfigs, and even a bit on automatic remediation. There are a number of other points covered, and it makes a good overview and starting point to Kubernetes security.
+BottomLine: Decent high level intro to Kubernetes security
+==
