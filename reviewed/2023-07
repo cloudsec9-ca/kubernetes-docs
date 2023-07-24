@@ -49,3 +49,8 @@ DateReviewed: 2023-07-10
 Description: This is actually a pretty good low level walkthrough, and it includes all of the configs and discussions that are needed. The hands-on starts with a Dockerfile and builds into a fully secured Kubernetes deployment.
 BottomLine: Good hands-on low level walkthrough on Kubernetes security
 ==
+URL reference: https://medium.com/@seifeddinerajhi/kubernetes-security-assessment-guidelines-and-necessary-checklist-9a326f341b68
+DateReviewed: 2023-07-11
+Description: This article start with a bit of the normal "K8s is the future, but must be secured" stuff we often see, but soon we have clear focus -- which is using a checklist to provide a systemic approach to security in Kubernetes. We then traverse the 9 top-level item list, which should be a starting point in the security approach. Each of the top level items has a number of bullet points, which walk through the concerns and how to address them for the various items. The first two are authentication and authorization, and after that we deal with secrets. Cluster config security, Audit & logging, OS security, Network security, config of workloas and finally secure image building are all tackled. A great resource and excellent starting point for the Kubernetes security journey.
+BottomLine: Great list to start on securing a Kubernetes cluster
+==
