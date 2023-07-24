@@ -44,3 +44,8 @@ DateReviewed: 2023-07-09
 Description: First in a series, this is a dive into network and comms for Kubernetes. The author explains the Kubernetes network model, and talks about how node and pod networking is arranged. A bit out of order, the article then explains what pods, containers and nodes are. We then dive through network namespaces, and show how a paticular pod is connected to its host node through some commands. We then back up to explore networking between two pods on the same node, and compare that to two pods on two different nodes. Overall, a good intro and a solid walkthrough with easy to understand diagrams.
 BottomLine: Good intro and high level walkthrough of Kubernetes networking
 ==
+URL reference: https://dev.to/salecharohit/bootstrap-security-in-kubernetes-deployments-2e59
+DateReviewed: 2023-07-10
+Description: This is actually a pretty good low level walkthrough, and it includes all of the configs and discussions that are needed. The hands-on starts with a Dockerfile and builds into a fully secured Kubernetes deployment.
+BottomLine: Good hands-on low level walkthrough on Kubernetes security
+==
