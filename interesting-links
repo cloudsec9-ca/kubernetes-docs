@@ -976,6 +976,7 @@ https://twitter.com/mccricardo/status/1583503601812770818
 https://twitter.com/turgaykivrak/status/1584107375728136194
 	https://web.archive.org/web/20230724031452/https://twitter.com/turgaykivrak/status/1584107375728136194
 https://twitter.com/TheNJDevOpsGuy/status/1584230699993030656
+	https://web.archive.org/web/20230725015212/https://twitter.com/TheNJDevOpsGuy/status/1584230699993030656
 https://twitter.com/lizrice/status/1584601024010276865
 https://twitter.com/TheNJDevOpsGuy/status/1584938361772544001
 https://twitter.com/myfear/status/1580647563367452673
@@ -2436,4 +2437,11 @@ https://twitter.com/heavybit/status/1682916445447921666
 	https://www.heavybit.com/library/video/security-and-liability-in-open-source
 https://twitter.com/portainerio/status/1683596163579101185
 	https://www.youtube.com/watch?v=Ll9StOD848A
+
+!cd hadoop/jobsearch/github/kubernetes-docs && git commit interesting-links
+URL reference:
+DateReviewed: 2023-07-07
+Description:
+BottomLine:
+==
 https://kccnceu2021.sched.com/
