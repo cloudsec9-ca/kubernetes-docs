@@ -54,3 +54,8 @@ DateReviewed: 2023-07-11
 Description: This article start with a bit of the normal "K8s is the future, but must be secured" stuff we often see, but soon we have clear focus -- which is using a checklist to provide a systemic approach to security in Kubernetes. We then traverse the 9 top-level item list, which should be a starting point in the security approach. Each of the top level items has a number of bullet points, which walk through the concerns and how to address them for the various items. The first two are authentication and authorization, and after that we deal with secrets. Cluster config security, Audit & logging, OS security, Network security, config of workloas and finally secure image building are all tackled. A great resource and excellent starting point for the Kubernetes security journey.
 BottomLine: Great list to start on securing a Kubernetes cluster
 ==
+URL reference: https://itnext.io/aws-eks-openid-connect-and-serviceaccounts-40e01fbed55f
+DateReviewed: 2023-07-12
+Description: Our author is trying to get something working, and the article is a way to put some auth bits into context -- nice and practical, I like it. He talks about OIDC, IDP, and the roles of Identity and Service providers and how they interact at a cloud provider, which in this case is AWS. He does mention this is done by JWT, or JSON web tokens. Now, we get a bit into the weeds here -- I'm pretty good with AWS and decent with K8s but a lot of this is EKS specific. He does include a diagram to help, but it is way down in the article. So, I'll say it's a decent hands on, but of specific interest.
+BottomLine: Good hands on for roles and accounts with AWS EKS Kubernetes
+==
