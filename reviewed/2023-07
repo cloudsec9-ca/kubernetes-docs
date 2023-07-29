@@ -104,3 +104,8 @@ DateReviewed: 2023-07-21
 Description: So this is a repo, and our review will try to take that into account. They start with an "elevator pitch", which we'll take as their intro. It's basically "docker is hard to remember, so let's make it more simple" - so, aimed at developers. Depending on your platform, there are a bunch of ways to run it, and the explain many of them. They have a list of cool things it does, a video tutorial link, a FAQ and some other similar projects. The gist of this is that it bundles and organizes docker, so you can run/get logs/stop/build all in one spot, with a textual dashboard giving you info on your services. Actually kind of neat!
 BottomLine: Repo for something that helps simplify/manage your running docker containers
 ==
+URL reference: https://www.macchaffee.com/blog/2022/k8s-secrets/
+DateReviewed: 2023-07-22
+Description: Kubernetes secrets isn't super hardened, and this author in the intro argues that is fine. What follows is a nuanced and well reasoned discussion, where the author highlights consideration of your risk model when figuring out if K8s secrets is decent or if you need something else. They talk about attacks against secrets, mitigations and even alternatives to K8s secrets. A decent discussion of the issues.
+BottomLine: Good piece that evaluates Kubernetes secrets use in terms of what your threat model is
+==
