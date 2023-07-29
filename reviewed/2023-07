@@ -114,3 +114,8 @@ DateReviewed: 2023-07-23
 Description: Another repo review, so let's start with a small blurb. K9s is a terminal UI, which interacts with your observed resources. It has install and run sections, with insturctions for a number of scenarios. There is a chart to match your K8s version to your K9s version, as I guess there is some affinity needed there. Then there are ... LOTS of resources, including command line and other bits and tutorials and videos. Looks very interesting.
 BottomLine: Tool to manage and simplify Kubernetes clusters
 ==
+URL reference: https://thenewstack.io/how-to-secure-kubernetes-with-kubelinter/
+DateReviewed: 2023-07-24
+Description: We start with a quick overview of the tool, KubeLinter. It checks YAML files and Helm charts. It goes through install in a few scenarios, and then moves onto showing how to do checks for YAML and then Helm charts. It comes with code snips and command lines, and shows a bit of output. Not bad for an overview, but it would have been nice to walk through a detection and resolution.
+BottomLine: Basic walkthrough of KubeLinter, a tool to check YAML and Helm charts for Kubernetes
+==
