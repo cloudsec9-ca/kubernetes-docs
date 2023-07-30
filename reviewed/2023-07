@@ -109,3 +109,8 @@ DateReviewed: 2023-07-22
 Description: Kubernetes secrets isn't super hardened, and this author in the intro argues that is fine. What follows is a nuanced and well reasoned discussion, where the author highlights consideration of your risk model when figuring out if K8s secrets is decent or if you need something else. They talk about attacks against secrets, mitigations and even alternatives to K8s secrets. A decent discussion of the issues.
 BottomLine: Good piece that evaluates Kubernetes secrets use in terms of what your threat model is
 ==
+URL reference: https://github.com/derailed/k9s
+DateReviewed: 2023-07-23
+Description: Another repo review, so let's start with a small blurb. K9s is a terminal UI, which interacts with your observed resources. It has install and run sections, with insturctions for a number of scenarios. There is a chart to match your K8s version to your K9s version, as I guess there is some affinity needed there. Then there are ... LOTS of resources, including command line and other bits and tutorials and videos. Looks very interesting.
+BottomLine: Tool to manage and simplify Kubernetes clusters
+==
