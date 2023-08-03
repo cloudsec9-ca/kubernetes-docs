@@ -1,0 +1,6 @@
+
+URL reference: https://medium.com/@kessilerrodrigues/mastering-kubernetes-logs-a-guide-to-understanding-your-pods-129f4de56b2b
+DateReviewed: 2023-08-02
+Description: In our intro, we learn logs are good -- but how can we access them, especially in crashed or currently running pods? Oh, I like it, our author is going through commands, and he's taking us through from first principles. We are shown how to find a pod of interest, how to see the logs and how to view them in real time, along with all of the above in a namespace. You can use a flag to see a recent run, and how to choose a specific container in a multi-container pod. And that is the walkthrough -- short and sweet, and decently done.
+BottomLine: Hands on quick walk through on Kubernetes log commands
+==
