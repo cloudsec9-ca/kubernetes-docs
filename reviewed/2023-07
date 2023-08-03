@@ -149,3 +149,8 @@ DateReviewed: 2023-07-30
 Description: This starts with the strong smell of product announcement, so no real background. We continue weakly as there is lots of marketing mumbo-jumbo but no real substance. Then we get a quote, talking about K8s and not their tool. 5 paragraphs in, we're told their tool (earlier mentioning GCP, but now on prem) does security compliance checks for k8s. The tool actually sounds interesting, surfacing CVEs in a dashboard with relevant info. The new version does image scans and has an admission controller, along with drift management and auditing. I do wish they'd either have had some screenshots or a hands on, but it finished strong for a product blurb.
 BottomLine: Blurb about Runecast product - skim early and read later for a decent description of their K8s compliance tool
 ==
+URL reference: https://www.linkedin.com/posts/habib-tahar-djebbar-2a3683125_kubernetes-gke-aks-activity-7089674843310145536-Y9LI
+DateReviewed: 2023-07-31
+Description: We start by talking about Kubernetes and secret management. This article looks at storing secrets externally. So what we're doing is leveraging a service outside of K8s to store API keys, creds and other things. The article explains at a high level what steps are involved in getting this all working. It is exposed to K8s resources as native K8s secrets, allowing you to access them as  you'd access any other such info throught the K8s API. They then tout the benefits, which they say includes enhanced security, centralized management, decoupling and easy integration.
+BottomLine: High level overview of using an External secret provider for Kubernetes
+==
