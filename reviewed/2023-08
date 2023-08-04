@@ -1,6 +1,11 @@
 
 URL reference: https://medium.com/@kessilerrodrigues/mastering-kubernetes-logs-a-guide-to-understanding-your-pods-129f4de56b2b
-DateReviewed: 2023-08-02
+DateReviewed: 2023-08-01
 Description: In our intro, we learn logs are good -- but how can we access them, especially in crashed or currently running pods? Oh, I like it, our author is going through commands, and he's taking us through from first principles. We are shown how to find a pod of interest, how to see the logs and how to view them in real time, along with all of the above in a namespace. You can use a flag to see a recent run, and how to choose a specific container in a multi-container pod. And that is the walkthrough -- short and sweet, and decently done.
 BottomLine: Hands on quick walk through on Kubernetes log commands
+==
+URL reference: https://itnext.io/innovative-ways-to-use-weighted-canary-deployments-and-multiple-container-runtimes-in-kubernetes-aeeafc1acfa5
+DateReviewed: 2023-08-02
+Description: For the intro, we're going to leverage K8s features to do something neat. The author is looking at using canaries with weights or possibly route based deployments from ingress to do something a bit different. They share that usually we see either ephemeral containers or copies to find issue -- but their idea is to use a different container runtime for debugging. They are using the Kata runtime for this, instead of the default runc. They even talk about a scenario where Kata can provide isolation if there is a security issue that isn't immediately patchable. And, they have a good diagram showing the two use cases. They then run through the YAML to show how the config would look, and how to set up the canaries to split traffic. Overall, an interesting article.
+BottomLine: Innovative look at using canaries for isolation and debugging in Kubernetes
 ==
