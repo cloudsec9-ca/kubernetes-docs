@@ -9,3 +9,8 @@ DateReviewed: 2023-08-02
 Description: For the intro, we're going to leverage K8s features to do something neat. The author is looking at using canaries with weights or possibly route based deployments from ingress to do something a bit different. They share that usually we see either ephemeral containers or copies to find issue -- but their idea is to use a different container runtime for debugging. They are using the Kata runtime for this, instead of the default runc. They even talk about a scenario where Kata can provide isolation if there is a security issue that isn't immediately patchable. And, they have a good diagram showing the two use cases. They then run through the YAML to show how the config would look, and how to set up the canaries to split traffic. Overall, an interesting article.
 BottomLine: Innovative look at using canaries for isolation and debugging in Kubernetes
 ==
+URL reference: https://www.hackread.com/cryptojacking-kiss-a-dog-targeting-docker-kubernetes/
+DateReviewed: 2023-08-03
+Description: Intro explains that a new cryptojacking attack was discovered that targets Kubernetes and docker. We then visit a definition of Cyptojacking, and then dive in to the hack. It uses a Python script to install curl and add a periodic command to the system, and it is named after the control domain, which is a variation of "kiss-a-dog". A number of hiding techniques are used to obfuscate the code, the processes, and the goal -- which is to mine Crypto and send the mined hashes to servers under the control of the jackers. A good walk through.
+BottomLine: A high-level walk through of a cryptojacker targeting Kubernetes and Docker
+==
