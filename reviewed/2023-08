@@ -29,3 +29,8 @@ DateReviewed: 2023-08-05
 Description: We start with a blurb about how k8s is customizable, and this is mainly done through plugins. Then we do a definition of what a K8s plugin is - an extension to the kubectl command. We are then introduced to a plugin manager of sorts, krew, which helps us to install and manage plugins. We then start going through the plugin tools. They do this with a link, a short blurb on what the plugin does, and some inline snippets to show how to use the plugin. There are a variety of plugins covered, in the network, secrets, and cluster management areas. At the end, they do a quick walkthrough of a shell-based plugin if you want to author one yourself. 
 BottomLine: Good intro to Kubernetes security related plugins
 ==
+URL reference: https://romanglushach.medium.com/docker-defense-proven-strategies-for-secure-containerization-335166a843f8
+DateReviewed: 2023-08-05
+Description: In a familiar intro, Docker is not secure by default, and containers are ephemeral and dynamic. We are then presented with a table with 8 risk categories, along with description, example and mitigation columns. After the chart, we are presented with best practices. After a short blurb, we get another table with the name of the practice and a description for keeping Docker secure at a host and daemon level. Finally, another motivating blurb for the last table to give us best practices for securing Docker images and containers. Now, I appreciate the thought here, but I think that this could have been better strucured. As is, I think pros might get it, but managers will be lost.
+BottomLine: Decent high level quick walkthrough of Docker security issues
+==
