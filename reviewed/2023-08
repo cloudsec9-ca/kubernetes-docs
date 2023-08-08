@@ -49,3 +49,8 @@ DateReviewed: 2023-08-07
 Description: We start this vid with a layout of how the sandbox works -- it is a local version running off another cluster with a special route. Our presenter  then fires up the environment locally which connets to the cluster, and he walks us through the code he's demoing, a lightweight ride sharing app. He then walks us through a YAML file which will connect the local env to the cluster. To get the special routing, he adds a header to the HTTP request. He then shows it work against his local version and then changes something to produce an odd return value. Actually a neat way to do some troubleshooting and debugging.
 BottomLine: Walk through on a way to sandbox some code in Kubernetes
 ==
+URL reference: https://zifeo.com/articles/230617-low-cost-k8s
+DateReviewed: 2023-08-07
+Description: Our intro points out while K8s is popular, it's not as easy as Docker, but using managed providers can cost $50+/mo. They argue at this cost, it's more economical to install it yourself but you have to figure out how to manage it. Their provider of choice is Infomaniak to try this one out, and note that they have an offer for 300CHF in the first 3 months. They walk through the UI to get the basics set up. We then work through a TF file to get Kubernetes up. They then run Terraform to create a management node and a worker node. To finish up, they do a cost comparison so you can see how much your as-deployed self managed cluster will be.
+BottomLine: Good hands on walkthrough of a self managed cloud Kubernetes deployment along with cost comparison breakdown with a provider managed alternative
+==
