@@ -59,3 +59,8 @@ DateReviewed: 2023-08-08
 Description: Into talks a tiny bit about Helm, and asks if it can be taken seriously. The author gives us a bit about Helm's origins, and then talks about a big issue -- application lifecycle management. They talk about some tools, but clearly they are looking to use Helm for app lifecycle mgmt. They handwave on Helm working with charts, but do explain there are lots of pre-made charts to use. As with all K8s stuff, Helm is not secure by default. So they have some recommendations, like linting and using a repo and storing them in Git. There are some more recommendations, but until they get to "sign your charts", they are all just good generic recommendations and not security related really. There is a good amount of discussion on how to do this and check it, so that is good. A bit later they recommend not using any old Helm charts, but checking (and verifying) them. Actually a decent discussion to think about k8s Helm chart security.
 BottomLine: Good intro to Kubernetes Helm chart security
 ==
+URL reference: https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-5/
+DateReviewed: 2023-08-08
+Description: We start with a chat on Mandatory Access Control (MAC), and how it helps with security. They then do a tour of the two main Linux versions, AppArmor and SELinux. For each system, they show the basic output from a monitoring command, then show how containers can be restricted by adding policies to each of them.
+BottomLine: A good simple walkthrough on Mandatory controls for containers
+==
