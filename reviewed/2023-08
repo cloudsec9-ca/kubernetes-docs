@@ -64,3 +64,8 @@ DateReviewed: 2023-08-08
 Description: We start with a chat on Mandatory Access Control (MAC), and how it helps with security. They then do a tour of the two main Linux versions, AppArmor and SELinux. For each system, they show the basic output from a monitoring command, then show how containers can be restricted by adding policies to each of them.
 BottomLine: A good simple walkthrough on Mandatory controls for containers
 ==
+URL reference: https://www.extnoc.com/learn/security/kubernetes-security
+DateReviewed: 2023-08-09
+Description: Intro is 4 paragraphs, so on the longer side, and touches on the regular points -- K8s getting popular, security important, without security bad things happen -- so need to be secure. Then we talk a bit about new issues related to Kubernetes, and how to handle those vulnerabilities and risks. They mention a bunch of k8s stuff we need to do, but w/o context. Ah, back to first principles -- we have a few paras on "what is Kubernetes security", followed by more paras of "why is it important". They touch on the 4C's (Cloud, Cluster, Container and Code), and how controls tie in. They motivate this by touching base on how bad actors can exploit open issues. So, on to best practices! This includes using RBAC properly, 3rd party Auth for your API server, protecting etcd w/ TLS, Firewalls and encryption. We also explore isolation of K8s nodes, traffic monitoring, process whitelisting, enabling auditing and keeping K8s up to date. Overall a decent high-level walkthrough of all things Kubernetes security.
+BottomLine: Decently thorough high level Kubernetes security walk through
+==
