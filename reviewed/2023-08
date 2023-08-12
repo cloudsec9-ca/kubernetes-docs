@@ -89,3 +89,8 @@ DateReviewed: 2023-08-11
 Description: Our author feels other treatments fail to cover a complete security review, so they hope this one does. It's actually a pretty beefy document, and while it doesn't deep dive into each tool, it does generally include a snippet and some links to go deeper. Our article has 6 main sections, where he goes through checking and config review, permissions, exposed services and inbound networking, vulnerability scanning and add-ons. I'd say this is a mid-level document -- not a high level overview, but not a low levele deep dive. It's a good process approach to security in a container and Kubernetes orchestration enviroment. Worth a skim to have perspective for sure.
 BottomLine: Decent mid-level process approach to penetration testing a Kubernetes cluster
 ==
+URL reference: https://www.itprotoday.com/it-operations-and-management/8-essential-open-source-tools-simplify-kubernetes-workflows-it-pros
+DateReviewed: 2023-08-12
+Description: Our intro goes to the usual spot that K8s is the place to be, and they want to tell us some tools that help in that journey. Weirdly, they list the tools in a chart and in a bullet point list, but thankfully they then go through them. They include kubectl, but it's built in, but okay. They then go through each tool with about 2 paragraphs per tool. They cover monitoring, tracing, notifications, backups, secrets, costs and multiple clusters. It's a good high level toe dip in each area.
+BottomLine: Decent high level overview of helpful Kubernetes open source tools
+==
