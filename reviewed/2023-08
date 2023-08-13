@@ -94,3 +94,8 @@ DateReviewed: 2023-08-12
 Description: Our intro goes to the usual spot that K8s is the place to be, and they want to tell us some tools that help in that journey. Weirdly, they list the tools in a chart and in a bullet point list, but thankfully they then go through them. They include kubectl, but it's built in, but okay. They then go through each tool with about 2 paragraphs per tool. They cover monitoring, tracing, notifications, backups, secrets, costs and multiple clusters. It's a good high level toe dip in each area.
 BottomLine: Decent high level overview of helpful Kubernetes open source tools
 ==
+URL reference: https://securityboulevard.com/2023/08/konstellation-a-tool-for-rbacpacking-in-kubernetes/
+DateReviewed: 2023-08-12
+Description: Our intro starts by explaining how RBAC fits into a Kubernetes cluster. They point out one weakness of RBAC is not having a deny ability, so it isn't always obvious what perms a role has. To address this, the author mentions Konstellation to surface the different permissions a role might have. They explain which roles have risks associated with them, and how to find these permissions and how they can be exploited. They do a good job of explaining the permission, what this grants, how it can be abused, and how it can be detected. After going through a number of such perms, they have some recommendations to close and mitigate the issues. Overall well done.
+BottomLine: A pretty thorough examination of RBAC permissions and the security consequences of granting them, as well as ways to find them being used
+==
