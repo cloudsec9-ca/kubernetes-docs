@@ -109,3 +109,8 @@ DateReviewed: 2023-08-13
 Description: Ok, so this is a hands-on tutorial, so pretty cool. They start off by explaining what Prometheus does and how it works, with a detailed architecture diagram. They then show how to set this up in a diagram for Kubernetes. They start with some housekeeping, namely permissions and a namespace so your monitoring is logically separate from your other workloads. They then use a config map to put the config into the K8s cluster, instead of having it reside in the containers themselves, which allows us to update and simply restart the monitoring pod to pick up config changes. They then walk through the setup of the monitoring deployment, along with 2 methods to access depending on your needs. They then go through a few setups, and explain what you might want to do in prod to have this work. It's actually well written and seems clean.
 BottomLine: Prometheus monitoring for Kubernetes setup walkthrough
 ==
+URL reference: https://www.csoonline.com/article/648756/kubernetes-clusters-under-attack-in-hundreds-of-organizations.html
+DateReviewed: 2023-08-14
+Description: We dive in without much intro to both the Aqua security findings and the Redhat state of K8s reports. They outline the most popular target for compromises is cryptomining. Access by outside actors can be "business ending", which while strictly true seems overly alarmist in this context. And, that is it, so it's a short summary of the article.
+BottomLine: Short summary of Aqua report on Kubernetes vulnerabilities
+==
