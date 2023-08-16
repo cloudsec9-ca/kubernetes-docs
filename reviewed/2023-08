@@ -119,3 +119,8 @@ DateReviewed: 2023-08-14
 Description: Here our article is a walkthrough of tools to help you test the apps you deploy to a Kuberneetes cluster. They argue that cloud native apps have unique requirements, such as being built on microservices. Our test tool of choice here is Testkube, which is open source. They outline some features, including integration with CI/CD, test orchestration, and a dashboard to view results. They walk through installing, creating the test pods, creating and running the tests. They show screenshots and do show current vs. recent runs. They show load tests, ability to trigger tests on say a commit, and also how to integrate with CI/CD. Overall a decent walkthrough of the tool.
 BottomLine: Walkthrough of an app code testing suite for Kubernetes
 ==
+URL reference: https://www.docker.com/blog/secure-kubernetes-with-kubescape-extension/
+DateReviewed: 2023-08-15
+Description: Intro lauds k8s adoption and points out that we should "shift left" our security attention. We then dive into Kubescape, which they bill as an all around security platform. It does risk analysis, compliance and misconfig scanning. There are diagrams showing all the interactions, but basically Kubescape is a CLI tool that has a browser output component. Finally we talk about the Docker extension -- they explain using Kubescape in this way allows devs to shift left on security. They show installation and extension setup, registration and deployment. They then walk through the dashboard and show off compliance, scanning and permissions visualization. Overall a nice walkthrough.
+BottomLine: Walkthrough of Docker extension to help devs see security issues early on in development
+==
