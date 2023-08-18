@@ -134,3 +134,8 @@ DateReviewed: 2023-08-16
 Description: We start with a statement - K8s admission controllers are crucial for security and control, followed by a bit of talk about how the K8s API works, and how it is dynamic. So Admission controllers help gatekeep this ever-changing envrioment. We're then told how things work a bit behind the scenes, in conjunction with Admission controllers. They explain mutation, which allows you to add or change things (like defaults), and validation, which ensures things follow the rules you lay out. They also point out that some controllers are included with K8s, but can be enabled or disabled as desired. They then go through the process, from scratch, of setting up a simple K8s cluster and adding some admission controllers, and trying a valid and invalid one and showing the results. Overall a decent walkthrough of this topic.
 BottomLine: Good hands on walkthrough of Kubernetes admission controllers
 ==
+URL reference: https://securitylabs.datadoghq.com/articles/whats-new-for-security-in-kubernetes-128/
+DateReviewed: 2023-08-17
+Description: We start with a bit of info on K8s releases and a feature called Validating Admission Policy that will be the focus of this article. The policy is in beta, so they walk through enabling it on your cluster. They then show how to test it is active, and also how to create a policy to use with this feature. We also do a quick stop at authenication items.
+BottomLine: A quick touch on some new security features in the Kubernetes 1.28 relase
+==
