@@ -139,3 +139,8 @@ DateReviewed: 2023-08-17
 Description: We start with a bit of info on K8s releases and a feature called Validating Admission Policy that will be the focus of this article. The policy is in beta, so they walk through enabling it on your cluster. They then show how to test it is active, and also how to create a policy to use with this feature. We also do a quick stop at authenication items.
 BottomLine: A quick touch on some new security features in the Kubernetes 1.28 relase
 ==
+URL reference: https://www.crowdsec.net/blog/monitor-audit-logs-safeguard-kubernetes-infrastructure
+DateReviewed: 2023-08-17
+Description: Our intro walks us through a bit of Kubernetes audit back story, and how you can ingest logs and surface interesting info, and gives a small laundry list of what they show. They then go through and define what K8s audit logs are, and motivate why you want them. They then show a diagram with what we'll be rolling out, and lay out what we need to get that done. They show how to install the K8s cluster (Kind in this case) and what we need to set up YAML wise to capture the audit logs. They then show how to set up the log ingestion piece, and then install the audit software. They connect a notification piece to slack, and then test to make sure things are working. They then spin up a pod which will trigger an alert,and show the logs to confirm the issue is detected. They also confirm is showed up in slack. Seems simple enough; but I wish they'd show or mention if you can inject your own rules/alerts.
+BottomLine: Walkthrough of an interesting Kubernetes audit tool
+==
