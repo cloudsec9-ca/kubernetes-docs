@@ -149,3 +149,8 @@ DateReviewed: 2023-08-18
 Description: In addition to a bit of background, our intro explains that this feature allows a stateful workload to be moved if the node it is on has a hardware failure or is unexpectedly shut down. The article then details what a non-graceful shutdown is, and how it contrasts to a graceful shutdown. They also explain why this is not a concern for stateless containers. They go on to explain how you can mark a node so that K8s doesn't attempt to start a pod on it. They do note that this is currently a manual process, but explain they hope to add an automatic detection mechanism in the near future.
 BottomLine: Interesting feature to help move Kubernetes pods from nodes that fail for some reason
 ==
+URL reference: https://thenewstack.io/two-ways-incident-responders-can-make-sense-of-kubernetes/
+DateReviewed: 2023-08-19
+Description: Our intro here says there will be some explosive growth in container workloads, and that this is complex and challenging without the proper tools. To reach this end, there are two items that embody the approach. The first is service ownership, which means the teams building an app help out if there are issues with the app. The idea here is that SMEs are close to the code and can see the impact and interact with issues, hopefully to quickly resolve them. The second is a good diagnostic toolset, which allows surfacing of issue and more direct ability to take actions like restarting a service or clearing some cache. Overall I like the general strategy of this approach, but it's a bit light on implementation.
+BottomLine: Decent high-level chat about having devs work closely with ops people on Kubernetes
+==
