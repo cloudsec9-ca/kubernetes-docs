@@ -159,3 +159,8 @@ DateReviewed: 2023-08-20
 Description: Podinfo is a small web app which helps showcase microservice best practices. It has been used in workshops and end to end testing. It literally contains a laundry list of bits that it integrates with. Has a Web GUI and an extensive API. This repo includes serveral ways to install the app, along with a half dozen guides. An interesting looking tool.
 BottomLine: Interesting Kubernetes tool for workshops and testing
 ==
+URL reference: https://dev.to/aws-builders/demystifying-eks-authentication-and-authorization-a-guide-to-strengthening-network-security-32eb
+DateReviewed: 2023-08-21
+Description: Okay, we start with an awkward reference to how EKS relates to AA services in AWS. We then define Authentication and Authorization, the former which validates who you are, and the latter what you can do. In EKS, authentication functions are linked to AWS IAM permissions, which is different than vanilla K8s. They explain that the link is an aws-auth configmap, which links IAM perms to K8s users. They then look at some configs, and do a walk through of adding/changing some info.
+BottomLine: A quick overview/walkthrough on EKS permissions for Kubernetes
+==
