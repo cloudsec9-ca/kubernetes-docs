@@ -154,3 +154,8 @@ DateReviewed: 2023-08-19
 Description: Our intro here says there will be some explosive growth in container workloads, and that this is complex and challenging without the proper tools. To reach this end, there are two items that embody the approach. The first is service ownership, which means the teams building an app help out if there are issues with the app. The idea here is that SMEs are close to the code and can see the impact and interact with issues, hopefully to quickly resolve them. The second is a good diagnostic toolset, which allows surfacing of issue and more direct ability to take actions like restarting a service or clearing some cache. Overall I like the general strategy of this approach, but it's a bit light on implementation.
 BottomLine: Decent high-level chat about having devs work closely with ops people on Kubernetes
 ==
+URL reference: https://github.com/stefanprodan/podinfo
+DateReviewed: 2023-08-20
+Description: Podinfo is a small web app which helps showcase microservice best practices. It has been used in workshops and end to end testing. It literally contains a laundry list of bits that it integrates with. Has a Web GUI and an extensive API. This repo includes serveral ways to install the app, along with a half dozen guides. An interesting looking tool.
+BottomLine: Interesting Kubernetes tool for workshops and testing
+==
