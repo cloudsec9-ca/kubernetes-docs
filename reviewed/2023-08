@@ -164,3 +164,8 @@ DateReviewed: 2023-08-21
 Description: Okay, we start with an awkward reference to how EKS relates to AA services in AWS. We then define Authentication and Authorization, the former which validates who you are, and the latter what you can do. In EKS, authentication functions are linked to AWS IAM permissions, which is different than vanilla K8s. They explain that the link is an aws-auth configmap, which links IAM perms to K8s users. They then look at some configs, and do a walk through of adding/changing some info.
 BottomLine: A quick overview/walkthrough on EKS permissions for Kubernetes
 ==
+URL reference: https://medium.com/siot-govtech/kubernetes-from-scratch-35add70e8b7f
+DateReviewed: 2023-08-21
+Description: Our author was an intern who was tasked to set up Kubernetes in a new enviornment. Our Kubernetes newbie starts with MiniKube, and discovers a tool called Kompose which he uses to translate Docker compose files into K8s manifests. For production, he needs something more beefy, and after considering the options goes with K3S. Installation was straightforward, and after a small network issue, his cluster was alive. Finally, he converted his manual setup steps to Vagrant and Ansible, making them repeatable. Finally, he wraps with advice and lessons learned. Overall an interesting approach to a small cluster.
+BottomLine: A high level walkthrough of someone without Kubernetes background bringin up a cluster
+==
