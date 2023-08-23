@@ -169,3 +169,8 @@ DateReviewed: 2023-08-21
 Description: Our author was an intern who was tasked to set up Kubernetes in a new enviornment. Our Kubernetes newbie starts with MiniKube, and discovers a tool called Kompose which he uses to translate Docker compose files into K8s manifests. For production, he needs something more beefy, and after considering the options goes with K3S. Installation was straightforward, and after a small network issue, his cluster was alive. Finally, he converted his manual setup steps to Vagrant and Ansible, making them repeatable. Finally, he wraps with advice and lessons learned. Overall an interesting approach to a small cluster.
 BottomLine: A high level walkthrough of someone without Kubernetes background bringin up a cluster
 ==
+URL reference: https://medium.com/devops-techable/use-pgadmin4-inside-your-aws-eks-cluster-to-manage-your-aws-rds-databases-easily-with-aws-cdk-using-2a3273fcc118
+DateReviewed: 2023-08-22
+Description: Lots of time you use a Database to store info for your app, especially if you are using a container -- but how do you see that data? The author argues many times there is a jerry-rigged setup, with bastions and forwards and somethinl like pgAdmin which you run locally. So, why not have this run in a sane way in your cluster (esp. if you are using EKS?) The author is going to use AWS CDK, and includes a ref to another article he wrote if you need to set that up. He then gives the chart for doing so in Helm. I like this concept and simple approach.
+BottomLine: Interesting approach to leveraging Kubernetes to view a Database
+==
