@@ -179,3 +179,8 @@ DateReviewed: 2023-08-23
 Description: We start with a quick bit of background on OpenFaaS, and the UI tooling to utilize it which was built in 2017. So, the project decided to update the UI now from Angular to React with some new ideas. While the old UI will be maintained for the community version, this new UI is aimed more at commercial deployments. They then do a tour of the new features, including a new code editor, ability to see parameters and SSO among others. Overall, it looks like an interesting update.
 BottomLine: Announcement of an update for OpenFaaS
 ==
+URL reference: https://www.youtube.com/watch?v=Nqp13sH597s
+DateReviewed: 2023-08-24
+Description: In this vid, a K8s practitioner is going to take us through his top 5 tips to improve security. We start with Roles, and he does a good job of explaining how most people start, and then demonstrates how you can base a role on other smaller roles to fine-tune what permissions you give a user. He then goes through auditing and scanning, how to set them up and how they work. He then talks about Pod Security Admission and finally Identity and Access management. It's a quick but decent toe dip.
+BottomLine: Quick hands on video on 5 practical Kubernetes security tips
+==
