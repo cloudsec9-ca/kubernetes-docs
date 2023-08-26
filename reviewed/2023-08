@@ -194,3 +194,8 @@ DateReviewed: 2023-08-25
 Description: Our intro here is great - there are lots of things to monitor in Kubernetes, and watching them all can drive you crazy, so what should you focus on? They start out with three things you shouldn't in general be monitoring, and explain why, giving you some quick wins. Next up is a specific example (container restarts), with some sage advice -- you don't need to page someone for this, but you should be keeping an eye and digging into it during office hours. They look at a couple CPU related metrics, and say to be holistic -- some spikes are fine, but prolonged nailing of the processor is something to dig in to. Even with logging, their message is consistent - does a single log line justify waking someone up? You have to be thoughtful. Overall, a good perspective to consider.
 BottomLine: Holistic approach to monitoring and alerting in your Kubernetes cluster
 ==
+URL reference: https://github.com/TrueGoric/k8s-insider
+DateReviewed: 2023-08-26
+Description: This is a repo, and it seem the idea here is to allow you to have access to a cluster from your local workstation in a zero configuration way. It walks you through the install and setup, which uses wireguard to create the tunnels and rules needed under the hood to do the access.
+BottomLine: Interesting way to get access to a Kubernetes cluster remotely
+==
