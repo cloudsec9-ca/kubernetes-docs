@@ -189,3 +189,8 @@ DateReviewed: 2023-08-24
 Description: Here's a roundup of a few Windows specific K8s related security issues. This is low level and includes some sample code showing the issue, and another sample showing how to fix the issue. They then explain the root issue here is a lack of input sanitization, or checking on the inputs supplied to K8s. They then go through which versions are vulnerable and how you can check if it affects your cluster. They end with some recommendations right now, and some pearls of wisdom for the future.
 BottomLine: Good look at Windows related Kubernetes vulnerabilities and how to detect and mitigate
 ==
+URL reference: https://securityboulevard.com/2023/08/what-not-to-monitor-and-what-not-to-alert-on-in-kubernetes/
+DateReviewed: 2023-08-25
+Description: Our intro here is great - there are lots of things to monitor in Kubernetes, and watching them all can drive you crazy, so what should you focus on? They start out with three things you shouldn't in general be monitoring, and explain why, giving you some quick wins. Next up is a specific example (container restarts), with some sage advice -- you don't need to page someone for this, but you should be keeping an eye and digging into it during office hours. They look at a couple CPU related metrics, and say to be holistic -- some spikes are fine, but prolonged nailing of the processor is something to dig in to. Even with logging, their message is consistent - does a single log line justify waking someone up? You have to be thoughtful. Overall, a good perspective to consider.
+BottomLine: Holistic approach to monitoring and alerting in your Kubernetes cluster
+==
