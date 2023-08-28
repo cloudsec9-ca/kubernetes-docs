@@ -199,3 +199,8 @@ DateReviewed: 2023-08-26
 Description: This is a repo, and it seem the idea here is to allow you to have access to a cluster from your local workstation in a zero configuration way. It walks you through the install and setup, which uses wireguard to create the tunnels and rules needed under the hood to do the access.
 BottomLine: Interesting way to get access to a Kubernetes cluster remotely
 ==
+URL reference: https://medium.com/@muthanagavamsi/kubernetes-security-dont-forget-these-1eb54259cc28
+DateReviewed: 2023-08-27
+Description: Okay, so we start with the unsourced stat that the "avg data breach" might cost $5M in 2023, so we should be alert. While I agree with the sentiment, I disagree with using BS numbers to scare people. Next we have an excellent infographic, which covers the "top 5" Kubernetes security topics. After the graphic, there is a short point-form bit of info on each of the five, and the author also reminds us to keep up to date.
+BottomLine: Good quick overview of Kubernetes security topics at a high level
+==
