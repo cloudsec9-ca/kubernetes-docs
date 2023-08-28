@@ -204,3 +204,8 @@ DateReviewed: 2023-08-27
 Description: Okay, so we start with the unsourced stat that the "avg data breach" might cost $5M in 2023, so we should be alert. While I agree with the sentiment, I disagree with using BS numbers to scare people. Next we have an excellent infographic, which covers the "top 5" Kubernetes security topics. After the graphic, there is a short point-form bit of info on each of the five, and the author also reminds us to keep up to date.
 BottomLine: Good quick overview of Kubernetes security topics at a high level
 ==
+URL reference: https://gist.github.com/skraga/eae7edeaaba49d13ea0dbeda299db834
+DateReviewed: 2023-08-27
+Description: Starts by motivating why they are doing this -- a change from the older PSP to the newer Pod Security Standard and the move to using 3rd party admission controllers to make up for less granular control. This is a hands on article, so they then run through getting the env set up. They then show what is protected (and fails to deploy), and then explain a way around this and then shows that it works with an ephemeral container. They go on to discuss why it is a problem, so more scenarios, and at the end explain that this has been patched in a newer revision. But it's an interesting approach and gives food for thought.
+BottomLine: Good low level walkthrough of a Kubernetes exploit
+==
