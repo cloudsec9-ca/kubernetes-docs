@@ -214,3 +214,8 @@ DateReviewed: 2023-08-28
 Description: We start by laying out the pre-reqs -- you have to understand a bit about wha threat modeling is. We then visit a definition, and remark that doing threat modeling can be challenging. The author advocates moving away from drawing diagrams of threats to a code approach. So, we're going to do some hands on, so our author explains what we need, tool wise. The "code" he is using is a four level model where we will use UML to describe our model. He then shows a sample bit of UML, and then he breaks down what everything means. We go through more examples, and we see the inclusion of a "risk element" and a risk score, to highlight what the relative risks are. We get a nice diagram with things labelled at the end. I have to say, I like the approach, but the tough part is knowing what risks are where, and this doesn't help in that aspect.
 BottomLine: Interesting approach to risk modeling through code
 ==
+URL reference: https://blog.kellybrazil.com/2019/12/05/microservice-security-design-patterns-for-kubernetes-part-1/
+DateReviewed: 2023-08-28
+Description: Okay, so we're going to go through some microservice design patterns. So, broadly, there are 3 patterns this article will focus on, and we start with a diagram (yay!) to understand what is going on. Our test arch has a public facing web service and internal auth and db services. I actually like their approach, where they take a general tech, show you how it would work, and go through a list of pros and cons, so you can decide which tack to take. We finish up with some recommendations from the author, which they do by size. Overall nice, with lots of refrences and it is part of a series.
+BottomLine: Nice practical approach to Kubernetes security implementations
+==
