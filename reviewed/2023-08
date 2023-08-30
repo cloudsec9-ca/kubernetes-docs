@@ -229,3 +229,8 @@ DateReviewed: 2023-08-29
 Description: It seems we need to improve the operational quality of our Kubernetes cluster, and this article might help? We start with what K8s is, and sets out the basics, including that once a container is set up "right", it can run anywhere. Here we look at the Kubernetes maturity model, which is a 7 phase approach to K8s. We pivot to a specific phase, of operational improvement. Security is important, as are limits for various inbound activities, to prevent overloading. It's also important to be efficient, which includes the right amount of resources. Last but not least, we have to make things reliable. So, this is a decent high level overview into Kubernetes
 BottomLine: A high level overview of security, efficiency and reliability for Kubernetes
 ==
+URL reference: https://deploy.equinix.com/developers/guides/choosing-a-cni-for-kubernetes
+DateReviewed: 2023-08-30
+Description: This article is going to go through some CNIs, or Container Networking Interfaces for Kubernetes. We start with a quick intro to Calico, explaining how it works and what it uses. Then we are presented with Cilium, which uses eBPF as it's magic sauce to enable networking. The argument here is that Cilium allows more granular control over network policies, giving you better control. And there is even a visual editor to help out with crafting policies. They do a quick few snippets on installing and deploying Cilium, along with discussing a few addons you might want. While it's clear that our authors are Cilium fans, I'd like a bit more beef on the Calico side or perhaps another CLI mentioned to motivate the true pros and cons. An interesting discussion none the less.
+BottomLine: Good piece on the newer Cilium CNI for Kubernetes
+==
