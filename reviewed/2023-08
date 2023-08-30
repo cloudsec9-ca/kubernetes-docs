@@ -219,3 +219,8 @@ DateReviewed: 2023-08-28
 Description: Okay, so we're going to go through some microservice design patterns. So, broadly, there are 3 patterns this article will focus on, and we start with a diagram (yay!) to understand what is going on. Our test arch has a public facing web service and internal auth and db services. I actually like their approach, where they take a general tech, show you how it would work, and go through a list of pros and cons, so you can decide which tack to take. We finish up with some recommendations from the author, which they do by size. Overall nice, with lots of refrences and it is part of a series.
 BottomLine: Nice practical approach to Kubernetes security implementations
 ==
+URL reference: https://itnext.io/victoriametrics-vmauth-proxy-authentication-and-authorization-44150d9272e
+DateReviewed: 2023-08-29
+Description: Part of a series, this article is going to talk about muting alerts once you are working on an issue. To allow muting, we have to authenticate, and the author leverages the VMAuth component of their framework. In their walkthrough, we're going to do this in EKS. They then walk through the snippets that we need to create and how to deploy them to get this working. They then walk through different auth methods and types, using passwords and tokens.
+BottomLine: Interesting walkthrough of different auth methods through a specific Kubernetes framework
+==
