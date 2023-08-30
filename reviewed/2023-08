@@ -224,3 +224,8 @@ DateReviewed: 2023-08-29
 Description: Part of a series, this article is going to talk about muting alerts once you are working on an issue. To allow muting, we have to authenticate, and the author leverages the VMAuth component of their framework. In their walkthrough, we're going to do this in EKS. They then walk through the snippets that we need to create and how to deploy them to get this working. They then walk through different auth methods and types, using passwords and tokens.
 BottomLine: Interesting walkthrough of different auth methods through a specific Kubernetes framework
 ==
+URL reference: https://www.freecodecamp.org/news/make-your-kubernetes-environment-secure-efficient-reliable/
+DateReviewed: 2023-08-29
+Description: It seems we need to improve the operational quality of our Kubernetes cluster, and this article might help? We start with what K8s is, and sets out the basics, including that once a container is set up "right", it can run anywhere. Here we look at the Kubernetes maturity model, which is a 7 phase approach to K8s. We pivot to a specific phase, of operational improvement. Security is important, as are limits for various inbound activities, to prevent overloading. It's also important to be efficient, which includes the right amount of resources. Last but not least, we have to make things reliable. So, this is a decent high level overview into Kubernetes
+BottomLine: A high level overview of security, efficiency and reliability for Kubernetes
+==
