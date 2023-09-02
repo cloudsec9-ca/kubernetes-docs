@@ -4,3 +4,8 @@ DateReviewed: 2023-09-01
 Description: Focus for this article is data protection techniques in Kubernetes. In a past article they covered creating secrets in K8s, so we're just going to focus on using them. To make sure only containers that need them have access, we can use RBAC for access control. They explain how this helps, and then we explore an example with snippets, and end with some added tips. They then move on to storage and transport of secrets; by default, secrets are stored in plain text. They then compare a bunch of methods to encrypt the secret data with pros & cons. Next they go through automatic secret rotation and touch on auditing and monitoring of secrets. They go through a few more best practices. Overall a good treatment.
 BottomLine: Focus on secrets in Kubernetes and making them more secure
 ==
+URL reference: https://matthiasportzel.com/docker/
+DateReviewed: 2023-09-02
+Description: Short piece which explains the Docker ecossytem -- being the file format, the engine that runs the file(s), the desktop app that allows you to run/test your images locally, and the repo that allows you to distribute your app.
+BottomLine: Super short and to the point summary of Docker ecosystem
+==
