@@ -9,3 +9,8 @@ DateReviewed: 2023-09-02
 Description: Short piece which explains the Docker ecossytem -- being the file format, the engine that runs the file(s), the desktop app that allows you to run/test your images locally, and the repo that allows you to distribute your app.
 BottomLine: Super short and to the point summary of Docker ecosystem
 ==
+URL reference: https://prajwalt.medium.com/k8s-security-bit-by-bit-2-service-account-8ea98145b4c0
+DateReviewed: 2023-09-03
+Description: A quick whirlwind on the main differeneces between a traditional user account and a service account in Kubernetes. Well illustrated and touches on a use case or two for illustration.
+BottomLine: Brief into on the differences between user and service accounts in Kubernetes
+==
