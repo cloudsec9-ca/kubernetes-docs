@@ -14,3 +14,8 @@ DateReviewed: 2023-09-03
 Description: A quick whirlwind on the main differeneces between a traditional user account and a service account in Kubernetes. Well illustrated and touches on a use case or two for illustration.
 BottomLine: Brief into on the differences between user and service accounts in Kubernetes
 ==
+URL reference: https://www.odbms.org/2023/08/the-business-value-of-running-databases-on-kubernetes/
+DateReviewed: 2023-09-04
+Description: Our article says we can deploy databases to Kubernetes, but we should do so with Operators. Seems we're going to dive into the benefits, so let's get started. First up is ownership costs, and the fact that we have lots of flexibility. By giving up management, we can reduce cost, and furthermore, because we can autoscale, we don't have to size for peak load. We then have a strange journey, through resource sharing, autoscaling and spot instances, but nothing is explained on how these can be leveraged in a DB context. We then touch on avoiding vendor lock-in, which is good for flexibility. There are a few more points made, but overall this is a good argument for using the cloud for your DBs, but nothing really compelling about using Kubernetes in the article.
+BottomLine: Argues poorly for using Kubernetes over just cloud for DB deployment
+==
