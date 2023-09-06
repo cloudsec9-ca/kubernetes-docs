@@ -24,3 +24,8 @@ DateReviewed: 2023-09-04
 Description: We start by touching on other entries in this series, to center what this installment covers and what has already been covered. They then list 10 items they feel are priority in a list, and feel if you've covered these you are in decent shape. They then tackle each item in the list in detail. We start with Authentication, and we cover both users and service access, before moving on to Authorization with RBAC and best practices. We then touch on Kubelet security, managing secrets, and admission controllers in detail. We dive into Kubernetes security boundries, Network security, K8s auditing and logging and finally open defaults, all in a good amount of detail. A really thorough and pretty detailed intro.
 BottomLine: Good detailed introduction to ten priority areas for Kubernetes security
 ==
+URL reference: https://blog.getambassador.io/kubernetes-security-best-practices-for-building-a-secure-environment-b9700b487eb9
+DateReviewed: 2023-09-05
+Description: We start with K8s popular but insecure, so this article will show best practice to secure. After a bit of overview, we start doing security. First up is controlling cluster access, and they go through 4 methods of authenticating to the K8s API. Next is using RBAC to lock down things. We go on to look at node authorization as a way to contol API access. They talk about TLS and network segmentation, monitoring and auditing, securing images and keeping the cluster up to date. Overall, good coverage.
+BottomLine: Good broad high level walkthrough of securing Kubernetes
+==
