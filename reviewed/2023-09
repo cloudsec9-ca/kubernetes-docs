@@ -29,3 +29,8 @@ DateReviewed: 2023-09-05
 Description: We start with K8s popular but insecure, so this article will show best practice to secure. After a bit of overview, we start doing security. First up is controlling cluster access, and they go through 4 methods of authenticating to the K8s API. Next is using RBAC to lock down things. We go on to look at node authorization as a way to contol API access. They talk about TLS and network segmentation, monitoring and auditing, securing images and keeping the cluster up to date. Overall, good coverage.
 BottomLine: Good broad high level walkthrough of securing Kubernetes
 ==
+URL reference: https://securityboulevard.com/2023/09/pluto-finds-deprecated-kubernetes-api-versions-3-questions-from-users/
+DateReviewed: 2023-09-06
+Description: In a confusing opening, it talks about how Pluto can find old "API versions", and at first I thought this was running clusters, but after reading it a couple times I think they mean API invocations from YAML. Using old or deprecated APIs is bad, and it might not be easy to know you are using broken stuff. Okay, so there are 3 ways to use it -- in an IaC repo, against live Helm releases, and in-cluster. They work through three user questions, the first is explaining what permissions Pluto needs to do its inspections. The second revolves around versions, and Pluto tells you what is deprecated based on the version you pas s it - so you can check against the version you are running or one you want to upgrade to. Last is a question on CRDs, which Pluto does deal with, but with the caveat that you have to explicitly pass the version of the CRD. I like the tack this takes, it is very approachable.
+BottomLine: Pluto deprecation check tool intro with some discussion
+==
