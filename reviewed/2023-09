@@ -54,3 +54,8 @@ DateReviewed: 2023-09-10
 Description: We're going to discuss Cloud, Cluster, Container and Code in this article. While your cloud provider is responsible for some things, it is important to know what you are responsible for, our author says. Common cloud issues include visibility to data, misconfigss, theft and lack of training. To combat this, our author advocates 4 prongs, with an explaination of each. We then work through the cluster layer (with 3 issues), the container (3 also), and then code/devs (3 as well). It's a good start but very high level.
 BottomLine: High level introduction to Kubernetes and Cloud security
 ==
+URL reference: https://faun.pub/kubernetes-architecture-in-a-nutshell-801a6f558f52
+DateReviewed: 2023-09-10
+Description: We dive right into it, explaining that K8s is API driven and there is a reconcilliation loop at the heart to move from current state to desired state. They surface the desired state is called spec, and the current state is called status. We walk through some commands to understand this. Very interesting short article.
+BottomLine: Interesting dip into the Kubernetes API and how it works
+==
