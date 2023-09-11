@@ -49,3 +49,8 @@ DateReviewed: 2023-09-09
 Description: First off we ack K8s being the orchestration cornerstone, and touch on Kubelet being an important part of making things work; and if an attacker can escape to the host, they can gain access to kubelet credentials. So, we start by taking a step back and understanding K8s auth in general. They mention that kubectl has a command "auth can-i", but this tool is focused on RBAC, where you can be granted other perms. Then we dive into a hands on with KinD. They build a 3 node cluster and then hop on one of the nodes to look at the perms. We examine some outputs and then there is a bit of discussion on RBAC and Node Authorizer, and how perms are stacked. We also chat about admission controllers, and how they are affected. They then explain that different distos can have different setups for kubelets and would affect what the "default" behavior is. 
 BottomLine: Interesting discussion of Kubernetes security from a Kubelet perspective
 ==
+URL reference: https://cloudwithease.com/the-4-cs-of-cloud-native-security/
+DateReviewed: 2023-09-10
+Description: We're going to discuss Cloud, Cluster, Container and Code in this article. While your cloud provider is responsible for some things, it is important to know what you are responsible for, our author says. Common cloud issues include visibility to data, misconfigss, theft and lack of training. To combat this, our author advocates 4 prongs, with an explaination of each. We then work through the cluster layer (with 3 issues), the container (3 also), and then code/devs (3 as well). It's a good start but very high level.
+BottomLine: High level introduction to Kubernetes and Cloud security
+==
