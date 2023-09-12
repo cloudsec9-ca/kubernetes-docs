@@ -64,3 +64,8 @@ DateReviewed: 2023-09-11
 Description: Our author is documenting his from-scratch journey in an 8 part series, and this is part one. The author then dives into K8s distros and how to spin up the cluster at all. As a base, he chooses Talos Linux, which is one I haven't heard of. He has some hoops he jumps through to get the Talos ISO bootable on the system, but then we get into the config of the OS. After a bunch of OS discussion, we then jump into the K8s config. We're actually doing both OS and K8s config bits, as we need to build the base OS and then the cluster on top of it. Our author finally spins up a node with the config, and voila, we're K8s-ing! There are lots of snippets and screen caps, and it's a good approach. We're even left with a cliffhanger - the box isn't on networking because it needs a CNI, see part 2!
 BottomLine: Great hands on walkthrough of a baremetal Kubernetes cluster
 ==
+URL reference: https://owasp.org/www-project-kubernetes-top-ten/
+DateReviewed: 2023-09-11
+Description: We start at a plain page with a simple list of 10 items which are links. Each link takes us to an animated image explaining visually the issue, with a descrption of the problem, an illustration and finally ways to mitigate the issue. These are great individual pages, but taken as a whole applying them would put you on a good road to securing your K8s cluster.
+BottomLine: Great in-depth list of top Kubernetes weaknesses from OWASP
+==
