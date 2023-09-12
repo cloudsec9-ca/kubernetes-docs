@@ -59,3 +59,8 @@ DateReviewed: 2023-09-10
 Description: We dive right into it, explaining that K8s is API driven and there is a reconcilliation loop at the heart to move from current state to desired state. They surface the desired state is called spec, and the current state is called status. We walk through some commands to understand this. Very interesting short article.
 BottomLine: Interesting dip into the Kubernetes API and how it works
 ==
+URL reference: https://datavirke.dk/posts/bare-metal-kubernetes-part-1-talos-on-hetzner/
+DateReviewed: 2023-09-11
+Description: Our author is documenting his from-scratch journey in an 8 part series, and this is part one. The author then dives into K8s distros and how to spin up the cluster at all. As a base, he chooses Talos Linux, which is one I haven't heard of. He has some hoops he jumps through to get the Talos ISO bootable on the system, but then we get into the config of the OS. After a bunch of OS discussion, we then jump into the K8s config. We're actually doing both OS and K8s config bits, as we need to build the base OS and then the cluster on top of it. Our author finally spins up a node with the config, and voila, we're K8s-ing! There are lots of snippets and screen caps, and it's a good approach. We're even left with a cliffhanger - the box isn't on networking because it needs a CNI, see part 2!
+BottomLine: Great hands on walkthrough of a baremetal Kubernetes cluster
+==
