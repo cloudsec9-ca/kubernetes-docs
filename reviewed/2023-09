@@ -69,3 +69,8 @@ DateReviewed: 2023-09-11
 Description: We start at a plain page with a simple list of 10 items which are links. Each link takes us to an animated image explaining visually the issue, with a descrption of the problem, an illustration and finally ways to mitigate the issue. These are great individual pages, but taken as a whole applying them would put you on a good road to securing your K8s cluster.
 BottomLine: Great in-depth list of top Kubernetes weaknesses from OWASP
 ==
+URL reference: https://blog.devops.dev/kubernetes-day-22-advanced-rbac-and-pod-security-83f2c8b572eb
+DateReviewed: 2023-09-12
+Description: We start off by placing this as the late part of 30 day journey, and an advanced topic in K8s security. Our author says that while RBAC can be momre complex, with complexity comes flexibility. Off the shelf, there are a few "built in" roles, but the piece takes us through how to create and make the role work. It's a unique approach which I like.
+BottomLine: Interesting toe-dip into custom RBAC definitions
+==
