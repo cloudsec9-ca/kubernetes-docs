@@ -74,3 +74,8 @@ DateReviewed: 2023-09-12
 Description: We start off by placing this as the late part of 30 day journey, and an advanced topic in K8s security. Our author says that while RBAC can be momre complex, with complexity comes flexibility. Off the shelf, there are a few "built in" roles, but the piece takes us through how to create and make the role work. It's a unique approach which I like.
 BottomLine: Interesting toe-dip into custom RBAC definitions
 ==
+URL reference: https://itnext.io/exploring-oci-registries-by-use-case-pull-a-public-helm-chart-761d63f24d64
+DateReviewed: 2023-09-12
+Description: For this piece, we jump right in, and in this case it is to OCI registries. We start with a Helm chart and the snippet that will get it installed to our cluster. Interestingly, they are using a private K8s which doesn't have Internet access, so they go through how to tweak it and set up a caching private proxy registry. The tweak is an operator, which will switch in the private registries FQDN for the pulls. After a bit more work and tweaking for CRD related images, we're in business. I love the approach of the article, which is try something->fail->troubleshoot->fix->try more. I also enjoy that they spitball approaches, because they realize others might need different things. Very well done.
+BottomLine: Troubleshooting Kubernetes with a private OCI image registry
+==
