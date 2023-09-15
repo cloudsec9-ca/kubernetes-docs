@@ -84,3 +84,8 @@ DateReviewed: 2023-09-13
 Description: To open, we're told we can unlock potential by using best practice secret management ... ok? Seems we are going to look at external secrets for K8s. A bit of fluff about the goodness of external secrets, and then ... fluff about RBAC, and how it can help you to limit where secrets are exposed. Okay, finally a unique strong point, that being you have to have a secret lifecycle. We then go thorough creating with snippets a standard Kubernetes secret, with the needed YAML. They also show how to update and delete a secret. They then go back through some of the earlier handwaves with deeper but still high level recommendations. They even have a number of useful pitfalls to try to avoid with secrets. They do mention a specific external product, but the ad pitch isn't too strong. Overall, I find some parts are good but the piece seems confused, and doesn't flow well.
 BottomLine: Some good pieces on Kubernetes security but overall confused
 ==
+URL reference: https://github.com/kr8s-org/kr8s
+DateReviewed: 2023-09-14
+Description: This is a repo to bring K8s to Python. The idea here is to allow someone who is a Python programmer API access to Kubernetes, but in a way that works very much like kubectl. It has a simple pip installer, and they have simple example like displaying node info or spinning up a pod. Very interesting library.
+BottomLine: Python tool to allow access to Kubernetes API
+==
