@@ -89,3 +89,8 @@ DateReviewed: 2023-09-14
 Description: This is a repo to bring K8s to Python. The idea here is to allow someone who is a Python programmer API access to Kubernetes, but in a way that works very much like kubectl. It has a simple pip installer, and they have simple example like displaying node info or spinning up a pod. Very interesting library.
 BottomLine: Python tool to allow access to Kubernetes API
 ==
+URL reference: https://www.cncf.io/blog/2023/09/12/kyverno-completes-fuzzing-security-audit/
+DateReviewed: 2023-09-14
+Description: We start with an orienting bit, explaining that Kyverno is a policy engine and that a fuzzing audit has been carried out by a third party. Once we get going, we get a few paragraphs explaining what fuzzing is and how it works. They then describe how the fuzzing was done against Kyverno, and where the cases generated live. They also explain how they set up and approached the code, and how they picked what to exercise. The goal of the fuzzer is to find a crash, which is then examined to find the bug that allowed the crash. In the case of this audit, a total of three bugs were identified. They note that all three bugs were fixed. They further explain that the fuzzing work will continue, with the thought that there may be older or deeper bugs that are harder to surface.
+BottomLine: Interesting discussion of how a component used in Kubernetes is security tested through fuzzing
+==
