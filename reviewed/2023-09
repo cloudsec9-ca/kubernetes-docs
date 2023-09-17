@@ -99,3 +99,8 @@ DateReviewed: 2023-09-15
 Description: So this piece is a snippet from a webinar, covering the first six questions. The first Q - is security trailing in Kubernetes - is a popular one, and it's a combo of K8s evolving quickly and being unfamiliar with the ecosystem. They dig through various issues, including K8s not being secure out of the box. Next they explain what Platform eng is, and when you need it, and how to use it to your advantage. They also look at distros and adoption by enterprises.
 BottomLine: Different perspective looking at Kubernetes with an enterprise lens
 ==
+URL reference: https://superuser.openinfra.dev/articles/enhancing-kubernetes-security-with-kyverno-runtimeclass-and-kata-containers/
+DateReviewed: 2023-09-16
+Description: We start fairly typically with lots of K8s adoption but sec is a major concern. The author explains policy engines in general, and then Kyverno in paticular, including their basis and how they work. Next we talk about RuntimeClass in Kubernetes, which allows you control over the runtime container portion of your workloads. They then explore Kata containers, which differ from typical containers that use cgroups for process isolation but all use the same kernel, while in Kata each pod uses it's own kernel. They then outline the benefits of combining these approaches, and do a walkthrough to see how to set it up. Interesting approach to apps that require additional security.
+BottomLine: Unique extra security approach to a typical Kubernetes cluster
+==
