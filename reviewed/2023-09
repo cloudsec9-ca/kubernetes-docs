@@ -104,3 +104,8 @@ DateReviewed: 2023-09-16
 Description: We start fairly typically with lots of K8s adoption but sec is a major concern. The author explains policy engines in general, and then Kyverno in paticular, including their basis and how they work. Next we talk about RuntimeClass in Kubernetes, which allows you control over the runtime container portion of your workloads. They then explore Kata containers, which differ from typical containers that use cgroups for process isolation but all use the same kernel, while in Kata each pod uses it's own kernel. They then outline the benefits of combining these approaches, and do a walkthrough to see how to set it up. Interesting approach to apps that require additional security.
 BottomLine: Unique extra security approach to a typical Kubernetes cluster
 ==
+URL reference: https://blog.min.io/suse-rancher-and-minio-lock-horns-in-a-good-way/
+DateReviewed: 2023-09-16
+Description: We kick off by vibing into being data-driven and cloud-centric, and how Kubernetes enables this. After a bit of scaffolding, we are told that K8s has an affinity for object storage, accessible through a RESTful interface. And here is where the synergy between Rancher and MinIO come in, the former providing the K8s and the latter object store. We then go through blurbs about both, and then an examination about how together they enable scalability, security, simplicity and performance.
+BottomLine: Decent walkthrough of the capabilities of Rancher combined with MinIO
+==
