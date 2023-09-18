@@ -109,3 +109,8 @@ DateReviewed: 2023-09-16
 Description: We kick off by vibing into being data-driven and cloud-centric, and how Kubernetes enables this. After a bit of scaffolding, we are told that K8s has an affinity for object storage, accessible through a RESTful interface. And here is where the synergy between Rancher and MinIO come in, the former providing the K8s and the latter object store. We then go through blurbs about both, and then an examination about how together they enable scalability, security, simplicity and performance.
 BottomLine: Decent walkthrough of the capabilities of Rancher combined with MinIO
 ==
+URL reference: https://www.itpro.com/technology/artificial-intelligence-ai/368107/what-good-ai-cyber-security-software-looks-like
+DateReviewed: 2023-09-17
+Description: We start with a dire warning about threat actors and them using AI. So, they postulate that AI threats need AI defences. AI seems to be able to detect things better, and they are available for clouds like MS and AWS. AI apparently learns from experience and can find things humans miss. But it seems that AI still needs humans for now, to configure and manage them correctly. So the AI is surfacing threats and humans ane making the calls. It's an interesting thought exercise with a bit too much theory and not enough application for me.
+BottomLine: Intro to AI security which is somewhat interesting but very high level and a bit too abstract
+==
