@@ -119,3 +119,8 @@ DateReviewed: 2023-09-18
 Description: Wow, simple start here, where we begin with a blurb about what EKS is and a blurb about HardenEKS, and a short para about how to do its thing. So, HardenEKS is a Python CLI that helps you test out your EKS clusters for compliance with best practices. I'm impressed, this is a serious hands on which gives code snips and a detailed walkthrough, including a peek at the TUI.
 BottomLine: Interesting tool for hardening EKS Kubernetes clusters with Python
 ==
+URL reference: https://www.armosec.io/securing-ci-cd-pipelines/
+DateReviewed: 2023-09-18
+Description: We start by talking about why we use a CI/CD pipeline; namely to automate and streamline software development. They do mention "shifting left", or dealing with security earlier in the app lifecycle. We then enumerate some of the things that can be issues, like third party libs, external images or even the CI/CD tools themselves, like Jenkins and Github. We have a chart, showing early is easy and later is hard. The solution is Armo of course, but the process is useful to go through -- which is four steps. They prevent during coding, detect through scanning repos and continer images, and do post-deploy security. While I like the approach they outline, they provide zero info about how this works, and of course don't provide a demo/walkthrough.
+BottomLine: Interesting approach to app security but doesn't feel complete
+==
