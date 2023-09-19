@@ -114,3 +114,8 @@ DateReviewed: 2023-09-17
 Description: We start with a dire warning about threat actors and them using AI. So, they postulate that AI threats need AI defences. AI seems to be able to detect things better, and they are available for clouds like MS and AWS. AI apparently learns from experience and can find things humans miss. But it seems that AI still needs humans for now, to configure and manage them correctly. So the AI is surfacing threats and humans ane making the calls. It's an interesting thought exercise with a bit too much theory and not enough application for me.
 BottomLine: Intro to AI security which is somewhat interesting but very high level and a bit too abstract
 ==
+URL reference: https://itnext.io/hardeneks-the-easy-way-to-keep-your-aws-eks-clusters-secure-and-compliant-d9b88b615b3a
+DateReviewed: 2023-09-18
+Description: Wow, simple start here, where we begin with a blurb about what EKS is and a blurb about HardenEKS, and a short para about how to do its thing. So, HardenEKS is a Python CLI that helps you test out your EKS clusters for compliance with best practices. I'm impressed, this is a serious hands on which gives code snips and a detailed walkthrough, including a peek at the TUI.
+BottomLine: Interesting tool for hardening EKS Kubernetes clusters with Python
+==
