@@ -129,3 +129,8 @@ DateReviewed: 2023-09-19
 Description: This is going to be an essay on early days on the web up until today; it should be a wild ride. We start in the era of everything is a physical machine, and we run into the normal issues with scale at that exposure. So we jump into distributed systems, and talk a bit about that. And then, we go back to the origins of the Internet. I see this is an abridged history, as we jump 20 yrs and a paragraph later a decade, but it's the thought that counts. Here we are talking about the birth of the WWW and browsers, and the commercial Internet. We inch forward a bit and into Virtualization and hypervisors. Now we're at 2006, and the birth of cloud computing. Then the invention of Docker in 2013, which spawned Kubernetes and our current enviornment. They then talk about our current state, and a bit about where we are going.
 BottomLine: A good if brief history of the Internet and Cloud
 ==
+URL reference: https://www.csoonline.com/article/652303/new-kubernetes-vulnerability-allows-privilege-escalation-in-windows.html
+DateReviewed: 2023-09-19
+Description: We start with a short overview of the issue. It seems it's a parsing weakness, and is exposed when looking through YAML files. In this case, it seems that since our host is Windows, that we can trick the parser into evaluating a PowerShell expression that can be arbitrary. To stop this, the patch passes the params now as Enviroment variables, which are treated as strings and not expressions. It's an interesting attack and one for Windows users to be aware of.
+BottomLine: Vulnerability against Windows Kubernetes hosts found and patched
+==
