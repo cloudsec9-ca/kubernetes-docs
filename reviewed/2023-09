@@ -149,3 +149,8 @@ DateReviewed: 2023-09-21
 Description: We're going to visit 3 new high-viz vulns. One allows remote code exec with SYSTEM privs, so pretty serious, and affects all major cloud providers and a laundry list of Kubelet versions. The root cause seems to be input sanitization issues. Next up is a priv escalation in the CSI or container storage ingerface, which might allow admin access. So, while we go through at a high level, there isn't really any examples of how to exploit here.
 BottomLine: High level discussion of some recent Windows Kubernetes vulnerabilities
 ==
+URL reference: https://contentmx.com/b/page/page.php?u=AccelbiArrow&i=3615284
+DateReviewed: 2023-09-22
+Description: Embedded doc has a lead in about gaining efficiency with Kubernetes (along with a sales pitch). Ah, they are pitching an "intergrated" Kubernetes platform, so let's see what they are talking about. Okay, so point one is about leveraging legacy apps with new Cloud Native stuff. Point two is buzzword city, while the big point is about standard workflow tools, it talks about ML and AI. Point three talks about managing containers and VMs, which is similar but slightly different than point one? Point four is about deploying and managing workloads in a uniform manner. Point five is about using a unified stack and point six is using tested and supported software. Okay, so some of these are good points, and I'm guessing that there is a suite that does all of this, but we're left wondering, because this is all high level and they never actually tie it in. 
+BottomLine: Some good points for a Kubernetes platform but high level and more legacy focused
+==
