@@ -164,3 +164,8 @@ DateReviewed: 2023-09-24
 Description: It's a newsletter, so they are hoping to help you keep up with the firehose of sec info. There is lots of good sec info, but I'll focus on two bits - supply chain sec and Rust. For supply chain, our authors detail a Github side attack which depends on renaming packages to present a repo that has a legit name but is possibly malicious. On the Rust side, the author talks about a new bit of malware written in Rust and talks about how it was found and also a bit about the malware ecosystem.
 BottomLine: Interesting security newsletter with a thread about supply chains
 ==
+URL reference: https://bottlerocket.dev/
+DateReviewed: 2023-09-24
+Description: Bottlerocket is an OS aimed at running container workloads. It was developed by Amazon. It focuses on being high security, and doesn't even come with a shell. It does cover many envs, and can be built for different K8s versions/hardware archs/underlying platforms. Updates are handled through different partitions -- a running one and an "alternate" one. You load your new code into the alternate, reboot and that becomes the "running" one, and your "old version" is just one reboot away, until your next update. It's something that would be interesting to play with.
+BottomLine: Container-focused OS for orchestrators like Kubernetes
+==
