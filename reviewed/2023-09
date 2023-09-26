@@ -169,3 +169,8 @@ DateReviewed: 2023-09-24
 Description: Bottlerocket is an OS aimed at running container workloads. It was developed by Amazon. It focuses on being high security, and doesn't even come with a shell. It does cover many envs, and can be built for different K8s versions/hardware archs/underlying platforms. Updates are handled through different partitions -- a running one and an "alternate" one. You load your new code into the alternate, reboot and that becomes the "running" one, and your "old version" is just one reboot away, until your next update. It's something that would be interesting to play with.
 BottomLine: Container-focused OS for orchestrators like Kubernetes
 ==
+URL reference: https://everythingdevops.dev/securing-your-kubernetes-environment-a-comprehensive-guide-to-server-and-client-certificates-in-kubernetes/
+DateReviewed: 2023-09-25
+Description: In this article, we'll learn about how certs are used by various Kubernetes components. They start with a bit of a background on authentication, and why/how K8s uses it. They then talk about Server and Client certs, and the role of a CA in the process. Next, we are walked through the entire process at a high level, and then shown how to do this within K8s. We go through various K8s server certs and what they do as well. Helpfully, it details which certs are used by which components. We then go through some cert best practices. A good overview at a high level.
+BottomLine: Walks through what certs are and how Kubernetes uses them in detail
+==
