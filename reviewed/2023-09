@@ -174,3 +174,8 @@ DateReviewed: 2023-09-25
 Description: In this article, we'll learn about how certs are used by various Kubernetes components. They start with a bit of a background on authentication, and why/how K8s uses it. They then talk about Server and Client certs, and the role of a CA in the process. Next, we are walked through the entire process at a high level, and then shown how to do this within K8s. We go through various K8s server certs and what they do as well. Helpfully, it details which certs are used by which components. We then go through some cert best practices. A good overview at a high level.
 BottomLine: Walks through what certs are and how Kubernetes uses them in detail
 ==
+URL reference: https://medium.com/@anant3104/understanding-the-defense-in-depth-security-model-a-multilayered-approach-cb29ac13d07
+DateReviewed: 2023-09-26
+Description: Start with a good premise - that defending in depth gives a reliable strategy. We also get a diagram and a bit of explaination about how depth or layered security works. We then start to go through some of the pieces in point form, including policy, physical, perimeter and network -- and then it stops. The three minute read is paywalled, needing a free account. I love the intro, but paywalls (esp for such short articles) suck.
+BottomLine: Avoid unless you want to sign up - the premise is good but the meat seems hidden
+==
