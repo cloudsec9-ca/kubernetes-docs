@@ -179,3 +179,8 @@ DateReviewed: 2023-09-26
 Description: Start with a good premise - that defending in depth gives a reliable strategy. We also get a diagram and a bit of explaination about how depth or layered security works. We then start to go through some of the pieces in point form, including policy, physical, perimeter and network -- and then it stops. The three minute read is paywalled, needing a free account. I love the intro, but paywalls (esp for such short articles) suck.
 BottomLine: Avoid unless you want to sign up - the premise is good but the meat seems hidden
 ==
+URL reference: https://medium.com/@navya.cloudops/devops-zero-to-hero-day-11-security-in-devops-5dcfb8e1a132
+DateReviewed: 2023-09-27
+Description: Part of a larger series, this installment focuses on security in a DevOps enviroment. We start with 10 main areas, with a number of points made in each area, to foster a culture and process to security in your software. Once they've laid the foundation, they go on to walk through security with a sample app, down to config pieces and scans to get the whole experience. A good deep dive, with lots of interesting perspective.
+BottomLine: Thorough approach to security including a walkthrough of a sample app
+==
