@@ -189,3 +189,8 @@ DateReviewed: 2023-09-28
 Description: We start wit a definition of what pen testing is - the checking of strength. Then they talk a bit about mobile growth and differences, and then dip into the methodology. Seems mobile pen testing is very analagous to conventional tests - having a discovery, analysis and assesment, exploration and reporting stages. They go through some activities to illustrate each stage at a high level, and follow that with tools, a testing guide, a checklist and a list of best practices. It's a decent high level introduction.
 BottomLine: Basic high level introduction to mobile penetration testing
 ==
+URL reference: https://www.uptycs.com/blog/mastering-kubernetes-and-container-security-2
+DateReviewed: 2023-09-29
+Description: We start with things can be vulnerable, and how do you know where to start? The author does mention the NSA Kubernetes hardering guide, but then goes on to talk about vulnerability management. So, apparently you need KPIs to know which vulns to focus on? I think they want a prioritization, which IS good, but that isn't clear. Next up they handwave at SDLC, and mention that known vuln images ought not to be deployed. Ah, and now the product push, in this case for the Uptycs platform. There are lots of pretty pictures, and a few lists, but seemingly no deep info. I don't mind a product pitch that explains a solid process and how the product helps, but this wasn't that. This product could be helpful, but the lead in is a lot of scary sounding stuff and then our product fixes most of that.
+BottomLine: Mostly a pitch for a Kubernetes security product which might be worth a quick skim
+==
