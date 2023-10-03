@@ -199,3 +199,8 @@ DateReviewed: 2023-09-30
 Description: We start with Kubernetes is growing but security is a problem; but there are some things that are helping with this. The focus here will be secrets, and they enumerate 8 different kinds, wow. We then talk a bit about Kubernetes secrets, and why they are problematic. They also explain how secrets can be leaked through logs or debug records among other vectors. They have a number of recommendations, including centralizing secret management, auditing, and appropriate controls. And now the product pitch -- the sponsor's open source secret manager, of course, helps with all of these. We get a bit of background, then a short hands on. Comes with a decent next steps.
 BottomLine: Actually a pretty good secret management intro with actionable items
 ==
+URL reference: https://www.theregister.com/2023/09/15/cloud_database_dilemmas/
+DateReviewed: 2023-09-30
+Description: We start with a brief review of databases and talk a bit about the different types, including managed cloud offerings. They also contrast specific offerings by different vendors, reminding us that these are proprietary and lock you in. They surface that "managed" means low-level infra, and not performance or table-level optimization. They dive into various offerings, including serverless -- and touch on the ups and downsides of it. Overall, an interesting perspective.
+BottomLine: Good broad discussion of how to run your database in the cloud
+==
