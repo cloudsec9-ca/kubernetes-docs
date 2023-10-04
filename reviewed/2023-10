@@ -1,0 +1,6 @@
+
+URL reference: https://keentolearn.medium.com/kubernetes-error-codes-what-they-mean-and-how-to-fix-them-e63656927af3
+DateReviewed: 2023-10-01
+Description: I've read a few of these error code articles, and they can be good; and this one starts with a "what K8s is". Actually, it only covers 6 errors, but they are often encountered, and it's well done. The author gives us a bit of info about what the error is, possible causes and a snip to get more concrete info. It's a good resource.
+BottomLine: Goes through six common Kubernetes errors and their fixes
+==
