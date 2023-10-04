@@ -4,3 +4,8 @@ DateReviewed: 2023-10-01
 Description: I've read a few of these error code articles, and they can be good; and this one starts with a "what K8s is". Actually, it only covers 6 errors, but they are often encountered, and it's well done. The author gives us a bit of info about what the error is, possible causes and a snip to get more concrete info. It's a good resource.
 BottomLine: Goes through six common Kubernetes errors and their fixes
 ==
+URL reference: https://blog.sonatype.com/npm-packages-caught-exfiltrating-kubernetes-config-ssh-keys
+DateReviewed: 2023-10-02
+Description: We start with a quick grounding that this sec team has found something. They used an automatic detector to spot the issue, then had analysts dig in to figure out what was going on. After explaining their process a bit, they find a JS component that finds configs and SSH keys and sends them to a malware domain. They do note that while there are 14 affected NPM modules, each module has only been downloaded less than 200 times, meaning this isn't too widespread. Still, something to know and check for.
+BottomLine: A walkthrough of detection and understanding of an NPM software supply chain attack
+==
