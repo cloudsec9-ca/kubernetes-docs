@@ -14,3 +14,8 @@ DateReviewed: 2023-10-03
 Description: We start of with a nod to logs being a key part of security. Now, there is a pitch here, but just a handwave to that at first. We are run through a quick and very high level series of challenges with logging, which are good considerations. We then transition to a high level walkthrough of how their tool, Vijilan, makes logging (and LogScale in this case) easier. It stays very high level throughout, but it's a good toe-dip into logging and managing logging.
 BottomLine: Decent first contact to Kubernetes logging and log management approachesk
 ==
+URL reference: https://medium.com/@kevinlutzer9/raspberry-pi-kubernetes-cluster-with-k3s-and-metallb-1dab9ef475bb
+DateReviewed: 2023-10-04
+Description: Using K3s to run your own apps is cool. Our author talks a bit about how running K8s works in the cloud, and how things are a bit different on bare metal using Pis. We go through a short setup section, where they go through the prep parts. They talk about the hardware bits needed, and how to build your cluster from parts. We then are taken through setting up the primary node, followed by networking and a low-level automation tool. We then install and configure K3s, and watch our node(s) come up. We then configure "metallb", which allows us to use Load balance services on our bare metal machines. We are then treated to a demo of using Nginx to test our cluster.
+BottomLine: An interesting approach to running Kubernetes on Raspberry Pis
+==
