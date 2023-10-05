@@ -9,3 +9,8 @@ DateReviewed: 2023-10-02
 Description: We start with a quick grounding that this sec team has found something. They used an automatic detector to spot the issue, then had analysts dig in to figure out what was going on. After explaining their process a bit, they find a JS component that finds configs and SSH keys and sends them to a malware domain. They do note that while there are 14 affected NPM modules, each module has only been downloaded less than 200 times, meaning this isn't too widespread. Still, something to know and check for.
 BottomLine: A walkthrough of detection and understanding of an NPM software supply chain attack
 ==
+URL reference: https://vijilan.com/blog/navigating-the-complexities-of-logscale-deployment-in-kubernetes-with-vijilan/
+DateReviewed: 2023-10-03
+Description: We start of with a nod to logs being a key part of security. Now, there is a pitch here, but just a handwave to that at first. We are run through a quick and very high level series of challenges with logging, which are good considerations. We then transition to a high level walkthrough of how their tool, Vijilan, makes logging (and LogScale in this case) easier. It stays very high level throughout, but it's a good toe-dip into logging and managing logging.
+BottomLine: Decent first contact to Kubernetes logging and log management approachesk
+==
