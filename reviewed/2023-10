@@ -19,3 +19,8 @@ DateReviewed: 2023-10-04
 Description: Using K3s to run your own apps is cool. Our author talks a bit about how running K8s works in the cloud, and how things are a bit different on bare metal using Pis. We go through a short setup section, where they go through the prep parts. They talk about the hardware bits needed, and how to build your cluster from parts. We then are taken through setting up the primary node, followed by networking and a low-level automation tool. We then install and configure K3s, and watch our node(s) come up. We then configure "metallb", which allows us to use Load balance services on our bare metal machines. We are then treated to a demo of using Nginx to test our cluster.
 BottomLine: An interesting approach to running Kubernetes on Raspberry Pis
 ==
+URL reference: https://itnext.io/securing-kubernetes-applications-with-crowdsec-intrusion-detection-system-8eb2f93d3c9f
+DateReviewed: 2023-10-05
+Description: We start with the typical K8s is a security target. The author is going to use CrowdSec, so the article is built around that. Starts with some pre-reqs, then sets up a sample app to run on your cluster. Then it goes through the install process for CrowdSec. They then do a demo of an attack, show what they look like in the tool, and then show how to mitigate such an attack. Overall, a decent walkthrough.
+BottomLine: Walks through a Kubernetes intrusion detection app with a sample attack
+==
