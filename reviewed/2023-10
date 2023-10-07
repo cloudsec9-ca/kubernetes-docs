@@ -24,3 +24,8 @@ DateReviewed: 2023-10-05
 Description: We start with the typical K8s is a security target. The author is going to use CrowdSec, so the article is built around that. Starts with some pre-reqs, then sets up a sample app to run on your cluster. Then it goes through the install process for CrowdSec. They then do a demo of an attack, show what they look like in the tool, and then show how to mitigate such an attack. Overall, a decent walkthrough.
 BottomLine: Walks through a Kubernetes intrusion detection app with a sample attack
 ==
+URL reference: https://github.com/openclarity/kubeclarity
+DateReviewed: 2023-10-06
+Description: This is a repo, so we start with a basic intro, which is that KubeClarity detects and manages SBOM and vulns. They have a why/solution section, which is great for motivation. They include a feature list, supported 3rd parties, and an arch diagram. They walk through a Helm install and a simple local demo. They do some hands-on walkthroughs, and then show how some of the integrations work. They have a limitations and a roadmap, to see the future.
+BottomLine: Interesting open source SBOM component with vuln scanning
+==
