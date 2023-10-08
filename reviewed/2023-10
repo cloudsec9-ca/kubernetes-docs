@@ -29,3 +29,8 @@ DateReviewed: 2023-10-06
 Description: This is a repo, so we start with a basic intro, which is that KubeClarity detects and manages SBOM and vulns. They have a why/solution section, which is great for motivation. They include a feature list, supported 3rd parties, and an arch diagram. They walk through a Helm install and a simple local demo. They do some hands-on walkthroughs, and then show how some of the integrations work. They have a limitations and a roadmap, to see the future.
 BottomLine: Interesting open source SBOM component with vuln scanning
 ==
+URL reference: https://www.solo.io/blog/buyers-guide-kubernetes-security/
+DateReviewed: 2023-10-07
+Description: We start with cloud giving us new possibilities, and new risks. We then dive into risks, highlighting both internal and external issues. But somehow traditions security blows this up? They then move to solutions, which they seem to cover 5 products, and how they do in the wild. They do cover a number of best practices, which I'll give them credit for. But I said "seem to" earlier because the entry here is just a puff piece to get you to download their guide, and I'm not a fan of that approach. Their guide may be great, but I'm here to learn something, not be punted to another document. I might review the guide another time.
+BottomLine: Mainly a promo for a guide -- but does chat about risks and best practices a bit
+==
