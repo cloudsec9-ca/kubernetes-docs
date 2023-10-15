@@ -64,3 +64,8 @@ DateReviewed: 2023-10-13
 Description: Kubernetes does everything, yay, but it is transient, boo. Our focus on this article is persistence. We dive right in, talking about Persistent Volumes and PV claims, and their definitions. We then get some YAML to show us what it looks like, and then we dip into storage classes. The author then attempts to define what a storage class is, but it doesn't go well. My thought is that storage classes might refer to speed or size, but I'm not sure. We then dip into DR, and a bit out of left field, because this is all very abstract. They then mention multi-region, but now how it helps. And then we hop onto a CI/CD pipeline, because WUT? Okay, so this is like a book by different authors stitched together poorly, but this is just topic sub-heads in the same article.
 BottomLine: Odd amalgam of good Kubernetes related PV/PVC bits and other unrelated bits
 ==
+URL reference: https://www.tigera.io/learn/guides/kubernetes-security/kubernetes-waf/
+DateReviewed: 2023-10-14
+Description: We dive right in, with a definition of what a WAF or Web application firewall is. Next we deal a bit with why we might need a WAF, which here is a list of 4 main topics, only one of which is K8s specific. Apparently there are 4 different types, but it's not clear on the roles and what makes a WAF one type or another from these descriptions. They then present a 5 point evaluation metric to help in choosing what kind of WAF would be best. They then, as a wrap up, talk about a different WAF - which comes from Calico.
+BottomLine: Decent starting spot to think about Kubernetes WAFs, but very high level
+==
