@@ -69,3 +69,8 @@ DateReviewed: 2023-10-14
 Description: We dive right in, with a definition of what a WAF or Web application firewall is. Next we deal a bit with why we might need a WAF, which here is a list of 4 main topics, only one of which is K8s specific. Apparently there are 4 different types, but it's not clear on the roles and what makes a WAF one type or another from these descriptions. They then present a 5 point evaluation metric to help in choosing what kind of WAF would be best. They then, as a wrap up, talk about a different WAF - which comes from Calico.
 BottomLine: Decent starting spot to think about Kubernetes WAFs, but very high level
 ==
+URL reference: https://thenewstack.io/kubernetes/kubernetes-infrastructure-architecture/
+DateReviewed: 2023-10-14
+Description: We start with talking about K8s strengths. Our article is going to focus on making architectural decisions. We start by thinking about WHERE we host - on site, data center, or a cloud of some sort? They also talk about things like Linux vs. Windows, or even Arm vs. x86. Another thing to consider is whether we need high availability in our clusters. They talk about using one control plane and using different namespaces, but also using different nodes for different workloads. We then go on to consider networking, and things like VPN, firewalls, DNS, load balancer and ingress controllers. Next up is managing K8s, and they talk about manual changes vs IaC, advocating for the latter. Overall a good read.
+BottomLine: Interesting arch-based appraoch to managing Kubernetes - recommended
+==
