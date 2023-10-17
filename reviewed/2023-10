@@ -79,3 +79,8 @@ DateReviewed: 2023-10-15
 Description: Refering to a recently stable feature, you can now enforce security standards by simply applying a label; and that's what this article will address. They start out with a short why, but with a long list of issues which point to breaches. Now we dive into how it works, and we go hands on right away - we create a namespace, and then spin up an ordinary webserver container. We then slap a label onto the namespace, and it immediately alerts us that our container is non-conforming. Interestingly, if we deploy a new webserver, the deployment is created by the container fails to create as it violates the policy. They then show the policy bits required in YAML to actually be able to create a container. Good hands on, quick walkthrough.
 BottomLine: Hands on walkthrough of using labels to enforce Pod Security
 ==
+URL reference: https://medium.com/@seifeddinerajhi/kubernetes-rbac-privilege-escalation-exploits-and-mitigations-26c07629eeab
+DateReviewed: 2023-10-16
+Description: We start with K8s being an awesome orchestrator, but security can have nuance in a complex system. Our article postulates there are seven priv escalations in the K8s system, and we're going to work through them. They start with a general vector, explain what it does and what some of the exposures are, walks through some example exploits and then explains some mitigations. In the body, they go into some detail, including on pod creation, service account token handling, and cluster node access, among others. It gives good coverage, without getting too low level.
+BottomLine: Good overview of various vulnerabilities in Kubernetes and how to mitigate
+==
