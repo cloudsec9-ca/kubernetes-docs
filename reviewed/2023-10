@@ -84,3 +84,8 @@ DateReviewed: 2023-10-16
 Description: We start with K8s being an awesome orchestrator, but security can have nuance in a complex system. Our article postulates there are seven priv escalations in the K8s system, and we're going to work through them. They start with a general vector, explain what it does and what some of the exposures are, walks through some example exploits and then explains some mitigations. In the body, they go into some detail, including on pod creation, service account token handling, and cluster node access, among others. It gives good coverage, without getting too low level.
 BottomLine: Good overview of various vulnerabilities in Kubernetes and how to mitigate
 ==
+URL reference: https://blog.ugulino.com/posts/10_oct_23/
+DateReviewed: 2023-10-17
+Description: In this article, rather than talking about K8s, we're going to find out about a building block of containers - cgroups. Control groups, or cgroups as they are known in the system, allow us to restrict what a process can do under Unix. Mainly they deal with how much CPU, memory and network I/O a process can use. The way this is controlled is with files located under /sys/fs/group, and they are arranged by resource. Each process comes with a cgroup, and if we want to fiddle, we need to create a new cgroup. When we spawn a container, it creates the cgroups needed to control the container. Overall, an interesting intro
+BottomLine: Quick walkthrough of how cgroups work under containers
+==
