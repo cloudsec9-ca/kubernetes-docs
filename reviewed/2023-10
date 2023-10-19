@@ -89,3 +89,8 @@ DateReviewed: 2023-10-17
 Description: In this article, rather than talking about K8s, we're going to find out about a building block of containers - cgroups. Control groups, or cgroups as they are known in the system, allow us to restrict what a process can do under Unix. Mainly they deal with how much CPU, memory and network I/O a process can use. The way this is controlled is with files located under /sys/fs/group, and they are arranged by resource. Each process comes with a cgroup, and if we want to fiddle, we need to create a new cgroup. When we spawn a container, it creates the cgroups needed to control the container. Overall, an interesting intro
 BottomLine: Quick walkthrough of how cgroups work under containers
 ==
+URL reference: https://testkube.io/blog/security-testing-in-kubernetes-with-owasp-zap-and-testkube
+DateReviewed: 2023-10-18
+Description: We start with security is important but overlooked task. So we'll test with ZAP and Testkube in this article. So, we start out with quick reviews of what ZAP and Testkube are. Using a ZAP docker image, we can select what kind of tests we want to do. We run through a sample test, with a config file and CLI snips to show how to invoke. A brief but interesting dip into testing.
+BottomLine: Offers a quick overview into security testing of Kubernetes apps
+==
