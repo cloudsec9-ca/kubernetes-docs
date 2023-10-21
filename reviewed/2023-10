@@ -99,3 +99,8 @@ DateReviewed: 2023-10-19
 Description: Okay, lots of companies are going to microservices, but surprise surpise, something they are struggling with is security. So our article is going to focus on security between microservices. So they enumerate some of the risks in a few paragraphs. They point out network policies can help by restricting what pods can talk, but emphasize that the communications is also important. To help with this they mention mTLS, where both ends of a TLS connection are verified and all of the traffic is encrypted. They explain one way to enable mTLS is through a service mesh, and go on to describe how it works. They then talk about why this is all good and what regulations it helps satisfy. Ah, now the pitch - a two para blurb for AppViewX KUBE which helps you to implement all of this. Overall a decent high level overview of mTLS.
 BottomLine: A decent approach to why mTLS helps security in Kubernetes and microservices
 ==
+URL reference: https://securityboulevard.com/2023/10/a-platform-engineers-guide-to-successful-kubernetes-migration/
+DateReviewed: 2023-10-20
+Description: We start with K8s has benefits but risks. Very nicely, they have a short summary of what they talk about, then jump right in. They enumerate Kubernetes risks, including security, resource management, compliance and op consistency. They say the way to address this is with governance, and a way to facilitate this is with guardrails. It's short and high level, but a great intro.
+BottomLine: Short high-level into to Kubernetes with risks and mitigations
+==
