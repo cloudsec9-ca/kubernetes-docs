@@ -104,3 +104,8 @@ DateReviewed: 2023-10-20
 Description: We start with K8s has benefits but risks. Very nicely, they have a short summary of what they talk about, then jump right in. They enumerate Kubernetes risks, including security, resource management, compliance and op consistency. They say the way to address this is with governance, and a way to facilitate this is with guardrails. It's short and high level, but a great intro.
 BottomLine: Short high-level into to Kubernetes with risks and mitigations
 ==
+URL reference: https://www.solo.io/blog/kubernetes-security-cloud-native-applications/
+DateReviewed: 2023-10-21
+Description: Cloud native good, but security practices don't keep up, because K8s is complicated. So, they have an 8 item approach to security, because they say our security focus has to shift. And, to wrap we talk about what they are pitching, with is called Gloo. It helps you to apply policies that enhance security. So, decent upfront and good list, but light on implementation.
+BottomLine: Good Kubernetes security approach list - but article is light on details
+==
