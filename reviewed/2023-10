@@ -109,3 +109,8 @@ DateReviewed: 2023-10-21
 Description: Cloud native good, but security practices don't keep up, because K8s is complicated. So, they have an 8 item approach to security, because they say our security focus has to shift. And, to wrap we talk about what they are pitching, with is called Gloo. It helps you to apply policies that enhance security. So, decent upfront and good list, but light on implementation.
 BottomLine: Good Kubernetes security approach list - but article is light on details
 ==
+URL reference: https://snigdhasambit.medium.com/opa-on-kubernetes-security-policies-361313c141e9
+DateReviewed: 2023-10-22
+Description: Here, we don't have any nice background, just dive into the meat - in this case, OPA Gatekeeper and it's role as a policy based control system. This article requires Helm, so that's a pre-req. We then use Helm to install OPA Gatekeeper with some CLI snippets. We then check, and it seems we've spun up a few pods and some deployments. Our next big thing is to create Constraint templates, which we use to define policies. Templates are YAML files, and there is a nice diagram showing the flow and how they are used. Next we define a constriant to be applied, again as YAML, which requires labels. They then show us how to apply this. To wrap, they go through advantages and use cases.
+BottomLine: Good hands on walk through of using OPA Gatekeeper on Kubernetes for policy enforcement
+==
