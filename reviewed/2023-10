@@ -124,3 +124,8 @@ DateReviewed: 2023-10-23
 Description: K8s security is about best practices, so we have to control that things that aren't can't happen. Our article will focus on Defender for containers which will help us achive this. We're focused on Azure here, and we are using Gatekeeper OPA to integrate it into K8s. A bit of handwaving about enabling and installing agents later, they show us a dashboard which shows what can be configured. Now, while I'm not an Azure customer, this handwavy/screenshotted approach doesn't make me want to run and sign up. Favorite snip - "we demo'd an easy way" - which doesn't seem too easy. Maybe it's a great resource for Azure users?
 BottomLine: Azure focused Kubernetes security through Defender with screenshots
 ==
+URL reference: https://www.cncf.io/blog/2023/10/19/announcing-the-kubernetes-policy-based-governance-risk-and-compliance-paper/
+DateReviewed: 2023-10-24
+Description: This is a summary of a paper on security related stuff released by CNCF. The idea here is to automate the process for risk, compliance and governance as related to Cloud Native approaches. They have a few motivating paragraphs, but mainly this is to whet the appetite of sec people to move security automation forward on a proactive basis. They provide a link to the full paper.
+BottomLine: Quick summary/motivation piece on governance, risk and compliance paper from CNCF
+==
