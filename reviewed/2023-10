@@ -129,3 +129,8 @@ DateReviewed: 2023-10-24
 Description: This is a summary of a paper on security related stuff released by CNCF. The idea here is to automate the process for risk, compliance and governance as related to Cloud Native approaches. They have a few motivating paragraphs, but mainly this is to whet the appetite of sec people to move security automation forward on a proactive basis. They provide a link to the full paper.
 BottomLine: Quick summary/motivation piece on governance, risk and compliance paper from CNCF
 ==
+URL reference: https://www.hindustantimes.com/ht-insight/future-tech/essentials-for-it-teams-to-manage-heightened-security-threats-within-modern-applications-101698119310231.html
+DateReviewed: 2023-10-25
+Description: We start with IT is the front door of biz, and it's shifting to modern systems -- but those systems are vulnerable! The article will focus on some key areas to address this, but only after adding some backing and lamenting it is very bad out there. So, the insight I get is we need to do strong risk management? I agree that is important, but there is more to security than just that. 
+BottomLine: Very high level with lots of fluff and focused on Risk management
+==
