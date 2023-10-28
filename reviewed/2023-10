@@ -139,3 +139,8 @@ DateReviewed: 2023-10-26
 Description: Kubernetes full capabilities are only tapped when you can view logs, metrics and events in a sensible way. Our article will show how Cribl can do this. We go through the why of logs and metrics, and it gives some good points. We're then shown 3 common ways to collect logs, before they show us how Cribl works - as a DaemonSet. We then go through how it works, which is asking the K8s API what pods are running on a node and then hooking into their logs, with certain exceptions. They also collect metrics, but only for one of the nodes in the cluster. They go through some examples, and also integrate with Prometheus. Overall an interesting project.
 BottomLine: High level walk through of a metrics/log tool which works on Kubernetes
 ==
+URL reference: https://venturebeat.com/security/why-a-devops-approach-is-crucial-to-securing-containers-and-kubernetes/
+DateReviewed: 2023-10-27
+Description: K8s uptake is going to be huge because of advantages, but there are challenges! We start with differences between VMs and containers. Apparently the same problems require different approaches, but we aren't told why. They go through an example of a code vuln in a library, then talk about local code development. Ah, I think the message is that you need to build your security tooling into the CI/CD pipeline, which is fair. So, overall, it's an okay article, but it doesn't know if it's looking for library/imported vulns, or local dev issues - or possibly both? It feels a bit mixed together, and while the messages are good, the delivery is muddled.
+BottomLine: Intro article to Kubernetes security that's a bit muddled
+==
