@@ -144,3 +144,8 @@ DateReviewed: 2023-10-27
 Description: K8s uptake is going to be huge because of advantages, but there are challenges! We start with differences between VMs and containers. Apparently the same problems require different approaches, but we aren't told why. They go through an example of a code vuln in a library, then talk about local code development. Ah, I think the message is that you need to build your security tooling into the CI/CD pipeline, which is fair. So, overall, it's an okay article, but it doesn't know if it's looking for library/imported vulns, or local dev issues - or possibly both? It feels a bit mixed together, and while the messages are good, the delivery is muddled.
 BottomLine: Intro article to Kubernetes security that's a bit muddled
 ==
+URL reference: https://securityboulevard.com/2023/10/top-5-tips-for-better-kubernetes-self-service/
+DateReviewed: 2023-10-28
+Description: K8s is a great tool, but apprently you don't want to just give it to your devs, you need more abstraction on top. So, apparently this is about K8s self service, or allowing your devs to do things you want them to do, with guardrails. I like that it has a TLDR section, which is a quick runthrough. They talk about ways to do SSL, deploys, governance and emphasize getting feedback from users. They even outline a 5 point plan to implement this, which is pretty cool. It's very high level, but an interesting approach.
+BottomLine: Interesting take on enabling self-serv on Kubernetes for Developers
+==
