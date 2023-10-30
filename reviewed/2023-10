@@ -154,3 +154,8 @@ DateReviewed: 2023-10-29
 Description: Ah, K8s can be complex - but namespaces can help with that. And there is a misconception that namespaces cause reduced performance? So, this article will go through a bunch of namespace things. We start with what a namespace is and what it is used for. We then dig into the default namespaces of kube-public, kube-system and default; the last of which is where things go if you don't specify a namespace explicitly. We then go through creating a namespace, how you add resources into namespaces, and how to query thing in namespaces. We then learn about other cluster pieces, like nodes, pods, annotations and labels, and how they interact with namespaces. After all this excellent discussion, the end turns into an ad for Cloudzero, and how namespaces can affect cost control. It's not a smooth transition, but guess you got to pay the bills.
 BottomLine: Good discussion of Kubernetes namespaces and their uses
 ==
+URL reference: https://medium.com/@charles.vissol/korifi-an-emerging-kubernetes-api-built-by-cloud-foundry-56b00c201711
+DateReviewed: 2023-10-29
+Description: We cut to the chase - Korifi is a tool to bring CloudFoundry to Kubernetes. Apparently CF is closely wed to VMs, and this is a way to pivot to containers. It seems that CF is a full service solution for running a web application, so they are bringing that scaffolding over the K8s to make transitioning from a traditional CF deployment to K8s easy.
+BottomLine: Announcement of Cloudfoundry tool for Kubernetes
+==
