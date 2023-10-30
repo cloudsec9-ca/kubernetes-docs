@@ -149,3 +149,8 @@ DateReviewed: 2023-10-28
 Description: K8s is a great tool, but apprently you don't want to just give it to your devs, you need more abstraction on top. So, apparently this is about K8s self service, or allowing your devs to do things you want them to do, with guardrails. I like that it has a TLDR section, which is a quick runthrough. They talk about ways to do SSL, deploys, governance and emphasize getting feedback from users. They even outline a 5 point plan to implement this, which is pretty cool. It's very high level, but an interesting approach.
 BottomLine: Interesting take on enabling self-serv on Kubernetes for Developers
 ==
+URL reference: https://www.cloudzero.com/blog/kubernetes-namespace?ref=quuu
+DateReviewed: 2023-10-29
+Description: Ah, K8s can be complex - but namespaces can help with that. And there is a misconception that namespaces cause reduced performance? So, this article will go through a bunch of namespace things. We start with what a namespace is and what it is used for. We then dig into the default namespaces of kube-public, kube-system and default; the last of which is where things go if you don't specify a namespace explicitly. We then go through creating a namespace, how you add resources into namespaces, and how to query thing in namespaces. We then learn about other cluster pieces, like nodes, pods, annotations and labels, and how they interact with namespaces. After all this excellent discussion, the end turns into an ad for Cloudzero, and how namespaces can affect cost control. It's not a smooth transition, but guess you got to pay the bills.
+BottomLine: Good discussion of Kubernetes namespaces and their uses
+==
