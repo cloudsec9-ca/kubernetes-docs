@@ -1,0 +1,6 @@
+
+URL reference: https://thekubeguy.medium.com/kubernetes-security-best-practices-7f1515df4432
+DateReviewed: 2023-11-01
+Description: We start by understanding we should prioritize security as part of our Kubernetes journey - nice! The article is short but sweet - he takes a bunch of top-level topics, adds a bunch of good points and then delivers in quick succession. His top level includes RBAC, network policies, image scanning, PSP, API server access, updates and checking common threats. For each high level we visit one subtopic, but many have three or more. Great intro in a small package.
+BottomLine: Small and high level but hard hitting intro to Kubernetes security
+==
