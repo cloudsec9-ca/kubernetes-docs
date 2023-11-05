@@ -4,3 +4,8 @@ DateReviewed: 2023-11-01
 Description: We start by understanding we should prioritize security as part of our Kubernetes journey - nice! The article is short but sweet - he takes a bunch of top-level topics, adds a bunch of good points and then delivers in quick succession. His top level includes RBAC, network policies, image scanning, PSP, API server access, updates and checking common threats. For each high level we visit one subtopic, but many have three or more. Great intro in a small package.
 BottomLine: Small and high level but hard hitting intro to Kubernetes security
 ==
+URL reference: https://dzone.com/articles/securing-kubernetes-dont-underestimate-the-risk-po?es_id=658baf04fe
+DateReviewed: 2023-11-02
+Description: We start with K8s being widely deployed and good, but they can store lots of senstitive info, so are targets, and config errors can be the way in. Now this article was written by an exploit team, and they recount what they found in probing and assessing various clusters. Conventional attacks include credentials, but can allow code injection (if perms allow it) and customer data access. The outline two main misconfigs - anon user with high privs and the kubectl proxy command. For both commands, they spend several paragraphs on what the issues are and how they can help attackers. They have a five point mitigation plan for these issues, which is just good general advice. Its a decent overview.
+BottomLine: Decent high level walkthrough of config issues that can cause exposures on Kubernetes
+==
