@@ -19,3 +19,8 @@ DateReviewed: 2023-11-04
 Description: Okay, so we rip the band-aid off here and start digging into new Podman features. (Podman is a K8s like OCI container manager). There are 7 major improvements, so let's skim them! They have a new onboarding feature, but from the blurb I'm not sure if this is "I want a new project" or "I'm new to Podman". There is a command palette, which seems cool and I think acts as a completer for CLI commands? There are little blurbs for the other features, and short videos that mostly correspond to the feature talked about (but not on the command palette one). So I've now come to realize the audience for this is current Podman users, because this is too little info for a non-Podman person to glean much from.
 BottomLine: Interesting alternative to Kubernetes but the new release doc is focused on current users
 ==
+URL reference: https://truefort.com/improved-kubernetes-security/
+DateReviewed: 2023-11-05
+Description: We start with the news, and recent issues with Nginx ingress, which is scary for K8s. So, apparently traditional approaches like immutable containers might not do it, and also network isolation can make legit comms harder. So, old is new again, and we need to look for patterns or trends from our workload usage to understand what is unusual. At this point, I'm getting a deja-vu feeling, and that is because this is an article I recently reviewed, but published on a different site. Still confused, of course.
+BottomLine: Already reviewed but on a different site now
+==
