@@ -24,3 +24,8 @@ DateReviewed: 2023-11-05
 Description: We start with the news, and recent issues with Nginx ingress, which is scary for K8s. So, apparently traditional approaches like immutable containers might not do it, and also network isolation can make legit comms harder. So, old is new again, and we need to look for patterns or trends from our workload usage to understand what is unusual. At this point, I'm getting a deja-vu feeling, and that is because this is an article I recently reviewed, but published on a different site. Still confused, of course.
 BottomLine: Already reviewed but on a different site now
 ==
+URL reference: https://gbhackers.com/kubernetes-vulnerabilities/
+DateReviewed: 2023-11-06
+Description: Kubernetes is great, and like any platform it has security vulns. Our article here will walk us through the top 5. First, we talk about what security is, so things like data protection, app availability and compliance. We then walk through the five - misconfig RBAC, Dashboard and API access, insecure images and registries, default perms and permissions and unpatched nodes. It outlines the issue, explains mitigation and gives a snip to be secure. Not super in depth, but a good starting point.
+BottomLine: High level tour of Five Kubernetes vulnerabilities and mitigations 
+==
