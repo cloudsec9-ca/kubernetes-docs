@@ -29,3 +29,8 @@ DateReviewed: 2023-11-06
 Description: Kubernetes is great, and like any platform it has security vulns. Our article here will walk us through the top 5. First, we talk about what security is, so things like data protection, app availability and compliance. We then walk through the five - misconfig RBAC, Dashboard and API access, insecure images and registries, default perms and permissions and unpatched nodes. It outlines the issue, explains mitigation and gives a snip to be secure. Not super in depth, but a good starting point.
 BottomLine: High level tour of Five Kubernetes vulnerabilities and mitigations 
 ==
+URL reference: https://www.youtube.com/watch?v=RC7NeTh-cf8
+DateReviewed: 2023-11-07
+Description: We start with a comparison between K3s and RKE2 at a high level -- RKE is secure out of the box. This is going to be a walkthrough, so we start with how he spins it up; and he does talk a bit about what level of security it has and goes through the general approach. Now he goes through some of the config options and explains what they mean in good detail, and then he spins it off. The script he wrote does its thing, and when it completes he checks a few things and then fires up the GUI, to check a bit. Seems interesting enough to give it a try.
+BottomLine: Alternative small Kubernetes install that is more secure out of the box with a walkthrough install
+==
