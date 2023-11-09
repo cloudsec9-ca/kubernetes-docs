@@ -34,3 +34,8 @@ DateReviewed: 2023-11-07
 Description: We start with a comparison between K3s and RKE2 at a high level -- RKE is secure out of the box. This is going to be a walkthrough, so we start with how he spins it up; and he does talk a bit about what level of security it has and goes through the general approach. Now he goes through some of the config options and explains what they mean in good detail, and then he spins it off. The script he wrote does its thing, and when it completes he checks a few things and then fires up the GUI, to check a bit. Seems interesting enough to give it a try.
 BottomLine: Alternative small Kubernetes install that is more secure out of the box with a walkthrough install
 ==
+URL reference: https://thehackernews.com/2023/11/confidence-in-file-upload-security-is.html
+DateReviewed: 2023-11-08
+Description: We start with talking about infrastructure outpacing security, and one stat where 2% are confident in their security posture. They dive into cloud hosting, with a pretty chart with weird labels - 2/3rds of hosting is AWS, but also Azure, and 1/3 is GCP - huh? Containers are a popular destination. They talk about concerns, and another chart - file upload protections - apparently lots of concerns. So, while file uploads can be an attack vector, there is little on what specific threats might be there. I think their thesis is running lots of AV engines gets you better protection, which might be marginally true. We conclude with some flashy buzzwords and a product pitch. Overall its an interesting topic, but some of the assumptions are not great.
+BottomLine: Interesting approach to file based security issues in the cloud
+==
