@@ -49,3 +49,8 @@ DateReviewed: 2023-11-10
 Description: Starts off lauding Kubernetes, but says we must consider security. Has a table of contents, so that is good. Has seven main topics, which it breaks into subtopics and even bullets out big points in some subtopics. While it stays fairly high level, it does hit most of the important stuff, including authentication and authorization, network, pod and cluster security, secrets, logging and upgrades. Nothing out of left field, but a solid if high level intro which is a good place to start.
 BottomLine: Solid starting point for high level intro to Kubernetes security
 ==
+URL reference: https://www.helpnetsecurity.com/2023/11/10/kubernetes-production-environments/
+DateReviewed: 2023-11-11
+Description: We start with Kubernetes being complex, and is made up of multiple clusters, with multiple kinds of infra and multiple distros in enterprise. Our article is a policy piece, examining K8s in the enterprise space. Surprisingly, more than half of the businesses they talked to had more than 10 K8s clusters, which seems like a lot. Unsurprisingly, there are lots of Ops issues, and disjointed enviornments means dev, staging and production are out of step. Automation is a key goal here, as they do too much stuff by hand. It feels like many enterprises are trying to rework bigger apps into containers, rather than rethink the way they are deploying things. While I'm not sure I agree with all of their thoughts, just exploring the enterprise mindset is quite interesting.
+BottomLine: Interesting take on using Kubernetes in an enterprise setting
+==
