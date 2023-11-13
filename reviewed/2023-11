@@ -59,3 +59,8 @@ DateReviewed: 2023-11-11
 Description: This is a bit of fun - we're going to setup a game in an emulater to be run in a users browser, with the help of Kubernetes. They are using js-dos to set stuff up, and to support that we need to craft some files which will be managed with Kubernetes. We are shown a bit of GO to support this, and then we go through a bit of text to explain what the Go bits do. They then walk through using a ConfigMap to expose a specific game to a user by Nginx/K8s. Now, to get the files to serve out for each game, we are walked through firing up an Init Container to rustle up the files when we start things up. We tie the files to a PVC, and then package it all as a Deployment. To top it off, we go through the creation of a controller, and then see an actual game to running.
 BottomLine: Cool project using Kubernetes to play MS Dos games
 ==
+URL reference: https://cloud.google.com/anthos-config-management/docs/tutorials/modern-cicd-gke-user-guide
+DateReviewed: 2023-11-12
+Description: So, this is a Google paper on doing CI/CD with GKE. It's end to end coverage of using CI/CD, and includes things like getting sponsors and advocates, how to set thing up, how it helps devs and your biz move forward. Copious amounts of diagrams and discussion text to tie things together. It's long and might take a couple sittings to digest, but it is written plainly to be used. Wortha skim at least, and a deeper read if you are using GKE.
+BottomLine: Google paper about using CI/CD with GKE/Kubernetes that is worth at least a skim
+==
