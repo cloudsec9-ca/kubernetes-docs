@@ -64,3 +64,8 @@ DateReviewed: 2023-11-12
 Description: So, this is a Google paper on doing CI/CD with GKE. It's end to end coverage of using CI/CD, and includes things like getting sponsors and advocates, how to set thing up, how it helps devs and your biz move forward. Copious amounts of diagrams and discussion text to tie things together. It's long and might take a couple sittings to digest, but it is written plainly to be used. Wortha skim at least, and a deeper read if you are using GKE.
 BottomLine: Google paper about using CI/CD with GKE/Kubernetes that is worth at least a skim
 ==
+URL reference: https://thenewstack.io/can-ebpf-keep-your-kubernetes-cluster-from-getting-hacked/
+DateReviewed: 2023-11-13
+Description: We start with eBPF being amazing, and it helping with Kubernetes a lot; but you need tools to leverage eBPF. They then go through a laundry list of things eBPF can do, but focus in on how it can help - better analysis, reducing false postives and reducing the risk of breaking things. So they talk a bit about false postives and their impact, which includes alert fatigue. We then wander into a discussion about an open ingress and how to secure/validate it. We then pivot to CO-RE, and the piece meanders on a bit. While I appreciate it getting me thinking about using eBPF, the piece seems to lack a point.
+BottomLine: Article about using eBPF on Kubernetes that has decent links but lacks focus
+==
