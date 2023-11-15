@@ -69,3 +69,8 @@ DateReviewed: 2023-11-13
 Description: We start with eBPF being amazing, and it helping with Kubernetes a lot; but you need tools to leverage eBPF. They then go through a laundry list of things eBPF can do, but focus in on how it can help - better analysis, reducing false postives and reducing the risk of breaking things. So they talk a bit about false postives and their impact, which includes alert fatigue. We then wander into a discussion about an open ingress and how to secure/validate it. We then pivot to CO-RE, and the piece meanders on a bit. While I appreciate it getting me thinking about using eBPF, the piece seems to lack a point.
 BottomLine: Article about using eBPF on Kubernetes that has decent links but lacks focus
 ==
+URL reference: https://www.armosec.io/blog/gitops-for-kubernetes-security-and-compliance/
+DateReviewed: 2023-11-14
+Description: GitOps is a an approach to CI/CD, and in this article we're going to see if we can leverage this to improve security overall. We start with zero knowledge, and go through repos, CI, CD, and monitoring. Then we go through security benefits, which include an audit trail, gating, code scans, auto deployment and rollback, and drift detection. We then go through some issues we can face in the CI/CD flow, including malware, leaked secrets, and config issues among others. They then go through ways to address any of the issues. There is a small product plug for Armo, but honestly the article is excellent and the plug is low key.
+BottomLine: High level overview of using GitOps to improve Kubernetes security
+==
