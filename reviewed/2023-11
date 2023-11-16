@@ -74,3 +74,8 @@ DateReviewed: 2023-11-14
 Description: GitOps is a an approach to CI/CD, and in this article we're going to see if we can leverage this to improve security overall. We start with zero knowledge, and go through repos, CI, CD, and monitoring. Then we go through security benefits, which include an audit trail, gating, code scans, auto deployment and rollback, and drift detection. We then go through some issues we can face in the CI/CD flow, including malware, leaked secrets, and config issues among others. They then go through ways to address any of the issues. There is a small product plug for Armo, but honestly the article is excellent and the plug is low key.
 BottomLine: High level overview of using GitOps to improve Kubernetes security
 ==
+URL reference: https://blog.devops.dev/kubernetes-security-context-capabilities-explained-4fdc7d32de66
+DateReviewed: 2023-11-15
+Description: We start with a brief intro, telling us that sec context is derived from Linux capabilities throughout the system. We then dive right in with an example, where they show different container systems and compare their Linux capabilities, pointing out that one lacks the ability to ping (no NET_RAW). We then go hands on, where they demo the ping, then show dropping the sec capability and seeing ping not work. Simple but straightforward, a great read!
+BottomLine: Walkthrough of Kubernetes security context - short but well done
+==
