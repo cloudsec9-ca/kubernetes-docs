@@ -79,3 +79,8 @@ DateReviewed: 2023-11-15
 Description: We start with a brief intro, telling us that sec context is derived from Linux capabilities throughout the system. We then dive right in with an example, where they show different container systems and compare their Linux capabilities, pointing out that one lacks the ability to ping (no NET_RAW). We then go hands on, where they demo the ping, then show dropping the sec capability and seeing ping not work. Simple but straightforward, a great read!
 BottomLine: Walkthrough of Kubernetes security context - short but well done
 ==
+URL reference: https://learnk8s.io/kubernetes-node-size
+DateReviewed: 2023-11-16
+Description: We'll be exploring if fewer bigger or more smaller nodes are better in our Kubernetes cluster. We have a table of contents, and diagrams, so I'm hopeful this will be good. They start with the idea that your cluster is really a virtual server with the sum of all the CPU/mem etc of all the nodes. Next they talk about how K8s works at the node level, and zero in on memory. They explain the key mem metrics, and how K8s determines how much memory to dedicate to workloads -- this is the evicition threshold. They work through an example, showing a "fits comfortably" deployment and then a "too small" layout. They then work through what happens if a node was to crash, to have you consider resilience. They then work through a variety fo scenarios and outcomes to give you an idea how things might work. The explainations are well illustrated and it gives you the tools to understand how you might want to build your nodes.
+BottomLine: Recommended read about sizing your nodes in Kubernetex
+==
