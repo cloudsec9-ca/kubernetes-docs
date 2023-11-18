@@ -84,3 +84,8 @@ DateReviewed: 2023-11-16
 Description: We'll be exploring if fewer bigger or more smaller nodes are better in our Kubernetes cluster. We have a table of contents, and diagrams, so I'm hopeful this will be good. They start with the idea that your cluster is really a virtual server with the sum of all the CPU/mem etc of all the nodes. Next they talk about how K8s works at the node level, and zero in on memory. They explain the key mem metrics, and how K8s determines how much memory to dedicate to workloads -- this is the evicition threshold. They work through an example, showing a "fits comfortably" deployment and then a "too small" layout. They then work through what happens if a node was to crash, to have you consider resilience. They then work through a variety fo scenarios and outcomes to give you an idea how things might work. The explainations are well illustrated and it gives you the tools to understand how you might want to build your nodes.
 BottomLine: Recommended read about sizing your nodes in Kubernetex
 ==
+URL reference: https://kubescape.io/blog/2023/09/19/introducing-kubescape-3/
+DateReviewed: 2023-11-17
+Description: We start with a product launch, which is a new version of Kubescape, 3.0 to be precise. They have a long point form list of the new features, which are actually kind of cool. They have a paragraph on history, and then do a deeper dive on some of the new features, with both YAML snips and GUI snapshots to help understand. They even do a short roadmap of what is next. An awesome walkthrough for a product launch
+BottomLine: Launch announce and walkthrough of new features for Kubescape, a Kubernetes security scanner
+==
