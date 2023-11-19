@@ -89,3 +89,8 @@ DateReviewed: 2023-11-17
 Description: We start with a product launch, which is a new version of Kubescape, 3.0 to be precise. They have a long point form list of the new features, which are actually kind of cool. They have a paragraph on history, and then do a deeper dive on some of the new features, with both YAML snips and GUI snapshots to help understand. They even do a short roadmap of what is next. An awesome walkthrough for a product launch
 BottomLine: Launch announce and walkthrough of new features for Kubescape, a Kubernetes security scanner
 ==
+URL reference: https://www.getambassador.io/blog/kubecon-2024-emerging-trends
+DateReviewed: 2023-11-18
+Description: This is a summary of what went on at KubeCon, so let's dive in. Our authors cover a bit of platform engineering, AI & ML, Cloud Native infra, Kubernetes expansion, cost management, webassembly, more security, and a few misc things on the horizon. Each area has a few paragraphs, with highlights and directions from the conference. Lots of participant pics, it gives you a real flavor of what goes on.
+BottomLine: Decent summary or KubeConNA which happened recently.
+==
