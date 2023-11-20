@@ -94,3 +94,8 @@ DateReviewed: 2023-11-18
 Description: This is a summary of what went on at KubeCon, so let's dive in. Our authors cover a bit of platform engineering, AI & ML, Cloud Native infra, Kubernetes expansion, cost management, webassembly, more security, and a few misc things on the horizon. Each area has a few paragraphs, with highlights and directions from the conference. Lots of participant pics, it gives you a real flavor of what goes on.
 BottomLine: Decent summary or KubeConNA which happened recently.
 ==
+URL reference: https://devtron.ai/
+DateReviewed: 2023-11-19
+Description: So there is a short blurb, but it has an intro video, which we'll look into. First we go through global config, and then do a tour of permissions. So, we're 2 mins in and we still have no clue what this is; I'd say a better approach would have been to do a 30 sec hands on and then start with these details. Now we go through a tour of Helm charts and how that works. Now we get to see the "single pane of glass" view. Just past 5 1/2 mins in, we finally get through a build setup. Okay, so I stopped here; this video is a chance to go through as many bells and whistles as possible. Some of the features might be compelling, but I have zero clue what this does (other then help as a CI/CD piece) and why I should use their product over another. Maybe all of this makes more sense if you have another similar platform? As a dev, I'm not sure why I'd want to use this.
+BottomLine: Might be interesting but the video doesn't make the case.
+==
