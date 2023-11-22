@@ -104,3 +104,8 @@ DateReviewed: 2023-11-20
 Description: We start with waffling, but the intro tells us that Telepresence is a way to run local development in coordination with remote servers. So it works as a proxy between your local env and the remote cluster, allowing you to run items in your local debugger to observe issues. It then goes through a tour of the features, like what deployment modes can be used, how it can be used for debugging, and live iterative tests to observe changes. They go through a few more features and even some drawbacks before bringing things to a close.
 BottomLine: Excellent intro to Telepresence, a debug tool allowing local devs to interact with remote Kubernetes clusters
 ==
+URL reference: https://securityonline.info/botkube-monitor-your-kubernetes-cluster-debug-critical-deployments/?expand_article=1
+DateReviewed: 2023-11-21
+Description: We cut right to the chase -- botkube integrates with slack/mattermost/teams, to keep you in the know with your Kubernetes cluster. A pretty diagram follows, but it gives logical and not a container view of. It then maps out a half dozen items and their definitions. We then are presented with point form lists of enhancements, bugs and other changes that include PR refs and users. It then includes a link to install & use instructions.
+BottomLine: Update notice for integration between Kubernetes and messaging clients like slack and teams
+==
