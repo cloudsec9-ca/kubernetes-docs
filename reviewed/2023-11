@@ -109,3 +109,8 @@ DateReviewed: 2023-11-21
 Description: We cut right to the chase -- botkube integrates with slack/mattermost/teams, to keep you in the know with your Kubernetes cluster. A pretty diagram follows, but it gives logical and not a container view of. It then maps out a half dozen items and their definitions. We then are presented with point form lists of enhancements, bugs and other changes that include PR refs and users. It then includes a link to install & use instructions.
 BottomLine: Update notice for integration between Kubernetes and messaging clients like slack and teams
 ==
+URL reference: https://cloudsecurityalliance.org/blog/2023/11/21/kubernetes-security-companies-10-considerations-for-business-leaders/
+DateReviewed: 2023-11-22
+Description: We start with a side appeal to non-biz people, and talk about K8s security risks. So after a bit of background, they have a list with a sentence or two on each point. All ten of the points are solid, but exactly zero of them are Kubernetes specific; while they tie them in, all ten points are applicable to ordinary non cloud native envs. So, worth a glance, but nothing new for Kubernetes here.
+BottomLine: Despite being pitched as a Kubernetes thing, the list is just a basic computer security concerns list
+==
