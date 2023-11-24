@@ -114,3 +114,8 @@ DateReviewed: 2023-11-22
 Description: We start with a side appeal to non-biz people, and talk about K8s security risks. So after a bit of background, they have a list with a sentence or two on each point. All ten of the points are solid, but exactly zero of them are Kubernetes specific; while they tie them in, all ten points are applicable to ordinary non cloud native envs. So, worth a glance, but nothing new for Kubernetes here.
 BottomLine: Despite being pitched as a Kubernetes thing, the list is just a basic computer security concerns list
 ==
+URL reference: https://blog.palark.com/kubernetes-security-best-practices/
+DateReviewed: 2023-11-23
+Description: This one is a bit wordy, and that isn't always a bad thing, but I'm not sure if this is a low level or high level approach. It's got lots of diagrams, cites good research, and has some YAML snips. It is methodical and gives details. And does seem good, if a bit broad.
+BottomLine: Decent intro that covers high and low level Kubernetes best practices
+==
