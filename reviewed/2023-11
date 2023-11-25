@@ -119,3 +119,8 @@ DateReviewed: 2023-11-23
 Description: This one is a bit wordy, and that isn't always a bad thing, but I'm not sure if this is a low level or high level approach. It's got lots of diagrams, cites good research, and has some YAML snips. It is methodical and gives details. And does seem good, if a bit broad.
 BottomLine: Decent intro that covers high and low level Kubernetes best practices
 ==
+URL reference: https://kublr.com/blog/kubernetes-security-challenges/
+DateReviewed: 2023-11-24
+Description: K8s is becoming standard, so security is important. In this case, we look at how a tool called Kublr solves the security issue. I actually like their approach here - state a high level issue, give some background, and then explain how their tool tackles the issue. They go through misconfigs and complexity, insufficient segmentation, API server exposure, insecure images and containers, unrestricted access and permissions, logging, and inadequate encryption. A downside is that some of their remedies are coming soon, which means they actually have a gap. Their topic coverage is good.
+BottomLine: Good high level approach to Kubernetes security but through the lens of a paticular tool
+==
