@@ -124,3 +124,8 @@ DateReviewed: 2023-11-24
 Description: K8s is becoming standard, so security is important. In this case, we look at how a tool called Kublr solves the security issue. I actually like their approach here - state a high level issue, give some background, and then explain how their tool tackles the issue. They go through misconfigs and complexity, insufficient segmentation, API server exposure, insecure images and containers, unrestricted access and permissions, logging, and inadequate encryption. A downside is that some of their remedies are coming soon, which means they actually have a gap. Their topic coverage is good.
 BottomLine: Good high level approach to Kubernetes security but through the lens of a paticular tool
 ==
+URL reference: https://www.techwrix.com/top-10-devops-certifications-of-2023-a-comprehensive-guide/
+DateReviewed: 2023-11-25
+Description: We start with the pitch that DevOps certs validate knowledge. Our piece starts with a table of contents, so it can't be all bad, right? Next we go through a handful of benefits from certs, which is ok. Then we get to the "top" 10, which they list, but then have a paragraph after talking about each one. Now there is a diversity of certs here, including CNCF, AWS, Google, Microsoft and some 3rd parties. They end with some tips, including which ones you might want to go for, how to do exam prep, how to study and pointers to training. Overall a decent piece.
+BottomLine: Good into to 10 popular Kubernetes/DevOps certification along with tips
+==
