@@ -129,3 +129,8 @@ DateReviewed: 2023-11-25
 Description: We start with the pitch that DevOps certs validate knowledge. Our piece starts with a table of contents, so it can't be all bad, right? Next we go through a handful of benefits from certs, which is ok. Then we get to the "top" 10, which they list, but then have a paragraph after talking about each one. Now there is a diversity of certs here, including CNCF, AWS, Google, Microsoft and some 3rd parties. They end with some tips, including which ones you might want to go for, how to do exam prep, how to study and pointers to training. Overall a decent piece.
 BottomLine: Good into to 10 popular Kubernetes/DevOps certification along with tips
 ==
+URL reference: https://github.com/turbot/steampipe
+DateReviewed: 2023-11-26
+Description: Our topic today is Steampipe, "sql for APIs". They talk a bit about what they think you might be able to do, then they list a long line of compatible APIs you can interact with in a table. They show a quick gif that demonstrates talking to an API. They have an install section, a walkthrough on how to install a plugin, running a simple query, more about the CLI, and finally how to build/develop on the CLI. They talk a bit about dashboards and to wrap up, they have links for the community.
+BottomLine: Interesting app that ties multiple APIs together in a cloud native friendly way
+==
