@@ -139,3 +139,8 @@ DateReviewed: 2023-11-27
 Description: We start with Kubernetes won the orchestration race, but what if you have a security incident, how do you do DFIR? Seems it might be challenging to do DFIR in such dynamic enviornments. So, we start with a definition of DFIR, which is Incident response. They outline what an incident response plan is, and the main processes in each step. We are next toured through a number of tools, explained how they help and what they do. They then to a walk through of s siumlated incident, to illustrate how DFIR works. We are taken through a suspicious event, and do a bit of review to see what is going on. Once they feel that it is something untoward, they limit traffic in and out of the detected pod. They even isolate the node the pod is running on. We are then shown how they review the pod itself, looking for clues on what was done and how access was achieved. All of this was done "live", but they also show how to do an offline review. In the end, they find the way they gained access, and what they were running (a crypto miner in this case). Very interesting.
 BottomLine: Interesting walkthrough of a Kubernetes DFIR situation
 ==
+URL reference: https://www.centralinfosec.com/blog/kubehound-cheat-sheet-pen-test-red-team-kubernetes
+DateReviewed: 2023-11-28
+Description: Not an article but a cheatsheet, starts with some example graphs and then has a long list of examples to help visualize and probe your Kubernetes cluster. There is no filler here, no comments really -- all commands. For what it is, it seems excellent.
+BottomLine: Great cheatsheet for KubeHound, a Kubernetes visualization and exploration tool
+==
