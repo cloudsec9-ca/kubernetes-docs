@@ -144,3 +144,8 @@ DateReviewed: 2023-11-28
 Description: Not an article but a cheatsheet, starts with some example graphs and then has a long list of examples to help visualize and probe your Kubernetes cluster. There is no filler here, no comments really -- all commands. For what it is, it seems excellent.
 BottomLine: Great cheatsheet for KubeHound, a Kubernetes visualization and exploration tool
 ==
+URL reference: https://www.checkpoint.com/cyber-hub/cyber-security/cyber-security-testing-types-of-cybersecurity-testing
+DateReviewed: 2023-11-29
+Description: We start out with a brief review of what cybersecurity testing is at a high level. Next we go through why you need to do it, and then on the the main purpose -- types of testing. They go through 12 types of testing, giving a definition and a brief description on how each is done. Then they talk about what is done after testing, like exec summaries, results, recommendatiions and debrief sessions, all depending on what tests might ahve been done. It's not long but a great first walkthrough at a high level.
+BottomLine: Excellent concise high level intro to cybersecurity testing
+==
