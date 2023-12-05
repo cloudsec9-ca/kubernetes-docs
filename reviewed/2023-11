@@ -149,3 +149,8 @@ DateReviewed: 2023-11-29
 Description: We start out with a brief review of what cybersecurity testing is at a high level. Next we go through why you need to do it, and then on the the main purpose -- types of testing. They go through 12 types of testing, giving a definition and a brief description on how each is done. Then they talk about what is done after testing, like exec summaries, results, recommendatiions and debrief sessions, all depending on what tests might ahve been done. It's not long but a great first walkthrough at a high level.
 BottomLine: Excellent concise high level intro to cybersecurity testing
 ==
+URL reference: https://www.cncf.io/blog/2023/11/24/kubeadmiral-next-generation-multi-cluster-orchestration-engine-based-on-kubernetes/
+DateReviewed: 2023-11-30
+Description: Starts with Kubernetes becoming a world standard, but for certain enterprises the limit of 5K nodes per cluster is not enough. This is the story of K8s at ByteDance, and how they solved ultra-large scaling. They explain their challenges, and both with diagrams and YAML, they show how they addressed them. They talk about how they evolved from a pre-built add on to authoring their own, KubeAdmiral. They detail the infrastructure and associated enhancements and how they worked. While not everyone will need such scale, it's an interesting read.
+BottomLine: Interesting work on using Kubernetes at very large scale
+==
