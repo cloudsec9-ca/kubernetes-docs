@@ -154,3 +154,8 @@ DateReviewed: 2023-11-30
 Description: Starts with Kubernetes becoming a world standard, but for certain enterprises the limit of 5K nodes per cluster is not enough. This is the story of K8s at ByteDance, and how they solved ultra-large scaling. They explain their challenges, and both with diagrams and YAML, they show how they addressed them. They talk about how they evolved from a pre-built add on to authoring their own, KubeAdmiral. They detail the infrastructure and associated enhancements and how they worked. While not everyone will need such scale, it's an interesting read.
 BottomLine: Interesting work on using Kubernetes at very large scale
 ==
+URL reference: https://www.kubetools.io/kubernetes/yaml-tips-for-kubernetes/
+DateReviewed: 2023-11-30
+Description: We start a bit weak with how Kubernetes is popular, but they talk a bit about config and YAML as the warm up. And then we see the table of contents. Our first motivator is explaining why YAML is popular, and then we dig into how to apply it to simplify K8s configs. They take us through labels and selectors, configmaps and secrets, resource limits and InitContainers, all with an example. Next is Readiness and Rollbacks, comments and anchors and finally variable. Overall, a good but quick review of YAML for Kubernetes.
+BottomLine: Good reference and quick walkthrough of YAML for Kubernetes
+==
