@@ -14,3 +14,8 @@ DateReviewed: 2023-12-03
 Description: The DevOps wall is what we are going to dive into. After a bit of background on the wall concept, being the barrier between groups in the org, we get into a formal definition. They define it as the transition point(s) between teams, where things are handed over from one group to another. One important thing is metrics, and different groups are measured by different metrics. To break down the wall, they suggest a cultural shift is needed -- for instance, all teams have the same metrics to work towards. They also make the point that healthy orgs are important, and that people are informed of where things are in the cycle. Overall a decent piece.
 BottomLine: Tackles the DevOps wall with strategies to tear it down
 ==
+URL reference: https://www.linkedin.com/feed/update/urn:li:share:6998612377482989568
+DateReviewed: 2023-12-04
+Description: This is just a short list of ops and sec challenges in Kubernetes and containers. There are only 6, and with no explaination it is a bit of a choose your own adventure. I mean, they are all true to an extent, but "image misuse" seems like it could mean a couple things, at least. There is also no suggestions or help, just a list of this might be bad.
+BottomLine: Simple list with no context or remediations
+==
