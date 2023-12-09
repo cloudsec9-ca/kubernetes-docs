@@ -29,3 +29,8 @@ DateReviewed: 2023-12-06
 Description: This is an announcement post explaining that Kyverno has passed a third party audit. It shows a number of CVEs, their severities and which component is affected. Basically it shows that Kyverno has a good overall security posture, and although some things were discovered the development team were able to fix the issues. My feeling is this is aimed at bigger shops.
 BottomLine: Announcement that Kyverno has successfuly passed a third party security audit
 ==
+URL reference: https://blog.shellnetsecurity.com/2023/11/681/security/how-to-install-and-use-starboard-to-protect-your-kubernetes-cluster/
+DateReviewed: 2023-12-07
+Description: This is a walk through, so we start with a tiny paragraph of background on how the author discovered Starboard, and then we dive right in. He notes there are a few ways to deploy this, picks the Helm method, and does a couple changes to the config, and then deploys things to his cluster. He then shows the results of running the Helm charts, and looks at the performance spike caused by running the tool. He then shows the results from the tool, first as a summary and then as a detailed report. The author updates a version to address an issue, runs into a bug causing a crash loop, does some diagnostics and finally deployes the working update. Overall an interesting trip!
+BottomLine: Good walkthrough and troubleshooting with Kubernetes security tool Starboarc
+==
