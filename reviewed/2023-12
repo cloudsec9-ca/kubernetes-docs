@@ -24,3 +24,8 @@ DateReviewed: 2023-12-05
 Description: We start with no integration testing making developer experience bad. This article talks about using GitHub actions with Testkube. So, they start by explaining that Testkube allows you to build tests and test workflows in K8s. So you can use multiple integrations, like CLI, GitOps or what we'll be looking at, GitHub actions. They then lobby that their framework does a bunch of things as a suite that helps testing, which ok - fair. Now to the hands on - we have a few things needed, like K8s cluster, Testkube agent and API tokens, and Github account with actions enabled. They then create a test, add some parameters to check, add a Github action. They then demonstrate how a PR is able to merged on a successful test, and how it is blocked on a failed test. Interesting tool.
 BottomLine: Demo of integrating Testkube with Github actions in Kubernetes for integration testing
 ==
+URL reference: https://www.cncf.io/blog/2023/12/05/kyverno-completes-third-party-security-audit/
+DateReviewed: 2023-12-06
+Description: This is an announcement post explaining that Kyverno has passed a third party audit. It shows a number of CVEs, their severities and which component is affected. Basically it shows that Kyverno has a good overall security posture, and although some things were discovered the development team were able to fix the issues. My feeling is this is aimed at bigger shops.
+BottomLine: Announcement that Kyverno has successfuly passed a third party security audit
+==
