@@ -34,3 +34,8 @@ DateReviewed: 2023-12-07
 Description: This is a walk through, so we start with a tiny paragraph of background on how the author discovered Starboard, and then we dive right in. He notes there are a few ways to deploy this, picks the Helm method, and does a couple changes to the config, and then deploys things to his cluster. He then shows the results of running the Helm charts, and looks at the performance spike caused by running the tool. He then shows the results from the tool, first as a summary and then as a detailed report. The author updates a version to address an issue, runs into a bug causing a crash loop, does some diagnostics and finally deployes the working update. Overall an interesting trip!
 BottomLine: Good walkthrough and troubleshooting with Kubernetes security tool Starboarc
 ==
+URL reference: https://ostridelabs.com/hands-on-kubernetes-security-the-threat-of-misconfiguration/
+DateReviewed: 2023-12-08
+Description: Starts with Kubernetes is transformative but complex security wise. Our article is going to focus on getting configs right. After a bit of setup, they argue that misconfigurations are the cause of vulnerabilities, including bad network policies, access controls and exposed secrets. To address these issues, they have a range of mitigations, including audits, automatic security checks, education and strong access controls. They do briefly mention a provider that suffered an issue through an unsecured k8s dashboard.
+BottomLine: Lightweight and high level intro to Kubernetes security concerns
+==
