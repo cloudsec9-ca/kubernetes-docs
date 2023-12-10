@@ -39,3 +39,8 @@ DateReviewed: 2023-12-08
 Description: Starts with Kubernetes is transformative but complex security wise. Our article is going to focus on getting configs right. After a bit of setup, they argue that misconfigurations are the cause of vulnerabilities, including bad network policies, access controls and exposed secrets. To address these issues, they have a range of mitigations, including audits, automatic security checks, education and strong access controls. They do briefly mention a provider that suffered an issue through an unsecured k8s dashboard.
 BottomLine: Lightweight and high level intro to Kubernetes security concerns
 ==
+URL reference: https://securitylabs.datadoghq.com/articles/kubernetes-security-fundamentals-part-2/
+DateReviewed: 2023-12-09
+Description: Opens explaining that this is part of a series. We dig in by looking at unmanaged Kubernetes setups, with a diagram and discription of the ports open and their function. We then examine managed setups and how they differ, going a bit into the top 3 providers. There is then a discussion of how to secure the K8s APIs in the various cases.
+BottomLine: Good high level examination of Kubernetes API security
+==
