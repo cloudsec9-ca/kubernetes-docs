@@ -44,3 +44,8 @@ DateReviewed: 2023-12-09
 Description: Opens explaining that this is part of a series. We dig in by looking at unmanaged Kubernetes setups, with a diagram and discription of the ports open and their function. We then examine managed setups and how they differ, going a bit into the top 3 providers. There is then a discussion of how to secure the K8s APIs in the various cases.
 BottomLine: Good high level examination of Kubernetes API security
 ==
+URL reference: https://go.weave.works/GitOps-and-K8s-for-Beginners.html
+DateReviewed: 2023-12-10
+Description: Instead of being a single article, this is links to a series of resources to help a beginner with Kubernetes and GitOps. First we start with an diagram and infographic, mapping out the steps. Next up is a half hour vid from CNCF on getting started in GitOps and Flux, followed up with a beefy article on what is K8s. Finally we have an article on CI/CD tools for K8s, tied in with a short reference book on GitOps for absolute beginngers. This is actually a well done little guide.
+BottomLine: Excellent group of resources to get into GitOps in Kubernetes
+==
