@@ -49,3 +49,8 @@ DateReviewed: 2023-12-10
 Description: Instead of being a single article, this is links to a series of resources to help a beginner with Kubernetes and GitOps. First we start with an diagram and infographic, mapping out the steps. Next up is a half hour vid from CNCF on getting started in GitOps and Flux, followed up with a beefy article on what is K8s. Finally we have an article on CI/CD tools for K8s, tied in with a short reference book on GitOps for absolute beginngers. This is actually a well done little guide.
 BottomLine: Excellent group of resources to get into GitOps in Kubernetes
 ==
+URL reference: https://www.helpnetsecurity.com/2023/12/06/pentesting-kubernetes-open-source-tools/
+DateReviewed: 2023-12-10
+Description: We start with K8s being great, except for security. This article is going to touch on five pentesting tools. The coverage is only about a paragraph per tool, but it give the general gist. They cover kubeaudit, kube-bench, KubeScan, Kubetap and Peirates. They don't compare, rank or give any opinion on the tools, so really it's only helpful as a list and an idea of what the tools do.
+BottomLine: Only useful as a listing of pentest tools for Kubernetes
+==
