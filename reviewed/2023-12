@@ -54,3 +54,8 @@ DateReviewed: 2023-12-10
 Description: We start with K8s being great, except for security. This article is going to touch on five pentesting tools. The coverage is only about a paragraph per tool, but it give the general gist. They cover kubeaudit, kube-bench, KubeScan, Kubetap and Peirates. They don't compare, rank or give any opinion on the tools, so really it's only helpful as a list and an idea of what the tools do.
 BottomLine: Only useful as a listing of pentest tools for Kubernetes
 ==
+URL reference: https://morioh.com/a/d2ca336967df/kubernetes-cheat-sheet-the-ultimate-resource-for-kubernetes-users#google_vignette
+DateReviewed: 2023-12-11
+Description: This is a decent length quick CLI sheet for while you are coming up to speed on Kubernetes. It has 19 sections and seemingly hundreds of commands. Things are divided into topic areas, and even has links to some references. I wish it had a bit more verbiage or direction, but it's good for what it is trying to do.
+BottomLine: More reference than cheat sheet, still a decent doc for early in your Kubernetes journey
+==
