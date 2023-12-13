@@ -59,3 +59,8 @@ DateReviewed: 2023-12-11
 Description: This is a decent length quick CLI sheet for while you are coming up to speed on Kubernetes. It has 19 sections and seemingly hundreds of commands. Things are divided into topic areas, and even has links to some references. I wish it had a bit more verbiage or direction, but it's good for what it is trying to do.
 BottomLine: More reference than cheat sheet, still a decent doc for early in your Kubernetes journey
 ==
+URL reference: https://venturebeat.com/security/protecting-against-new-kubernetes-threats-in-2024-and-beyond/
+DateReviewed: 2023-12-12
+Description: Scary things in security with Kubernetes is our start. This article focuses on a few attacks, how they work and how to detect/prevent/mitgate them. Our first is Scarleteel, which uses a web app to access cloud based data and do cryptomining. The next few are pure cryptominers, one of which (Dero) scans for anonymous Kubernetes API access, and the second (Monero) uses priv escalation to run it's payload. Last up is RBAC-buster, which after gaining a foothold scans for AWS keys to do it's thing. They strongly recommend real-time views of your clusters, so you can see and respond to issues in a timely way. Good read.
+BottomLine: Good walkthrough of a few popular Kubernetes attack vectors and their mitigations
+==
