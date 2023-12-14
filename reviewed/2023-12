@@ -64,3 +64,8 @@ DateReviewed: 2023-12-12
 Description: Scary things in security with Kubernetes is our start. This article focuses on a few attacks, how they work and how to detect/prevent/mitgate them. Our first is Scarleteel, which uses a web app to access cloud based data and do cryptomining. The next few are pure cryptominers, one of which (Dero) scans for anonymous Kubernetes API access, and the second (Monero) uses priv escalation to run it's payload. Last up is RBAC-buster, which after gaining a foothold scans for AWS keys to do it's thing. They strongly recommend real-time views of your clusters, so you can see and respond to issues in a timely way. Good read.
 BottomLine: Good walkthrough of a few popular Kubernetes attack vectors and their mitigations
 ==
+URL reference: https://www.techzone360.com/topics/techzone/articles/2023/10/12/457406-5-kubernetes-security-tips.htm
+DateReviewed: 2023-12-13
+Description: We start with Kubernetes is great, but, surprise surpirse, security is an issue. So our article will look at 5 tips to improve security. Their approach is decent - they have a short recommendation, followed by a few paragraphs  of the why and how at a high level. Their top points are isolate sensitive workloads, enable RBAC, use service mesh, leverage K8s monitoring and security tools, and scan container images. All solid points, and decently explained.
+BottomLine: Good high level approach to 5 Kubernetes security improvement tips
+==
