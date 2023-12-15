@@ -69,3 +69,8 @@ DateReviewed: 2023-12-13
 Description: We start with Kubernetes is great, but, surprise surpirse, security is an issue. So our article will look at 5 tips to improve security. Their approach is decent - they have a short recommendation, followed by a few paragraphs  of the why and how at a high level. Their top points are isolate sensitive workloads, enable RBAC, use service mesh, leverage K8s monitoring and security tools, and scan container images. All solid points, and decently explained.
 BottomLine: Good high level approach to 5 Kubernetes security improvement tips
 ==
+URL reference: https://www.silverliningsinfo.com/security/kubernetes-co-founder-flags-clouds-big-open-source-problem
+DateReviewed: 2023-12-14
+Description: Warning of an existential crisis with regards to security in open source. The thesis here is that small parts of open source can have outsized impacts. They cite things like Left-pad and Log4j to make their case. They talk a bit about how cloud vendors do vetting, but that might not be passed onto end users. They also touch on abandonware, or cases where developers give up on a software package. There is some talk about boosting contributions for important libraries, and strategies for recruiting new developers to libraries. It's an interesting read.
+BottomLine: Interesting take on Open Source contributions and the need to ensure projects are properly run and contributed to
+==
