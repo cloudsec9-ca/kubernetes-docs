@@ -74,3 +74,8 @@ DateReviewed: 2023-12-14
 Description: Warning of an existential crisis with regards to security in open source. The thesis here is that small parts of open source can have outsized impacts. They cite things like Left-pad and Log4j to make their case. They talk a bit about how cloud vendors do vetting, but that might not be passed onto end users. They also touch on abandonware, or cases where developers give up on a software package. There is some talk about boosting contributions for important libraries, and strategies for recruiting new developers to libraries. It's an interesting read.
 BottomLine: Interesting take on Open Source contributions and the need to ensure projects are properly run and contributed to
 ==
+URL reference: https://medium.com/@paritoshblogs/your-comprehensive-guide-to-kubernetes-security-0a215518b710
+DateReviewed: 2023-12-14
+Description: Starts with K8s great, but needs security. Our author is going to touch on a few key K8s security points. They have a bunch of top level headings, and generally have 2 or 3 points under each. Their top level points are Control plane security, Node security, Network security, Image security, Secrets management, Monitoring and Logging, and finally Incident Response. It's a very high level approach, but does touch on most of the big topics. I'd say it is a decent intro.
+BottomLine: Decent intro to Kubernetes security topics
+==
