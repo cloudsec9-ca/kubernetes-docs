@@ -79,3 +79,8 @@ DateReviewed: 2023-12-14
 Description: Starts with K8s great, but needs security. Our author is going to touch on a few key K8s security points. They have a bunch of top level headings, and generally have 2 or 3 points under each. Their top level points are Control plane security, Node security, Network security, Image security, Secrets management, Monitoring and Logging, and finally Incident Response. It's a very high level approach, but does touch on most of the big topics. I'd say it is a decent intro.
 BottomLine: Decent intro to Kubernetes security topics
 ==
+URL reference: https://www.getambassador.io/blog/kubernetes-security-tools-risks-best-practices
+DateReviewed: 2023-12-15
+Description: Starts with - K8s is great, but has security challenges. This article attempts to give best practices and some tools to help. We start by running down the issues, and they include a list of 6 with one or two sentence explainations, to give us the environment. They then have a list of 8 security capabilities, which they break down with multiple points to cover the topic. We are then taken through 8 areas, where they list 3-4 tools in each area and how they help to secure that concern. They then have 7 best practices they walk through. Overall a great approach and a jam-packed article.
+BottomLine: Excellent high level walkthrough of issues, approaches, tools and practices to improve Kubernetes security
+==
