@@ -84,3 +84,14 @@ DateReviewed: 2023-12-15
 Description: Starts with - K8s is great, but has security challenges. This article attempts to give best practices and some tools to help. We start by running down the issues, and they include a list of 6 with one or two sentence explainations, to give us the environment. They then have a list of 8 security capabilities, which they break down with multiple points to cover the topic. We are then taken through 8 areas, where they list 3-4 tools in each area and how they help to secure that concern. They then have 7 best practices they walk through. Overall a great approach and a jam-packed article.
 BottomLine: Excellent high level walkthrough of issues, approaches, tools and practices to improve Kubernetes security
 ==
+URL reference: https://securityonline.info/kubeshark-api-traffic-analyzer-for-kubernetes/?expand_article=1
+DateReviewed: 2023-12-16
+Description: This feels very content-farmy. It has a picture, and does do some h
+igh level descriptions, but there are blank spaces where ads should be, and ther
+e are lots of spaces. It does tell us kubeshark is a network traffic analyzer, a
+nd goes through some traffic it can handle, with links to other spots. It tells
+us it uses eBPF and can sniff encrypted traffic, plus it is scriptable. But each
+ of these is a single sentence. It does have a list of v52 changes, again, a sen
+tence each.
+BottomLine: You can skip this light info and heavy content farm piece
+==
