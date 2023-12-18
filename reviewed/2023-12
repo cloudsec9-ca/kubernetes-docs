@@ -95,3 +95,8 @@ us it uses eBPF and can sniff encrypted traffic, plus it is scriptable. But each
 tence each.
 BottomLine: You can skip this light info and heavy content farm piece
 ==
+URL reference: https://thenewstack.io/3-steps-cloud-governance-steps-to-avoid-the-next-hack/
+DateReviewed: 2023-12-17
+Description: We start with cybersecurity isn't novel, it just doesn't get attention. We then go through an example and some motivation of why things are pushed back and why they shouldn't be, before getting into the main thrust - 3 things that can help to prioritize security. Their 3 steps are simple - Immutabiltity and policy management, Visibility and auditability, and finally Disaster recovery enabled by code and IT Governance. Simple stuff, right? Well, each of these topics comes with 10+ paragraphs of discussion. I think their objectives are good, but this is a dense document not for beginners. Not a bad read for overall coverage, though.
+BottomLine: Intermediate and longer term approach to Kubernetes security issues
+==
