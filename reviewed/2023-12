@@ -100,3 +100,8 @@ DateReviewed: 2023-12-17
 Description: We start with cybersecurity isn't novel, it just doesn't get attention. We then go through an example and some motivation of why things are pushed back and why they shouldn't be, before getting into the main thrust - 3 things that can help to prioritize security. Their 3 steps are simple - Immutabiltity and policy management, Visibility and auditability, and finally Disaster recovery enabled by code and IT Governance. Simple stuff, right? Well, each of these topics comes with 10+ paragraphs of discussion. I think their objectives are good, but this is a dense document not for beginners. Not a bad read for overall coverage, though.
 BottomLine: Intermediate and longer term approach to Kubernetes security issues
 ==
+URL reference: https://github.com/h3poteto/kube-job
+DateReviewed: 2023-12-18
+Description: This is a repo, so let's dive straight in. The goal of this is to allow you to run one-off jobs in Kubernetes. Install is straightforward and walked through. They explain how you have to set things up; namely, you need a K8s config file, but the same one you use for kubectl will suffice. You also need a job template, which has all of the metadata like namespace and env settings so you are in the right area. They then show how to run a specific job in a couple of ways. Overall, a handy thing to have in the toolbox.
+BottomLine: Repo with a way to execute a specific job on Kubernetes
+==
