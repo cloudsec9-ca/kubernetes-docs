@@ -105,3 +105,8 @@ DateReviewed: 2023-12-18
 Description: This is a repo, so let's dive straight in. The goal of this is to allow you to run one-off jobs in Kubernetes. Install is straightforward and walked through. They explain how you have to set things up; namely, you need a K8s config file, but the same one you use for kubectl will suffice. You also need a job template, which has all of the metadata like namespace and env settings so you are in the right area. They then show how to run a specific job in a couple of ways. Overall, a handy thing to have in the toolbox.
 BottomLine: Repo with a way to execute a specific job on Kubernetes
 ==
+URL reference: https://anyuakmedia.com/securing-kubernetes-in-cloud-native-environments-best-practices/
+DateReviewed: 2023-12-19
+Description: Starts with K8s great, but the security; also an AI generated image. They are going to discuss best practices, which is a list of seven points filled out with about a paragraph of explaination. Their 7 are RBAC, network policies, Secure comms, Pod security policies, Image scans, Logging, and multi-factor auth. The only unique one is MFA, and they don't really expand on why. It's a not bad but not awesome high level overview.
+BottomLine: Okay high level overview of some Kubernetes best practices
+==
