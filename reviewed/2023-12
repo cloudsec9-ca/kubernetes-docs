@@ -110,3 +110,8 @@ DateReviewed: 2023-12-19
 Description: Starts with K8s great, but the security; also an AI generated image. They are going to discuss best practices, which is a list of seven points filled out with about a paragraph of explaination. Their 7 are RBAC, network policies, Secure comms, Pod security policies, Image scans, Logging, and multi-factor auth. The only unique one is MFA, and they don't really expand on why. It's a not bad but not awesome high level overview.
 BottomLine: Okay high level overview of some Kubernetes best practices
 ==
+URL reference: https://vmblog.com/archive/2023/12/15/ambassador-labs-2024-predictions-2024-kubernetes-trends-platform-engineering-and-enhanced-security-predictions.aspx
+DateReviewed: 2023-12-20
+Description: This article is predictions, so let's see what the prognostications are! Predictions are that Java apps will move to K8s and that this will come with stonger developer experience support; platform engineering will take a greater role, and there will be better security earlier in our process and zero trust will be embraced. They have some thoughts on each of these directions and do flesh them out a bit. I think some of them are good directions, but I'm not sure wanting them to happen and having them happen are the same thing. Something to read and think about, though.
+BottomLine: 3 predictions related to Kubernetes as we approach 2024 - interesting to consider
+==
