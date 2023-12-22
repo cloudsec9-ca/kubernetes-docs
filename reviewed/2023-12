@@ -115,3 +115,8 @@ DateReviewed: 2023-12-20
 Description: This article is predictions, so let's see what the prognostications are! Predictions are that Java apps will move to K8s and that this will come with stonger developer experience support; platform engineering will take a greater role, and there will be better security earlier in our process and zero trust will be embraced. They have some thoughts on each of these directions and do flesh them out a bit. I think some of them are good directions, but I'm not sure wanting them to happen and having them happen are the same thing. Something to read and think about, though.
 BottomLine: 3 predictions related to Kubernetes as we approach 2024 - interesting to consider
 ==
+URL reference: https://www.youtube.com/shorts/gNof4zNFMpg
+DateReviewed: 2023-12-21
+Description: Weird but funny vid brainstorming marrying Paradise lost and Kubernetes
+BottomLine: Bit of humor in the mix
+==
