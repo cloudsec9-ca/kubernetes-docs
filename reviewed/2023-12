@@ -125,3 +125,8 @@ DateReviewed: 2023-12-22
 Description: Starts K8s is great, but that security. Focus is a vendors K8s implementation, but I think it applies to general K8s too. So, they advocate for private access to the dashboard through VPN, and give reasons, but their reasons don't mention threats or risks -- just areas. Okay, so we're also going to hone in on a specific cloud provider, in this case AWS. To their credit, they do a complete walkthrough of setting up network, EKS, Devtron (their tool), and then the VPN (which they use OpenVPN). So, a good walkthrough, even if it is a bit of a weak motivation.
 BottomLine: Good walkthrough of setting up a VPN to access Kubernetes dashboards
 ==
+URL reference: https://medium.com/@dmosyan/the-4cs-of-cloud-native-kubernetes-security-958c720e2391
+DateReviewed: 2023-12-23
+Description: Starts with the actual 4C's, but how they relate to security. The 4 Cs of course are Cloud, Cluster, Containers, and Code. Each area has a short paragrpah describing what it is, and some points or a table with items and recommendations on how to secure them. Short and sweet, it's great for a toe dip into security if you are new to Cloud computing.
+BottomLine: Quick high-level intro to security for Cloud computing
+==
