@@ -130,3 +130,8 @@ DateReviewed: 2023-12-23
 Description: Starts with the actual 4C's, but how they relate to security. The 4 Cs of course are Cloud, Cluster, Containers, and Code. Each area has a short paragrpah describing what it is, and some points or a table with items and recommendations on how to secure them. Short and sweet, it's great for a toe dip into security if you are new to Cloud computing.
 BottomLine: Quick high-level intro to security for Cloud computing
 ==
+URL reference: https://medium.com/@seifeddinerajhi/chaos-engineering-on-kubernetes-a-beginners-guide-revel-in-chaos-0974ae9bee8b
+DateReviewed: 2023-12-24
+Description: Focus of this article is ensuring your systems work through testing. They do this through the introduction of Chaos, or engineered failures to ensure things are robust. They go into a bit of background and the theory, which boils down to "your app should survive latency and simple crashes". They then introduce and review 6 chaos tools, which you can use to test your various bits. Well done, and a great intro.
+BottomLine: Awesome intro to Chaos engineering for Kubernetes
+==
