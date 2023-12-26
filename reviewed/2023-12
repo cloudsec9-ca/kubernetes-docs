@@ -135,3 +135,8 @@ DateReviewed: 2023-12-24
 Description: Focus of this article is ensuring your systems work through testing. They do this through the introduction of Chaos, or engineered failures to ensure things are robust. They go into a bit of background and the theory, which boils down to "your app should survive latency and simple crashes". They then introduce and review 6 chaos tools, which you can use to test your various bits. Well done, and a great intro.
 BottomLine: Awesome intro to Chaos engineering for Kubernetes
 ==
+URL reference: https://blog.appsecco.com/a-pentesters-approach-to-kubernetes-security-part-1-2b328252954a
+DateReviewed: 2023-12-25
+Description: Starts with - you guessed it, K8s great but hard to secure. The focus though is going to be on security misconfigs, which can be an issue. They go through a few variants, including network and service based misconfigs, but the nice thing is they explain the misconfig, why it's a problem and what might help with it. One I've not seen before is overly permissive volume mounts, which can allow container escape. Finally they go through ReadOnly, and how this can be used to acquire info about the whole cluster and perhaps disclose info to continue the attack. Overall well done.
+BottomLine: Focus on Kubernetes security misconfigs and how they are exploited - recommended reading
+==
