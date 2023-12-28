@@ -145,3 +145,8 @@ DateReviewed: 2023-12-26
 Description: We dive right in, talking about the contrast of Pod YAML compared with Docker. We first visit command and args, which are each string arrays, and they explain how they work. They then explain how command maps to Entrypoint, and args map to Cmd in a Dockerfile. Then they show each in a file, and break out a bit more on how each functions. Short and to the point, it's good quick reading.
 BottomLine: Good comparison between Dockerfiles and Kubernetes YAML for command and arg
 ==
+URL reference: https://medium.com/@megaurav25/sealed-secret-mastery-guide-04f8ed9d2005
+DateReviewed: 2023-12-27
+Description: Our premise is storing secrets in a Git repo, so yeah, but let's dive in. So, we start out by understanding that Kubernetes secrets are obfuscated with base64 and not really encrypted, and they are saying they should be. The idea here is you commit a "sealed secret", encrypted with a public key, and commit that into your repo. Now to access them on the K8s side, we will use an operator which will allow them to be decrypted. The operator actually generates both public and private keys needed. To actually use a secret, we use something called Kubeseal which has a CLI that lets us do the encryption part. We then use Kubeseal to encrypt the secret and save that to the YAML which we check into our repo. Interesting apprach.
+BottomLine: Technique for encrypting Kubernetes secrets to enable checking them into a repository
+==
