@@ -155,3 +155,8 @@ DateReviewed: 2023-12-28
 Description: Ok, so usually these things are very light and short, and give you a gist -- but not here. We start with "what is a container", and then get into the reasons for docker. They explain how a docker image is built and deployed, and then go through a list of common commands. Next up is "concepts", or how to do a few different conceptual things, like using a tag or port mapping. We then take a short tour of using env variables, then get into Dockerfiles and how to use them. Then we go through compose and how to use the registry.
 BottomLine: Great introduction to Docker and containers
 ==
+URL reference: https://collabnix.com/kubernetes-crashloopbackoff-error-what-it-is-and-how-to-fix-it/
+DateReviewed: 2023-12-29
+Description: We start with K8s being powerful but sometimes hard to troubleshoot. The focus of this article is CrashLoopBackOff error. It goes through the things that can contribute, like config errors, resource issues, dependencies, and app errors. Then they go through the troubledshooting steps, such as the container logs, container configs, resource constaints, look through the dependencies and finally debug the app issues. Overall well done.
+BottomLine: Good walkthrough of Kubernetes CrashLoopBackOff and general troubleshooting
+==
