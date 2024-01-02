@@ -160,3 +160,8 @@ DateReviewed: 2023-12-29
 Description: We start with K8s being powerful but sometimes hard to troubleshoot. The focus of this article is CrashLoopBackOff error. It goes through the things that can contribute, like config errors, resource issues, dependencies, and app errors. Then they go through the troubledshooting steps, such as the container logs, container configs, resource constaints, look through the dependencies and finally debug the app issues. Overall well done.
 BottomLine: Good walkthrough of Kubernetes CrashLoopBackOff and general troubleshooting
 ==
+URL reference: https://fixyacloud.com/kubernetes/mastering-kubectl-getting-events-and-sorting-by-time
+DateReviewed: 2023-12-30
+Description: We start with background on how understanding events helps with troubleshooting K8s and keeping it healthy. So, our article will focus on that. Our journey begins with a look at how to view events, and this is by the "kubectl get events" command. Of course, this just spits out events in any old order, but they take us through the incantations to sort by ascend or descend. We can also filter down by resource, so we can zero in on a paticular pod or tag. There are a couple more examples too. This is a great start, but honestly I'd have like more examples or a walkthrough.
+BottomLine: Good toe dip on using events to troubleshoot Kubernetes
+==
