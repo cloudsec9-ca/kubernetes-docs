@@ -165,3 +165,8 @@ DateReviewed: 2023-12-30
 Description: We start with background on how understanding events helps with troubleshooting K8s and keeping it healthy. So, our article will focus on that. Our journey begins with a look at how to view events, and this is by the "kubectl get events" command. Of course, this just spits out events in any old order, but they take us through the incantations to sort by ascend or descend. We can also filter down by resource, so we can zero in on a paticular pod or tag. There are a couple more examples too. This is a great start, but honestly I'd have like more examples or a walkthrough.
 BottomLine: Good toe dip on using events to troubleshoot Kubernetes
 ==
+URL reference: https://itnext.io/introduction-to-kubernetes-security-for-security-professionals-a61b424f7a2a
+DateReviewed: 2023-12-31
+Description: This article is more of a general approach to Kubernetes security. It starts off with a decent intro to K8s itself, explaining you have to understand it to secure it. Then it jumps into Attacks which can be performed, and outlines what access an attacker might need to launch the attack. The author then goes through a few specific scenarios, to give you a feel of how the attack works from the attacker's perspective. While it doesn't include mitigations, it demonstrates the weakness and gives you understanding of what to look for.
+BottomLine: Great Kubernetes overview and review of security weaknesses and attacks possible from a few specific attacks
+==
