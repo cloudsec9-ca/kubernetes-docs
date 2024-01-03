@@ -170,3 +170,8 @@ DateReviewed: 2023-12-31
 Description: This article is more of a general approach to Kubernetes security. It starts off with a decent intro to K8s itself, explaining you have to understand it to secure it. Then it jumps into Attacks which can be performed, and outlines what access an attacker might need to launch the attack. The author then goes through a few specific scenarios, to give you a feel of how the attack works from the attacker's perspective. While it doesn't include mitigations, it demonstrates the weakness and gives you understanding of what to look for.
 BottomLine: Great Kubernetes overview and review of security weaknesses and attacks possible from a few specific attacks
 ==
+URL reference: https://medium.com/@imranfosec/rewind-security-on-cloud-2023-897dd5779ebb
+DateReviewed: 2023-12-31
+Description: Our article is a year-in-review, so let's dive in. They present topics with a sentence or two on them -- let's go through the topics. They include Zero trust, conatainer sec, cloud workload protection platforms, and service mesh. They then go through use cases, but only two and I'm not sure how they relate to a roundup. They then go through some toolstacks in various areas, which is decent but again not seeing a connection. Finally some predictions. So, it has some good parts, but it feels like 3 different articles that were hacked together to produce an off-topic roundup.
+BottomLine: Review of Cloud security in 2023 which does not stick to topic
+==
