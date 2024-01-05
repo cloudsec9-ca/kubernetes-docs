@@ -4,3 +4,8 @@ DateReviewed: 2024-01-01
 Description: This is the Kubernetes docs, specifically the area on repositories. It's actually a little confusing, because one of the use cases is actually an example of not needing a private repo -- everything is open source code. It then goes on to explain how to set up a private repo and what controllers you need to ensure you arbitrate access correctly -- you may not want certain pods to run outside of specific nodes. It's a few paragraphs inside of a much larger doc, but the private registry parts are decent.
 BottomLine: Good explaination of how to run private repos for images in Kubernetes
 ==
+URL reference: https://twitter.com/hisomraj/status/1742040731534172404
+DateReviewed: 2024-01-02
+Description: It's an inforgraphic, so let's go. It's on Kubernetes security, and tells you what not to ignore. It covers RBAC, Pod Security, Network policies, Encryption and Logging as seperate points. Each point has 2 bullets, so not too much is covered on each area. All of the points are very high level, and the illustration level is not very high for a visual medium. There points are all solid, so it's a good quick overview.
+BottomLine: Infographic that is a decent high-level toe dip to Kubernetes security
+==
