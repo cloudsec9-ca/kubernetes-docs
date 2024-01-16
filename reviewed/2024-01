@@ -74,3 +74,8 @@ DateReviewed: 2024-01-14
 Description: This is a comparison of security tools and offering, because Kubernetes is a target since it is popular. They rattle off a list with some "bests", and then give us a huge chart, with pricing and some indication of what each product does. If that were it, it wouldn't be awful, as you get some ideas where things are, but for each vendor/product, they have a section with background, pricing, features, and pros/cons of each product. Then after all that, they go through a short piece on features you need in a K8s security solution, as well as the benefits you should expect out of such a solution. They then go through some recommended approaches, and finally go through their methodology. Definately a high level approach, but a good breadth of tools are touched on and the approach is decent. Excellent place to start your K8s security journey.
 BottomLine: Good starting place for Kubernetes security, which covers many tools and has good approach and recommendations
 ==
+URL reference: https://devopscycle.com/blog/the-ultimate-docker-cheat-sheet/
+DateReviewed: 2024-01-15
+Description: When I think of a cheat sheet, I think of a single or possibly double-sided paper crammed full of ALL the info about a specific topic. Is this that? Yes. But No. There is a sheet upfront, but there are a large number of questions and paragraph and sometimes multi-paragraph long answers, which help to understand how to build images, do multipart builds, and store images. Recommended reading.
+BottomLine: Good cheatsheet with a walkthrough of good Docker questions and detailed answers -- recommended
+==
