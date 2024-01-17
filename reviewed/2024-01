@@ -79,3 +79,8 @@ DateReviewed: 2024-01-15
 Description: When I think of a cheat sheet, I think of a single or possibly double-sided paper crammed full of ALL the info about a specific topic. Is this that? Yes. But No. There is a sheet upfront, but there are a large number of questions and paragraph and sometimes multi-paragraph long answers, which help to understand how to build images, do multipart builds, and store images. Recommended reading.
 BottomLine: Good cheatsheet with a walkthrough of good Docker questions and detailed answers -- recommended
 ==
+URL reference: https://medium.com/@maheshwar.ramkrushna/securing-apache-redirecting-and-enhancing-security-with-proper-configuration-63e9f4da2fe8
+DateReviewed: 2024-01-16
+Description: Very simple approach here -- focus on the security of the Apache web server. It's a step-by-step walk through so they start assuming zero knowledge and even show you where your config file (might) live. In this case, for some reason they redirect all traffic to port 8809 (from 80 and 443). I thought they were going to do this internally, but this is an explicit redirect sent to the client web browser. They do talk about certs and security headers, and explain how to turn off directory listings. 
+BottomLine: Good toe dip into Apache security pieces - but just a start
+==
