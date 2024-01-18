@@ -84,3 +84,8 @@ DateReviewed: 2024-01-16
 Description: Very simple approach here -- focus on the security of the Apache web server. It's a step-by-step walk through so they start assuming zero knowledge and even show you where your config file (might) live. In this case, for some reason they redirect all traffic to port 8809 (from 80 and 443). I thought they were going to do this internally, but this is an explicit redirect sent to the client web browser. They do talk about certs and security headers, and explain how to turn off directory listings. 
 BottomLine: Good toe dip into Apache security pieces - but just a start
 ==
+URL reference: https://cloudnativenow.com/topics/cloudnativedevelopment/overcoming-chaos-in-kubernetes-certificate-management/
+DateReviewed: 2024-01-17
+Description: We start with K8s being a dynamic environment, so tracking and keeping certs up to date is hard. They postulate that large K8s clusters can be a challenge, and that different services might have different needs. Seems like we're focused on enterprise K8s run at a huge scale. Without talking about approach, we have best practices tossed at us -- from general security on K8s, not certs. While there are some solid bits in this multi-point interlude, only one talks hand waved-ly about certs. We conclude with a fluffy paragraph about how a few areas of an org have to work together. So, while having a great argument and possibilities, it's clear that whoever wrote this had no understanding of CAs or what is actually needed to roll out Certs at scale, so added general best practices and hoped for the best?
+BottomLine: Great premise but Terrible article -- no actual approach or solutions are put forward on Certificate management
+==
