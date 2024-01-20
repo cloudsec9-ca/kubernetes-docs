@@ -94,3 +94,8 @@ DateReviewed: 2024-01-18
 Description: We start with Kubernetes having huge uptake, but - wait for it - isn't secure as it might be. Shocking. The focus is to "take leadership", which I guess means proactive management of the clusters? We go through a couple paragraphs of scary stats and complexity is bad, then they reveal their basic thesis - there are 3 main issues in K8s land - ephemeral nature, default insecure, and application of policies. Each heading has at least a few paragraphs of high level verbiage explaining what it is and why it's important. While it's an okay intro, it's lots of very high level stuff and a bit handwavy on the actual doing.
 BottomLine: Okay high level toe dip on Kubernetes security, but lacks good advice on how to implement
 ==
+URL reference: https://romaricphilogene.substack.com/p/platform-engineering-8-designing
+DateReviewed: 2024-01-19
+Description: This article is about building a developer-friendly interface, so your deployment pipeline works better. I like this, as the article doesn't tell you exactly what to build, but says you need to build something that will work for your devs, and integrate the tools they use. It talks about various options, and explains that its an ongoing process where you craft the interface based on feedback and iteration. Okay, there is a product pitch, but it's only one option and done late in the game. Overall, a good unique approach.
+BottomLine: Unique approach to building an Interface for your developers to use as part of their deployment chain
+==
