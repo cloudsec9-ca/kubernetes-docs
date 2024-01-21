@@ -99,3 +99,8 @@ DateReviewed: 2024-01-19
 Description: This article is about building a developer-friendly interface, so your deployment pipeline works better. I like this, as the article doesn't tell you exactly what to build, but says you need to build something that will work for your devs, and integrate the tools they use. It talks about various options, and explains that its an ongoing process where you craft the interface based on feedback and iteration. Okay, there is a product pitch, but it's only one option and done late in the game. Overall, a good unique approach.
 BottomLine: Unique approach to building an Interface for your developers to use as part of their deployment chain
 ==
+URL reference: https://dzone.com/articles/revolutionizing-kubernetes-with-k8sgpt-a-deep-dive
+DateReviewed: 2024-01-20
+Description: We start off by talking about K8s rapid evolution, and we pivot to how AI can help out. The focus of this article is a package called K8GPT. While the article includes some screen caps, it's mostly a high level overview. It does go through some of the usage and features, and even includes some use cases. While a good intro, it doesn't even include links to the package.
+BottomLine: High level intro to AI Kubernetes tool called K8GPT
+==
