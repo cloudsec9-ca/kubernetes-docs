@@ -104,3 +104,8 @@ DateReviewed: 2024-01-20
 Description: We start off by talking about K8s rapid evolution, and we pivot to how AI can help out. The focus of this article is a package called K8GPT. While the article includes some screen caps, it's mostly a high level overview. It does go through some of the usage and features, and even includes some use cases. While a good intro, it doesn't even include links to the package.
 BottomLine: High level intro to AI Kubernetes tool called K8GPT
 ==
+URL reference: https://fixyacloud.com/kubernetes/how-to-ssh-into-kubernetes-pod
+DateReviewed: 2024-01-21
+Description: Okay, so I'll be pedantic - this isn't "ssh"ing, but rather getting a CLI/shell on a container. They do walk through displaying pods, identifying which one you want to access, getting the shell open and coming back to the node. They also explain how to copy files around. Short and sweet, and done well.
+BottomLine: Quick piece explaining how to get a CLI shell on a pod in Kubernetes
+==
