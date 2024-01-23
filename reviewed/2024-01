@@ -109,3 +109,8 @@ DateReviewed: 2024-01-21
 Description: Okay, so I'll be pedantic - this isn't "ssh"ing, but rather getting a CLI/shell on a container. They do walk through displaying pods, identifying which one you want to access, getting the shell open and coming back to the node. They also explain how to copy files around. Short and sweet, and done well.
 BottomLine: Quick piece explaining how to get a CLI shell on a pod in Kubernetes
 ==
+URL reference: https://github.com/diggerhq/digger
+DateReviewed: 2024-01-22
+Description: Digger is an alternative to the Terraform ecosystem for CI, and we're going to do a short tour of the repo. Basically it's got two parts - the CLI part that actually does the CI bits with your Terraform, and a minimal Orchestration backend that watches for things like PR comments to fire off the process. They have docs for GCP and AWS, and just recently released an official Docker image. It's a neat tool if your using Terraform and don't want to buy or run a bunch of other bits just to have the CI/CD function connections.
+BottomLine: Neat CI tool which leverages Terraform in a simple way for builds
+==
