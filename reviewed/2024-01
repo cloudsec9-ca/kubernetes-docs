@@ -114,3 +114,8 @@ DateReviewed: 2024-01-22
 Description: Digger is an alternative to the Terraform ecosystem for CI, and we're going to do a short tour of the repo. Basically it's got two parts - the CLI part that actually does the CI bits with your Terraform, and a minimal Orchestration backend that watches for things like PR comments to fire off the process. They have docs for GCP and AWS, and just recently released an official Docker image. It's a neat tool if your using Terraform and don't want to buy or run a bunch of other bits just to have the CI/CD function connections.
 BottomLine: Neat CI tool which leverages Terraform in a simple way for builds
 ==
+URL reference: https://tkachuk09.medium.com/kubernetes-hpa-based-on-events-in-google-calendar-2f3dcfb75bf2
+DateReviewed: 2024-01-23
+Description: We start with an org using K8s, but when scaling the new pods aren't coming up fast enough so existing pods get overwhelmed and crash, with this repeating over and over. So, they deceided to use a calendar entry since they know when loading occurs. This is a walk through, so they show us the Google calendar event fetching code, and then the K8s cron job to tie things in. They show how it figures things out, scales up by 10, and then when the "event" is over, scales back down by 10. Upfront they admit this is a hack, but it's kind of neat -- and it has some other uses that I can think of, like adding extra monitoring or doing a backup or testing at specific times. Well done and well documented.
+BottomLine: Interesting approach to a scaling issue with Kubernetes -- a Google calendar scaling trigger walkthrough
+==
