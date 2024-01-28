@@ -129,3 +129,8 @@ DateReviewed: 2024-01-25
 Description: This one is a news article, on a Google Kubernetes weakness. Basically the issue is in spinning up a GKE Kubernetes cluster, if people aren't aware the default permissions leave their cluster open to anyone with a Google account to be able to do some actions on their cluster. It was found by a group called Orca security. Google worked with Orca to identify and reach out to affected customers and explain the issue and how to tighten security. Good coverage of all the points here.
 BottomLine: News item on GKE Kubernetes weakness with overly permissive permissions
 ==
+URL reference: https://medium.com/@teva15/services-and-networking-in-kubernetes-ed23509ee4b4
+DateReviewed: 2024-01-26
+Description: This article will focus on Kubernetes services and networking. We start with a diagram, cool! Next up is the definition of a service, and examples of typical services in K8s. They have some good diagrams showing how an externally accessible port is mapped through a service to a pod, with explanitory text in the article. They even have YAML snippets to show how to do it. They then go through different scenarios in diagrams to illustrate. Now it says this is a tutorial, but it isn't a straight walk through, but more of illustrated examples. For instance, they talk about Redis in diagrams, but not in the text. They talk about frontend in the text, but don't have a diagram. It's still useful and illustrates differences, but it would have been nice to connect all the dots.
+BottomLine: Decent intro to services and networking in Kubernetes
+==
