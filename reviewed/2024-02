@@ -19,3 +19,8 @@ DateReviewed: 2024-02-04
 Description: Apparently, we're going to wield K8s to it's fullest potential, so let's go. We start with CRDs and Operators, and they explain for a para each what they are. Moving on we look at Advanced networking like service mesh, which K8s enables but they don't actually explain. Next up is Persistent storage, where they talk about various mechanisms. There are three more topics covered, but each of them is about a paragraph long. They include Resource mgmt and autoscaling, Observability and monitoring, and Security and compliance. All are great topics, but I'd say this piece fails to live up to it's potential, with a scratching the surface coverage of all topics.
 BottomLine: Good topic list but poor in-depth coverage, this piece disappoints
 ==
+URL reference: https://medium.com/@seifeddinerajhi/most-common-mistakes-to-avoid-when-using-kubernetes-anti-patterns-%EF%B8%8F-f4d37586528d
+DateReviewed: 2024-02-05
+Description: We start with Kubernetes is powerful, but it's easy to make a config mistake. So this article will work to help you avoid them! So, there are ELEVEN areas of concern they tackle, and all of them are fairly good. And they even come with a bunch of paragraphs going through each topic, with diagrams where approporiate. Just a few of the areas they cover include resource limits, health ckechs, privs of containers. and overuse of LoadBalancer. Overall, a well done piece.
+BottomLine: Very good piece detailing common config mistakes in Kubernetes and how to avoid them
+==
