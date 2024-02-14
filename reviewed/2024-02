@@ -59,3 +59,8 @@ DateReviewed: 2024-02-12
 Description: We start with a brief overview of init containers, the startup scripts of the K8s world. This is a walk through, so let's go! First, we start by defining the init container in YAML, so they show us how to do it for both the init and the main container. They then explain what we should be doing in the init container - downloading dependencies, db setups, and configuring environment variables. We can run them in parallel or sequentially, depending on our needs. Finally, the give us a command to check the init container status. Now some examples - includes downloading a dependency and etting a env variable.
 BottomLine: Decent walk through of init Containers for Kubernetes
 ==
+URL reference: https://www.stb.id.au/blog/meet-kacti
+DateReviewed: 2024-02-13
+Description: This is about a security control in Kubernetes called Kacti, and is told by its author. So what kacti does is try to deploy known bad images or misconfigurations, and see if that succeeds. If it does, controls are not effective. It's a neat approach. Just to be clear, the test is performed against your admission controller and its policies -- and it should reject bad configs and images. Next we do a walkthrough. First you install the software, and then they show us the CLI for deploying a bad image. At first, the bad image is deployed, and kacti fails the controller; then they add checking for bad images and re-run, causing the controller to reject the image and pass the test. They give a bit more details along with a bit of what they'd like to come, as it's a new tool.
+BottomLine: Interesting approach to security by testing your Kubernetes admission controllers
+==
