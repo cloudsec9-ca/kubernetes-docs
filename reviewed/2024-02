@@ -104,3 +104,8 @@ DateReviewed: 2024-02-21
 Description: We start with Kubernetes being popular, and explaining how it solved problems devs had in the past. We dive in with them citing ease in managing containers as pods. We touch on auto-healing and mention auto-scaling, which help in stability and load. As opposed to running a single Docker instance, there is a lot of flexibility on where and how K8s clusters run. A couple of diagrams and a terminology walkthrough are up next. And thats .... it? There is a couple links at the end, and while it has some good intro bits, I wouldn't say this is a piece where you understand the K8s architecture from.
 BottomLine: Good Kubernetes intro but not a great architecture piece
 ==
+URL reference: https://www.tigera.io/learn/guides/kubernetes-security/kubernetes-security-context/
+DateReviewed: 2024-02-22
+Description: We start by answering what K8s security context is at a high level, which is a way to configure security setting on the Kubernetes cluster. They give a bit of detail, and then we have a table of contents. There are two types of contexts - internal, which is through a pod's YAML file, and external, generally at the node level by things like SELinux. They then walk through RBAC and Pod security policies, and explain how they differ from the K8s security context. We then go through context setting, which include a paragraph or two explaining what they are. There are five options, three settings and two flags. We then to a tutorial walk through, with YAML files and CLI commands. Finally they explain the shortcomings and challenges of using the K8s security contexts. Overall, a good and interesting piece.
+BottomLine: Good interesting piece about Kubernetes Security Contexts
+==
