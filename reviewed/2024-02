@@ -144,3 +144,8 @@ DateReviewed: 2024-02-29
 Description: We start with some waffle about adding extra info with annotations. Basically I think they are freeform metadata comments to convey special info to future people looking for it. They then jump in, explaining what they are (key/value pairs) and where you can use them - K8s objects like pods, services etc. They then give some use cases, like config info, build vers or timestamps type info, pointers to other info like monitors or analytics, contact info and much more. We then have some examples which are YAML snips, to demonstrate the use of annotations. They even have good best practices around using annotations. A great intro and explainer on what annotations are and how to use them.
 BottomLine: Intro on starting to use Annotations in Kubernetes
 ==
+URL reference: https://securityboulevard.com/2024/02/k8s-benchmark-report-are-organizations-meeting-nsa-hardening-checks/
+DateReviewed: 2024-02-29
+Description: The NSA published guidance about hardening Kubernetes cluster, and our article here looks at a report which sees what people have done about that. A note is that the report is from a tool vendor, so their may be some bias there. Diving in, they do say that on a Linux level, often apps have more privileges then they need. They also find that less than half of orgs have a Network policy, and those that don't are likely permitting traffic they might not want to. We go on a little sidebar about leaked configs, but the handwavy point is that loose perms can result in compromises and disclosures you don't intend.
+BottomLine: Adoption of NSA hardening is lagging and this points out where and some options to close the gap
+==
