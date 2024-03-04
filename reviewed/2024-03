@@ -1,0 +1,5 @@
+URL reference: https://vahid-r.com/posts/kubernetes-passwords/
+DateReviewed: 2024-03-01
+Description: Kubernetes is great, but security is blah because of .. hard coded passwords in Helm, is how we start. So we dive in, and they observe that usernames and passwords are encoded in base64, but they are easily decoded. They give a few ways to avoid this, including K8s secrets, external config, Helm values and even encrypted secrets. I think the big takeaway here is not to let your secrets be committed to a repository, and to use the most secure method to hide them you can.
+BottomLine: Good discussion of password issues in the context of Kubernetes and Kubernetes tools -- Helm in this case
+==
