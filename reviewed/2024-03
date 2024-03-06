@@ -8,3 +8,8 @@ DateReviewed: 2024-03-02
 Description: Here we are going to look at the managed K8s service EKS from AWS - paticularly, the add-on part of it. We dive right in to understand add-ons, which are thing like networking solutions or monitoring tools that build on the base K8s functionality. This is a hands on, so you need an account and the right perms; we start with listing the add ons with the right CLI command. We then dive deeper with another command to grab details. They also show how to query using Helm and ConfigMaps. Actually an interesting topic.
 BottomLine: Good intro to AWS EKS and how you might manage versions of add ons you might install
 ==
+URL reference: https://www.linkedin.com/pulse/maximize-kubernetes-security-automate-tls-certificate-management-jatoc/
+DateReviewed: 2024-03-03
+Description: TLS and SSL are important in securing K8s comms, so we have to worry about how we issue certificates; this article focuses on that, using KIND and cert-manager. We dive right in with short intros to cert-manager then KIND. We then jump to the CLI, and spin up a KIND cluster, and then use CRDs and Helm to prepare for the install cert-manager and the jetstack repo. We do some Helm housekeeping and install cert-manager. We then go through the process of setting up automatic certs via a ClusterIssuer with YAML to cert-manager. We then tour another YAML to generate an actual cert. We then go through the process of setting up ingress and having certs created automatically that way, and thereby allowing external communications to the cluster. Again, more YAML is shown with explainations on how things work. Actually an interesting walk through.
+BottomLine: Walk through on automating certs in Kubernetes
+==
