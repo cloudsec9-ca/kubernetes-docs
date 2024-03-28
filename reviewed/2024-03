@@ -138,3 +138,8 @@ DateReviewed: 2024-03-26
 Description: This one is straight into and a bit lean -- it starts by saying _certification_ is a critical safety feature but I think they mean certificates. We get a snippet to install cert-manager and then a YAML file to set up Let's Encrypt. No explaination of what it does, and actually issuing a certificate is left as an exercise to the reader. Now, I like thin articles, but you have to do all the heavy lifting with this one.
 BottomLine: Too lightweight a look at certs and Lets Encrypt for Kubernetes
 ==
+URL reference: https://cloudnativejourney.wordpress.com/2024/03/26/implementing-disaster-backup-for-a-kubernetes-cluster-a-comprehensive-guide/
+DateReviewed: 2024-03-27
+Description: Anything, including Kubernetes, can have failures; this article will examine setting up disaster recovery on K8s. The first section explains why we even need this, in 3 subparts - basically data protection, biz continuity and risk mitigation. Next up is an overview of the process, with all the terminology and parts drawn out in 5 sections. They also throw in some (3) additional considerations to think about, as well as a future trends section. While they outline at a 30 thousand foot level a comprehensive approach, I'm thinking why this way? While you 100% need backups of your k8s configs and all of your data, why aren't you trying to build something that can do this all the time, I mean. Spin up your cluster in a different region, change your various LB/DNS pointers and test and confirm it works.
+BottomLine: Interesting walk through of a traditional disaster recovery approach on Kubernetes
+==
