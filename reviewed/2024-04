@@ -18,3 +18,8 @@ DateReviewed: 2024-04-04
 Description: So, SaaS or Software as a Service is something that is important, but apparently it, like Kubernetes, is not as secure as it should be, and this article will tackle that. We start with some odd framing tracing the origins back to the '60s, before leaping ahead to the 2000s. What's not made clear is if we are focused on SaaS from a provider or comsumer point of view. We go on to enumerate the key security features, which include Authentication and authorization, encryption, access controls, monitoring and compliance. After a paragraph outlining each feature, we're treated to anoter paragraph on how they help secure stuff. There is a pitch in the final paragraph, but I'm still wondering WHAT we are talking about. It's an interesting topic, but done I'd argue poorly here.
 BottomLine: Decent topic of SaaS app security done with a poor treatment
 ==
+URL reference: https://github.com/teyhouse/CVE-2024-3094
+DateReviewed: 2024-04-05
+Description: This repo is a tool to test for vulnerable versions of xz. The xz utility is compression software, for packing files together for archives generally. The tool was subverted and a backdoor was added in the 5.6.0 version, which is what this software is tracking. The repo includes a bunch of article links which explain the vulnerability, and even sample scripts for other tools. This tool is meant to be a quick check to see if there is an issue. This repo and tool is a great example of the Open Source approach to security.
+BottomLine: Repo with a tool to test for the recent xz backdoor vulnerability in Kubernetes pods
+==
