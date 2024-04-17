@@ -73,3 +73,8 @@ DateReviewed: 2024-04-14
 Description: This article will talk about a Cloud Native approach, namely GitOps. We start with the traditional approach to building with CI/CD - bespoke scripts. They argue there are lots of manual bits and it's hard to revert. We are then introduced to GitOps, which are declarative, versioned, pulled automatically and reconciled continuously, which they explain in a couple sentences for each. They explain we end up with a single source of truth in Git, and we eliminate the need to manage things manually. They then go through some examples showing how and where GitOps simplifies and adds a safety net to your building process. Finally, the piece finishes with some video resources that will help get started.
 BottomLine: Good high-level introduction to GitOps for Cloud Native and Kubernetes enviroments
 ==
+URL reference: https://medium.com/@masskeran261220mk/using-microservice-run-a-voting-application-47f1bfc8e3f9
+DateReviewed: 2024-04-15
+Description: So, this article isn't a perfect app, but rather a broad example of types of tech you might see on Docker. The author links to a Git repo, and has a list of the target tech (front end python app, Redis, .NET worker, PostgreSQL db and a Node.js app to display results) and a helpful diagram without labels. They then walk through how to run on various platforms, and how to access. And, that is it. So, strong start but really no walkthrough -- so how does this demonstrate anything? If you aren't handy in containers how would you be able to tinker?
+BottomLine: A container app article that doesn't explain anything - likely skip
+==
