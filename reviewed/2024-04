@@ -78,3 +78,8 @@ DateReviewed: 2024-04-15
 Description: So, this article isn't a perfect app, but rather a broad example of types of tech you might see on Docker. The author links to a Git repo, and has a list of the target tech (front end python app, Redis, .NET worker, PostgreSQL db and a Node.js app to display results) and a helpful diagram without labels. They then walk through how to run on various platforms, and how to access. And, that is it. So, strong start but really no walkthrough -- so how does this demonstrate anything? If you aren't handy in containers how would you be able to tinker?
 BottomLine: A container app article that doesn't explain anything - likely skip
 ==
+URL reference: https://cloudnativenow.com/features/ai-emerges-as-next-major-kubernetes-challenge/
+DateReviewed: 2024-04-16
+Description: The author poses that AI is the next "challenge" that Kubernetes has to tackle. It seems you need lots of skilled software engs to build and run AI platforms -- who knew? The piece seems to touch base with people at various big tech companies, but fails to articulate exactly what the challenges might be. One says, for instance, that you should use DevOps principles on AI apps - which might make sense, but is that the hardest issue emerging? Later on, another person mentions that AI teams have extended K8s, but these need to be built into the standard -- without saying what is missing. And, that is the piece. While it is a wide survey, it misses in actually articulating a solid point.
+BottomLine: No challenge is identified for Kubernetes to challenge in this piece
+==
