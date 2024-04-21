@@ -98,3 +98,8 @@ DateReviewed: 2024-04-19
 Description: This article is a comparison of two Kubernetes GUI management tools - K8Studio and Lens. It's really more of a walk through of K8Studio, with contrasts with Lens. We start with K8Studio's development view; they go through the various features in a couple paragraphs, and this is an overview of the entire cluster. They then compare it to Lens, pointing out where K8Studio has advantages. Next is Node view, where you get a deeper view of each node and a lot of interesting stats. Lens seems not to have something comparable they point out. Apparently both GUIs have a Grid view, but Lens is lacking the ability to handle very large clusters as well in this part. They also cover RBAC and Cluster management.They compare the license of both offerings, and each has a personal and professional version. Honestly, I love the premise but this isn't a comparison so much as a "why one is better than the other".
 BottomLine: Decent look at Kubernetes GUI tool K8Studio
 ==
+URL reference: http://micro.rodeo/posts/kubernetes-security-info/
+DateReviewed: 2024-04-20
+Description: So it seems Kubernetes is good, but it has some security concerns. Before getting into the content, I'll say I love this retro-hacker aesthetic this site has, I really like it. Okay, so they tell us what K8s is and then dive into K8s security. They have 5 areas they cover, each with a solid paragraph of explaination, and these are RBAC, Image security, Network security, API security and finally Montitoring and logging. It's fairly high level, but would serve as a good intro to K8s and K8s security.
+BottomLine: Good high-level intro to Kubernetes security
+==
