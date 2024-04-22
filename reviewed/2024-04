@@ -103,3 +103,8 @@ DateReviewed: 2024-04-20
 Description: So it seems Kubernetes is good, but it has some security concerns. Before getting into the content, I'll say I love this retro-hacker aesthetic this site has, I really like it. Okay, so they tell us what K8s is and then dive into K8s security. They have 5 areas they cover, each with a solid paragraph of explaination, and these are RBAC, Image security, Network security, API security and finally Montitoring and logging. It's fairly high level, but would serve as a good intro to K8s and K8s security.
 BottomLine: Good high-level intro to Kubernetes security
 ==
+URL reference: https://devtodevops.com/docker-encrypted-volume
+DateReviewed: 2024-04-21
+Description: We start off with the assertion that Docker containers are stateless; to persist data, we need a volume. But to get security, we need to have the volume encrypted. They have a small piece on why they think encryption helps -- compliance and encryption at rest, but also it reduces attack surface (how?). And then we are onto the how to encrypt. They look at two ways -- by actually using a key locally to encrypt, and by using an encrypted volume by your service provider (AWS/Azure/Google Cloud). While encryption does do some things, there are challenges not addressed and also a lot of handwaving of the benefits.
+BottomLine: A basic look into storage encryption with Docker
+==
