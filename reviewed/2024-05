@@ -19,3 +19,8 @@ Description: We start with Kubernetes being the defacto place to deploy microser
 D
 BottomLine: Short but interesting look at using service mesh to inject headers into Kubernetes services
 ==
+URL reference: https://ostridelabs.com/kubernetes-security-10-basic-principles/
+DateReviewed: 2024-05-05
+Description: Kubernetes great, but wow - security issues - who would have thought? Focus of this article is 10 principles for securing your clusters. So amazingly, each of the ten areas gets a 3 to 5 paragraph discussion, which is way longer than a typical piece. I'll highlight the areas they go over - RBAC, strong authentication & authorization, network traffic, regular updates, good secret security, log management, using container sec best practice, isolate workloads, segment networks and finally a comprehensive policy management system. So, wow. It's not a hands on, but it's a lot of discussion and some really great points. A good long read with a good amount of high level detail.
+BottomLine: Good read of 10 areas to cover in securing your Kubernetes cluster 
+==
