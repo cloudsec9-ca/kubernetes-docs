@@ -74,3 +74,8 @@ DateReviewed: 2024-05-15
 Description: Kubernetes good, K8s security bad. So, this article will look at something to improve that, namely Falco. We start with a diagram, which is cool, and shows the flow of information from events through rules to alerts. We do a paragraph on what Falco is, being an open-source real time detection tool. Then we highlight what makes Falco tick at a high level - rules, configurable, monitors system calls and is easy to integrate. We then walk through a bit of the what - Intrusion and anomoly detection, audit trail and compliance, and each gets a few sentences of treatment. Oh, AND a hands on ... we start with how to intall, get a snipped of a YAML file to configure it with, and finally have a way to let a person know something is amiss. Actually a good toe dip into the tool.
 BottomLine: Intro and walkthrough of open source security tool Falco
 ==
+URL reference: https://blog.min.io/kubernetes-v1-30-enhancements/
+DateReviewed: 2024-05-16
+Description: This is a blog article about how MinIO is affected by the latest K8s v1.30 release. They talk about the new PodSecurity admission and how even though MinIO runs in user space without root perms, the new security approach is helpful. Another feature they discuss is tightening of volume modes for PersistentVolume snapshots. They talk about AppArmor being deemed stable, what it is and how to leverage it to enhance protection with MinIO. They include some YAML snips for a couple of the previous scenarios. They give a paragraph each to network improvements and contextual logging, before stronly recommending upgrading to the latest Kubernetes.
+BottomLine: Decent discussion of new Kubernetes security bits in v1.30 which MinIO can benefit from
+==
