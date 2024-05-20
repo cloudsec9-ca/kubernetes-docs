@@ -99,3 +99,8 @@ DateReviewed: 2024-05-19
 Description: This article deals with an alternate way to get sensitive info into Kubernetes instead of using K8s secrets. So they start by talking about a few variations of vaults that let you inject secrets, unlike K8s secrets. The way they do this is by injecting the secret at pod creation time, and this article talks about how they have now automated it. It uses a webhook to get the secret into the pod, and the updated automated approach rebuilds the webhook if a secret has changed, making sure the right version of the secret is available. They do have an extensive walkthrough, but almost no discussion on how this is better than the K8s native secrets.
 BottomLine: Intro and walkthrough of using a vault in Kubernetes for secrets
 ==
+URL reference: https://ubuntu.com/blog/ubuntu-pro-for-eks-is-now-generally-available
+DateReviewed: 2024-05-19
+Description: This article is the announcement of Ubuntu Pro for AWS EKS. So we start with lots of lauditory bits on the announcement and availability, and how this is wonderful. The OS is based on the Ubuntu minimal LTS image, and it seems to come with 12 additional months of support. The only real interesting bit here is FIPS and FedRAMP support, which I think means it's suitable for US government uses. Amazingly, not really too much of why this is better for EKS, and absolutely zero on what Ubuntu Pro is - there is a "link to learn", but write a couple sentences in your announcement, come on.
+BottomLine: Awful announcement of Ubuntu Pro for EKS - AWS Kubernetes
+==
