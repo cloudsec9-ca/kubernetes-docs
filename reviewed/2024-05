@@ -104,3 +104,8 @@ DateReviewed: 2024-05-19
 Description: This article is the announcement of Ubuntu Pro for AWS EKS. So we start with lots of lauditory bits on the announcement and availability, and how this is wonderful. The OS is based on the Ubuntu minimal LTS image, and it seems to come with 12 additional months of support. The only real interesting bit here is FIPS and FedRAMP support, which I think means it's suitable for US government uses. Amazingly, not really too much of why this is better for EKS, and absolutely zero on what Ubuntu Pro is - there is a "link to learn", but write a couple sentences in your announcement, come on.
 BottomLine: Awful announcement of Ubuntu Pro for EKS - AWS Kubernetes
 ==
+URL reference: https://itnext.io/how-to-write-a-kubernetes-operator-5f98f7ef9f75
+DateReviewed: 2024-05-20
+Description: This article details a dev working on a Kubernetes operator. We start with an interesting backstory of the author, and how he squeezed the time in to do this project. We finally get to the operator, and he shows us the initial CLI steps and explains what he is doing in the text. He is using kubebuilder for this, and creates a backup and db-backup API for the operator. He takes us through some code, which I think is Go, before hooking things up in YAML to test. He then applies the various YAML bits to create a test DB and the operator to do the backups. There is a link in the end snip to the repo. It's entertaining, but I'd have loved a bit more of a dive on the operator pieces.
+BottomLine: Interesting story and walkthrough on creating a Kubernetes operator
+==
