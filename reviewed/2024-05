@@ -129,3 +129,8 @@ DateReviewed: 2024-05-23
 Description: Filtering L7 traffic apparently helps security, so we'll do it with Cillium on Kubernetes in this article. It's a hands on, so you need a K8s cluster to do this, and they start with applying a URL with YAML in it; very secure there. They do explain what it does, namely creating some routes which are private and public for testing. So next up is testing it out, so they use curl to snag a few different interactions. They want to restrict things, so a bit of YAML later, we have restrictions. They test those, and impose more restrictions (again through YAML). So, I like the idea, but there is a lot you might be able to do, and using it just as what seems like a fancy firewall is not it. But it's a solid walkthrough.
 BottomLine: Walkthrough of using Cillium to restrict Kubernetes traffic at layer 7
 ==
+URL reference: https://medium.com/@hussainwalihussain/kubernetes-nodes-01056c127a89
+DateReviewed: 2024-05-24
+Description: Nothing deep here - just a short overview of Kubernetes. They explain the nature of a cluster, and we go through two commands with outputs, and they even have a diagram. The problem though, is that is it -- really. It starts out promising but is really a scratch the surface piece which doesn't go anywhere.
+BottomLine: Very thin piece on Kubernetes nodes and basics of a cluster
+==
