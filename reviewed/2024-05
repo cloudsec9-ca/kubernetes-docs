@@ -134,3 +134,8 @@ DateReviewed: 2024-05-24
 Description: Nothing deep here - just a short overview of Kubernetes. They explain the nature of a cluster, and we go through two commands with outputs, and they even have a diagram. The problem though, is that is it -- really. It starts out promising but is really a scratch the surface piece which doesn't go anywhere.
 BottomLine: Very thin piece on Kubernetes nodes and basics of a cluster
 ==
+URL reference: https://medium.com/@maheshwar.ramkrushna/enhancing-ec2-security-and-management-advantages-of-moving-beyond-pem-files-for-connectivity-172116fe945a
+DateReviewed: 2024-05-25
+Description: Okay, so we don't start this one trying to understand why we might not use PEM, we go through some alternatives - namely password auth and SSH agent with SSH keys. They do say password auth is not recommended, but for the agent say we should use ssh-add and then they use ssh-copy-id. We do tour through Session manager and SysMgr run, both of which are great options. The mention instance connect as well, which I haven't used much, and end with bastion hosts or jump servers. They then go through some actual reasons (6) not to use PEM files. They include using IAM and central management, not worrying about PEMs getting compromised, better logging. So, I have stuff to say. First, a few of the methods (agent and bastions) just move the PEM, not eliminating it. Also, why do they say PEM and not just "SSH keys"? It's a decent treatment although the layout isn't great.
+BottomLine: Decent cover of alternates to SSH keys for EC2 even if the article has an odd layout
+==
