@@ -159,3 +159,8 @@ DateReviewed: 2024-05-27
 Description: So, your apps are like treasure, and you have to keep an eye on them. This article will look at monitoring, logging and runtime security on Kubernetes. Now, I'm generally skeptical of these types of articles, but the format of this one is actually well done. They pick a broad area focus, pair it with a specific tool, walk through install and config with YAML examples, and explain it.  They pair anaylysis of syscalls and file activity with Falco, for instance, and then goes through a walkthrough with a couple paragraph explaination. Another is seeing all phases of an attack, and this is paired with an ELK stack config. Not all of the tools are pure open source, but they are super interesting and just the approaches can give you some ideas.
 BottomLine: Strong article tackling a number of approaches to logging and security for Kubernetes
 ==
+URL reference: https://a-cup-of.coffee/blog/talos/
+DateReviewed: 2024-05-28
+Description: In an ideal world, the containers we deploy will be immutable, and we will replace old ones with new ones; but this is hard, as the OS needs to change things as it runs. Enter Talos, the subject of this intro, which hopes to be a lightweight and immutable base OS for containers. The intro explains what the authors think immutable means, and then dives into how to install and configure Talos to try it out. They do some deep dives, which can take Talos from a few nodes in your home lab to a pretty extensive cloud deployed network. It's clear that Talos is capable, and this intro and walkthrough do a good job of taking us throught the points. Recommended read.
+BottomLine: Intro to mmutable Kubernetes node OS Talos - recommended
+==
