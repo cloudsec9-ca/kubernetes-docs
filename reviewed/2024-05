@@ -164,3 +164,8 @@ DateReviewed: 2024-05-28
 Description: In an ideal world, the containers we deploy will be immutable, and we will replace old ones with new ones; but this is hard, as the OS needs to change things as it runs. Enter Talos, the subject of this intro, which hopes to be a lightweight and immutable base OS for containers. The intro explains what the authors think immutable means, and then dives into how to install and configure Talos to try it out. They do some deep dives, which can take Talos from a few nodes in your home lab to a pretty extensive cloud deployed network. It's clear that Talos is capable, and this intro and walkthrough do a good job of taking us throught the points. Recommended read.
 BottomLine: Intro to mmutable Kubernetes node OS Talos - recommended
 ==
+URL reference: https://thenewstack.io/kubernetes-rbac-permissions-you-might-not-know-about-but-should/
+DateReviewed: 2024-05-29
+Description: This article is about a few more obscure permissions in Kubernetes RBAC scheme. After the intro, we start with a talk about RBAC role and verbs, with a ref to some more basic concepts. They show a YAML snip to get a feel, and talk about some of the basics. Then we're on to our three obscure perms - escalate, bind and impersonate. This is a hands on, so they show us how to create a new namespace to play in and create a test account there. We then go on a tour of our new found permissions, with an explaination of each, along with a hands-on bit that takes us through using each one. After walking us through, they then discuss threats and how to mitigate them. Overall a solid piece.
+BottomLine: Good piece with a hands on for some more obscure Kubernetes RBAC permissions
+==
