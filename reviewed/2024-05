@@ -169,3 +169,8 @@ DateReviewed: 2024-05-29
 Description: This article is about a few more obscure permissions in Kubernetes RBAC scheme. After the intro, we start with a talk about RBAC role and verbs, with a ref to some more basic concepts. They show a YAML snip to get a feel, and talk about some of the basics. Then we're on to our three obscure perms - escalate, bind and impersonate. This is a hands on, so they show us how to create a new namespace to play in and create a test account there. We then go on a tour of our new found permissions, with an explaination of each, along with a hands-on bit that takes us through using each one. After walking us through, they then discuss threats and how to mitigate them. Overall a solid piece.
 BottomLine: Good piece with a hands on for some more obscure Kubernetes RBAC permissions
 ==
+URL reference: https://medium.com/@a.j.longchamps/home-lab-kubernetes-part-2-deploying-vms-from-a-template-with-opentofu-02bb3b81e5aa
+DateReviewed: 2024-05-30
+Description: This is an article about managing VMs with OpenTofu (Terraform). We start with some background and go through the TF/OpenTofu config files. They also go through their datastore/storage set up, as they have some details which are a bit unique. They talk about some false starts and then guide us through the config setup scripts, and even has some general notes on how the setup goes and post-setup hints. It's a good intro to a K8s homelab, but -- and there are a few buts here. First, it's using ESXi, which is no longer free for small use, and second, while they walk through some things, it's not an actual walkthrough --  you have to do most of the lifting on your own. So, good to get started, but then you are on your own.
+BottomLine: Intro to using a Kubernetes homelab
+==
