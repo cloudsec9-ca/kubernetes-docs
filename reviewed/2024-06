@@ -1,0 +1,5 @@
+URL reference: https://securityboulevard.com/2024/05/how-old-are-your-kubernetes-nodes/
+DateReviewed: 2024-06-01
+Description: This is a great article, focused on the age of your Kubernetes nodes. It can be easy to forget that the node OS is important when dealing with containers, as we are usually focused on that level of security. They advance 5 overall reasons for keeping on top of node age - Vulnerabilities, performance degradation, new features, resource optimization and maint and reliability. Each of these get a paragraph, with some getting several describing why you need to keep on top of this around each. They then tackle how to monitor node age, and finally how to plan node upgrades. Overall a good piece.
+BottomLine: Higher level piece about why the age of your Kubernetes node OS matters, and strategies for staying on top of this
+==
