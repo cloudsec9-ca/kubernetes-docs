@@ -13,3 +13,8 @@ DateReviewed: 2024-06-03
 Description: This article is an explainer on the differences between Ingress and Network policies. We start with Ingress, which they explain as "the front door to your Kubernetes cluster". They then show the YAML needed to configure a couple services, with a brief explainer. In contrast, Network policies are security guards inside you K8s cluster. They check which pods can talk to one another, ensuring only needed comms is allowed. Again, we have a YAML file with a short explainer. We even go through a scenario and some usage tips. Great for an intro!
 BottomLine: Comparison between Ingress and Network policy on Kubernetes
 ==
+URL reference: https://devopsvoyager.hashnode.dev/exploring-kubernetes-api-groups-and-versions
+DateReviewed: 2024-06-04
+Description: Kubernetes is powerful, but to understand its power, you have to understand the API and the groups and versions that make up it's structure. This article will do that. So, there are two API groups - core and named, and they'll take us through both. They go into a bit of explaination, but basically core are the main K8s functions, and named are the extensions which can be added to the core. So the main K8s resources - like pods, nodes, services and namespaces - are part of the core. Everything else falls into named, and by putting them here can be extended. We then go through some samples, including YAML snips, to see the differences and even the URLs that the various APIs use. So, I thought this might be a fluffy piece at first, but it really helped me to understand a bit more on the K8S APIs.
+BottomLine: Solid piece explaining core vs named in the Kubernetes APIs
+==
