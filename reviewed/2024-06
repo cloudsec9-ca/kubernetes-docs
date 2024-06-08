@@ -23,3 +23,8 @@ DateReviewed: 2024-06-05
 Description: Running Kubernetes? Then you apparently know how important security is. This article runs through security contexts. We start with quick chats about what security context are and why you want them, and then we are on to scenarios to use them. They cover five scenarios - running as non-root, disabling priv escalation, read-only root filesystem, setting linux capabilities and using Seccomp profiles. For each, we get a one sentence intro, a YAML snip with the context, and a what it does section that explains the YAML. To tie it all together, they present one last YAML snip with all of the contexts we went through before integrated together in a single file. Decent intro to the topic.
 BottomLine: Solid beginner piece on security contexts for Kubernetes
 ==
+URL reference: https://www.infoworld.com/article/3715489/how-kubernetes-succeeded.html
+DateReviewed: 2024-06-06
+Description: On the 10th anniversary of Kubernetes, this is an article on what helped it to become successful. They being with a handwave to the beginings of K8s inside of Google, before talking about some of the alternatives in 2014. It started with a tight focus, mainly being stateless applications, which wasn't the main way most workloads functioned at that time. But K8s evolved, it got things like StatefulSets and Operators which helped to support stateful workloads. There was even a push for databases to run on K8s, with work done by orgs like Data on Kubernetes. Next we talk about the role of Open Source in K8s, and how it helped develop the community. We wrap with more work needed, and the thought that there is more to come.
+BottomLine: Decent reflection on the tenth birthday of Kubernetes
+==
