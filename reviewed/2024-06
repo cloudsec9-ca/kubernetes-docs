@@ -43,3 +43,8 @@ DateReviewed: 2024-06-09
 Description: Kubernetes is the main way to orchestrate containers -- and the way to do it efficiently is with IaC. We start with a long paragraph touting IaC and Kubernetes strengths, but in an abstract way. We move on to a section called K8s - the backbone of container orchestration, but there is a lot of hand waving about what it does without really getting to a unique point. And, this is the theme of the entire article. It promises something, but delivers only the basic info at the highest level. I'd almost say it's a padded AI written piece, but that might even be giving it too much credit. There is a nugget here or there, but it could be 1/3 as long and say the same thing.
 BottomLine: Long but way too fluffy piece on IaC with Kubernetes - avoid
 ==
+URL reference: https://lobuhisec.medium.com/daemonsets-the-philosophers-stone-of-lazy-sysadmins-0183bae8a75d
+DateReviewed: 2024-06-09
+Description: DaemonSets are a way to run things on each node in Kuberenetes, and our article argues there are good and bad uses for this. They first talk a bit about what they are, and then we are shown the issue -- running with privs and not isolated. They say this can be an issue with monitoring agents like those used by Prometheus, which needs access to the underlying host and could expose vulns and opportunities for escalation and lateral movement. Their approach is to run the tools on the host directly, moving them out of the K8s domain entirely. It's an interesting approach, and one worth talking about at least.
+BottomLine: Argues DaemonSets with privs can be security risks in Kubernetes
+==
