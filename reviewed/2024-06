@@ -48,3 +48,8 @@ DateReviewed: 2024-06-09
 Description: DaemonSets are a way to run things on each node in Kuberenetes, and our article argues there are good and bad uses for this. They first talk a bit about what they are, and then we are shown the issue -- running with privs and not isolated. They say this can be an issue with monitoring agents like those used by Prometheus, which needs access to the underlying host and could expose vulns and opportunities for escalation and lateral movement. Their approach is to run the tools on the host directly, moving them out of the K8s domain entirely. It's an interesting approach, and one worth talking about at least.
 BottomLine: Argues DaemonSets with privs can be security risks in Kubernetes
 ==
+URL reference: https://medium.com/@0xAungkon/k3s-the-lightweight-kubernetes-solution-9b544e1e69c1
+DateReviewed: 2024-06-10
+Description: This article presents a lighter approach to Kubernetes called K3s. We jump in with a paragraph on what K3s is, which is a cut-down version of Kubernetes. We move right on to why, and they sum it up nicely - K3s is simpler, quicker, compatible and resource efficient - and they have a sentence to explain each of these. We're right on to the install, which I think is targeted at Linux as it is a curl piped to a shell. They then run a CLI command to verify things are running right. We next move on to connections with a database, where they show a snip of YAML on how to hook into yours. Next up is a Python snip to interact with your K3s install. We finish up with a walkthrough on getting it running in AWS and some links.
+BottomLine: Good premise ok execution of intro to lightweight Kubernetes distro K3s
+==
