@@ -63,3 +63,8 @@ DateReviewed: 2024-06-12
 Description: This article will talk about the rise and apparent fall of Postman and Lens and how they helped with APIs and Kubernetes management. Postman is an API tester, which helps devs create and document APIs. Lens is an IDE for K8s clusters, helping simplify monitoring and running clusters. The arguement is that they started lean and focused, but as they matured they added new features to broaden appeal. Postman added integration with other tools, making the app heavier and seemingly slower. Similarly, Lens added things like CI/CD integrations and support for multiple K8s distros, and this made it more complex and bloated. So, there is a bit more of this, and a suggestion to offer a "lite" version for users who want more performance. My take is there is a lot of complaints and suggestions, but not many stats or comparisons. I haven't used these tools, so the comments might be on point, but is it 30 seconds slower or has it gone from 3 to 8 seconds on starting up?
 BottomLine: Skippable rant about how a couple tools for Kubernetes are getting slower
 ==
+URL reference: https://github.com/kellyjonbrazil/microsim
+DateReviewed: 2024-06-13
+Description: This is the repo for a Microservice simulator, microsim. The idea is to simulate traffic for loading tests, balancing, WAF, attacks and other security uses. It's got install and example usage, a diagram on a deployment, along with config docs and defaults. Seems like a decent tool for all kinds of testing scenarios.
+BottomLine: Traffic simulation tool for testing Kubernetes apps
+==
