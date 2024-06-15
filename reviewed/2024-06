@@ -68,3 +68,8 @@ DateReviewed: 2024-06-13
 Description: This is the repo for a Microservice simulator, microsim. The idea is to simulate traffic for loading tests, balancing, WAF, attacks and other security uses. It's got install and example usage, a diagram on a deployment, along with config docs and defaults. Seems like a decent tool for all kinds of testing scenarios.
 BottomLine: Traffic simulation tool for testing Kubernetes apps
 ==
+URL reference: https://github.com/DataDog/managed-kubernetes-auditing-toolkit
+DateReviewed: 2024-06-14
+Description: This is the MKAT repo - Managed Kubernetes auditing toolkit. This is for K8s on AWS, and draws out perms granted by IAM roles to K8s service accounts. It does a bunch of auditing and other checks, and gives you an easy to read text output to understand what the issues might be.
+BottomLine: Interesting tool for AWS based Kubernetes clusters
+==
