@@ -73,3 +73,8 @@ DateReviewed: 2024-06-14
 Description: This is the MKAT repo - Managed Kubernetes auditing toolkit. This is for K8s on AWS, and draws out perms granted by IAM roles to K8s service accounts. It does a bunch of auditing and other checks, and gives you an easy to read text output to understand what the issues might be.
 BottomLine: Interesting tool for AWS based Kubernetes clusters
 ==
+URL reference: https://blog.ant0i.net/2024/06/k8s-challengeredguardch.html
+DateReviewed: 2024-06-15
+Description: This is a blog post that is a walkthrough of a CTF. They connect to a jump-off host, and start with recon, to map out the network. It looks like a K8s cluster with 2 workers and a master. After a bit more digging, the managed to find a remote shell exposed. They then download a payload and execute it. With this, they then start to work on the K8s cluster; first, getting the ENV info to figure out how to connect to the API and then looking for weak perms. They find some login creds. The author tries to break out of the pod to the node, but is not successful.
+BottomLine: Interesting walkthrough of a CTF attack on a Kubernetes cluster
+==
