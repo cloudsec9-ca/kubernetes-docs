@@ -78,3 +78,8 @@ DateReviewed: 2024-06-15
 Description: This is a blog post that is a walkthrough of a CTF. They connect to a jump-off host, and start with recon, to map out the network. It looks like a K8s cluster with 2 workers and a master. After a bit more digging, the managed to find a remote shell exposed. They then download a payload and execute it. With this, they then start to work on the K8s cluster; first, getting the ENV info to figure out how to connect to the API and then looking for weak perms. They find some login creds. The author tries to break out of the pod to the node, but is not successful.
 BottomLine: Interesting walkthrough of a CTF attack on a Kubernetes cluster
 ==
+URL reference: https://www.e-spincorp.com/what-is-container-security-and-issues/
+DateReviewed: 2024-06-16
+Description: It seems orgs are being turned into IT companies, and to do this they need do use containers. This article is an intro to all things containers. We start with a definition of containers, and then a journey through how they work, with a paragraph on some key topics. Next up we go through why containers help, and each topic gets about a paragraph of chat. We pivot to a discussion of applications, with four broad areas walked through with a large paragraph each. There is then a large section on container security. There are bits that are repetitive, but overall it's got decent info for a very early beginner.
+BottomLine: A basic intro to containers basically from scratch at a high level
+==
