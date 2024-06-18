@@ -83,3 +83,8 @@ DateReviewed: 2024-06-16
 Description: It seems orgs are being turned into IT companies, and to do this they need do use containers. This article is an intro to all things containers. We start with a definition of containers, and then a journey through how they work, with a paragraph on some key topics. Next up we go through why containers help, and each topic gets about a paragraph of chat. We pivot to a discussion of applications, with four broad areas walked through with a large paragraph each. There is then a large section on container security. There are bits that are repetitive, but overall it's got decent info for a very early beginner.
 BottomLine: A basic intro to containers basically from scratch at a high level
 ==
+URL reference: https://www.computerweekly.com/feature/Kubernetes-at-10-Persistent-storage-matures-helped-by-operators
+DateReviewed: 2024-06-17
+Description: Kubernetes is 10, and apparently the most important thing is stateful data storage, which this article is going to tackle. It's actually a bit of an interview with the person who drove K8s storage, so that is interesting. They start by talking about early days, then looking at improving things in the storage stack. He then talks about CSI and how those integrations played an important part, including not feeling things were good until they had quite a number of CSI drivers in the mix. He talks about dynamic provisioning and how that came about, and then also about some of the building blocks -- like PV & PVCs -- to help solidify stateful storage.
+BottomLine: Great walkthrough of how stateful storage evolved on Kubernetes
+==
