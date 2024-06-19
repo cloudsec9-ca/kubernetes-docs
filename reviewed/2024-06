@@ -88,3 +88,8 @@ DateReviewed: 2024-06-17
 Description: Kubernetes is 10, and apparently the most important thing is stateful data storage, which this article is going to tackle. It's actually a bit of an interview with the person who drove K8s storage, so that is interesting. They start by talking about early days, then looking at improving things in the storage stack. He then talks about CSI and how those integrations played an important part, including not feeling things were good until they had quite a number of CSI drivers in the mix. He talks about dynamic provisioning and how that came about, and then also about some of the building blocks -- like PV & PVCs -- to help solidify stateful storage.
 BottomLine: Great walkthrough of how stateful storage evolved on Kubernetes
 ==
+URL reference: https://medium.com/@noah_h/an-intro-to-kubernetes-hardening-c8efd7853f27
+DateReviewed: 2024-06-18
+Description: Kubernetes is well used, but security!! So this article will examine K8s hardening. Good - it has a few diagrams, which can be helpful; mediocre - it has some handwavy YAML snips, but isn't really a hands on. The have a number of high-level sections, with a paragraph dedicated to each subsection. We start with Pod Security, and talk about immutable file systems, security context and image security among 6 topics. Next up is Network security, and they dip into CNI, segmentation and service mesh. We move onto Control plane hardening, talking about things like etcd and the API and even he worker client kubelet part. They also deal with Auth and logging. Overall, a great intro with decent coverage.
+BottomLine: Good high level intro to Kubernetes security hardening
+==
