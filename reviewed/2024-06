@@ -98,3 +98,8 @@ DateReviewed: 2024-06-19
 Description: This is a press release about Kubernetes, but it gets worse. They talk a bit about the K8s software market over the next 5 years, and have a link to a "sample request". Unfortunately the link goes to a 404 page not found.
 BottomLine: Supposed market report on Kubernetes - avoid
 ==
+URL reference: https://www.mitigant.io/en/platform/kubernetes-security-posture-management
+DateReviewed: 2024-06-20
+Description: This is not an article, it's more like a pitch. We start with 3 simple steps, where their tool is deployed, analyzes and provides insights. They then have a short benefits section. Now, I'm not actually against pitches or sponsored content, but at no time does this thing ever talk about posture management at all. And since this stuff is new, I guess instead of helping you understand, you should just delegate it over? Ught.
+BottomLine: Just an ad - skip
+==
