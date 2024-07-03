@@ -153,3 +153,8 @@ DateReviewed: 2024-06-30
 Description: This is an article/tutorial on using Keycloak with Azure AD to integrate with AKS clustare auth. We start with a general introduction, and then move onto a diagram and some what is on AKS, Azure AD and Keycloak. They let us know Keycloak is an open source identity piece used to enable SSO and other identity elements. We then have a bit of a confused diagram, with a flow which is well documented but components that are not explained. Then then walk through setting up the Azure AD part, then explain how to connect Keycloak to Azure AD, and then how to configure an AKS cluster to auth with Azure AD. For people using MS cloud bits, this might be very interesting.
 BottomLine: Walkthrough of using Azure AD for AKS through Keycloak
 ==
+URL reference: https://itsm.tools/kubernetes-incident-management/
+DateReviewed: 2024-06-30
+Description: This article is about Kubernetes incident management, and it starts with a short definition and a bit of background. They define a K8s incident in 4 broad areas - pod errors, node failures, service disruptions and configuration errors -- and each one is given a paragraph of explaination. Next we go through the 6 step process to manage an incident. Each step gets a paragraph of explaination, and here are the steps they cover: Preparation, Detection, Triage, Containment, Analysis, Resolution and Review. We then go through 5 steps of recommended best practices. Decent coverage of a great topic.
+BottomLine: Decent article on Kubernetes incident management approaches
+==
