@@ -13,3 +13,8 @@ DateReviewed: 2024-07-03
 Description: BunkerWeb is a WAF (web application firewall) that is open source. They start with a quick overview, then a seven part segment on why, with each point being about a paragraph. They then do a rundown of the various security features, and finally go through resources, which includes a demo version to test out, a cloud variant, a paid Pro version and consulting services, and a long list of community focused resources and documentation. Looks very interesting.
 BottomLine: A new open source WAF with cloud ability called BunkerWeb
 ==
+URL reference: https://medium.com/@davis.angwenyi/how-to-install-grafana-loki-using-helm-e6b1185e5c24
+DateReviewed: 2024-07-04
+Description: This article discusses installing a comprehensive logging tool called Loki. We start with a diagram and there are a couple in here, which is always a good sign. They start with going through three variations of logging, monolithic, simple scalable and microservice, with a broken out explaination for each variant. It then goes through how the log bits work, tracing down both the write and read path for logging. Now we get into the install - so we add the repo in a helm CLI command, and then drop the YAML configs to be able to run the software. They then go through the YAML in chunks, explaining the various bits and what they do, and some of the options that are available. Once our config is ready, we can actually run the install to get things set up. This is the backend; they also run through how to set up and connect the client to send the logs. Pretty decent setup walkthrough.
+BottomLine: Walkthrough install and basic info on the Grafana Loki Kubernetes logging piece.
+==
