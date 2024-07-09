@@ -28,3 +28,8 @@ DateReviewed: 2024-07-06
 Description: This article is about a global scale collection of Kubernetes clusters, so you can get some insights into them working at that scale. This is focused on the apparel company Adidas, which deploys to 5 global areas with between 5 and 30 clusters and one or two regions within each area. They did use code to manage their configs, but it wasn't a globally shared code but rather branches for each region as they have their own idiosyncracies. There were lots of moving parts in this, including maint windows, different configs managed through the CI/CD process, with up to 50 configs that it was managing. Very interesting background and interesting items to understand.
 BottomLine: Peek into a global scale Kubernetes deployment over many clusters
 ==
+URL reference: https://www.itsecuritynews.info/portainer-open-source-docker-and-kubernetes-management/
+DateReviewed: 2024-07-07
+Description: This is a blurb that points to an actual article, so I'll keep this short. Portainer sounds like an interesting software package, able to manage Docker, Swarm, K8s and ACI envs with a GUI. This stump of an article, however, is not.
+BottomLine: Stub which is actually not very helpful on Portainer - skip
+==
