@@ -33,3 +33,8 @@ DateReviewed: 2024-07-07
 Description: This is a blurb that points to an actual article, so I'll keep this short. Portainer sounds like an interesting software package, able to manage Docker, Swarm, K8s and ACI envs with a GUI. This stump of an article, however, is not.
 BottomLine: Stub which is actually not very helpful on Portainer - skip
 ==
+URL reference: https://itnext.io/run-your-kubernetes-cluster-on-bare-metal-with-cilium-cni-part-1-e88028800d90
+DateReviewed: 2024-07-08
+Description: This article will help set up an on-prem home lab Kubernetes setup. We dive right in, first with the requirements, and they start with how the network has to be configured. Next up they explain the hypervisor, and both of these elements are tackled in detail. They then lay the background of our eventual target, with a pretty diagram to tie it together. Next up is the install, and they explain the hardware we'll need to proceed, before running us through the CLI commands to get everything on track. They then set up CRI, and explain with a breif explanation what that does. They then show us how to set up on two architectures, one ARM and one x86_64, depending on what CPU you'll be using. We go through a wall of CLI text, which is actually getting K8s to install and run, both for the masters and for the workers, and we even check to make sure it works. Next up is getting Cillium working, and again there is a large wall of text. My thoughts? It's a LOT of config, and I think it would help if there was a bit more "we are doing this for this reason", so people understand. But it's good to support getting a homelab up.
+BottomLine: Walkthrough of getting a Kubernetes homelab up with Cilium
+==
