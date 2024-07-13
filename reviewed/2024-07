@@ -53,3 +53,8 @@ DateReviewed: 2024-07-11
 Description: This blog is the introduction of two new controllers to the Kubernetes ecosystem. They are acjs, the Admission Controller with JavaScript, and ctrdac, the Containerd Admission Controller. They start with a section on a recap of Admission controllers, explaining a bit about what they are and how they work in a few paragraphs. We also get a diagram of how they work inside and even outside of K8s clusters. We then have sections for each new controller, where they go through the details. Following that, they go through 3 examples so you can understand how they work. Actually a good intro to new controllers.
 BottomLine: Introduction of 2 new Kubernetes admission controllers
 ==
+URL reference: https://medium.com/@harmandiaz023/navigating-kubernetes-cost-management-challenges-the-ultimate-guide-53d018905529
+DateReviewed: 2024-07-12
+Description: We start with Kubernetes good, but costs not managed are bad; so lets dive in. We next talk about cost challenges in K8s, which include bad resource allocation and optimization, complex pricing, multi-cloud envs, governance and compliance, estimation and budgeting. Each of these items gets a paragraph or so of coverage, so we know what is being done wrong. Next we look at cost mgmt strategies, and these include optimizing resource allocation, choosing the right cloud provider, and cost monitoring and reporting. I've seen a few of these, and this one seems lighter than others, and doesn't really say anything different or new.
+BottomLine: Rehash of previous pieces on Kubernetes cost management
+==
