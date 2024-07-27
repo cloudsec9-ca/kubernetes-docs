@@ -134,3 +134,8 @@ Description: This article will highlight Gateway API, and how it differs from In
 My opinion is this seems like very interesting bits, and I'd love to play a bit with them soon.
 BottomLine: Intro to Gateway API for Kubernetes and how it differs from Ingress
 ==
+URL reference: https://medium.com/@innablr.au/kubernetes-pod-security-using-podsecuritystandards-c9faef4af073
+DateReviewed: 2024-07-26
+Description: Wait, it seems Kubernetes is not secure out of the box -- who knew? So this article is going to focus on user and process privs, or what can be done from inside your pod. They start by mentioning the older PodSecurityPolicy, which was the older way to control what a pod might do. They mention it can be confusing and hard to maintain, but might be already deployed. We then hone in on PodSecurityStandard, the newer way to tackle pod permissions. They start with a diagram, and explain some of the basics of how it works. They then go through the why, with emphasis on how it improves things over the previous PSP. We then get into a little demo, going through the CLI and showing what happens when we have various levels of enforcement. Actually a decent into.
+BottomLine: Good intro to the newer PodSecurityStandard for Kubernetes
+==
