@@ -144,3 +144,8 @@ DateReviewed: 2024-07-27
 Description: Typically getting started security articles are stiff and boring, but this one starts light and witty -- even dropping a ref to Spiderman. We start with the basics in Kubernetes security wise, and this is RBAC. Simple one sentence explainations, a couple example YAMLs Role and RoleBinding to set up a read-only user. Next up is networks, and that is segmentation. They take us through setting up Network policies, again with a YAML example to allow same namespace ingress between pods. They show us Istio and then a YAML to set up mutal TLS for all services in a namespace. Moving on they set up monitoring with Grafana and Prometheus and give us the CLI commands to get that done. Our last practical piece is secret managemnt - they show how to create one on the CLI, then how to use it in a YAML spec. Honestly, it's not very expansive but it's an excellent place to start your K8s security journey.
 BottomLine: Very light but good intro to Kubernetes security
 ==
+URL reference: https://www.learnitguide.net/2023/04/kubernetes-architecture-explained.html
+DateReviewed: 2024-07-28
+Description: This is an article on Kubernetes architecture from a high level, and it is part of a series. We start with the master and worker node construct, and then talk about pods, ReplicaSets, Services and Deployments. Each action has a small paragraph explaining things to tie things together. There is a second section where it goes through various K8s CLI commands. Overall a good start to the high-level architecture pieces.
+BottomLine: Short but decent intro to Kubernetes Architecture`
+==
