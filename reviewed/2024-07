@@ -149,3 +149,8 @@ DateReviewed: 2024-07-28
 Description: This is an article on Kubernetes architecture from a high level, and it is part of a series. We start with the master and worker node construct, and then talk about pods, ReplicaSets, Services and Deployments. Each action has a small paragraph explaining things to tie things together. There is a second section where it goes through various K8s CLI commands. Overall a good start to the high-level architecture pieces.
 BottomLine: Short but decent intro to Kubernetes Architecture`
 ==
+URL reference: https://github.com/dguyhasnoname/k8s-cluster-checker
+DateReviewed: 2024-07-29
+Description: A repo for a tool that checks Kubernetes configs. It'll check through things like OS vers, K8s/Docker vers, Admission controllers, security context, health probes and much much more. Generates screen, CSV and JSON output. It thn goes through a tour of the scripts that you can use to check your K8s config. We then have a walkthrough of how to run, an arch diagram and a sample run.
+BottomLine: Interesting tool to check your Kubernetes config
+==
