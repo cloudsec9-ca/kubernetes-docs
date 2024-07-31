@@ -154,3 +154,8 @@ DateReviewed: 2024-07-29
 Description: A repo for a tool that checks Kubernetes configs. It'll check through things like OS vers, K8s/Docker vers, Admission controllers, security context, health probes and much much more. Generates screen, CSV and JSON output. It thn goes through a tour of the scripts that you can use to check your K8s config. We then have a walkthrough of how to run, an arch diagram and a sample run.
 BottomLine: Interesting tool to check your Kubernetes config
 ==
+URL reference: https://blog.devops.dev/unleashing-the-power-of-keda-for-dynamic-scaling-in-kubernetes-e4fc4008c3a7
+DateReviewed: 2024-07-30
+Description: This article is about KEDA, which focuses on controlling resources on a more raw level than Kubernetes usually does. They start with an overview of how KEDA is event-driven autoscaling, and then dive into the details. They talk about event sources, metrics, CPU and memory utilization as indicators of need to scale up or down. Next, a diagram, which I always love. They then go through some best practices, including clearly derfinded metrics an multiple event sources and the process of monitoring and optimizing based on observations. They go through a quick real-life case study, and then the conclusion. It's high level, but actually a decent start into KEDA.
+BottomLine: A high-level piece to motivate usage of KEDA in Kubernetes
+==
