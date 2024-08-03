@@ -1,0 +1,5 @@
+URL reference: https://dev.to/jamallmahmoudi/kubernetes-certificate-expiration-x509-1g7d
+DateReviewed: 2024-08-01
+Description: Seems it's important to understand Cert management for Kubernetes. The motivation they use isn't too strong, just talking about lapsed renewal instead of talking about why you want TLS. We get a laundry list of what certificates are in general, and then what Kubernetes does with them. We then move to the meat of this article -- checking cert validity and expiration. They show CLI commands to display various bits to display the expiry from either openssl or kubeadm. They wisely advise backing the certs up, and then walk through the commands to renew the certs. They also advise to restart the pods and also to do some clean up. Overall a good base, but would have been better with a bit more flow and organisation.
+BottomLine: Decent piece on the renewal of TLS certs in Kubernetes
+==
