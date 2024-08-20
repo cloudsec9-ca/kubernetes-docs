@@ -103,3 +103,8 @@ DateReviewed: 2024-08-18
 Description: This article is focused on ensuring security of web services, so talks about a new WAF that leverages Nginx. So, the article starts by swimming around in marketing-speak, and how its easy to use. There is a diagram of a Kubernetes cluster with no info on how the WAF works, so not very helpful. We move on to it being customizable, which is good, and then it's secure by default. Apparently it's got a friendly web UI and has a plugin system, but this is 100% high level still -- no tech details. On the plus side, it's FOSS, but then they mention ProServices, so maybe it's hard to configure? Not sure yet. Finally we get to the security features, which is just a laundry list of things a WAF/Firewall should do. Amazingly, they do have a link to more info, but not one bit of tech details in the whole article.
 BottomLine: Marketing rant on new WAF called BunkerWeb - no actual details here
 ==
+URL reference: https://github.com/zegl/kube-score
+DateReviewed: 2024-08-19
+Description: This is a repo which does a static analysis on your Kubernetes object definitions and recommends improvements. We start with a list of pre-built binaries, for those who favor that approach. Next up is a bullet point list of checks performed and an example output. It seems their goal is to be used in the CI pipeline, to warn devs about odd/unsafe configs set for resources. They go through the options quickly, and explain how both to ignore a test and to enable an optional test. To finish up they explain how to build from source and how to contribute.
+BottomLine: Interesting tool to improve your Kubernetes config
+==
