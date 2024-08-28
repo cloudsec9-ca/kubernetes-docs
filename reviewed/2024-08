@@ -153,3 +153,8 @@ DateReviewed: 2024-08-26
 Description: Security is important in Kubernetes - and protecting service account tokens is an important component in this, which this article looks at. Account tokens is how apps communicate to the K8s API, but they argue that being too liberal with access can have bad consequences. To allow access to the token, K8s by default provides it with a mount into each pod. The arugement that they make is that rather than have a default permissive token, that each app should have a crafted token that only allows the permissions that are required. To control this, they recommend turning off the automatic mounting of the token store. They talk a bit about using RBAC to have the right permissions, along with audits and monitoring to track what is being done. Overall a decent piece.
 BottomLine: Discussion and recommendations for security on Kubernetes service account tokens
 ==
+URL reference: https://portworx.com/knowledge-hub/best-practices-for-kubernetes-storage/
+DateReviewed: 2024-08-27
+Description: Kubernetes storage is complicated, but it is the defacto tool so this article will try to simplify the issues. We start with some of the benefits of K8s storage and where things have to be done right. They have a motivator for why you should use best practices for storage, and then we dive in. They cover dnyamic volumes, scaling, fast performance, security, backup/disaster recovery, and data storage and management. They do a decent dive on each, with a multi-paragraph treatment or more. Finally they have a pitch to use Portworx to handle your stoarge. Overall a decent piece.
+BottomLine: Article that talks about many aspects of Kubernetes storage
+==
