@@ -158,3 +158,8 @@ DateReviewed: 2024-08-27
 Description: Kubernetes storage is complicated, but it is the defacto tool so this article will try to simplify the issues. We start with some of the benefits of K8s storage and where things have to be done right. They have a motivator for why you should use best practices for storage, and then we dive in. They cover dnyamic volumes, scaling, fast performance, security, backup/disaster recovery, and data storage and management. They do a decent dive on each, with a multi-paragraph treatment or more. Finally they have a pitch to use Portworx to handle your stoarge. Overall a decent piece.
 BottomLine: Article that talks about many aspects of Kubernetes storage
 ==
+URL reference: https://thenewstack.io/runc-related-leaky-vessels-threaten-container-security/
+DateReviewed: 2024-08-28
+Description: This article is a review of the four CVEs found this year that affect Kubernetes deployments, dubbed the "Leaky Vessels". They talk about the main vector, which seems to be runc, and the fallout, which is allowing CLI commands that could enable breakouts. They approach this with a short intro to the CVE, then a technical breakdown, a vuln assessment, an impact and finally a mitigation section. For most of the issues, they are from an older version of buildkit and are centered around issues from Docker, although they do pose vulnerabilities for Kubernetes. The article also explains ways to help guard against some of the attacks -- for instance, by not letting a container root write to the host filesystem. Overall a good bit of insight into these attacks.
+BottomLine: Good walkthrough on the vulnerabilities and mitigations for the Leaky Vessel group of container aimed CVEs
+==
