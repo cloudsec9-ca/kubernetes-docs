@@ -1,0 +1,6 @@
+
+URL reference: https://www.youtube.com/watch?app=desktop&v=Ltf5cBzWlxU
+DateReviewed: 2024-09-01
+Description: This vid covers eBPF in about 2 minutes. First, we start going through the Linux kernel, and how it works at a basic level. Then, they pose the question - what if we want to change something in the kernel, and go through why we might want that. They say changing the kernel is hard, but we can use this cool thing called eBPF to do it. They then explain how eBPF programs are run inside a kernel VM. Basically, the VM system allows the compiler/toolchain to verify what is being done by the eBPF program, to ensure it only does things we want it to. High level but informative, this is a great intro to eBPF.
+BottomLine: Great 2 minute intro to eBPF in the Linux kernel
+==
