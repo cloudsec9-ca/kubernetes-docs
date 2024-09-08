@@ -39,3 +39,8 @@ DateReviewed: 2024-09-07
 Description: This piece starts with the claim that Azure security can be complex, and it is important to understand the fundamentals. We start with a crude diagram, and a story about sharing an Azure fileshare with an AKS cluster. Now they mention for various reasons what they couldn't use, they ended up settling on Workload identity. They include a decent diagram on how this flow works. We then are treated to a walkthrough of the steps they performed. We start with a bunch of enviroment variables, and then a CLI command to enable this kind of auth in AKS. There are a few more steps to get the basic auth all set up, then settimg up the perms so that the actual SMB share can be accessed. There is a bit more K8s stuff needed, which is an ID to access and finally a storage class to wrap the actual share (optional), and a persistent volume to surface the share in K8s. To actually use this, we now need a PV claim for the pod it should be used on and then to snag it. So, while conceptually this makes sense, it would need a few more diagrams and maybe a bit of video to actually make it comprehensible.
 BottomLine: Walkthrough of mounting an Azure drive to Kubernetes with AKS
 ==
+URL reference: https://dev2ops.hashnode.dev/security-in-terms-of-containerskubernetes
+DateReviewed: 2024-09-07
+Description: So, different cloud providers have various tools for K8s stuff, so our author proposes using a custom K8s client for each task. Small diagram, yay, but then a few pieces - I think he's building a security wrapper, but doesn't describe it much. There are 6 pieces, and it's all point form; so done quickly. Could be good, but isn't too substantial.
+BottomLine: Bit too quick for a security piece.
+==
