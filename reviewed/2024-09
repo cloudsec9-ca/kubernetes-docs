@@ -154,3 +154,8 @@ DateReviewed: 2024-09-19
 Description: So this article isn't general Kubernetes practices, but rather focused on the build side of the container image. They have a number of main topics that they talk about, with some bullet points and a few sentences of clarification thrown in. First they mention building small container images, including starting with a minimal image and only adding what is needed. Next they talk about things like keeping images up to date, and building immutable images, which both reduce security attack surface. We then are taken through image signing and scaning for vulns, both of which helps to ensure we know what we're deploying and that we have confidence in it. 
 BottomLine: Decent recommendations for building containers, but not that Kubernetes specific
 ==
+URL reference: https://cloudnativenow.com/social-facebook/bouyant-extends-reach-and-scope-of-linkerd-service-mesh/ 
+DateReviewed: 2024-09-20
+Description: This article goes through updates Linkerd is getting from an advocate company, Bouyant. We dive right in with IPv6 support, zero-trust audit policies and better timeouts and per-route metrics. They also talk about a new ability for HTTP/2 keep alive messages. They also added JSON support for all CLI output, and new automations to add in workloads running external to Kubernetes - on a VM, for example. There is a bit more discussion of why they focused on these things and how this improves it's role in the service mesh ecosystem. Overall a decent piece.
+BottomLine: Short article about Linkerd improvements for service mesh in Kubernetes
+==
