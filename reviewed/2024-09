@@ -189,3 +189,8 @@ DateReviewed: 2024-09-22
 Description: This article will dive into the TLS bootstrap attack against AKS. It seems the vulnerable service was the Azure CNI piece for Kubernetes. They detail the attack, which is simple -- asking a service called Azure WireServer for the key which protects some secrets, and then using that key to decrypt the TLS bootstrap token and the Kubelet client cert. This allows for access to all secrets and access to all workloads. They do have some mitigation actions, like adding NetworkPolicy restrictions, Auditing K8s clusters, checking for anamalous behaviour, and patching regularly. Decent coverage of this issue and good mitigation tips.
 BottomLine: Talks about the Azure TLS bootstrap vuln targeting AKS/Kubernetes clusters
 ==
+URL reference: https://www.wiz.io/academy/kubernetes-clusters-a-security-review
+DateReviewed: 2024-09-22
+Description: While titled as a security review, it's actually more of a primer and a security piece. First we go through the benefits of a Kubernetes cluster, and then the components, with a nice diagram. Finally we get to security, which is misconfigs, container vulns, net threats, secrets management, runtime sec, access control and data security. They have a pretty good 5 point approach to K8s security, with a diagram. Not a bad security bit.
+BottomLine: Decent bit on Kubernetes security with a sizeable primer upfront.
+==
