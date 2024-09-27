@@ -219,3 +219,8 @@ DateReviewed: 2024-09-26
 Description: This article will cover DevOps as applied to Kubernetes. First, we start with a primer of what DevOps is, along with a diagram showing the phases a DevOps project goes through. Next up is a quick Kubernetes intro - one high level paragraph. Then we get into how to do DevOps with Kubernetes, and they focus on three areas - Deployment consistency, Collaboration, and Self Service. Each topic gets a couple paragraphs of coverage on each, and they are focused on tighter and easier turnarounds of code. Finally they bring up the why, and this is a seven point laundry list with a diagram. Each list point gets a paragraph of coverage. It's a decent piece but I think some of the why could be instead more of a hands-on for the how.
 BottomLine: Decent piece on how to do DevOps in Kubernetes
 ==
+URL reference: https://vrushankamin.hashnode.dev/beginners-introduction-to-docker-configure-images-containers-and-docker-compose
+DateReviewed: 2024-09-26
+Description: This article is a walkthrough on using Docker. We dive in with an examination of the differences between a container and a VM, which is good for beginners. They then talk a bit about Linux namespaces and cgroups, before explaining that Docker runs natively in Linux and any containers are bound to the OS they run in. We then do a run through upsides of Docker before digging into things like installation and terminology. We then do a quick tour of the Docker CLI, touching on networking and how to create a container. They go through logs and running in the container. Also touch on Dockerfile, Docker Hub and images. Pretty good intro.
+BottomLine: Good intro to Docker for beginners
+==
