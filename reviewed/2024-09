@@ -234,3 +234,8 @@ DateReviewed: 2024-09-27
 Description: Since Kubernetes is the platform of choice for containers, the author's argue it is an excellent candidate for AI/ML workloads. In this article, they are going to focus on using Ingress to do AI/ML things. They argue that many things makes AI/ML hard to do, like tool sprawl or poor performance. They advance that using the F5 Ingress controller allows one to tackle a few of these challenges together, like load balancing, API gateway along with the normal Ingress capabilities. They claim you can use this for Model serving, experimentation, monitoring and security. While there are a lot of claims, this really feels like an ad more than a tech piece, as they don't provide much detail.
 BottomLine: Best to skip this fluffy ad light piece
 ==
+URL reference: https://medium.com/@sultan.hafsa99/kubernetes-for-beginners-89eeb2ee9dfc
+DateReviewed: 2024-09-28
+Description: So, I went in with low expectations, as most Kubernetes for beginners pieces are super lightweight, but this one is decent. Short, easy to read, and gets into the basics without getting super technical, it does a good job of an intro without too many frills. It includes a diagram and a couple of charts to help make things understandable.
+BottomLine: Good basic intro to Kubernetes
+==
