@@ -259,3 +259,8 @@ DateReviewed: 2024-09-30
 Description: As Kubernetes has reached it's 10 year anniversary, we're going to touch on an article that looks at it's longer term prospects. It seems that by 2029, 95% of orgs will be using containers in production, which actually seems reasonable. They assert that most new apps will be build in cloud native platforms, which also seems reasonable. They lean a bit on the advantages of Cloud Native, which include scaling and flexibility, and do talk about the challenges which includes some complexity. They also mention container data management as an area to watch.
 BottomLine: Less insightful then it might be - basically a trends continue piece
 ==
+URL reference: https://medium.com/@komaljaiswal853/what-are-kubernetes-events-6b0939d19780
+DateReviewed: 2024-09-30
+Description: This is a primer on Kubernetes events. I actually like the way it is done, where it has a *boring* and *funny* version, to keep things light. We start with what events are, which are changes in the config of a Kubernetes cluster. They go through why events are important, what types of events there are, and a section on common events. They talk about aggregating events, and how to access and manage events. Actually a deeper dive than I thought and an excellent primer.
+BottomLine: Great intro to Kubernetes events in a non-dry way
+==
