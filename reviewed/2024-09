@@ -264,3 +264,8 @@ DateReviewed: 2024-09-30
 Description: This is a primer on Kubernetes events. I actually like the way it is done, where it has a *boring* and *funny* version, to keep things light. We start with what events are, which are changes in the config of a Kubernetes cluster. They go through why events are important, what types of events there are, and a section on common events. They talk about aggregating events, and how to access and manage events. Actually a deeper dive than I thought and an excellent primer.
 BottomLine: Great intro to Kubernetes events in a non-dry way
 ==
+URL reference: https://medium.com/@saurab.tharu2/introduction-to-kubernetes-aa88fd30a3c0
+DateReviewed: 2024-09-30
+Description: This article tries to be the shortest intro to Kubernetes. It starts with some handwaving, and then they try to answer "Why K8s" with a list of things it does. They describe problems it "solves", to show what it is good at. First up is crashing of containers, where they highlight the self-healing capabilities of K8s; Next is traffic overhead, where they talk about load balancing and autoscaling; then deployment strategies, including zero downtime rollouts; and finally rollback, allowing you to easily move to an older version. It's an interesting approach, and not badly done.
+BottomLine: Quick into to Kubernetes showing 4 problems it solves
+==
