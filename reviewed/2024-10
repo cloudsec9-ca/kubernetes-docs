@@ -1,0 +1,6 @@
+
+URL reference: https://www.admin-magazine.com/Archive/2024/81/Securing-the-container-environment
+DateReviewed: 2024-10-01
+Description: Our article tackles Kubernetes security, but it does it from a more offensive approach - how do attackers gain access? After a bit of background, we jump into a section called main entry points, and they dedicate some space to attacks that target K8s. We start with app vulns and follow up with server-side request forgery, which gets a good walking through. They cover RBAC and misconfigs, as well as insecure APIs before finishing up with container breakouts. They cover each with at least one para, but some of the more interesting they go 3 or more into. Next up is a section called escaping to the host, where you gain access to the container host from inside the container. They have a laundry list of Docker to Linux capabilities, some of which can enable breakouts. They do go through how to get a reverse shell, with listings and some CLI commands. I think this is interesting myself, and I think the article demonstrates how attackers think and where you might need to think differently.
+BottomLine: Decent attack-based approach to Kubernetes security.
+==
