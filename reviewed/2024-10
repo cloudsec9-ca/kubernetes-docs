@@ -9,3 +9,8 @@ DateReviewed: 2024-10-01
 Description: We start with Kubernetes awesome, except security. This article has a laundry list approach, and they dive right in. They start with figuring out what issues K8s has, which they enumerate. The rest of their list is in order - RBAC, harden API server, harden cluster nodes, use PSP, use network fabric, log and monitor, supply chain (secure images), backup and finally stay aware of what is going on. Each list entry gets a one sentence definition, then a number of best practices in point form. Not a groundbreaker, but a decent intro to K8s security.
 BottomLine: Decent intro to Kubernetes security
 ==
+URL reference: https://www.cncf.io/blog/2024/08/29/kubernetes-v1-31-elli-an-insider-view/
+DateReviewed: 2024-10-02
+Description: This is an account of how Kubernetes is readied for new versions. We start with a bit of background, and how he got into the K8s distro pipeline. He then talks about shadowing, and what he was actually doing in this. He was a comms shadow, which he thought aligned with his DevRel role. He explains it is about a 14 week process, with 35-40 volunteers working with dev teams to get a release rolled out. He explains how things are organized into SIGs, and how they guide the process from teams and through building until it is officially released. They mention some highlights from this release, as well as what is coming up in the next release. They also go through a short checklist of the things that need to be done before the release, so things are ready once the code is all good. They have a few notes on things like talks and interviews that are either coming up or recently done. Overall an interesting piece.
+BottomLine: Kubernetes release team participant talks about what they do
+==
