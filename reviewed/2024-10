@@ -19,3 +19,8 @@ DateReviewed: 2024-10-03
 Description: This article dives into running Kafka on Kubernetes. We dive in and they note that Kafka, which is distributed and needs scaling flexibility, is a good match for K8s. We then talk about specific configs, like StatefulSets for Kafka brokers and using PV and PVCs to manage storare. They also talk about deploying with Helm to simplify stuff. Next up are best practices, where they touch on resource management, logging, network config and security. They advise to test failover and to optimize for stability. Overall decent coverage of an interesting topic.
 BottomLine: Good intro to using Kafka deployed on a Kubernetes cluster
 ==
+URL reference: https://thenewstack.io/enterprises-to-double-cloud-native-use-by-2029/
+DateReviewed: 2024-10-04
+Description: We start with Kubernetes being the gold standard on it's 10th birthday, before noting that large orgs say most of their future development will be Cloud native. Next we dive into a survey where over half of the respondents said they have 4 or more years using K8s, which speaks to it's adoption. They also note that 80% say they will build cloud ready versions in the next 5 yrs, as opposed to about 40% today. They then talk a bit about hybrid cloud, and how many are using this. They also have a short section on container data management. My take is it's interesting, but as forecasts go it is vague and waffly.
+BottomLine: A take on the five year future of Kubernetes and Cloud native apps
+==
