@@ -39,3 +39,8 @@ DateReviewed: 2024-10-07
 Description: The article is a walk through of setting up a load balancer with EKS. They include prereqs and the policy we have to use at the start. We then are directed on how to set up some permissions for our app, notably the web identity perm that we need to get traffic to the cluster. There are a few steps for this, and then we create a bit of YAML to tie our K8s cluster into the identity stuff. We then install Helm and the LB controller, and verify that it is installed and that the service name is correct. We then have to set up the EBS CSI driver, which is noted as needed if we have a 3-tier architecture. Once all of the bits are rolled out, we can hit the LB and get the Robot Shop store. I feel like some of the bits are more hand-wavy, as someone who knows Dev and some K8s and some AWS, I wasn't always sure what they were doing or why.
 BottomLine: Okay walkthrough of using a Load Balancer with AWS Kubernetes EKS
 ==
+URL reference: https://blog.scottlowe.org/2024/08/30/preloading-extra-images-with-kubernetes-image-builder/
+DateReviewed: 2024-10-07
+Description: Image builder is a set of tools to build various images, like VMs or AMIs, and has been extended to help build Kubernetes images. It works on Ansible and Packer, using them to do the work behind the scenes. They then show how to alter a current build to support images -- simply make 3 small changes to a JSON file, and voila, you are container ready. As an example, the author builds an Ubuntu AMI, with the simple CLI "make build-ami-ubuntu2024". Very interesting walkthrough, bound to make some things much easier.
+BottomLine: Interesting toolset to help build images of all types, including for Kubernetes
+==
