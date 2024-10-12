@@ -74,3 +74,8 @@ DateReviewed: 2024-10-10
 Description: We're going to do a bit of a walktrhough with Pixie, an open source observability tool. We start with a quick what is Pixie section, where they outline that Pixie can do everything from overviews to detailed insights. They go through some of the components, with a short description - Edge module, the agent that works with eBPF to collect data; Vizier, which manages the edge modules; then others, like Cloud, CLI and client API. They have a chart for comparing to other monitoring tools. Now, we're into hardware and software prereqs. We then get into a step-by-step walkthrough on how to install. At step 9, for instance, we have the basic setup with a plethora of pods up and running. They then set up the client and go through a bunch of the visualizations that it shows. To me, the setup is cool but while the visuals are nice, I don't get a good sense of what I'm looking at, and I think that could be improved.
 BottomLine: Okay walkthrough and background for Pixie observability for Kubernetes
 ==
+URL reference: https://www.youtube.com/clip/UgkxyXUlDAtWEOczyhq14w9MxbBwmrd0eWt8
+DateReviewed: 2024-10-11
+Description: Quick video which explains an issue in Azure Kubernetes which might allow command execution privilege. With that priv, they can download the cluster init info which allows a TLS bootstrap attack that exposes all the secrets on in the cluster.
+BottomLine: Good concise explaination of an Azure Kubernetes vulnerability
+==
