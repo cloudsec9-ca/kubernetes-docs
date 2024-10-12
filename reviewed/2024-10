@@ -79,3 +79,8 @@ DateReviewed: 2024-10-11
 Description: Quick video which explains an issue in Azure Kubernetes which might allow command execution privilege. With that priv, they can download the cluster init info which allows a TLS bootstrap attack that exposes all the secrets on in the cluster.
 BottomLine: Good concise explaination of an Azure Kubernetes vulnerability
 ==
+URL reference: https://dev.to/hkhelil/enhancing-container-security-the-complete-guide-to-secure-and-clean-kubernetes-clusters-1ida
+DateReviewed: 2024-10-11
+Description: This piece is going to talk about securing and cleaning Kubernetes clusters, primarily with Notary and AKS image cleaner. We start with a blurb about why we should always pull images, rather than only pulling images if we don't have them in our local cache. Then we move on to an explaination of Notary, which is a tool that verifies an image wasn't altered from when it was built. They include a way to add a signature and YAML to verify it. Next we look at the image cleaner, which simply figure out if an image is no longer used and deletes it. For Azure, it's as simple as adding it when we create the cluster; they also show how to verify it's active. They then tie this up to conclude. For me, I'm wondering what you do for existing clusters -- can this be added on the fly? Also, curious about avoiding the cache if you have a Notary signed image? While some flaws, it's an interesting perspective.
+BottomLine: Decent coverage of two tools to secure and clean your Azure Kubernetes cluster
+==
