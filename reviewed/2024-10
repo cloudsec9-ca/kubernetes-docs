@@ -109,3 +109,8 @@ DateReviewed: 2024-10-14
 Description: Increasing complexity of software systems implies having to improve the internal developer platform apparently, and this article will take us through that. We start off with stats, and of course the solution is to have a Virtual Kubernetes cluster. Now, the concept is awesome, but they do little in the first few paragraphs to explain how this works -- is it fancy namespace, some kind of proxy, maybe a new CLI? Nope, the whole article touts the benefits and good stuff, without any explaination of HOW to do this. So, pretty much worth skipping.
 BottomLine: Interesting idea, awful article which leaves out any of the how
 ==
+URL reference: https://www.baeldung.com/ops/kubernetes-pull-images-private-registry
+DateReviewed: 2024-10-14
+Description: This is a short article about pulling from a private image repo. It's acutally well done, with steps and prereqs and a full walk through, from adding a secret and perms throught to verifying deployment. Recommended.
+BottomLine: Good walkthrough on how to grab from a private Kubernetes images server
+==
