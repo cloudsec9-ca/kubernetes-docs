@@ -104,3 +104,8 @@ DateReviewed: 2024-10-13
 Description: This piece feels more like a press release than an article. It talks about CAST AI without any context, but I'm guessing it is a Kubernetes automation software. This article talks about the new KSPM add on, which allows it to integrate with the existing tool to provide some extra security. There is no detail, and a full paragraph is spend on quotes from someone in the company.
 BottomLine: Pretty straight skip unless you use CAST AI already
 ==
+URL reference: https://cloudnativenow.com/topics/cloudnativedevelopment/kubernetes/virtual-kubernetes-clusters-the-key-to-a-modern-idp/
+DateReviewed: 2024-10-14
+Description: Increasing complexity of software systems implies having to improve the internal developer platform apparently, and this article will take us through that. We start off with stats, and of course the solution is to have a Virtual Kubernetes cluster. Now, the concept is awesome, but they do little in the first few paragraphs to explain how this works -- is it fancy namespace, some kind of proxy, maybe a new CLI? Nope, the whole article touts the benefits and good stuff, without any explaination of HOW to do this. So, pretty much worth skipping.
+BottomLine: Interesting idea, awful article which leaves out any of the how
+==
