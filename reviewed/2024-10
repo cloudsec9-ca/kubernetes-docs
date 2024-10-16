@@ -114,3 +114,8 @@ DateReviewed: 2024-10-14
 Description: This is a short article about pulling from a private image repo. It's acutally well done, with steps and prereqs and a full walk through, from adding a secret and perms throught to verifying deployment. Recommended.
 BottomLine: Good walkthrough on how to grab from a private Kubernetes images server
 ==
+URL reference: https://medium.com/@achanandhi.m/manage-kubernetes-the-soft-way-448c7a3b69a8
+DateReviewed: 2024-10-15
+Description: Our author postulates that if your running a dev env, you can use a lightweight Kubernetes distro, and if you are a an enterprise you can pay someone to help, but if your a prod team you are stuck - but there is a distro they adance that can help, Rancher. This project was started in 2014 and acquired by SUSE in 2020, and is open source. But it seems other than introducing it, this article isn't going to show anything concrete -- just that Rancher can do everything you might need, and there will be more to come.
+BottomLine: Article which makes you aware of Rancher for Kubernetes without any real details
+==
