@@ -139,3 +139,8 @@ DateReviewed: 2024-10-17
 Description: We start out with the stat that almost 90% of orgs had a container or K8s incident in the last year. Next up, we're told that Kubernetes attacks are growing, and many of them stem from misconfigs. They claim that attackers can take advantage in minutes and traditional security tools can take days to detect this. Next, they claim that alert-based systems aren't enough, since they generate many alerts and need manual intervention. It seems the "goal" is real-time threat detection. The claim here is that it not only detects but also remediates in real time, without explaining how this is done. There is a bit of handwaving about KSPM and how realtime detection is important, but other than a couple screenshots of the dashboard, there are no details on how this is done. My take is this is an interesting area, but you need to explain what the tools are doing, not wave a magic wand.
 BottomLine: Interesting topic but lack of details makes this not a great piece
 ==
+URL reference: https://medium.com/@pandian0114/kubernetes-basics-dockerized-app-to-kubernetes-63207295288b
+DateReviewed: 2024-10-17
+Description: A step-by-step walkthrough, with plenty of diagrams and screenshots, of how to build a basic Docker container and run it on Kubernetes
+BottomLine: Decent basic walkthrough
+==
