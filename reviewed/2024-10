@@ -144,3 +144,8 @@ DateReviewed: 2024-10-17
 Description: A step-by-step walkthrough, with plenty of diagrams and screenshots, of how to build a basic Docker container and run it on Kubernetes
 BottomLine: Decent basic walkthrough
 ==
+URL reference: https://spacelift.io/blog/kubectl-set-context
+DateReviewed: 2024-10-18
+Description: This article dives into how to alter where kubectl does it's thing - the area called context. We start with why use them, which is a way to simplify your life. The idea here is to have all the config you need in the context your using, so you can get your work done. We then walk throught the set-context command, and it's params so you know how to use it. They then do some walkthrough, setting up a cluster context, entering some creds, and tying in a context. We then check into how to activate and switch between contexts. Next they dive into how to modify an existing context, and also mention how to rename contexts. Finally we are shown how to delete a context, before going through some troubleshooting that might help in contexts. A really good piece.
+BottomLine: Excellent intro and walkthrough for Kubernetes contexts
+==
