@@ -159,3 +159,8 @@ DateReviewed: 2024-10-19
 Description: This blurb focuses on managing Kubernetes - looking at larger businesses and trying to promote consistency, efficiency and security. And, that's it -- this is a report from another consulting company that you have to fill out a form to get, which is just basically an ad. And, the form doesn't even work.
 BottomLine: Bad blurb with non-working link to report -- skippable
 ==
+URL reference: https://www.solo.io/topics/cilium/cilium-kubernetes/
+DateReviewed: 2024-10-19
+Description: This article is a walkthrough of Cilium for Kubernetes. It explains what Cilium is, what it is built on, and how it can benefit you to deploy it. It then does a walkthrough of setting up Cilium on GKE. At the end, it talks a bit about Gloo and what it does (I think Gloo is by Solo, the writers of the piece). It's concise and does a good job of explaining Cilium
+BottomLine: Good intro and setup walkthrough of Cilium for Kubernetes
+==
