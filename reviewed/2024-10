@@ -164,3 +164,8 @@ DateReviewed: 2024-10-19
 Description: This article is a walkthrough of Cilium for Kubernetes. It explains what Cilium is, what it is built on, and how it can benefit you to deploy it. It then does a walkthrough of setting up Cilium on GKE. At the end, it talks a bit about Gloo and what it does (I think Gloo is by Solo, the writers of the piece). It's concise and does a good job of explaining Cilium
 BottomLine: Good intro and setup walkthrough of Cilium for Kubernetes
 ==
+URL reference: https://nirmata.com/2024/09/13/what-is-shift-down-security/
+DateReviewed: 2024-10-20
+Description: In a compliment to "shift left", shift down pushes security earlier into the dev process allowing security to be addressed more completely. The idea is that developers play a more active role, using risk assessment and things like cloud native tools to be more secure. Shift down targets things like runtime and monitoring, cover cloud infra, and things like 3rd party libs. They advise to use things like automated policy enforcement, more observability and response, and security optimization without dev friction. Finally they compare shift down with CNAPP, an alternative approach. This is an interesting paper with cool approaches.
+BottomLine: Intro to interesting new security approach for Kubernetes developers
+==
