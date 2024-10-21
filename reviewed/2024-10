@@ -169,3 +169,8 @@ DateReviewed: 2024-10-20
 Description: In a compliment to "shift left", shift down pushes security earlier into the dev process allowing security to be addressed more completely. The idea is that developers play a more active role, using risk assessment and things like cloud native tools to be more secure. Shift down targets things like runtime and monitoring, cover cloud infra, and things like 3rd party libs. They advise to use things like automated policy enforcement, more observability and response, and security optimization without dev friction. Finally they compare shift down with CNAPP, an alternative approach. This is an interesting paper with cool approaches.
 BottomLine: Intro to interesting new security approach for Kubernetes developers
 ==
+URL reference: https://www.kubermatic.com/products/kubelb/
+DateReviewed: 2024-10-20
+Description: We start with a blurn about KubeLB, which is a Kubernetes Load balancer. Has a brief para explaining the audience and target for the product, which seems aimed at mid-sized providers and shops with a mix of in cloud and on prem systems. It has a diagram but not much actual technical detail, so this is more of a marketing promo then an actual dive into the system.
+BottomLine: Marketing info lacking any actual tech info - skip
+==
