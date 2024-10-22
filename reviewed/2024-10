@@ -174,3 +174,8 @@ DateReviewed: 2024-10-20
 Description: We start with a blurn about KubeLB, which is a Kubernetes Load balancer. Has a brief para explaining the audience and target for the product, which seems aimed at mid-sized providers and shops with a mix of in cloud and on prem systems. It has a diagram but not much actual technical detail, so this is more of a marketing promo then an actual dive into the system.
 BottomLine: Marketing info lacking any actual tech info - skip
 ==
+URL reference: https://medium.com/@muthanagavamsi/1-fundamental-principle-for-kubernetes-cluster-optimization-323875101d60
+DateReviewed: 2024-10-21
+Description: This is more of a short essay then a formal article. It's more of a philisophical approach than hard ideas, but it's a good think piece. Short and sweet, I'd recommend for a quick read.
+BottomLine: Short piece on approaches to optimization - high level and recommended
+==
