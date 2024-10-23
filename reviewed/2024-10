@@ -184,3 +184,8 @@ DateReviewed: 2024-10-21
 Description: An exam of the Kubernetes infra on Digital Ocean. Starts with a diagram, always good -- it's basically a walkthrough of their systems and high level security approach. I'd say it's mostly to instill trust from customers, it's an interesting dive into how at least one provider does K8s security. It's not very long but pretty good overall - would be good to read to understand provider approaches.
 BottomLine: Niche cloud provider approach to Kubernetes secrity - interesting to some people
 ==
+URL reference: https://mogenius.com/blog-posts/best-practices-for-writing-kubernetes-yaml-manifests
+DateReviewed: 2024-10-22
+Description: This article talks about writing good YAML manifests. At first I thought it was going to be a bunch of fluff, but it is decent - they have solid advice, like using the latest stable API version to base your YAML off of. They have lots of tips and give good examples. It's a decent length, and talks about a topic that I haven't seen covered elsewhere and does it well. Recommended.
+BottomLine: Great article on writing good YAML for Kubernetes
+==
