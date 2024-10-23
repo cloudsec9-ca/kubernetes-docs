@@ -189,3 +189,8 @@ DateReviewed: 2024-10-22
 Description: This article talks about writing good YAML manifests. At first I thought it was going to be a bunch of fluff, but it is decent - they have solid advice, like using the latest stable API version to base your YAML off of. They have lots of tips and give good examples. It's a decent length, and talks about a topic that I haven't seen covered elsewhere and does it well. Recommended.
 BottomLine: Great article on writing good YAML for Kubernetes
 ==
+URL reference: https://medium.com/@rajendar.talatam/building-a-microcosm-how-to-create-a-miniature-ansible-environment-897995dd2cca
+DateReviewed: 2024-10-22
+Description: Our article tackles the challenges of working in a small environment. Specifically, he is using a VDI, and that constrains what can be run and how. He talks about using local tools (over CI/CD, which added 15mins/iteration) by using things like Vagrant. I'd like to have seen more on the env and usage, but this is where we're done.
+BottomLine: Interesting topic but not much in the article
+==
