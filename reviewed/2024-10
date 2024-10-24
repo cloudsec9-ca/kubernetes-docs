@@ -194,3 +194,8 @@ DateReviewed: 2024-10-22
 Description: Our article tackles the challenges of working in a small environment. Specifically, he is using a VDI, and that constrains what can be run and how. He talks about using local tools (over CI/CD, which added 15mins/iteration) by using things like Vagrant. I'd like to have seen more on the env and usage, but this is where we're done.
 BottomLine: Interesting topic but not much in the article
 ==
+URL reference: https://www.globalsign.com/en/blog/securing-kubernetes-ingress-controllers-with-ssl-tls-certificates
+DateReviewed: 2024-10-23
+Description: We start with Kubernetes good, and Ingress good, but must be secure. The issue is three paras in, I'm not sure if they are talking about outward facing or cluster facing security. We then go through a four-point checklist of why TLS is good, and I agree, and I think they mean it for external traffic. We finally arrive at the plug, and it is for a certificate issuer -- which is most valuable for non-controlled entities, like browsers. Decent topic, but a very muddled approach so I'd say skip it.
+BottomLine: Skipable piece about a good topic - using TLS to secure Kubernetes Ingress
+==
