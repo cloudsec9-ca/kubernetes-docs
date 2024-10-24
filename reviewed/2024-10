@@ -199,3 +199,8 @@ DateReviewed: 2024-10-23
 Description: We start with Kubernetes good, and Ingress good, but must be secure. The issue is three paras in, I'm not sure if they are talking about outward facing or cluster facing security. We then go through a four-point checklist of why TLS is good, and I agree, and I think they mean it for external traffic. We finally arrive at the plug, and it is for a certificate issuer -- which is most valuable for non-controlled entities, like browsers. Decent topic, but a very muddled approach so I'd say skip it.
 BottomLine: Skipable piece about a good topic - using TLS to secure Kubernetes Ingress
 ==
+URL reference: https://medium.com/@maheshwar.ramkrushna/horusec-is-an-open-source-security-vulnerability-scanner-designed-to-identify-vulnerabilities-in-810ca236a3d1
+DateReviewed: 2024-10-23
+Description: This one we jump right into, and it's an open source vuln scanner called Horusec. The idea is to plug it into your dev pipeline to get feedback early and fix security issues before they become a problem. There is a brief review of how it works - in your dev pipeline, it does static and dynamic testing, reports/alerts and allows customization. There is a walkthrough, so YAY! We start by installing, and then just doing a simple scan, and we walk through options like what directory to scan, what severity of issue to look for and which language we should focus on. They then show us a sample JSON and HTML report output. Actually well done!
+BottomLine: Great intro and walkthrough to the Horusec scanner for DevOps and Kubernetes
+==
