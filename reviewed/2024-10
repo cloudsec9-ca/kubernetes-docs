@@ -224,3 +224,8 @@ DateReviewed: 2024-10-25
 Description: We start here with nice things said about Kubernetes, and how it apparently helps streamline the development process. To extend this further, they think that both Databases and storage should be under K8s "control". So the main thrust here is to increase developer velocity and get faster ramps to prod. They argue that now, they have to stop and go to a storage admin if they need additional capacity. They list 7 points as to what devs doing this directly helps, including both cost and performance it seems. Okay, so I'm actually not against this idea, but the article doesn't provide strong reasoning for the benefits. I also don't know where devs actually care about space anywhere until they literally can't write files, and only THEN do they complain. Also, dev envs are a bit looser then prod, where you might want or need more controls. So, good topic, not great reasoning.
 BottomLine: Interesting topic not done great on using Kubernetes for DB and storage
 ==
+URL reference: https://dev.to/mabis12/create-a-deployment-on-kubernetes-45fl
+DateReviewed: 2024-10-26
+Description: We start with something aiming for the basics - they mention both the way to pronounce Kubernetes and that its shortform is K8s - and we'll be doing a deployment. It's going to be a step by step, and the first bits are installing Docker desktop and Minikube. Next we fire up Minikube, and next up is creating an Nginx deployment. They verify the deployment, and go through the optional step of exposing the deployment, and then viewing the deployed setup in the browser. Finally they take a peek at the K8s dashboard.
+BottomLine: Intro to Kubernetes showing how to do a simple deployment - short and decent
+==
