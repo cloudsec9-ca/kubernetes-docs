@@ -229,3 +229,8 @@ DateReviewed: 2024-10-26
 Description: We start with something aiming for the basics - they mention both the way to pronounce Kubernetes and that its shortform is K8s - and we'll be doing a deployment. It's going to be a step by step, and the first bits are installing Docker desktop and Minikube. Next we fire up Minikube, and next up is creating an Nginx deployment. They verify the deployment, and go through the optional step of exposing the deployment, and then viewing the deployed setup in the browser. Finally they take a peek at the K8s dashboard.
 BottomLine: Intro to Kubernetes showing how to do a simple deployment - short and decent
 ==
+URL reference: https://food-for-techies.blogspot.com/2024/09/kubernetes-how-to-avoid-scheduling-pods.html
+DateReviewed: 2024-10-26
+Description: We start right in talking about how a new pod gets created and how Kubernetes doesn't really care where pods run, which might not be ideal depending on your application. For instance, a database might need more resources, and you might put it on a box with better disks, or want to. This article will dive into how you'd prefer a pod be run on certain nodes, by diving into taints and tolerations. They go through the different mechanisms, explaining what they do and whar resource types they apply to. Basically taints are things that nodes get which are things pods may avoid. Tolerations are things pods get, which K8s try to satisify by avoiding or matching the taints. They go through how to apply taints, show them, and remove them, as well as a bit of YAML on the tolerations side. Actually an interesting discussion.
+BottomLine: Decent discussion of Kubernetes taints and tolerations
+==
