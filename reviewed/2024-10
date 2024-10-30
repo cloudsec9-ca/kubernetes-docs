@@ -254,3 +254,8 @@ DateReviewed: 2024-10-28
 Description: Our article is going to talk about Kubernetes networks, and we start with they aren't secure by default. We start with a chat on Network policy structure, and actually get into the weeds with some YAML and CLI here. We walk through an example, and they even have a lessons learned summary at the end. We get a couple tips and an extended note to top it off. Overall decent if a bit short.
 BottomLine: Decent but short piece on Kubernetes network policies for security
 ==
+URL reference: https://share.descript.com/view/53h3t0NZQkw
+DateReviewed: 2024-10-29
+Description: So this is a conversational piece about OpenStack, paticularly the latest release Dalmation. They use the weird analogy of building an office building over renting, to be able to place the coffee machine? And, it gets worse from there. They focus on fluff and don't dive into ANY tech details at all. They talk about alternatives to VMWare, AI and some other stuff, without explaining what advantage this release brings. So they talk about something called Skyline, and hype it, but then don't show it OR tell us exactly what it does -- it's easier and blah blah. My take -- not sure this is a good investment of time on a tech level.
+BottomLine: Not a great piece explaining the latest OpenStack release
+==
