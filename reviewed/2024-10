@@ -269,3 +269,8 @@ DateReviewed: 2024-10-30
 Description: This article helps to understand why Kubernetes is moving away from Docker. We dive right in, with a primer on how K8s works, touching on kubelet, dockershim, Docker, containerd and Container. They illustrate with this that there is five layers on an older K8s setup. In the newer approach, CRI-containerd replaces the shim and Docker, eliminating a layer and allowing more direct comms. They do note the change means cluster owners have to ensure images are OCI standards compliant, and that some Docker features may not work. Recommended!
 BottomLine: Short and to the point piece about Kubernetes deprecating Docker
 ==
+URL reference: https://techcommunity.microsoft.com/blog/azurenetworkingblog/secure-high-performance-networking-for-data-intensive-kubernetes-workloads/4271478
+DateReviewed: 2024-10-30
+Description: This article is a paper on how to do secure high-performance networks for data-intensive Kubernetes workloads in Azure. They do a bit of a primer, and then set up the approach - we need scalability, security, observability, low latency and high bandwidth. They do mention the targets for this are HPC and AI types of workloads. They introduce Cilium as a CNI, which allows all kinds of neat things to be done for networking, load balancing and observability. They talk about how eBPF works in the kernel, which gives Cilium it's power. They even drop a YAML snip, but most of the focus is on things from a higher level. Decent.
+BottomLine: Decent overview of using Kubernetes on Azure to do high-performance computing
+==
