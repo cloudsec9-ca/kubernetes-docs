@@ -38,3 +38,8 @@ DateReviewed: 2024-11-04
 Description: Okay, so this is a bit weird. There is no motivation or intro to this piece, and we start with a diagram, which I'm usually happy about. But our first text is a "design checklist" done in point form, and that is how this whole piece is constructed. The tips are good, and since this is all AKS the insights can be helpful. Next up are recommendations, and they also seem solid, and have explainations where appropriate. Moving on we get to security, with some guidelines and recommendations. But other than this general approach info, the piece doesn't go anywhere else. While I'd say AKS users might get something out of it, it's a bit hard to read for flow reasons.
 BottomLine: Interesting recommendations for AKS Kubernetes but laid out in a difficult flow
 ==
+URL reference: https://medium.com/@noah_h/on-kubernetes-network-security-exploring-cilium-and-istio-implementations-ba687b685d26
+DateReviewed: 2024-11-05
+Description: This piece explores ways to utilize Cilium and Istio to improve network security. We start with a video link that inspired the piece. The way this is laid out is to introduce a term, explain it, and include a diagram which shows the place in the system. We start with CNI, then cover service mesh, and then a short para about how they are related. They take similar approaches with Istio and Cilium, explaining what they are, how they work, and what is going on under the hood. Overall very good.
+BottomLine: Good piece on Istio and Cilium and how they work on Kubernetes
+==
