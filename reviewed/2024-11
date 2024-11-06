@@ -43,3 +43,8 @@ DateReviewed: 2024-11-05
 Description: This piece explores ways to utilize Cilium and Istio to improve network security. We start with a video link that inspired the piece. The way this is laid out is to introduce a term, explain it, and include a diagram which shows the place in the system. We start with CNI, then cover service mesh, and then a short para about how they are related. They take similar approaches with Istio and Cilium, explaining what they are, how they work, and what is going on under the hood. Overall very good.
 BottomLine: Good piece on Istio and Cilium and how they work on Kubernetes
 ==
+URL reference: https://www.helpnetsecurity.com/2024/10/24/f5-big-ip-next-for-kubernetes/
+DateReviewed: 2024-11-05
+Description: This article talks about F5's BIG IP product in relation to Kubernetes. It feels like an ad more than a tech document, as we talk a lot about AI but not so much about how this helps in Kubernetes. Lots of buzzwords and name dropping, but not a lot of explaination of what it does or how it does it. How does it help AI? It implies it makes it faster, but I'm not sure how? It also "protects" the AI landscape, but again, how? We end with a bunch of quotes, none of which helps on what it does.
+BottomLine: More of a product pitch then a tech document - skip
+==
