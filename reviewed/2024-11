@@ -53,3 +53,8 @@ DateReviewed: 2024-11-06
 Description: We start with container being good, but there are security issues. We start with an overview of containers, so assume almost no knowledge here. We then cover the issue from security issues - breaches, downtime and compliance issues. Next we move to various actual issues, where they take us through the risk, and example and finally a solution. They cover image issues, breakouts, configuration problems, and API config issues. They then tackle each of these with mitigations and hardening. They then talk about things like RBAC and various policies that help enforce limits and security. Overall a decent approach.
 BottomLine: Good overall approach to most aspects of Kubernetes security
 ==
+URL reference: https://itnext.io/how-your-confidential-containers-can-securely-retrieve-secrets-93d6f55b7b42
+DateReviewed: 2024-11-06
+Description: This article tries to explain how confidential computing works regarding secrets. So, I'll say there is a diagram and a bunch of flow charts, which is awesome for an article usually. It is also technical, which I also usually think is good -- but not in this case. While it gets into the weeds of data flow and explains that fairly well, it doesn't really explain the what and the why in a good way. Like I can understand how things flow, but I don't understand why this pod/node combo should get a key and the other one shouldn't. What problem does this guard against, and how does it achieve that? It's a bit fuzzy.
+BottomLine: Okay job of describing the mechanism of confidential computing but not the why
+==
