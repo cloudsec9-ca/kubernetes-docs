@@ -48,3 +48,8 @@ DateReviewed: 2024-11-05
 Description: This article talks about F5's BIG IP product in relation to Kubernetes. It feels like an ad more than a tech document, as we talk a lot about AI but not so much about how this helps in Kubernetes. Lots of buzzwords and name dropping, but not a lot of explaination of what it does or how it does it. How does it help AI? It implies it makes it faster, but I'm not sure how? It also "protects" the AI landscape, but again, how? We end with a bunch of quotes, none of which helps on what it does.
 BottomLine: More of a product pitch then a tech document - skip
 ==
+URL reference: https://medium.com/@RocketMeUpCybersecurity/container-security-how-to-defend-docker-and-kubernetes-environments-b1d9aa215e60
+DateReviewed: 2024-11-06
+Description: We start with container being good, but there are security issues. We start with an overview of containers, so assume almost no knowledge here. We then cover the issue from security issues - breaches, downtime and compliance issues. Next we move to various actual issues, where they take us through the risk, and example and finally a solution. They cover image issues, breakouts, configuration problems, and API config issues. They then tackle each of these with mitigations and hardening. They then talk about things like RBAC and various policies that help enforce limits and security. Overall a decent approach.
+BottomLine: Good overall approach to most aspects of Kubernetes security
+==
