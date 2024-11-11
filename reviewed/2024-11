@@ -93,3 +93,8 @@ DateReviewed: 2024-11-10
 Description: This piece is an interview with an industry person about Kubernetes security. Unlike most K8s sec pieces, this article says that things have gotten better security wise, but focus here is on managed K8s at a provider. But self-managed are still problematic it seems. One thing they mention is keeping up to date, but the other thing they talk about are isolation technologies. They do touch on all of the usual K8s security bits, but talk a bit about treating containers like a VM, which fully insulates each pod from every other. It's a neat approach, but they don't explain the implications too much.
 BottomLine: Introduces but doesn't explain using isolation to secure Kubernetes containers
 ==
+URL reference: https://www.techtarget.com/searchitoperations/tutorial/Step-by-step-guide-Get-started-with-Weave-for-Kubernetes
+DateReviewed: 2024-11-10
+Description: This article is a product pitch for a CNI called Weave, but it's actually a GOOD one. They explain what it does, give a link to K8s networking video, and contrasts it with competitors, before explaining how to set it up. No marketing babble, no testimonials, tech info and here is how you get it going. Refreshing.
+BottomLine: Neat article on Weave - a CNI for Kubernetes
+==
