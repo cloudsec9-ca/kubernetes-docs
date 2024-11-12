@@ -103,3 +103,8 @@ DateReviewed: 2024-11-11
 Description: This article is a toe dip into new DevOps tech that might be interesting. As a toe dip, they don't really dive into anything; it's more calling out a tech and then talking a little bit about what it is. They cover serverless computing, Kubernetes and containers, AI and ML, DevOps for edge compting and finally enhanced security practices. I'd like to have seen them dig a bit deeper, maybe an intro and then a para or two on where things are going and interesting topics in the area, but this is a survey and they went light. Decent for what it is.
 BottomLine: Decent toe-dip into five important technologies in the DevOps space
 ==
+URL reference: https://dev.to/cicube/sidecar-containers-in-kubernetes-2kj0
+DateReviewed: 2024-11-11
+Description: This article will dive into Sidecar containers. We start with a defintion, which is that we use sidecars to do support work, like logging, freeing the main container to only worry about running the main app. They also point out sidecars can be used in networking approaches like meshes. Next up we get practical, and they show us a YAML config for a sidecar, and then they break down the config line by line. We then move onto how Sidecars interact with Pod lifecycles, including explaining that generally sidecars are started first and left running after the main app, in case their duties require that. They also contrast jobs with Sidecars and explain the roles of Containers in a pod. They venture into things like resource limits and constraints.
+BottomLine: Good walkthrough of Sidecars on Kubernetes
+==
