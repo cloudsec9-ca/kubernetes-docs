@@ -98,3 +98,8 @@ DateReviewed: 2024-11-10
 Description: This article is a product pitch for a CNI called Weave, but it's actually a GOOD one. They explain what it does, give a link to K8s networking video, and contrasts it with competitors, before explaining how to set it up. No marketing babble, no testimonials, tech info and here is how you get it going. Refreshing.
 BottomLine: Neat article on Weave - a CNI for Kubernetes
 ==
+URL reference: https://nodeflix.com/the-future-of-cloud-devops-emerging-trends-and-technologies-to-watch/
+DateReviewed: 2024-11-11
+Description: This article is a toe dip into new DevOps tech that might be interesting. As a toe dip, they don't really dive into anything; it's more calling out a tech and then talking a little bit about what it is. They cover serverless computing, Kubernetes and containers, AI and ML, DevOps for edge compting and finally enhanced security practices. I'd like to have seen them dig a bit deeper, maybe an intro and then a para or two on where things are going and interesting topics in the area, but this is a survey and they went light. Decent for what it is.
+BottomLine: Decent toe-dip into five important technologies in the DevOps space
+==
