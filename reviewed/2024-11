@@ -113,3 +113,8 @@ DateReviewed: 2024-11-12
 Description: This article talks about using Talos Linux as your Kubernetes OS of choice. We start by talking a bit about Talos, which is a Kubernetes focuse OS. It tries to be more secure, by excluding things like SSH; it reduces included packages and is "API driven" in management. At it's core, it is immutable, a good fit for K8s philosophy of deploying new copies rather than changing on the fly. We get a diagram, and they talk a bit about the API, about how Kubelet is integrated into the OS and how the Networking stack is closely aligned with K8s. They then talk a bit about K8s on VMs vs K8s on bare metal, and the advantages and disadvantages of that. They talk about some other managed K8s, like GKE, Rancher and Openshift and how Talos has advantages. They then go through some benefits and challeges, and even a use case for Talos. A decent high level tour!
 BottomLine: Decent high-level tour of Talos, a bare metal OS for Kubernetes
 ==
+URL reference: https://medium.com/@muhammadhuzaifa02134182093/practical-implementation-of-rbac-in-kubernetes-fa1f1a79db78
+DateReviewed: 2024-11-12
+Description: This article is about Kubernetes RBAC, or role based access control. They start by trying to explain real-life roles and how they relate to what people do, before transitioning to talking about K8s and how roles are used in it. Honestly I thought this was going to be a bad article, but after a not great intro they have a pretty thorough hands on part. They start from certs and client stuff, set up and verify that, then go through the steps (role, rolebinding) to grant permissions to the user and finally verify it works.
+BottomLine: Good hands on walkthrough of Kubernetes RBAC
+==
