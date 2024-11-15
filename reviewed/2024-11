@@ -128,3 +128,8 @@ DateReviewed: 2024-11-13
 Description: This is a walk-through of K9s, a Kubernetes CLI tool. They call it a "TUI", or terminal user interface. They start with install, config then launch of the program. They do go through some arguements to the initial launch before pivoting to the interface. They break down what is where, and do a bit of explaination. Next we cover navigation which is keyboard based, and they cover help, filtering, and command mode, where we can get things done. They then show how we can look at resources, look into namespaces and switch contexts, all normal K8s things. They explore pulse and x-ray views, which allow you to see your cluster from a new perspective. We then look into normal things you might want to do, such as scaling, deleting a resource, triggering a cron job or looking at the logs. Overall a good and well rounded walkthrough.
 BottomLine: Very good walkthrough of the TUI tool K9s for managing Kubernetes
 ==
+URL reference: https://madhavkrishangoswami.hashnode.dev/kubernetes-security-best-practices-you-need-to-know
+DateReviewed: 2024-11-14
+Description: So Kubernetes is the new hotness, but that pesky security stuff - so this article dives into best practices. At first I thought it was going to be a rehash, but actually it's good -- It's got 10 points, where they explain the point and go through some related best practices. They start with image scanning and runnin as non-root, which is pretty solid. They also touch on encryption, securing secrets, RBAC and a few others. It feels like a practical approach, and they even have a practical example at the end. Recommended.
+BottomLine: Recommended walkthrough of various Kubernetes security best practices
+==
