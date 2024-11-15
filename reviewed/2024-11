@@ -133,3 +133,8 @@ DateReviewed: 2024-11-14
 Description: So Kubernetes is the new hotness, but that pesky security stuff - so this article dives into best practices. At first I thought it was going to be a rehash, but actually it's good -- It's got 10 points, where they explain the point and go through some related best practices. They start with image scanning and runnin as non-root, which is pretty solid. They also touch on encryption, securing secrets, RBAC and a few others. It feels like a practical approach, and they even have a practical example at the end. Recommended.
 BottomLine: Recommended walkthrough of various Kubernetes security best practices
 ==
+URL reference: https://thenewstack.io/interconnect-security-risks-for-robust-prevention-and-mitigation/
+DateReviewed: 2024-11-14
+Description: This is a holistic approach to Kubernetes security, and in paticular how impactful a breach can be. They look at risks of services, understanding service interconnects and what the blast radius is if there is an impact. They dig into a few real-world issues, like Log4j, Kinsing malware and misconfigs that lead to data exposure. They then go through 5 policies meant to limit the blast if you do have a breach. I'd consider this an advanced topic but it is well done.
+BottomLine: Good treatment of advanced security for Kubernetes
+==
