@@ -138,3 +138,8 @@ DateReviewed: 2024-11-14
 Description: This is a holistic approach to Kubernetes security, and in paticular how impactful a breach can be. They look at risks of services, understanding service interconnects and what the blast radius is if there is an impact. They dig into a few real-world issues, like Log4j, Kinsing malware and misconfigs that lead to data exposure. They then go through 5 policies meant to limit the blast if you do have a breach. I'd consider this an advanced topic but it is well done.
 BottomLine: Good treatment of advanced security for Kubernetes
 ==
+URL reference: https://thenewstack.io/deploy-kubernetes-behind-firewalls-using-these-techniques/
+DateReviewed: 2024-11-15
+Description: This article tackles the real case where Kubernetes is deployed behind Firewalls. They take a step by step approach, posing an issue and suggesting a solution or approach that can be taken. They look at things like image distro and management, control plane access, external DNS and dependencies, patches and updates and Ingress. Each of these is a unique challenge, and they thoughtfully tackle each one. To sum, they do mention that network design is also important, so being thoughtful in approach can simplify things.
+BottomLine: Interesting topic of Kubernetes behind firewalls done pretty well
+==
