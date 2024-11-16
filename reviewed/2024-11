@@ -143,3 +143,8 @@ DateReviewed: 2024-11-15
 Description: This article tackles the real case where Kubernetes is deployed behind Firewalls. They take a step by step approach, posing an issue and suggesting a solution or approach that can be taken. They look at things like image distro and management, control plane access, external DNS and dependencies, patches and updates and Ingress. Each of these is a unique challenge, and they thoughtfully tackle each one. To sum, they do mention that network design is also important, so being thoughtful in approach can simplify things.
 BottomLine: Interesting topic of Kubernetes behind firewalls done pretty well
 ==
+URL reference: https://madhavkrishangoswami.hashnode.dev/kubernetes-workloads-daemonsets-cronjobs-and-jobs
+DateReviewed: 2024-11-15
+Description: This article looks into three specific types of Kubernetes workloads - DaemonSets, CronJobs and Jobs. The article is set up with a "when to use" section and a real-world scenario for each type. DaemonSets are for longer lived apps, and they mention things like log collection and cluster monitoring. Next up is Jobs, which is for one and done tasks, like DB initializing or batch processing of a large dataset. Last up is CronJob, which is a periodic task like cleanups, reports or backups which need to be done monthly/weekly/daily or hourly. They give us some best practices and a summary. Good short intro, well done.
+BottomLine: Good short walkthrough of DaemonSets, CronJob and Jobs types of Kubernetes tasks
+==
