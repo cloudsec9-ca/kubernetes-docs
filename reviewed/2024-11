@@ -153,3 +153,8 @@ DateReviewed: 2024-11-16
 Description: This article is aimed at those in the mobile telco space, but talks about Kubernetes related things. The focus is on network testing tools, and how they can be run in containers. They talk about something called HAKS, which is a hybrid Azure in cloud and on-premise combo. They go through some configs and some general recommendations to help get the most out of it. They have a couple diagrams and go through a bit of stuff on how to run apps smoothly and efficiently. They finish up with a pitch for their product. Actually interesting although in a niche.
 BottomLine: Not bad for a niche topic - network testing in mobile from Kubernetes containers
 ==
+URL reference: https://nachoaprendeit.com/2024/10/31/updating-kubernetes-cluster-k8s-for-napp-deployment/
+DateReviewed: 2024-11-16
+Description: This article is about preparing a Kubernetes cluster for NAPP. Helpfully they start with a "what is NAPP" section, where they explain that this is the NSX Application Platform and allows NSX enabled microservices to be deployed. Bascially it seems this is a way to standardize the deployment of containers or app code under a VMWare VM situation. From what I understand, this is an upgrade to the current toolset, and hence the reason for needing to prepare and upgrade to the newer technology. They go through a lab and walk through the upgrade, and honestly do so in a pretty thorough way. My take here is that for someone outside the ecosystem like me, it's hard to follow. Also, VMWare hasn't been doing nice things in the community, so if you had to update I'd think it might be an opportunity to jump ship.
+BottomLine: Good hands on of prep and upgrading to a NAPP enabled Kubernetes cluster
+==
