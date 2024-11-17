@@ -148,3 +148,8 @@ DateReviewed: 2024-11-15
 Description: This article looks into three specific types of Kubernetes workloads - DaemonSets, CronJobs and Jobs. The article is set up with a "when to use" section and a real-world scenario for each type. DaemonSets are for longer lived apps, and they mention things like log collection and cluster monitoring. Next up is Jobs, which is for one and done tasks, like DB initializing or batch processing of a large dataset. Last up is CronJob, which is a periodic task like cleanups, reports or backups which need to be done monthly/weekly/daily or hourly. They give us some best practices and a summary. Good short intro, well done.
 BottomLine: Good short walkthrough of DaemonSets, CronJob and Jobs types of Kubernetes tasks
 ==
+URL reference: https://www.rcrwireless.com/20241024/telco-cloud/deploying-and-managing-containerized-network-functions-on-cloud-platforms-to-ensure-they-run-smoothly-and-efficiently
+DateReviewed: 2024-11-16
+Description: This article is aimed at those in the mobile telco space, but talks about Kubernetes related things. The focus is on network testing tools, and how they can be run in containers. They talk about something called HAKS, which is a hybrid Azure in cloud and on-premise combo. They go through some configs and some general recommendations to help get the most out of it. They have a couple diagrams and go through a bit of stuff on how to run apps smoothly and efficiently. They finish up with a pitch for their product. Actually interesting although in a niche.
+BottomLine: Not bad for a niche topic - network testing in mobile from Kubernetes containers
+==
