@@ -158,3 +158,8 @@ DateReviewed: 2024-11-16
 Description: This article is about preparing a Kubernetes cluster for NAPP. Helpfully they start with a "what is NAPP" section, where they explain that this is the NSX Application Platform and allows NSX enabled microservices to be deployed. Bascially it seems this is a way to standardize the deployment of containers or app code under a VMWare VM situation. From what I understand, this is an upgrade to the current toolset, and hence the reason for needing to prepare and upgrade to the newer technology. They go through a lab and walk through the upgrade, and honestly do so in a pretty thorough way. My take here is that for someone outside the ecosystem like me, it's hard to follow. Also, VMWare hasn't been doing nice things in the community, so if you had to update I'd think it might be an opportunity to jump ship.
 BottomLine: Good hands on of prep and upgrading to a NAPP enabled Kubernetes cluster
 ==
+URL reference: https://medium.com/@ksaquib/the-kubernetes-introduction-i-wish-i-had-when-i-started-a-complete-guide-f5127f6b5a9f
+DateReviewed: 2024-11-17
+Description: I assumed this was going to be a simple primer, but it is so much more than that. It starts with the buzzwords and "what is Kubernetes", but then it becomes a journey though all things container. We cover history of K8s, and a bit about how applicataion dev has evolved. We go through K8s arch, and even a bit on cluster theory. It goes through various resources, explaining each piece fairly well. It's not a hands on guide, but it gives you all the info you'd need to go from no knowledge to the place where you could be ready to deploy a cluster. Recommended.
+BottomLine: Thorough intro to Kubernetes and all concepts - very well done
+==
