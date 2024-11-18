@@ -163,3 +163,8 @@ DateReviewed: 2024-11-17
 Description: I assumed this was going to be a simple primer, but it is so much more than that. It starts with the buzzwords and "what is Kubernetes", but then it becomes a journey though all things container. We cover history of K8s, and a bit about how applicataion dev has evolved. We go through K8s arch, and even a bit on cluster theory. It goes through various resources, explaining each piece fairly well. It's not a hands on guide, but it gives you all the info you'd need to go from no knowledge to the place where you could be ready to deploy a cluster. Recommended.
 BottomLine: Thorough intro to Kubernetes and all concepts - very well done
 ==
+URL reference: https://linuxhandbook.com/kubernetes-pod-resource-usage/
+DateReviewed: 2024-11-17
+Description: In this article, we're going to see how we can monitor Kubernetes pods. They give some background on why we might need this, and then they tease us with the command for a single namespace - kubectl top pods. They do note you need the metric server installed for this to be helpful. In our walkthrough they are going to fire up two new pods in a new namespace to test. They explain the pre-reqs, which includes a running K8s cluster, and then give us the CLI line to install the Metrics server. Once installed, we verify it's running and we're ready for the next step. They give us the YAML and the CLI command to deploy them, and then we can start monitoring, after enough data has come in -- generally a few seconds. Decent walkthrough.
+BottomLine: Fair walkthrough showing basic utilization on your Kubernetes pods
+==
