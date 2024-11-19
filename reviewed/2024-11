@@ -168,3 +168,8 @@ DateReviewed: 2024-11-17
 Description: In this article, we're going to see how we can monitor Kubernetes pods. They give some background on why we might need this, and then they tease us with the command for a single namespace - kubectl top pods. They do note you need the metric server installed for this to be helpful. In our walkthrough they are going to fire up two new pods in a new namespace to test. They explain the pre-reqs, which includes a running K8s cluster, and then give us the CLI line to install the Metrics server. Once installed, we verify it's running and we're ready for the next step. They give us the YAML and the CLI command to deploy them, and then we can start monitoring, after enough data has come in -- generally a few seconds. Decent walkthrough.
 BottomLine: Fair walkthrough showing basic utilization on your Kubernetes pods
 ==
+URL reference: https://pinoyfreecoder.com/articles/deploying-microservices-on-kubernetes-guide
+DateReviewed: 2024-11-18
+Description: While the title for this one overpromises, this is actually a good compact approach to getting Kubernetes microservices going. We start with a "why K8s for microservices", then next we're into a hands-on for Minikube and kubectl. We then talk about building a microservice, and we get a Dockerfile example here. Next up is the YAML that will let us run the previous image in K8s, and then how to set up services and load balancers. Finally, we touch on autoscaling to respond to loads. Not lots of explaination (and therefore not super comprehensive), but decent approach and concise.
+BottomLine: Decent express walkthrough of getting microservices running on Kubernetes
+==
