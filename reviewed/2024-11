@@ -173,3 +173,8 @@ DateReviewed: 2024-11-18
 Description: While the title for this one overpromises, this is actually a good compact approach to getting Kubernetes microservices going. We start with a "why K8s for microservices", then next we're into a hands-on for Minikube and kubectl. We then talk about building a microservice, and we get a Dockerfile example here. Next up is the YAML that will let us run the previous image in K8s, and then how to set up services and load balancers. Finally, we touch on autoscaling to respond to loads. Not lots of explaination (and therefore not super comprehensive), but decent approach and concise.
 BottomLine: Decent express walkthrough of getting microservices running on Kubernetes
 ==
+URL reference: https://kubernetes.io/blog/2024/10/28/k8s-upstream-training-japan-spotlight/
+DateReviewed: 2024-11-18
+Description: I thought originally this was some kind of package, but it's actually about fostering the Kubernetes community in Japan, in an attempt to smooth entry for newcomers. They hold the sessions one or two times a year, and do an intro, an overview of the codebase, how to do a PR, how to set up the dev enviornment and hands-on sessions. They even do a couple of participant interviews! Neat approach to community engagement.
+BottomLine: Interesting story about Kubernetes newcomer engagement in Japan
+==
