@@ -193,3 +193,8 @@ DateReviewed: 2024-11-20
 Description: This article will talk about a Container oriented OS. First we talk about lineage, which started from CoreOS and through a few acquisitions ended up with IBM/Redhat. Called Flatcar, it's container centric and only includes needed packages. Configuration is done through a YAML file and creates an immutable system. They talk a bit about the close ties the OS has to K8s through integration of Cluser API. They drop a few neames, before talking about it becoming an incubated project and what is next. A thing to check out, for sure.
 BottomLine: Announcement of Flatcar OS becoming a CNCF incubated project
 ==
+URL reference: https://dev.to/lloydrivers/cka-full-course-2024-day-1340-static-pods-manual-scheduling-labels-and-selectors-in-kubernetes-29jb
+DateReviewed: 2024-11-20
+Description: Part of a bigger course, this lesson/walkthrough shows how to do manual scheduling in Kubernetes. They start with a task and some pre-reqs, and just dive into the lesson/walkthrough. They give you the commands, but also a bit of color when needed to know what is going on. They also give expected output, so you can gauge if your working correctly.
+BottomLine: Decent walkthrough covering manual scheduling of pods in Kubernetes
+==
