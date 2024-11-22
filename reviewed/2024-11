@@ -198,3 +198,8 @@ DateReviewed: 2024-11-20
 Description: Part of a bigger course, this lesson/walkthrough shows how to do manual scheduling in Kubernetes. They start with a task and some pre-reqs, and just dive into the lesson/walkthrough. They give you the commands, but also a bit of color when needed to know what is going on. They also give expected output, so you can gauge if your working correctly.
 BottomLine: Decent walkthrough covering manual scheduling of pods in Kubernetes
 ==
+URL reference: https://en.wikipedia.org/wiki/Kubernetes
+DateReviewed: 2024-11-21
+Description: The article on Wikipedia about Kubernetes. As one would expect from an encyclopedia, this is a fairly comprehensive review of what Kubernetes is and how it came about, with history and tech sections. A good detailed account, and recommended for both tech and general interest, but you'd have to read the right sections.
+BottomLine: Wikipedia article on Kubernetes - recommended
+==
