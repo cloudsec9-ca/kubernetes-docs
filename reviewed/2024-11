@@ -203,3 +203,8 @@ DateReviewed: 2024-11-21
 Description: The article on Wikipedia about Kubernetes. As one would expect from an encyclopedia, this is a fairly comprehensive review of what Kubernetes is and how it came about, with history and tech sections. A good detailed account, and recommended for both tech and general interest, but you'd have to read the right sections.
 BottomLine: Wikipedia article on Kubernetes - recommended
 ==
+URL reference: https://www.dbta.com/Editorial/News-Flashes/WSO2s-Developer--and-Kubernetes-Centric-Release-Emphasizes-AI-Innovation-and-Security-166718.aspx
+DateReviewed: 2024-11-21
+Description: This is a press release for an org that descibes itself as the "largest" provider of open source API management. It's pretty lightweight and lacks much tech detail, and refers to their site for more info.
+BottomLine: A skippable press release for Kubernetes API management
+==
