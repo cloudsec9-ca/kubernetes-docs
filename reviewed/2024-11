@@ -208,3 +208,8 @@ DateReviewed: 2024-11-21
 Description: This is a press release for an org that descibes itself as the "largest" provider of open source API management. It's pretty lightweight and lacks much tech detail, and refers to their site for more info.
 BottomLine: A skippable press release for Kubernetes API management
 ==
+URL reference: https://floormind.medium.com/setting-up-a-self-managed-kubernetes-cluster-a-step-by-step-guide-none-ha-2a2aed449402
+DateReviewed: 2024-11-22
+Description: This article goes through the steps to set up a self-managed cluster. They have a decent prereq list they start with, telling you what hardware, OS, config and storage you might need. They go through everything after the OS setup, explaining what is needed and why, with the requisite CLI commands. We start with the basic K8s tools, then config of cgroups, setting up the control node, networking, starting up the initial cluster node, and finally joining worker nodes. 
+BottomLine: Good guide on setting up self-managed Kubernetes
+==
