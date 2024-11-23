@@ -213,3 +213,8 @@ DateReviewed: 2024-11-22
 Description: This article goes through the steps to set up a self-managed cluster. They have a decent prereq list they start with, telling you what hardware, OS, config and storage you might need. They go through everything after the OS setup, explaining what is needed and why, with the requisite CLI commands. We start with the basic K8s tools, then config of cgroups, setting up the control node, networking, starting up the initial cluster node, and finally joining worker nodes. 
 BottomLine: Good guide on setting up self-managed Kubernetes
 ==
+URL reference: https://www.gitpod.io/blog/we-are-leaving-kubernetes
+DateReviewed: 2024-11-22
+Description: This article focuses on building Dev environments, and the claim is that Kubernetes isn't the right tool. They do explain they are using K8s in PROD, but just not in dev. They do list 4 reasons they think are compelling for not to use K8s in a dev env. They then further detail the various stuggles they ran into using K8s as a dev env, which goes on, and on ... and on. So, they seem to have given it a fair shake, and decided to move to another approach, which is fair. They cover things like CPU utilization, network issues, and security, among many others. I think they are actually hosting arbitrary Dev envs, so that also plays into things -- having only internal devs is different then possibly hostile ones.
+BottomLine: Good piece explaining why Kubernetes doesn't make the best general dev environment
+==
