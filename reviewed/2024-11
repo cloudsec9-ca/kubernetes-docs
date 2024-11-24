@@ -223,3 +223,8 @@ DateReviewed: 2024-11-23
 Description: This is an article explaining why you would want to use Grafana to monitor your Kubernetes install. In paticular, they focus on the cloud offering, allowing you do approach monitoring as any other SaaS. The idea here is that they do the heavy lifting of installing and running the stack, and all you have to do is read the logs and observe the graphs. It's an interesting approach, and might be right for some small and medium businesses, depending on the industry. It is something to look at, for sure.
 BottomLine: Interesting approach to monitoring Kubernetes -- using basically a SaaS monitoring provider
 ==
+URL reference: https://www.sentinelone.com/blog/climbing-the-ladder-kubernetes-privilege-escalation-part-1/
+DateReviewed: 2024-11-23
+Description: This article deals with attacks on Kubernetes security - paticularly privilege escalation. They start with a bit of landscape, explaining increasing adoption means more attractiveness to attackers, and referencing some other articles on things like initial access. They lay out some possible ways this can be done and explain briefly what it means, and take one avenue and work through how the exploit might happen. They also explain a bit about how to apply theory to practice, go through some attack types and how they work, and even point out something people aren't always thinking of - system pods, the bits that make K8s itself work. Actually a good overview of this class of attacks.
+BottomLine: Strong piece on how privilege escalation attacks work on Kubernetes
+==
