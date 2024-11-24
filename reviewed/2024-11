@@ -218,3 +218,8 @@ DateReviewed: 2024-11-22
 Description: This article focuses on building Dev environments, and the claim is that Kubernetes isn't the right tool. They do explain they are using K8s in PROD, but just not in dev. They do list 4 reasons they think are compelling for not to use K8s in a dev env. They then further detail the various stuggles they ran into using K8s as a dev env, which goes on, and on ... and on. So, they seem to have given it a fair shake, and decided to move to another approach, which is fair. They cover things like CPU utilization, network issues, and security, among many others. I think they are actually hosting arbitrary Dev envs, so that also plays into things -- having only internal devs is different then possibly hostile ones.
 BottomLine: Good piece explaining why Kubernetes doesn't make the best general dev environment
 ==
+URL reference: https://grafana.com/solutions/kubernetes/?cnt=https://grafana.com/solut&mdm=social&src=li
+DateReviewed: 2024-11-23
+Description: This is an article explaining why you would want to use Grafana to monitor your Kubernetes install. In paticular, they focus on the cloud offering, allowing you do approach monitoring as any other SaaS. The idea here is that they do the heavy lifting of installing and running the stack, and all you have to do is read the logs and observe the graphs. It's an interesting approach, and might be right for some small and medium businesses, depending on the industry. It is something to look at, for sure.
+BottomLine: Interesting approach to monitoring Kubernetes -- using basically a SaaS monitoring provider
+==
