@@ -253,3 +253,8 @@ DateReviewed: 2024-11-27
 Description: With Kubernetes better able to support stateful apps, more orgs are running databases on K8s. Having all of their tools and resources under one roof is a big motivation, but there are challenges to running stateful apps. This article will dig into database provisioning options. They consider 4 options - manual deployment, Helm charts, Kubernetes operators and Cloud native database platforms. They have a section on each, with the pros and cons, ending up with a chart. The message is that one size doesn't fit all, and it depends on your needs and DB complexity. An interesting comparison.
 BottomLine: Solid comparison of different approaches to deploying DBs on Kubernetes
 ==
+URL reference: https://cloud.google.com/blog/products/ai-machine-learning/deploy-and-serve-open-models-over-google-kubernetes-engine/
+DateReviewed: 2024-11-28
+Description: Our article is going to tackle a bit of generative AI, specifically open model hosting. They dive in with a current model - Llama 3.1, which has 405 billion parameters and needs 750GB of GPU memory for inference. They do a quick walkthrough to show how to access the Llama model in GKE. They point out the current most powerful GPU available only has 80GB of memory, which means Llama will require multiple hosts to work. To do this, they use a Kubernetes construct calle LeaderWorkerSet, which allows splitting of the data over multiple nodes; they provide a helpful diagram to illustrate. They do a dive into some of the details, but basically the whole group is treated as one for updates or restarts - all or none. My take is this is niche but interesting.
+BottomLine: Decent intro to running a heavy AI model on Kubernetes in GKE
+==
