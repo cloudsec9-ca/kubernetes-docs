@@ -263,3 +263,8 @@ DateReviewed: 2024-11-29
 Description: This article is going to introduce Kube-hunter, and we start with a familiar refrain - Kubernetes is a popular platform, but security is lacking. We dive in with a "how does Kube-hunter work", and it's a probe which tests domains or address ranges for open K8s ports. It then uses the CLI to list out types of things kube-hunter can check, like API services, K8s dashboard, port scanning, listing out 24 basic scans. There are also active scans, which could cause issues to caution is urged - and there are 13 in this area. It goes through instructions on how to install and run kube-hunter, which can be as a PIP install or as a container. It produces a URL which can be used to view it's HTML report. Overall an okay runthrough.
 BottomLine: Good basic runthrough of a Kubernetes testing tool called Kube-hunter
 ==
+URL reference: https://medevel.com/11-free-docker-pentesting-tools-and-vulnerability-scanner-for-docker-containers/
+DateReviewed: 2024-11-29
+Description: This article will dive into almost a dozen free tools for your container systems - Docker and Kubernetes. We start out with talking about misconfigs - where admins goof up and allow things that shouldn't be, which is important. We then are given some things to check - vulnerabilities, compliance, risk, performance and finally protection of sensitive data, which all get a short description. Most tools have a features or how it works, which gives you an intro to the tool. The tools covered are grype, Clair, DockerScan, Harbor, Trivy, BOtB, Dadda, Gorsair, CCAT, DeepCE, and Docker Bench for Security. Not bad for a survey of tools, but still short.
+BottomLine: Short intro to 11 pentesting tools for Docker and Kubernetes
+==
