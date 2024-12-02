@@ -268,3 +268,8 @@ DateReviewed: 2024-11-29
 Description: This article will dive into almost a dozen free tools for your container systems - Docker and Kubernetes. We start out with talking about misconfigs - where admins goof up and allow things that shouldn't be, which is important. We then are given some things to check - vulnerabilities, compliance, risk, performance and finally protection of sensitive data, which all get a short description. Most tools have a features or how it works, which gives you an intro to the tool. The tools covered are grype, Clair, DockerScan, Harbor, Trivy, BOtB, Dadda, Gorsair, CCAT, DeepCE, and Docker Bench for Security. Not bad for a survey of tools, but still short.
 BottomLine: Short intro to 11 pentesting tools for Docker and Kubernetes
 ==
+URL reference: https://itnext.io/pod-security-with-k8studio-b86c246ffaa4
+DateReviewed: 2024-11-30
+Description: This article talks about an upgrade to a product - K8Studio. The upgrades came in three main areas - Network policies, security context and service account roles. The article explains in brief what each upgrade does, as well as a bit more in depth about how to take advantage of the product in the config of their tool. Actually nicely balanced, with good explaination of the issues it sees and how it addresses them.
+BottomLine: Survey into the upgrades of security tool K8Studio for Kubernetes
+==
