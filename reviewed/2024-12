@@ -9,3 +9,8 @@ DateReviewed: 2024-12-02
 Description: This is a prediction post, at the milestone of Kubernetes being 10 years old. There are some strong predictions - that eBPF will play a major role going forward, and that OpenTelemetry will vie for a spot in the monitoring of Kubernetes stuff. There is some introspection about things like Ingress and service meshes. With the new Gateway API emerging, they argue it's time to move on from traditional Ingress. There is a bit of coverage here on AI as it relates to Kubernetes networking; they break it into two parts. They also talk a bit about a new rev to CNI vs possibly evolving to something like Kubernetes network drivers. An interesting piece to read.
 BottomLine: Some interesting discussions on the future of Kubernetes now that it has reached ten years
 ==
+URL reference: https://faun.pub/how-kubernetes-health-checks-keep-your-apps-running-159d762a4ea3
+DateReviewed: 2024-12-03
+Description: This article goes over Kubernetes health checks with probes - to see if your app ecosystem is working. We start with a definition of probe, and then a quick overview of the three main probe types - liveness, readiness, and startup. For each time, we get a purpose, how it works and when to use, and wrapped up with an example. There are even diagrams! We do a basic config runthrough for a probe, and then they do a "demo" to show how this works in real life. They spin up some pods, and disable the liveness probe, which they then trace through to see a restart. Actually a decent treatment.
+BottomLine: Goes through different Kubernetes probes, and then shows a demo of them
+==
