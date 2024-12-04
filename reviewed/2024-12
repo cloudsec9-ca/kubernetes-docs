@@ -1,0 +1,6 @@
+
+URL reference: https://dev.to/eren_yeager/exploring-kubernetes-what-it-is-key-features-and-how-it-powers-devops-1gn3
+DateReviewed: 2024-12-01
+Description: This article is an intro to Kubernetes and DevOps. We start with an overview of Kubernetes, where it talks a bit of history and then gets into the nitty gritty of K8s, talking about lifecycles and nodes among other things. It goes through an 8-point list of K8s features, each getting a good sentence of explaination. We then look in DevOps and DevSecOps, explaining what they are, and how they improve the management of resources. They talk about CI/CD, and then IaC as tools to help this. We then touch on prog lans supporting K8s, with a list of the 8 most common. The article mentions parent company, but they mean current owner, and explain how it started as a Google project but now is under the CNCF umbrella. We end up with talk about open-source versions of K8s compared with managed versions like at a cloud provider. Has some insights, but the formatting is a bit odd.
+BottomLine: Decent intro to Kubernetes and DevOps in general
+==
