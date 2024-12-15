@@ -59,3 +59,8 @@ DateReviewed: 2024-12-12
 Description: This article talks about generating an SBOM, which is an inventory of dependencies, from your container images. We dive right in with a description of what comprises an SBOM, and then move on to the tool they are going to use to generate the SBOM - Docker Scout. A quick word on why we want SBOMs, and then the CLI command to generate an SBOM from Scout in JSON. We get a couple of output format variations, before looking at how to save it to a file. Helpfully, they show how to generate an SBOM during the build process, by adding a few parameters to the Docker build command. They mention that Scout works with local images, image tarballs and also registry images. This is a great quick walkthrough - recommended.
 BottomLine: Recommended walkthrough on using Docker to create SBOMs
 ==
+URL reference: https://developers.redhat.com/learn/openshift/develop-containers-using-podman-desktop-and-kubernetes?sc_cid=7015Y000003sfSfQAI
+DateReviewed: 2024-12-13
+Description: A short article which is the intro to a lab on developing containers with Podman Desktop and Kubernetes. Starts with a general background, then we get an intro into the various bits. They go through the Pre-reqs to run, and then a motivation of what is being done in the learning. They tell us the general length of the lab and the learning objectives, and mention it will be using Python as the programming language. Very interesting!
+BottomLine: Short setup for a lab to do development of containers with Podman
+==
