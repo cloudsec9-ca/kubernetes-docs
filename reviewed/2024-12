@@ -64,3 +64,8 @@ DateReviewed: 2024-12-13
 Description: A short article which is the intro to a lab on developing containers with Podman Desktop and Kubernetes. Starts with a general background, then we get an intro into the various bits. They go through the Pre-reqs to run, and then a motivation of what is being done in the learning. They tell us the general length of the lab and the learning objectives, and mention it will be using Python as the programming language. Very interesting!
 BottomLine: Short setup for a lab to do development of containers with Podman
 ==
+URL reference: https://medium.com/@a.najarian/how-to-deploy-batfish-on-kubernetes-with-helm-and-gitlab-ci-cd-pipeline-5236da996956
+DateReviewed: 2024-12-14
+Description: This article is about Batfish, a network simulation and validation tool, and how to deploy it. We start with "what is" sections for both K8s and Helm, so not targeted only at K8s vets here. Next up is pre-reqs, and it's basically a K8s cluster, Helm, and a CI/CD system. We then dive into the Helm YAML to build and deploy Batfish, with explainations. Then some K8s YAML for templates, and we're ready to deploy with the Helm chart, and finish this off by confirming it is running. Next up is CI/CD, with some more YAML, and finally we have a snippet of Python that allows us to interact with Batfish. Decent walkthrough.
+BottomLine: Install and basic walkthough of Batfish network sim on Kubernetes
+==
