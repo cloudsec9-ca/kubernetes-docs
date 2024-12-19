@@ -79,3 +79,8 @@ DateReviewed: 2024-12-16
 Description: This article is going to try and help us simplify the complexity buried in Kubernetes resources through visualization. The folks at K8Studio use something called maps to help visualize data, and they bring that approach to K8s. They have a new representation called CloudMaps to show the status of your K8s cluster, and surface the various objects and allow you to drill down on them. At the top level you see all resources organized by application name; then you can zoom in on a component, seeing all of the objects that make up an area, like pods, storage and things like ingress. It also includes things like a timeline, showing events related to the object in chrono order, along with things like metrics and ability to edit with th Quick editor and the YAML editor. It's an interesting approach and worth looking into.
 BottomLine: Interesting new way to look at Kubernetes resources - CloudMaps
 ==
+URL reference: https://medium.com/@averageguymedianow/exploring-alternatives-to-kubernetes-pros-and-cons-3b33b7d1ba5d
+DateReviewed: 2024-12-17
+Description: This article will go through a number of alternatives to Kubernetes - some workalikes or clones, others a bit different. Our article lists an alternate and gives us some background, then lists the various pros and cons of each. They walk through Docker Swarm, Nomad, OpenShift, Apache Mesos and Marathon, AWS ECS, Cilium and Rancher. To wrap up, they have ones the recommend for a number of situtations, depending on your use case. 
+BottomLine: Short overview of alternatives - good for research and a quick intro
+==
