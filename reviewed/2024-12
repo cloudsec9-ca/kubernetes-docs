@@ -84,3 +84,8 @@ DateReviewed: 2024-12-17
 Description: This article will go through a number of alternatives to Kubernetes - some workalikes or clones, others a bit different. Our article lists an alternate and gives us some background, then lists the various pros and cons of each. They walk through Docker Swarm, Nomad, OpenShift, Apache Mesos and Marathon, AWS ECS, Cilium and Rancher. To wrap up, they have ones the recommend for a number of situtations, depending on your use case. 
 BottomLine: Short overview of alternatives - good for research and a quick intro
 ==
+URL reference: https://devtoolhub.com/stateful-vs-stateless-applications-in-kubernetes/
+DateReviewed: 2024-12-18
+Description: In this article, they'll suss out the differences between stateful and stateless applications on Kubernetes. K8s started with a strong preference for stateless applications -- where there is logic and data, but no precious state to be preserved between requests. This is ideal for things like a static website, or an app where everything is defined in the request. Stateful applications, on the other hand, is where you have a flow of info and you have to keep track of, like a shopping cart. They go through these definitions, then talk about how these are treated in Kubernetes with a YAML snip showing how they are specified. They have a short list of apps of each type, and then they wrap.
+BottomLine: Short but effective comparison of stateful vs stateless apps on Kubernetes
+==
