@@ -89,3 +89,8 @@ DateReviewed: 2024-12-18
 Description: In this article, they'll suss out the differences between stateful and stateless applications on Kubernetes. K8s started with a strong preference for stateless applications -- where there is logic and data, but no precious state to be preserved between requests. This is ideal for things like a static website, or an app where everything is defined in the request. Stateful applications, on the other hand, is where you have a flow of info and you have to keep track of, like a shopping cart. They go through these definitions, then talk about how these are treated in Kubernetes with a YAML snip showing how they are specified. They have a short list of apps of each type, and then they wrap.
 BottomLine: Short but effective comparison of stateful vs stateless apps on Kubernetes
 ==
+URL reference: https://dev.to/miry/cpu-profiling-a-ruby-application-in-kubernetes-3h6i
+DateReviewed: 2024-12-19
+Description: We're going to be guided through profiling an app with Kubernetes in this article. Our author assumes you know why you want to profile, so we'll focus on the steps to get going. One thing they note is to use profiling, you have to enable the SYS_PTRACE security setting on the desired pod. They also talk about a couple profilers, but they used rbspy. They do show the YAML needed for adding the security setting. We then run through the command to start a session on the CLI with "kubectl debug". They then go through the steps to capture the output, noting that while most apps run as PID 1, you might have to figure it out if your pod runs a few programs. They explain how to grab the created files, and then how to generate a report from them.
+BottomLine: Interesting walkthrough of profiling an app on Kubernetes
+==
