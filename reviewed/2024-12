@@ -104,3 +104,8 @@ DateReviewed: 2024-12-21
 Description: This article introduces SUSE's observability platform. From their Rancher platform, they are able to monitor Azure, Google cloud, AWS or even on-prem envs. Called SUSE Cloud Observability, it is a product of the purchase of StackState's monitoring platform to enhance the ability to monitor and analyze. The idea is to integrate a bunch of individual tools to give a comprehensive way to see your cloud resources, all in one place. They mention that this follows a trend of other providers, like Red Hat and VMware, who are building unified platforms.
 BottomLine: Good intro to a new set of observability tools on Kubernetes
 ==
+URL reference: https://www.solo.io/resources/report/sidecar-less-istio-explained
+DateReviewed: 2024-12-22
+Description: This article dives into a different way to run a mesh network - instead of using sidecars, it uses an on-pod method called ambient. They will look at Istio as a mesh example. Now, normally I'd talk about the article here, but in this case there is just a stub and you have to fill out a form to get the content, and I won't do a review in this area for multi-step media.
+BottomLine: Interesting topic but skip - buried behind a signup
+==
