@@ -109,3 +109,8 @@ DateReviewed: 2024-12-22
 Description: This article dives into a different way to run a mesh network - instead of using sidecars, it uses an on-pod method called ambient. They will look at Istio as a mesh example. Now, normally I'd talk about the article here, but in this case there is just a stub and you have to fill out a form to get the content, and I won't do a review in this area for multi-step media.
 BottomLine: Interesting topic but skip - buried behind a signup
 ==
+URL reference: https://medium.com/@chetanatole99/a-deep-dive-into-kubernetes-validating-admission-policy-the-native-alternative-to-webhooks-b35df05e6a5b
+DateReviewed: 2024-12-23
+Description: This article is going to tackle how the validating admission policy works in Kubernetes. We start off with a bit of background on when it was introduced, then we go through how admission controllers work, and we even get a diagram in the bundle. They go throgh a good level of explaination here, so this is a good resource just to understand the big picture. The validating webhooks are a way to ensure we are okay with what is being requested to run as a pod. These are written in YAML and are done before things are started and get persisted to etcd for long term retention. They are faster and more lightweight, but they are a bit less flexible and harder to debug. We now go through a YAML snip with a policy, and the CLI commands to invoke the policy, and then seeing it get denied (because it exceeded the replica limit in the policy). Then they go through a whole example using a CRD, to show how that can be done, with testing. To finish up, they do one more walkthrough with ConfigMaps. Very well done.
+BottomLine: Intro and walk through of Validating admission policy on Kubernetes
+==
