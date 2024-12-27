@@ -124,3 +124,8 @@ DateReviewed: 2024-12-25
 Description: This article talks about a high severity vulnerability that can affect Kubernetes, and how to address it. We start with a broad intro and the versions affected by the issue, before getting to the discussion. It seems like it mostly affects CI CD and image builders, as you need pod creation along with ability to associate gitRepo volumes to exploit. To address, they recommmend upgrading, and if not possible changing from gitRepo to something like git clone; they also list some ways to detect if the exploit could be used on. Good and short, this is an excellent article.
 BottomLine: Excellent short explaination of critical Kubernetes security flaw with mitigations
 ==
+URL reference: https://inlets.dev/cloud/
+DateReviewed: 2024-12-26
+Description: The topic of this article would have been good - if it had been an article. Instead, it's a bunch of screenshots and headlines, without any actual technical details. It seems like a cool thing, but without anything but a hand wave, there is no way to know even what it does.
+BottomLine: Decent topic but as a skippable ad
+==
