@@ -129,3 +129,8 @@ DateReviewed: 2024-12-26
 Description: The topic of this article would have been good - if it had been an article. Instead, it's a bunch of screenshots and headlines, without any actual technical details. It seems like a cool thing, but without anything but a hand wave, there is no way to know even what it does.
 BottomLine: Decent topic but as a skippable ad
 ==
+URL reference: https://cloud.google.com/blog/products/identity-security/make-iam-for-gke-easier-to-use-with-workload-identity-federation
+DateReviewed: 2024-12-27
+Description: This is more of a blog then an article, highlighting Google's preferred way for you to be able to log in to things inside of Google Cloud. We start with a runthrough of a few ways to do auth, and then the preferred way, which is GKE workload identity, recently renamed to Workload identity federation for GKE. They explain some things they've simplified in this setup now, and why you should avoid the old method which was impersonation. They do walk through a couple scenarios so you get the gist of how this should be set up. There are some caveats - some services aren't yet supported, ingress/egress don't support it, and cloud run doesn't support it. Overall a decent document.
+BottomLine: Discussion of using updated auth on the Google cloud for Kubernetes
+==
