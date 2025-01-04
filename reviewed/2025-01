@@ -1,0 +1,6 @@
+
+URL reference: https://dev.to/jamiu_cloud/kubernetes-architect-52fg
+DateReviewed: 2025-01-01
+Description: This article is more of a quick summary of learning. It does have a small diagram, but there are no real details. On the upside, it does broadly cover both the control plane and the data plane, and in point form goes through the high level components of each.
+BottomLine: High level list of some Kubernetes architecture components - skippable
+==
