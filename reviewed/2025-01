@@ -29,3 +29,8 @@ DateReviewed: 2025-01-06
 Description: This article is a brief recap on some talks at KubeCon, focused on observability. Each talk got a sentence or two, along with a YouTube link to the actual talk so you can watch it if it seems interesting. They talked about themes like OpenTelemetry emerging as a standard, and a few talks on logging and observability. They touch on some Data on K8s day talks, before some of the Observability hallway tracks, highlighting Last9, SigNoz, Dash0, HyperDX and Quesma. Each talk gets a link and a paragraph of descrption. Good recap!
 BottomLine: Recap on the Observability side of KubeCon
 ==
+URL reference: https://devpod.sh/
+DateReviewed: 2025-01-07
+Description: At first I thought this was an article or a product pitch, but it's an open source alternative to something like codespaces. That would be awesome for those that know what that is, but basically it is a workspace for development - basically a psuedo-VM for containing your development tools and editors/environments. It has a short video where they walk through opening up some different projects and walking through how you'd get productive. The key strength seems to be speed and isolation of your dev env. Actually something to check into.
+BottomLine: Site for an Open source dev workspace tool called DevPod
+==
