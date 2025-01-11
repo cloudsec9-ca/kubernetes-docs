@@ -34,3 +34,8 @@ DateReviewed: 2025-01-07
 Description: At first I thought this was an article or a product pitch, but it's an open source alternative to something like codespaces. That would be awesome for those that know what that is, but basically it is a workspace for development - basically a psuedo-VM for containing your development tools and editors/environments. It has a short video where they walk through opening up some different projects and walking through how you'd get productive. The key strength seems to be speed and isolation of your dev env. Actually something to check into.
 BottomLine: Site for an Open source dev workspace tool called DevPod
 ==
+URL reference: https://itbrief.co.nz/story/mirantis-unveils-open-source-kubernetes-engine-mke-4
+DateReviewed: 2025-01-08
+Description: This article seems like a slightly rewritten PR release, focused on Mirantis Kubernetes Engine. We're wowed with its 300K nodes in production and the fact that it's new releae is based in k0s, without telling us what that is. They handwave about enteprise encyrption and follow up with lots of buzzwords and references, without any real details. I'm not against product announcements, but explain the audience, what your product does, and what the real world case that is solved by the new features. This isn't that.
+BottomLine: A skippable and fluffy release announcment for MKE 4
+==
