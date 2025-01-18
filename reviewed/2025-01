@@ -80,3 +80,8 @@ Description: This article is going to surface 5 Kubernetes CLI tools for us to t
 My take is that this is a decent list, but a lot of them do the same things that others do, just in a different way. So it's not like you are adding 5 tools to your arsenal, but getting a look at a couple different ways to do something.
 BottomLine: Okay high level review of 5 Kubernetes related CLI tools
 ==
+URL reference: https://blog.devops.dev/kubernetes-security-implementation-guide-d853bc6a86f2
+DateReviewed: 2025-01-17
+Description: This article says it's a Kubernetes security implementation guide, so let's hope they have some good tips. We start with a diagram touching on some good concepts, so let's dive in. We start with a bullet point list of best practices, which are decent. Then we get some sample YAML for Pod security context and some config, with some code comments but no discussion or explaination. They then say "install cosign and enable image signatures", without ever explaining what this is and how it helps. And it goes on a little more like this. Again, the suggestions are decent, but if you know what they mean, do you need a quick guide to security -- and if your don't, how does implementing stuff you don't understand make you more secure?
+BottomLine: Some good security bits but lacks explaination makes it tough for beginners to security on Kubernetes
+==
