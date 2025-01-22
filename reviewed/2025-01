@@ -100,3 +100,8 @@ DateReviewed: 2025-01-20
 Description: This article is a short intro and brief walkthrough to Cilium. We start with a short background of the landscape, before going through What Cilium is. The have a good list in 4 categories with 8 features that Cilium covers. Next is a short paragrph on how Cilium works, before we get into deploying Cilium. For the walkthrough, you need a Kubernetes cluster, kubectl and Helm installed. They use Helm to deploy Cilium, and go through the prep, install and verification steps on the CLI. They also show how to install Hubble as an option for observability. The latter part of this piece start to get thin, as the last 3 sections are bullet lists - on getting started, why choose, and real world use cases. It's almost like someone wrote an outline and then forgot to complete the paper. The first half is decent, and worth a read.
 BottomLine: Uneven piece has an intro and walkthrough of Cilium on Kubernetes
 ==
+URL reference: https://00xbinary.medium.com/getting-started-with-kubernetes-a-practical-beginners-guide-895a34604e6d
+DateReviewed: 2025-01-21
+Description: We walk through an intro to Kubernetes with this beginners guide. We start with what is K8s, and then we go through a lot of terminology, from nodes and pods to services as we explore what K8s is. We then go through a short hands on, installing and actually creating a pod. Short but solid.
+BottomLine: Concise but decent intro to Kubernetes
+==
