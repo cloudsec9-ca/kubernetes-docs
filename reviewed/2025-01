@@ -105,3 +105,8 @@ DateReviewed: 2025-01-21
 Description: We walk through an intro to Kubernetes with this beginners guide. We start with what is K8s, and then we go through a lot of terminology, from nodes and pods to services as we explore what K8s is. We then go through a short hands on, installing and actually creating a pod. Short but solid.
 BottomLine: Concise but decent intro to Kubernetes
 ==
+URL reference: https://github.com/robinovitch61/kl
+DateReviewed: 2025-01-22
+Description: This is a repo which is all about terminal visualization of your logs - with color coding and a tree structure to natigate. Goes through install and the keypresses needed to do different things.
+BottomLine: Interesting CLI type take on Kubernetes logs
+==
