@@ -110,3 +110,8 @@ DateReviewed: 2025-01-22
 Description: This is a repo which is all about terminal visualization of your logs - with color coding and a tree structure to natigate. Goes through install and the keypresses needed to do different things.
 BottomLine: Interesting CLI type take on Kubernetes logs
 ==
+URL reference: https://www.javacodegeeks.com/2025/01/optimizing-java-in-kubernetes-resource-management-scaling.html
+DateReviewed: 2025-01-23
+Description: Our current article tackles Optimizing Java in Kubernetes, and we start with a short paragraph of background. We then dive in, first getting into Java resource mgmt in Kubernetes. They talk about requests and limits, and show us a snip of YAML on how to do it. Next is garbage collection in K8s, which is important because OOM errors will cause crashes. Here we focus on Java CLI args to tune how much and when we GC. Next we touch on horizontal vs vertical scaling, with some YAML to help. Then we look at using probes for Checks and autoscaling, again with YAML. A last look is Custom metrics. It's decent coverage in Java, but other articles do better for general topics.
+BottomLine: Decent Java piece on tuning Kubernetes
+==
