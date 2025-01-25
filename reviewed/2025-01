@@ -115,3 +115,8 @@ DateReviewed: 2025-01-23
 Description: Our current article tackles Optimizing Java in Kubernetes, and we start with a short paragraph of background. We then dive in, first getting into Java resource mgmt in Kubernetes. They talk about requests and limits, and show us a snip of YAML on how to do it. Next is garbage collection in K8s, which is important because OOM errors will cause crashes. Here we focus on Java CLI args to tune how much and when we GC. Next we touch on horizontal vs vertical scaling, with some YAML to help. Then we look at using probes for Checks and autoscaling, again with YAML. A last look is Custom metrics. It's decent coverage in Java, but other articles do better for general topics.
 BottomLine: Decent Java piece on tuning Kubernetes
 ==
+URL reference: https://dev.to/aurelievache/understanding-docker-part-47-docker-bake-4p05
+DateReviewed: 2025-01-24
+Description: Our article today is actually something called a sketchnote, and it's about Docker Bake. We start by learning it uses HCL as it's preferred format, but will also accept JSON and YAML. It notes it's usage and how having a couple different files might interact, and is illustrated with little doodles. It goes through some examples, and explains how to use variable substitutions. Finally it shows how to do various builds. Very cool approach.
+BottomLine: Lightweight illustrated approach to Docker Bake
+==
