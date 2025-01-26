@@ -125,3 +125,8 @@ DateReviewed: 2025-01-25
 Description: This article is about a Kubernetes migration that sparked an outage at Proton. At 10am ET the outage started, and affected Proton's email and other services, like VPN and Calendar. The issues lasted about 2 hours. Apparently the change limited connections to the DB servers, causing a load spike and overloading the infrastructure. They say about 50% of the requests failed during the worst of the issue. It took a few hours to diagnose and roll out corrections, and have things ease out.
 BottomLine: Good insight into an issue with Kubernetes
 ==
+URL reference: https://aws.amazon.com/jp/blogs/gametech/developers-guide-to-operate-game-servers-on-kubernetes-part-2/
+DateReviewed: 2025-01-25
+Description: This AWS article about using Kubernetes for game servering is interesting. This is part 2 - part 1 is linked, and then we dive in. They talk about software like Open Match and Agones which are some kind of game service infra. Why this is interesting is you can use Kubernetes to build your game servers, and then leverage some of these other tools to help manage players and matches for a good playing experience. They talk a bit about how to approach it, linking to a document on it with a complicated diagram on the overall setup. After a bit more config, they pivot to saving money by using Graviton instances, which is helpful if you can re-target your code binaries. They then go through a few best practices. I think it's an interesting exercise, as game servers and managing matches can be quite challenging and can stress servers.
+BottomLine: Interesting piece on running game servers on AWS Kubernetes
+==
