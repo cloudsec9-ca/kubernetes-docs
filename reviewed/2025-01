@@ -135,3 +135,8 @@ DateReviewed: 2025-01-26
 Description: Our article is going to talk about exploiting misconfigs in Argo workflows to take over Kubernetes clusters, so a security topic. We start with a diagram, and that is always good. We dive in to a short overview of what Argo workflows are, and talk a bit about why they are a tempting target. They identify four main flaws, which are weak default security, more permissions than needed, secrets out where they might not be needed, and the potential for moving laterally. The article is short, but it does suggest mitigations. The "proof" they offer is weak - it's a reverse shell, not even an animated gif of what they did. Worth a quick read.
 BottomLine: High level bit on Argo workflow vuln on Kubernetes
 ==
+URL reference: https://rohankanojia.github.io/articles/2024/12/06/simplify-kubernetes-operator-development-java-operator-sdk
+DateReviewed: 2025-01-27
+Description: We're going to do some learning about doing a Kubernetes operator on Java. The do a bit of intro, then history and finally a pre-req. They then walk through the dependency chain, before describing how the Operator would work with diagrams (yay). They go through some Java code on how the operator is implemented, then finally how to deploy it to the cluster. And nothing is complete without a test.
+BottomLine: Decent walkthrough of using Java to deploy a Kubernetes operator
+==
