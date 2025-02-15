@@ -59,3 +59,8 @@ DateReviewed: 2025-02-12
 Description: This article is based off a presentation from a community day for AWS. The author mentions that containers are driven by microservices, which are in turn driven with things like CI/CD. They are going to look at setting things up with AWS using the EKS services. They are going to emphasize security, while still paying attention to cost and performance. They did a demo, where they showed how to do the setup of various resources, and included the presentation slides. A decent intro to using EKS and how to set it up for CI/CD.
 BottomLine: Solid intro for using EKS to do CI/CD for Kubernetes
 ==
+URL reference: https://www.suse.com/success/nts/
+DateReviewed: 2025-02-13
+Description: So, this article purports to talk about migrating a SIEM application to Kubernetes clusters, but at first glance it looks like ad copy, but let's dive in. Ah, it's the story of a client that is using services and an overview of that; I was concerned because there was both an "at a glance" section and a point-form highlights area. Brief intro of the client and then we dive into their need - to build a SOC to provide managed security to customers. They are using Splunk, and decided to use microservices to roll it out easily to customers. They then talk about their journey, starting with Longhorn as a data layer and then moving on to Rancher Prime for their containers as their platform evolved. They talk a bit about the pieces, but it's all very high level. Interesting read but not much practical advice.
+BottomLine: Interesting story about building a SIEM on Kubernetes
+==
