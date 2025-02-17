@@ -74,3 +74,8 @@ DateReviewed: 2025-02-15
 Description: This article will go over setting up dev/test/prod namespaces on Kubernetes. They start by explaining that while the default namespace is fine for small projects and learning, you need more as you get more serious. We go through why it matters, things like security, eliminating conflicts between envs, and having better monitoring and debugging among other things. They go through the simple namespace creation CLI commands, but note that the interesting part is in the configuration. They walk through simple stuff like resource limits and even include a YAML snippet, and then talk about networking from a security perspective, again with YAML snips. They then talk about RBAC - for both networking and access control, the idea is that devs have access to the devel env, where prod is much more tightly controlled. Actually a good article.
 BottomLine: Good short article on using Namespaces in Kubernetes for isolation and security with some hands on
 ==
+URL reference: https://medium.com/@khassan9/rethinking-kubernetes-cost-optimization-going-beyond-traditional-methods-e1e584ef0eba
+DateReviewed: 2025-02-16
+Description: This article is going to help us reduce cost, or so it promises. We start strong, talking about some traditional approaches like rightsizing nodes and maximizing resource allocation. Then, we are introduced to the product pitch, which is for Cloudidr, a product that helps optimize K8s clusters. They use three approaches, and then try to explain why you are paying less, without explaining how it works. So, magic. Just a bad product pitch.
+BottomLine: Bad product pitch - no details - probably skip
+==
