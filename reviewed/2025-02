@@ -79,3 +79,8 @@ DateReviewed: 2025-02-16
 Description: This article is going to help us reduce cost, or so it promises. We start strong, talking about some traditional approaches like rightsizing nodes and maximizing resource allocation. Then, we are introduced to the product pitch, which is for Cloudidr, a product that helps optimize K8s clusters. They use three approaches, and then try to explain why you are paying less, without explaining how it works. So, magic. Just a bad product pitch.
 BottomLine: Bad product pitch - no details - probably skip
 ==
+URL reference: https://medium.com/@danmonzon/preparation-docker-image-push-and-deployment-for-containerized-voting-application-in-kubernetes-7dacec04a565
+DateReviewed: 2025-02-17
+Description: Okay, so this is supposed to be about deploying a voting app, but I have opinions! We start with a little diagram, and I love those, and then we're into a point-form list that says it's about Multi-cloud, even thought the only refernce Azure. Next is a project objectives which feels more like writing for a resume then an article about a project. Next is a point form on deployment workflow, where there is a high level handwave at how things get rolled out. Lastly is a tech highlights, that goes through what we learned. And what did we learn from this? Nothing. Short, no details, no beef, all fluff. Just terrible.
+BottomLine: Avoid this complete filler with no actual content.
+==
