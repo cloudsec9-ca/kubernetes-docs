@@ -84,3 +84,8 @@ DateReviewed: 2025-02-17
 Description: Okay, so this is supposed to be about deploying a voting app, but I have opinions! We start with a little diagram, and I love those, and then we're into a point-form list that says it's about Multi-cloud, even thought the only refernce Azure. Next is a project objectives which feels more like writing for a resume then an article about a project. Next is a point form on deployment workflow, where there is a high level handwave at how things get rolled out. Lastly is a tech highlights, that goes through what we learned. And what did we learn from this? Nothing. Short, no details, no beef, all fluff. Just terrible.
 BottomLine: Avoid this complete filler with no actual content.
 ==
+URL reference: https://www.theregister.com/2025/01/24/kubernetes_windows_nodes_bug/
+DateReviewed: 2025-02-18
+Description: This article is about a Window Kubernetes exploit, and how to mitigate the impact. The flaw allows attackers to reach SYSTEM privs, basically the keys to the kingdom on Windows. It does require a few things to be in place - K8s older than 1.32.1, beta features enabled and configured to run Log Query. The issue is that through the API, an attacker can inject commands into a parameter called "pattern" which isn't validated properly. The people who discovered this issue don't think it is too widespread, due to the several conditions needed to be exploitable. But if you have the conditions, explotation is fairly easy.
+BottomLine: Good discussion of a Windows Kubernetes security exploit and mitigations
+==
