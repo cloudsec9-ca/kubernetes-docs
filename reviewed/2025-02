@@ -94,3 +94,8 @@ DateReviewed: 2025-02-19
 Description: This article will look at a number of Kubernetes tools that will help you in your K8s journey. We start by a bit of motivation for the topic and a mention of the tools, before we dive into the first tool. First up is Starship, which is a shell prompt which can display info like cluster and namespace for orienting yourself. They even give a short config example. Next up is Kubectx and Kubens, which allow you to switch clusters and namespaces with ease. Third is Kubecolor, a tool that does color highlighting of kube CLI and log output, to help more quickly pinpoint what you are looking for. Next is K9s, a terminal UI for managing K8s - helps with viewing logs and monitoring pods. Lastly as a bonus, they include a way to use VS code as your default kubectl editor. They suggest giving them all a run to see if you like them.
 BottomLine: Good quick walkthrough of a number of small Kubernetes CLI adjacent tools
 ==
+URL reference: https://www.tigera.io/blog/whats-new-in-calico-winter-2025
+DateReviewed: 2025-02-20
+Description: This article is an update on the features in the latest version of Calico as of Winter 2025. They start with the Calico gateway, talk about the features and even include a diagram. They talk about things like security, observability and even cost efficiency. Talk a bit about Calico dashboards, how they work, and what their impact is. Finally a bit on Multi-cloud and network envs. Well done and comprehensive.
+BottomLine: Solid piece that goes over new features for Calico in winter 2025
+==
