@@ -99,3 +99,8 @@ DateReviewed: 2025-02-20
 Description: This article is an update on the features in the latest version of Calico as of Winter 2025. They start with the Calico gateway, talk about the features and even include a diagram. They talk about things like security, observability and even cost efficiency. Talk a bit about Calico dashboards, how they work, and what their impact is. Finally a bit on Multi-cloud and network envs. Well done and comprehensive.
 BottomLine: Solid piece that goes over new features for Calico in winter 2025
 ==
+URL reference: https://www.f5.com/company/blog/nginx/how-f5-nginx-one-helps-platform-operations-teams-tackle-real-challenges
+DateReviewed: 2025-02-21
+Description: Our piece here is more of a high level sales pitch then an actual tech doc, but we'll get to that. We start with some background, talking about approaches to operations and what Platform engineers do to make things work securely, in budget and smoothly. Now, AI makes things a bit more complex, by adding more hardware resources to manage and taxing things in the way it is used. There are 10 points they go through for their product, which assists in doing a number of things in a faster and easier approach. My issue with these pitches is it doesn't say WHY it is better, we have to trust that it just is.
+BottomLine: Very high level product type pitch that I'd avoid
+==
