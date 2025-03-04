@@ -3,3 +3,8 @@ DateReviewed: 2025-03-01
 Description: Our article today is going to compare Kubernetes to a Docker product called Swarm. We start with an intro paragraph, and jump into What is Kubernetes, with a quick overview and a decent diagram. We have some point form that list the advantages and challenges of Kubernetes. Next up, we have a what is Docker Swarm section, that has an overview and a diagram too, before another point form section with pros and cons of Swarm. We then pivot to a head to head comparison, looking at install and setup, scaling, load balancing, and ecosystem. They are quick compares, but are good comparion points. They even give some broad recommendations!
 BottomLine: Good quick comparison of Kubernetes vs Docker Swarm as container engines
 ==
+URL reference: https://www.linkedin.com/pulse/selinux-enforcement-openshift-vs-kubernetes-deep-dive-sondhiya-pd7xc
+DateReviewed: 2025-03-02
+Description: This article is a contrast between how security is handled in Kubernetes vs how it's handled in OpenShift. We start with the point that OpenShift starts with SELinux in the mix, while vanilla K8s does not need to. They point out that this provides a level of file and process security, and could prevent one K8s exploit in the wild from working. They do acknowledge that SELinux can cause permissions issue, and go through a quick way to resolve that. They then go through a few different use cases, demonstrating the advantage that OpenShift has to various security issues. My take - while the use of SELinux is showcased, ordinary K8s can use it too, so this is more an ad for using enhanced Linux security then an endorsement of OpenShift. 
+BottomLine: Good walkthrough of the use of SELinux on Kubernetes to enhance security
+==
