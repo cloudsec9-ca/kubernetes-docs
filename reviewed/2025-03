@@ -38,3 +38,8 @@ DateReviewed: 2025-03-08
 Description: Our article is going to walk through installing an Azure Service Operator. We start with a bit of an outline, and then jump into a Terraform config that will do the spin up of services. We then go through variables, resource groups, virtual networks, AKS cluster and finally the Service Operator itself. Now on to Deploying the cluster, grabbing the cluster creds and finally rolling out the operator. I wish there was a bit more verbiage, but it's fairly simple but well laid out.
 BottomLine: Decent walkthrough of deploying an Azure system operator on AKS
 ==
+URL reference: https://medium.com/@josephsims1/how-i-supercharged-my-local-kubernetes-setup-f3b260b5f793
+DateReviewed: 2025-03-09
+Description: This article talks about getting the most out of your local Kubernetes. They are going to use a distro called Kind, Kubernetes in Docker, to show what is possible. We start with some background, and a link to another person who has done this. He's going to roll out something a bit simpler by omitting some packages, but also adding a few things he wanted. He mentions he even tried out Podman, but had issues getting the network to be accessible. He then used Docker and let's us know his setup, and then he installs MetalLB from Helm. Next up is Istio with a custom domain, before verifying the setup. So the goals were to not use localhost and have no cert warnings, and he did that. He has a list of things to add/improve on, and it's got some decent ideas. Overall a good piece.
+BottomLine: Article talks about using local Kubernetes for bigger tests and wider development
+==
