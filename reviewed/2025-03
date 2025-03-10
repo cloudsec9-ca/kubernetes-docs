@@ -33,3 +33,8 @@ DateReviewed: 2025-03-07
 Description: This article is going to talk a bit about Kubernetes ephemeral pods. We start with a bit about why we'd want them in the first place - inspection and debugging. Next, we do a deeper dive into what Ephemeral containers are, which boils down to not running the primary app, but sharing other resources like namespace and volumes. After we are done, we can just remove the pod. The argue they are a security enhancement, as troubleshooters won't get long-lived access to an application workload. They have a few sections where they go over features and use cases. To use them, you have to be at Kubernetes 1.23 or later, ensure your kubectl version is equal or greater than the backend, and that you have kubectl debug permission. We're then treated to a walk through, with commentary, of setting up, running, using, and removing an ephemeral pod. The even have a best practices for using them; Great article.
 BottomLine: Awesome article with walkthrough of Kubernetes epehemeral pods
 ==
+URL reference: https://carlos.mendible.com/2025/02/02/installing-azure-service-operator-on-aks-with-terraform/
+DateReviewed: 2025-03-08
+Description: Our article is going to walk through installing an Azure Service Operator. We start with a bit of an outline, and then jump into a Terraform config that will do the spin up of services. We then go through variables, resource groups, virtual networks, AKS cluster and finally the Service Operator itself. Now on to Deploying the cluster, grabbing the cluster creds and finally rolling out the operator. I wish there was a bit more verbiage, but it's fairly simple but well laid out.
+BottomLine: Decent walkthrough of deploying an Azure system operator on AKS
+==
