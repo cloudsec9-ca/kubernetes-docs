@@ -93,3 +93,8 @@ DateReviewed: 2025-03-19
 Description: This article talks about how power means complexity, and that brings risk along with it. The focus will be vuln management. Jumping right in, they start with vuln scanning as a key first tool, and they give 3 solid supporting bits as to why you should do it. Next up is a talk about common K8s vulns - misconfigs, inadequate access controls, unpatched software and container vulns. They then go through the process - Static analysis, during deployment - CI/CD pipelines and admission controllers, and finally runtime insights and monitoring. We then go through 3 tools that might help us out. Lastly, we go through some best practices, like least privs, shift left, update & patch regularly, and continuous monitoring.
 BottomLine: Very decent review of some Kubernetes security/vuln management practices
 ==
+URL reference: https://dev.to/leonardkachi/kubernetes-hardening-guide-reducing-misconfigurations-iea
+DateReviewed: 2025-03-20
+Description: Our article for today is going to tackle Hardening for Kubernetes. The focus here is reducing misconfigs, and hopefully getting more resilient configs. We start by looking at some common issues, like overly permissive roles, exposed API server or an unsecured container. They have things in a list, and a few things to do for each item. For the API server for instance, we have restrict API access, audit logging and using OIDC auth instead of tokens. They have 7 of these areas with three action items in each. They show a bit of YAML for PSP configs, and wrap up with some results and impact findings. 
+BottomLine: Good baseline approach to improving configs in a security context for Kubernetes
+==
