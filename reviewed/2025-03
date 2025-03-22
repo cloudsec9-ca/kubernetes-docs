@@ -98,3 +98,8 @@ DateReviewed: 2025-03-20
 Description: Our article for today is going to tackle Hardening for Kubernetes. The focus here is reducing misconfigs, and hopefully getting more resilient configs. We start by looking at some common issues, like overly permissive roles, exposed API server or an unsecured container. They have things in a list, and a few things to do for each item. For the API server for instance, we have restrict API access, audit logging and using OIDC auth instead of tokens. They have 7 of these areas with three action items in each. They show a bit of YAML for PSP configs, and wrap up with some results and impact findings. 
 BottomLine: Good baseline approach to improving configs in a security context for Kubernetes
 ==
+URL reference: https://www.linkedin.com/posts/francescofaenzi_calico-opensource-cloudnative-activity-7223998302810210305-ZxKc
+DateReviewed: 2025-03-21
+Description: This is a short post with motivations on why you should use Calico as part of your orchestratation strategy. They talk about DataPlane flexibility, interoperability and performance. They also mention it is scalable, secure, has good network policy support and a vibrant community. Pretty compelling reasons.
+BottomLine: Short piece motivating the use of Calico on Kubernetes
+==
