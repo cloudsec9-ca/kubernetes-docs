@@ -103,3 +103,8 @@ DateReviewed: 2025-03-21
 Description: This is a short post with motivations on why you should use Calico as part of your orchestratation strategy. They talk about DataPlane flexibility, interoperability and performance. They also mention it is scalable, secure, has good network policy support and a vibrant community. Pretty compelling reasons.
 BottomLine: Short piece motivating the use of Calico on Kubernetes
 ==
+URL reference: https://www.linode.com/docs/guides/kubernetes-security-best-practices/
+DateReviewed: 2025-03-22
+Description: This article tries to tackle Kubernetes security best practices. We start with a simple background, and then dive right into Security policies and RBAC. They show us a couple YAML files, and then talk a bit about what they are doing - but this is more advanced K8s stuff; they do have a link to the basics as required knowledge. Next up is secrets; they show us a usual way to do it, which is to stuff things into a YAML in plain text. Then they show us en encoded secret, and how we might construct and use it. Finally they show us how to restrict traffic between pods, for extra security. It's a good starting piece, but not really at the level of best practices all around.
+BottomLine: Good start for someone new to Kubernetes security
+==
