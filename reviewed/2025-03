@@ -113,3 +113,8 @@ DateReviewed: 2025-03-23
 Description: Our article purports to talk about time sync in Kubernetes. Purports, because while it mentions NTP a few times and has three paras, it is just a link to a second page, which has a Download link which is just a harverster for info. This could have been an interesting discussion, but instead is a bunch of spam.
 BottomLine: Avoid as the URL is just links to an info harvester
 ==
+URL reference: https://charleswan111.medium.com/kubernetes-persistent-volumes-pvs-and-persistent-volume-claims-pvcs-784a6dc742af
+DateReviewed: 2025-03-24
+Description: This article is going to dig into Kubernetes storage - specifically, Persistent Volumes and their related Claims. Our article is mainly point-form based, and we start with what a PV is, the lifecycle, and other details around it. They also mention parts of a PV YAML manifest. Next up is a PVC, or the claim on a PV. Where the PV declares storage, the Claim (PVC) grabs some of the storage and binds it to a specific pod. They have a chart of the differences too. They show that an admin creates the PV, a K8s user creates the PVC, and a Pod uses the storage allocated by a PVC. They include YAML snips for all the bits here. Good small walkthrough on how things work.
+BottomLine: Solid short walkthrough on how PV and PVC work under Kubernetes
+==
