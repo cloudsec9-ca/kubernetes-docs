@@ -123,3 +123,8 @@ DateReviewed: 2025-03-25
 Description: Our article today is going to tackle the beginner's approach to container orchestration. We dive in to start, talking about how Kubernetes is powerful but has lots of risks too. There is a bunch of key threats, and they mention supply chain, priv escalation, data exfil among other security issues. They proclaim the answer to this is three key pillars - cluster, workload and network security. From here on out, we're all point-form based, but they tackle each of the three pillars with multiple good points, like enabling audit logging, avoiding running as root and isolating critical services to pick one point out of all of the various pillars. They also go through a number of tools, and talk about using the DevOps approach in Kubernetes. Good read.
 BottomLine: Decent read aimed at secring Kubernetes in a straightforward way
 ==
+URL reference: https://kubesnapit.io/
+DateReviewed: 2025-03-26
+Description: This article is a short intro to Kubesnapit, a way to collect and manage Kubernetes snapshots. Straight off they mention it's PowerShell, so mostly targeted at Windows boxes. They do mention it snapshots Kubernetes Resources, so cluster state at any time. It also allows snapshot comparisons, automatic scheduling, and backup and restore of snaps. It lets you store it JSON or YAML, and has both PS and Krew support by plugin. Seems like a cool tool!
+BottomLine: Good tool for snapshotting and restore/compare of Kubernetes resources
+==
