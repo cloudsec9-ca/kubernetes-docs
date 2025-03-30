@@ -138,3 +138,8 @@ DateReviewed: 2025-03-28
 Description: Our article today is talking about reasons Kubernetes is important for DevOps. We start with a bit of background, talking about how K8s and DevOps are closely linked. The format for the reasons is a heading and then 2 paragraphs fleshing out their reasons. They have 7 points, and start with simplifies container management, which is the point of orchestration. Next is scalability and enabling Infra as Code, both of which are strong DevOps points. We then cover CI/CD, a key tennant of DevOps and touch on fault tolerance and reliability. For our final two reasons, we look at multi cloud/hybrid cloud approaches and how K8s promotes collab between Dev and Ops teams. We finish with a wrap of a really great consice article.
 BottomLine: Solid concise article on reasons Kubernetes and DevOps work hand in hand
 ==
+URL reference: https://www.fairwinds.com/case-studies/framebridge-moves-kops-eks
+DateReviewed: 2025-03-29
+Description: This article talks about migrating from kOps to EKS. They start with high level points in a table, and then jump right in. Our article is a case study of a customer with Kubernetes, needing to do a migration due to changes in CNI around K8s v1.26. They had a few goals - migrating to the new version, using IaC, and streamlining upgrades to work during biz hours (9-5). They talk about their approach, then how they implemented the upgrade - Op Efficiency, relying on expertise, using managed K8s and ensuring seemless integration with Dev workflows. Overall seems like a smooth upgrade.
+BottomLine: Somewhat lightweight case study on moving to EKS from kOps for Kubernetes
+==
