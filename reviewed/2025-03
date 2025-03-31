@@ -143,3 +143,8 @@ DateReviewed: 2025-03-29
 Description: This article talks about migrating from kOps to EKS. They start with high level points in a table, and then jump right in. Our article is a case study of a customer with Kubernetes, needing to do a migration due to changes in CNI around K8s v1.26. They had a few goals - migrating to the new version, using IaC, and streamlining upgrades to work during biz hours (9-5). They talk about their approach, then how they implemented the upgrade - Op Efficiency, relying on expertise, using managed K8s and ensuring seemless integration with Dev workflows. Overall seems like a smooth upgrade.
 BottomLine: Somewhat lightweight case study on moving to EKS from kOps for Kubernetes
 ==
+URL reference: https://www.anyscale.com/blog/introducing-ray-kubectl-plugin
+DateReviewed: 2025-03-30
+Description: This article talks about Ray, a distributed computing engine for AI and how to simplify it's management on Kubernetes. We dive right in, focusing on a plugin that does the heavy lifting and adds functionality. They go through some of the basics, and then walk us through how to install and use the plugin to created a Ray cluster. They also talk a bit about new commands added in the latest release. They walk through a bit of the admin, and show how to do things like look at logs. They also do a walkthrough of submitting a job, before showing us how to tidy up.
+BottomLine: Good intro on how to manage a Ray AI cluster on Kubernetes
+==
