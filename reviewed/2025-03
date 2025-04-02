@@ -148,3 +148,8 @@ DateReviewed: 2025-03-30
 Description: This article talks about Ray, a distributed computing engine for AI and how to simplify it's management on Kubernetes. We dive right in, focusing on a plugin that does the heavy lifting and adds functionality. They go through some of the basics, and then walk us through how to install and use the plugin to created a Ray cluster. They also talk a bit about new commands added in the latest release. They walk through a bit of the admin, and show how to do things like look at logs. They also do a walkthrough of submitting a job, before showing us how to tidy up.
 BottomLine: Good intro on how to manage a Ray AI cluster on Kubernetes
 ==
+URL reference: https://dev.to/routeclouds/aws-eks-architecture-components-1koa
+DateReviewed: 2025-03-31
+Description: Our article today is going to do a bit of a perspective on AWS EKS architecture components. We start with a diagram, which is pretty awesome. Unfortunately, the rest of the article is done in point form, which I don't think is always the best approach. We do go through 11 components, and there is both a what it does and how it works section for each of the components. They go through things like Domain registry and DNS, ALB, cert manager, RDS, S3 and networking among others. The coverage is decent if not very deep, and it might be a good primer for those just starting out.
+BottomLine: Decent as a primer for those just getting their feet wet in Kubernetes with AWS
+==
