@@ -8,3 +8,8 @@ DateReviewed: 2025-04-02
 Description: Our article today looks into smart contract deployment, which interfaces with the Blockchain and generally cryptocurrency actions. We start with a bit of Web3 background, and a bit about how our topic tool Kontract functions. They tout a shared dev env, abstraction of blockchain responsibilities, multi-network simultaneous development and Kubernetes-native integrations as benefits. At a high level, it lets you build a standard, repeatable, and scalable to multiple developers approach to your blockchain bits. To finish up, they to a walk-through of a real-world scenario.
 BottomLine: Great intro to using a smart contract authoring tool on Kubernetes
 ==
+URL reference: https://cyberwarfare.live/never-let-your-kubelet-down/
+DateReviewed: 2025-04-03
+Description: As usual, we start with a bit of background - Kubernetes is very popular, but security isn't always peak. Then we do a quick basics, and they include an excellent diagram. They remark that RBAC is a good building block, but note that misconfigs can hurt this. To illustrate, they walk us through a sample misconfig and show us how to exploit it. They show us this all in Curl through the web interface, and show how we can run a command through this. But that is it - no remediation or advice on how to avoid.
+BottomLine: Good quick walkthrough of a simple misconfig exploit on Kubernetes
+==
