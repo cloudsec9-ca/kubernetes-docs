@@ -13,3 +13,8 @@ DateReviewed: 2025-04-03
 Description: As usual, we start with a bit of background - Kubernetes is very popular, but security isn't always peak. Then we do a quick basics, and they include an excellent diagram. They remark that RBAC is a good building block, but note that misconfigs can hurt this. To illustrate, they walk us through a sample misconfig and show us how to exploit it. They show us this all in Curl through the web interface, and show how we can run a command through this. But that is it - no remediation or advice on how to avoid.
 BottomLine: Good quick walkthrough of a simple misconfig exploit on Kubernetes
 ==
+URL reference: https://blog.stackademic.com/building-a-custom-kubernetes-scheduler-plugin-scheduling-based-on-pod-specific-node-affinity-7f66b6c607f9
+DateReviewed: 2025-04-04
+Description: Our article today will go beyond the default Kubernetes scheduler with its support for node affinity and will build a custom scheduler that allows more fine tuned placement. We start with an intro which gives some background. We then go through a primer of how K8s decides where it puts pods. There are three types of plugins - filter, score, and other - the filter figures out if a node is suitable for a pod; score ranks nodes that are eligible, another other actually handles stages of the scheduling. We then go through the prereqs to build the custom scheduler, which includes GO, K8s, Docker and the K8s CLI. They then do a step by step walk through of the process, defining the use case, implementing the plugin, integrating with the K8s scheduler, and running it. They then go through testing and validation. Very well done and clear.
+BottomLine: Good clear walkthrough and motivation for a custom Kubernetes scheduler
+==
