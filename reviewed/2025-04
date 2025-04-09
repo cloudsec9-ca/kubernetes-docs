@@ -33,3 +33,8 @@ DateReviewed: 2025-04-07
 Description: Our article today focuses on an app called Things and how it switched to Swift and Kubernetes. We start with a bit of background, and what Things is, namely a personal task manager. They use Things Cloud as they backend, to sync todos and whatnot between devices. The app has 12 yrs of longevity, but needed a refresh on the tech level. They tell us they were using Python 2 and Google App engine; but this had limitations and needed an upgrade. They thought about using Java, Python 3, GO and even C++, but settled on Swift. They had concerns about Swift's use as a server, but thought there was strong commitment from Apple and the community. The give us a diagram and an overview of how the bits fit together. They break things down into code, deployment, storage, other services, and monitoring. They then run through the results - the response time is faster and costs are cheaper than before, with a modern tooling to boot.
 BottomLine: Good walkthrough of migrating from one system to a modern Cloud Native system
 ==
+URL reference: https://www.cncf.io/blog/2025/02/25/announcing-the-kubernetes-shift-down-security-paper/
+DateReviewed: 2025-04-08
+Description: This article is a high level overview to a paper on Shift Down security. It links to the paper, and explains that it is trying to motivate adoption of things like Policy as Code to prevent misconfigs. They also include some quotes from key people, to explain and help promote the paper.
+BottomLine: Short article announcing the Shift Down paper and Policy as Code effort for Kubernetes
+==
