@@ -38,3 +38,8 @@ DateReviewed: 2025-04-08
 Description: This article is a high level overview to a paper on Shift Down security. It links to the paper, and explains that it is trying to motivate adoption of things like Policy as Code to prevent misconfigs. They also include some quotes from key people, to explain and help promote the paper.
 BottomLine: Short article announcing the Shift Down paper and Policy as Code effort for Kubernetes
 ==
+URL reference: https://www.techworld-with-nana.com/post/the-ultimate-devops-roadmap
+DateReviewed: 2025-04-09
+Description: Our article of interest today is on the ultimate DevOps roadmap - and it promises to be good, as it is on Tech by Nana's site. We start with a bit of grounding - there are lots of tools, but we'll break things down. We dive in with DevOps basics, and this starts as stps with things like embrace automation, version control systems and CI/CD, each explained with a short paragraph. We then touch on Containers and Orchestration, again with a brief para. We're then linked to a couple of 1 hr courses on Docker and Kubernetes, which I assume go over the basics. Step 5 is then Cloud platforms, where she talks about AWS, Azure and Google cloud. We then pivot to our *personal* knowledge - and we look at first leveling up our skills, to second getting some hands on experience with a CI/CD project, and finally Connect and Collaborate with groups and forums that allow you to participate. So, my perspective is that it's a good baseline, but it would have helped to delegate a bit less and explain a bit more in the article. Still, a solid resource.
+BottomLine: Solid beginner resource to getting started in DevOps
+==
