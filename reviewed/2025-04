@@ -53,3 +53,8 @@ DateReviewed: 2025-04-11
 Description: Our article looks into security concerns around Kubernetes rising in the APAC region for businesses. The report comes through Tenable cloud research, and the risk report does show concerns. It highlights a high uptake in containers, but draws attention to lack of strong security practices, which can bring risks of breaches, disruptions and unauth access. Like many in the K8s space, APAC region people are struggling to secure things. They mention that 78% of K8s API servers are publicly accessible, which is troubling. Another concern is that 44% are running containers in priv mode, which should be a lot lower. They highlight these, and point to best practices to help stem the tide. Usinc RBAC, CIS K8s benchmarks and NIST guidelines can help to reduce risks. My take is that these are worldwide concerns, and I don't see the data here being APAC specific; but concerns are still valid.
 BottomLine: Tackles Kubernetes security issues in APAC area
 ==
+URL reference: https://www.crowdstrike.com/en-us/resources/guides/complete-guide-to-kubernetes-security/
+DateReviewed: 2025-04-12
+Description: While I thought this was an article about Kubernetes security, it turns out it is a stub to get a download link; and while the book might be awesome, I'm not jumping through hoops here to do a review. So, hoop jumping bad, and no review.
+BottomLine: Not an article but a stub to collect info for a link - skip
+==
