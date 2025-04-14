@@ -58,3 +58,8 @@ DateReviewed: 2025-04-12
 Description: While I thought this was an article about Kubernetes security, it turns out it is a stub to get a download link; and while the book might be awesome, I'm not jumping through hoops here to do a review. So, hoop jumping bad, and no review.
 BottomLine: Not an article but a stub to collect info for a link - skip
 ==
+URL reference: https://devpost.com/software/asap-1h45pk
+DateReviewed: 2025-04-13
+Description: This article goes into something called the ASAP Knowledge Navigator, which is a RAG. RAG stands for Retrieval Augmented Generation, which is a kind of AI focused on answering certain types of questions. They are looking to help with understanding of SEC filings, to pull out actionable info. There are 3 projects - Command line tools to help with SEC filing retrieval, Knowledge navigator that provides the natural language interface, and a log analyzer that helps wwith issues like pod failure. We go through a bit of background for the projects, laying out why this would be helpful. They cite things like automation of data extraction, dealing with complex financial data, and staying up to date with regulatory changes. We then dive into the nitty gritty, and go through a bit of how each piece works together to provide value. We see a sample dashboard screen, and they take us through things like trend anaylsis and anomaoly detection. They go through a bunch of use cases, a short walkthrough, and finally a list of the challenges, learnings and next steps.
+BottomLine: Interesting application of AI in Kubernetes to enhance a complex system in the SEC filings of companies
+==
