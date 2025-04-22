@@ -98,3 +98,8 @@ DateReviewed: 2025-04-20
 Description: So, I thought this was an article, but apparently it's a stub for an episode of a podcast. While that isn't bad, I'm here to review an article and not a podcast, so this stub is a skip.
 BottomLine: Just a stub for a podcast so skip
 ==
+URL reference: https://securityonline.info/flaws-in-rancher-cve-2025-23388-cve-2025-23389-expose-kubernetes-environments-to-attacks/
+DateReviewed: 2025-04-21
+Description: So, this is an article but its behind a paywall, and does not even have a stub or a description on it. Oddly, it is linked in a few places, but none of them have more info than this, and all link back here. So, this is a skip.
+BottomLine: Paywalled security article is a skip
+==
