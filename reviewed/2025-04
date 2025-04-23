@@ -103,3 +103,8 @@ DateReviewed: 2025-04-21
 Description: So, this is an article but its behind a paywall, and does not even have a stub or a description on it. Oddly, it is linked in a few places, but none of them have more info than this, and all link back here. So, this is a skip.
 BottomLine: Paywalled security article is a skip
 ==
+URL reference: https://openliberty.io/guides/cloud-azure.html#tearing-down-the-environment
+DateReviewed: 2025-04-22
+Description: Today's article is actually a tutorial on deploying a microservice to Azure. It's actually pretty detailed and looks very good. Things I don't like -- layout. It's laid out with a big chunk of the screen dedicated to what looks like an editor, but greyed out. Somewhere in the body it does unblur it, but I thought this was where we would do the hands-on part -- it turns out you need an Azure account for that. There is a lot of background and pre-reqs, but then they get into the meat. It's detailed, with commands and explainations, where they build up the env and do the deployment. A second file joins our first one later on, before they wrap up by tearing down the env. Looks interesting if you want to get your toes wet with Azure!
+BottomLine: Solid looking tutorial to deploy a microservice to Azure Kubernetes
+==
