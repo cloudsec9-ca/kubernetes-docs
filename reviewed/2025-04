@@ -113,3 +113,8 @@ DateReviewed: 2025-04-23
 Description: Our article today is on managing Kubernetes with some advice from others that have done it already. Starts out with a great photo and a bit of background, and then dive into the four phases of a platform engineering journey. They talk about the "golden path", where not only are you doing the best practices, but they are the path of least resistance. We now get to the title of the article, and there are three pieces - plan for growth (day 0), validated automation (day 1), and establish op excellence (day 2). 
 BottomLine: Simple high level approaches to succeed at managing Kubernetes clusters
 ==
+URL reference: https://thenewstack.io/kubescape-achieves-cncf-incubation-status/
+DateReviewed: 2025-04-24
+Description: This article is about Kubescape getting into the CNCF incubation program. They give us a bit of background on how Kubescape is an open source Kubernetes security project, using eBPF to monitor events in real time. They mention it supports the NSA-CISA K8s security guidelines, and that it is very popular. They do a bit of an under the hood on it, explaining it having a few engines that it uses to detect things that seem off. With it now getting into incubation status, we should see more contribs and solidify it as a key piece of security software that people can choose.
+BottomLine: Announcing Kubescape becoming a CNCF incubation project
+==
