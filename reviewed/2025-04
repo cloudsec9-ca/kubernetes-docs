@@ -128,3 +128,8 @@ DateReviewed: 2025-04-26
 Description: Today's article dives into a bit of Kubernetes networking. We start with the usual line of how K8s is great, but out of the box the config isn't the best -- in this case, using kube-proxy for networking. The answer they argue, is to use Cilium as the CNI instead. They talk a bit more about out of the box defaults, explaining that in more demanding envs they aren't able to keep perform as one might like. The problem is that Kube-proxy relies on iptables or IPVS rules to route, which doesn't scale beyond small clusters well. In contrast, Cilium does this using eBPF in the kernel, allowing faster and more efficient routing to occur. As a bonus, you also get access to security and observability with Cilium. They go into a few explainations of how Cilium performs better and is less complex to configure, as well as other benefits.
 BottomLine: Good intro to Cilium as a replacement for Kube-proxy in Kubernetes
 ==
+URL reference: https://blog.devops.dev/jenkins-on-kubernetes-88b2322e1469
+DateReviewed: 2025-04-27
+Description: Our article today is more of a tutorial, to get a Jenkins build system running on Kubernetes env. The idea here is to set up a master and a bunch of Jenkins "workers", which actually do the builds. We start with reviewing the advantages, like scaling, building in parallel, and automatic load distribution. Then they walk us through setting stuff up, building a Docker image for the Jenkins agent. Then there is some K8s related config, which they walk through, until everything is ready. They then do some testing, first to ensure the master works properly, and then the worker (agent) runs correctly.
+BottomLine: Good walkthrough of spinning up a Jenkins build cluster on Kubernetes
+==
