@@ -143,3 +143,8 @@ DateReviewed: 2025-04-29
 Description: This article is about learning containers from the bottom up. The idea here is to explain how containers are different then VMs, and what runs well and what doesn't in containers. It takes a unique approach, acting as a survey for a few of the author's other articles and tutorials. It goes through the low-level bits of how containers actually execute things, and what goes into prepping a container to run at all. It also breaks down what a container runtime needs to do it's work, and how images of containers play into this. They loop back to contrasting containerd with docker, and how each of them do their jobs. They also look at single host and multi host container managers, and how they work. Lot s of refs and side quests, but great stuff in this article to get started.
 BottomLine: Awesome article on the low level bits of a container
 ==
+URL reference: https://www.pocketnews.com.my/2025/03/11/tenable-research-identifies-critical-security-risks-in-kubernetes-environments/
+DateReviewed: 2025-04-30
+Description: This short recap article talks about Tenable cloud research releaseing a report about Kubernetes security issues. While it talks about worldwide concerns, it mentions the APAC region, so is likely based on the same report an earlier review touched on. There are holes - too many privs and cluster-admins that are too privileged, and the article mentions ways to limit issues, like limiting API access, using good RBAC and regular security audits.
+BottomLine: Short but good summary of Kubernetes security problems
+==
