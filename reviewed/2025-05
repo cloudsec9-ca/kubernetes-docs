@@ -1,0 +1,5 @@
+URL reference: https://www.forty8fiftylabs.com/blog/automate-to-dominate-boosting-your-kubernetes-clusters/
+DateReviewed: 2025-05-01
+Description: Our article today talks about how to enhance your automation approach to improve managability for Kubernetes. After some background, we dive into a what is Kubernetes section, before moving on to the role of automation in Kubernetes. They break this down broadly into Infra automation, Business process auto, and finally Robotic process auto. We then go through a section where they laud the benefits of automation.
+BottomLine: Decent article at a high level on Kubernetes automation
+==
