@@ -18,3 +18,8 @@ DateReviewed: 2025-05-04
 Description: Our article today will argue that where we terminate SSL encryption makes a difference. Specifically, they argue against terminating SSL on something like the AWS LoadBalancer, and instead bringing it to the service mesh. We dive in with a review of service mesh - what we might need it for and why. They show how some people do it, and argue that the LB -> mesh traffic being in the clear is a security weakness. They mention it breaks some assumptions and best practices. It then gives an oddly formatted list of pros and cons, before going through the tradeoffs. It's an interesting piece.
 BottomLine: Good argument for bringing SSL to your service mesh rather then the vendor LB for Kubernetes
 ==
+URL reference: https://thenewstack.io/the-growing-significance-of-observability-in-cloud-native-environments/
+DateReviewed: 2025-05-05
+Description: This article sheds light on new developments around observability in the cloud, along with walking us through how to set it up. We dive in with an example issue, where purchase transactions are failing, but the logs don't point to the issue directly; only after a few hours is a payment API identified. We then pivot to how AI pieces can help us, by observing issues that logs might not otherwise percieve. They also point to the ability to pinpoing root causes by automation. We then move onto open standards, and they talk about OpenTelemetry and open source observability standards. We then go through a 3 step process to deploy OpenTelemetry, to get things started. To tie things up, they touch on DevSecOps and FinOps as emerging areas to consider.
+BottomLine: Interesting discussions about a more hands-on approach to Observability in Kubernetes and Cloud Native in general
+==
