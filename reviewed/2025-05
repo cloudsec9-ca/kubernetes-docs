@@ -28,3 +28,8 @@ DateReviewed: 2025-05-06
 Description: Today's article dives into service mesh with a look at Istio. We start with a small bit of background, before diving into a bit on What is Istio. Next, we go through why Istio service mesh matters for Kubernetes, doing a bit of a dive there. Then we pivot to Istio arch and components, going through a number of configs and interations. We then look at benefits and limitations, before looking at the future of service mesh. Overall a good intro.
 BottomLine: Very solid intro to Service Mesh on Kubernetes looking at Istio
 ==
+URL reference: https://kubesphere.medium.com/cloud-native-weekly-how-kubernetes-is-shaping-the-future-of-ai-and-cloud-innovation-7778e481346f
+DateReviewed: 2025-05-07
+Description: This article is more of a general reporting piece, looking at a range of new tech and announcements in the Kubernetes area. We start off with 4 open source projects, each summarized in a para, before dipping into a few tech articles, finishing up with newly released updates.
+BottomLine: Good survey piece talking about a number of Kubernetes related technologies
+==
