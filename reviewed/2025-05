@@ -33,3 +33,8 @@ DateReviewed: 2025-05-07
 Description: This article is more of a general reporting piece, looking at a range of new tech and announcements in the Kubernetes area. We start off with 4 open source projects, each summarized in a para, before dipping into a few tech articles, finishing up with newly released updates.
 BottomLine: Good survey piece talking about a number of Kubernetes related technologies
 ==
+URL reference: https://www.forbes.com/sites/adrianbridgwater/2025/03/17/okay-ai-solo-kagent-is-an-agentic-ai-framework-for-kubernetes/
+DateReviewed: 2025-05-08
+Description: Our article today will dabble a bit into the area of AI. We're lookinga at a company called Solo which is combining Kubernetes with AI as an agent, to provide workflow tasks, with a thing called kagent. It's a combo of dev tools, AI agents and bits needed to build agents in a K8s env. The company claims it helps DevOps and platform engineers build and run AI agents in Kubernetes. It talks a bit at a high level, but then says they are using MCP as the building blocks, and they explain a bit of how MCP works. There is a bit of talk on securiyt and observability, and then talk about self-serve computing, all at a very high level. The claim is that this tool will reduce the learning curve. My take is that there isn't a lot of details, but lots of hype.
+BottomLine: Interesting read on new AI agent builder
+==
