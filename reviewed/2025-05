@@ -38,3 +38,8 @@ DateReviewed: 2025-05-08
 Description: Our article today will dabble a bit into the area of AI. We're lookinga at a company called Solo which is combining Kubernetes with AI as an agent, to provide workflow tasks, with a thing called kagent. It's a combo of dev tools, AI agents and bits needed to build agents in a K8s env. The company claims it helps DevOps and platform engineers build and run AI agents in Kubernetes. It talks a bit at a high level, but then says they are using MCP as the building blocks, and they explain a bit of how MCP works. There is a bit of talk on securiyt and observability, and then talk about self-serve computing, all at a very high level. The claim is that this tool will reduce the learning curve. My take is that there isn't a lot of details, but lots of hype.
 BottomLine: Interesting read on new AI agent builder
 ==
+URL reference: https://dzone.com/articles/pen-source-path-to-personal-professional-growth
+DateReviewed: 2025-05-09
+Description: The article we'll dive into today examines Open Source, and how tha can help you personally and professionally. We have a short bit of lead-in, and then dive in - why invest time into open source? They talk about not only being personally fulfilling, but all of the tools and ecosystems that are in open source. We then tackle six reasons to contribute, which they list out and then explain in short paras for each. They then explain how to contribute, again listing the steps for those new to the scene. They even have some places where you might get a start. I love the approach, and I recommend for people looking to get their feet wet.
+BottomLine: A great primer on getting involved with Open Source
+==
