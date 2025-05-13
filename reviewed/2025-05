@@ -53,3 +53,8 @@ DateReviewed: 2025-05-11
 Description: Our article today is going to surface what they claim are the top 5 Kubernetes vulnerabilities. We start with a quick intro into Kubernetes security, then a short bit on how to secure infra. Now we dive into the vulns - they start by stating the vuln, then a bit of details, and finally a pro tip to help you avoid it. We go through misconfigs, access to etcd, 3rd party depends, DoS attacks, and finally compliance issues during container adoption. Then they do a very deep dive into vuln scanning, which is almost as long as the rest of the article up until this point. It could and probably should have been it's own article. The first part is strong and I like it; the second part felt long and tacked on.
 BottomLine: Good discussion about the top 5 Kubernetes vulnerabilities of 2024
 ==
+URL reference: https://www.wiz.io/reports/kubernetes-security-report-2025#finding-1
+DateReviewed: 2025-05-12
+Description: Today, our article is a quick-fact point form like summary. It has a link to the full report, but is like a lightning round exec summary. Diving in, it is a collection of "facts" with a small blurb and a linked tweet. First fact is new clusters are targeted at lightning speed, second is critical vulns are declining, third is security feature adoption has room for improvement, and las but not least Kubernetes verssion maint is advancing. They tie it up with a short conclusion. I'm not usually a fan of gimmicks, but this one is not bad.
+BottomLine: Short fact based Kubernetes security report summary w link to full report
+==
