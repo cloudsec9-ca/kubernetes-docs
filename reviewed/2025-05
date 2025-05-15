@@ -63,3 +63,8 @@ DateReviewed: 2025-05-13
 Description: Our article today is about a new runtime container from Edera, called Styrolite. The idea is a simple container runtime which is programatically able to be used. They go through the high and low level bits of how their container runtime actually works, which they think is a better fit for their overall system. They talk about PIDs and UID/GIDs, various namespaces like time and network, and how they are shared or not. They then show how to create a container programmatically, with a composed call to a function. They also talk briefly about use cases and security. My take is it is neat sounding, and I might try it out.
 BottomLine: Introduction of a new container runtime for Kubernetes called Styrolite
 ==
+URL reference: https://itnext.io/container-network-interface-cni-in-kubernetes-an-introduction-6cd453b622bd
+DateReviewed: 2025-05-14
+Description: Today we have an article that is an intro to CNI, or at least purpots to be. I honestly think it's a decent article, but it's a bit too long and verbose to be an intro in my mind, so I'll say that upfront. It start with the basics, sprinkles in lots of decent diagrams, and a decent amount of explaination. It talks in detail about some of the nitty gritty stuff. It's a great article, but it's more of a complete walkthrough of setting up CNI.
+BottomLine: Great walkthrough of setting up CNI in Kubernetes
+==
