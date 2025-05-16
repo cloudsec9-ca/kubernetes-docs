@@ -68,3 +68,8 @@ DateReviewed: 2025-05-14
 Description: Today we have an article that is an intro to CNI, or at least purpots to be. I honestly think it's a decent article, but it's a bit too long and verbose to be an intro in my mind, so I'll say that upfront. It start with the basics, sprinkles in lots of decent diagrams, and a decent amount of explaination. It talks in detail about some of the nitty gritty stuff. It's a great article, but it's more of a complete walkthrough of setting up CNI.
 BottomLine: Great walkthrough of setting up CNI in Kubernetes
 ==
+URL reference: https://informationsecuritybuzz.com/ingressnightmare-crit-kubernetes-flaws/
+DateReviewed: 2025-05-15
+Description: This article tries to give us some insights into IngressNightmare, the serious Kubernetes flaw discovered recently. We dive right in, where they start talking about five critical flaws in the Nginx controller, which puts 6000+ clusters at risk. They name off the CVEs, which are all RCE, which are bad - they include "cluster takeover". Estimates say that about 43% of deployments are vulnerable. They say since it's one of the external facing pieces of the K8s pie, it being vulnerable is more critical. What's most important is that it does require a bit of access on the network, but then requires no admin or credentials at all to get good access. The cause, it seems, is our old friend lack of input sanitization. The article waxes on a bit about fallout, but it's pretty good at explaining the urgency which people should address it in.
+BottomLine: Good warning of the severity of IngressNightmare to Kubernetes clusters
+==
