@@ -78,3 +78,8 @@ DateReviewed: 2025-05-16
 Description: This article dives into the options you have if you are using Azures exprimental WASI node pools, as they are deprecated as of Jan 2025. There are two different options available, and this article will explore them. First, we start by going through why this is happening -- mostly because a supporting project is now unmaintained. To do the work, they used a Rust project called Krustlets to build WebAssembly ready Kubelets, so they have to change strategies. One way is using SpinKube to run WebAssembly, the other is using WASI microservices on AKS with wasmCloud. They spill a lot of ink on these - 10 paras on the first, and 3 on the second, with a bit of comparison on the end. Lots of points and a bit of advice on migration makes it's way into the article. Decent approach to this topic.
 BottomLine: Alternatives for WebAssembly as Azure Kubernetes changes things up
 ==
+URL reference: https://brainupgrade.in/kubernetes-security-best-practices/
+DateReviewed: 2025-05-17
+Description: So, today we don't have an article so much as a curated point form list, which is a collection of Kubernetes best practices it seems. We do get a bit of intro, telling us security is important and that Kubernetes has threats because it's dyanmic. We then dive into the lists; giving them their fair shake, each item has at least three points, and the items are decent. They touch on RBAC, securing API access, using PSS, enabling Network policies, scanning and securing container images, audit logging, secrets management and finally runtime secrity. The topics are good, but more depth would be helpful.
+BottomLine: Good intro to Security best practices for Kubernetes
+==
