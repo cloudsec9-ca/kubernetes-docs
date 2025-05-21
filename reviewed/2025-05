@@ -93,3 +93,8 @@ DateReviewed: 2025-05-19
 Description: Our article today is about a recent Kubernetes security issue, IngressNightmare. It aims to answer the question are you affected, and if so, how do you mitigate the issue. First, the explain the overview, and then dive into the details, which is that it's a shared library sent with an admission controller request, which will ingest the shared lib. To determine if your vulnerable, they list a number of version numbers and ranges which are affected, along with a script to run to flag potential matches. The easy mitigation is upgrading, but they have a few options for people not able to upgrade right away. Monitoring for the exploit, restricting network ability, and even the possibility to disable the admission controller. Well done piece.
 BottomLine: Awesome article on what IngressNightmare on Kubernetes is and if you might be affected
 ==
+URL reference: https://blog.fka.dev/blog/2025-03-27-mcp-inspector-vs-mcp-tools/
+DateReviewed: 2025-05-20
+Description: This article contrasts two suites for building MCP tools. MCP is the way an AI can interface to an API or other tool to perform actions or answer questions. The tools spotlighter here are Official MCP inspector and MCP Tools. They do a good job, looking through some various use cases where one would be better than the other; 4 Tools cases, and 3 official inspector. They dig in quite deep, and give a good feeling for which one you might want to use.
+BottomLine: Good intro to two MCP tools you might use to integrate AI into your development
+==
