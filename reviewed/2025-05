@@ -98,3 +98,8 @@ DateReviewed: 2025-05-20
 Description: This article contrasts two suites for building MCP tools. MCP is the way an AI can interface to an API or other tool to perform actions or answer questions. The tools spotlighter here are Official MCP inspector and MCP Tools. They do a good job, looking through some various use cases where one would be better than the other; 4 Tools cases, and 3 official inspector. They dig in quite deep, and give a good feeling for which one you might want to use.
 BottomLine: Good intro to two MCP tools you might use to integrate AI into your development
 ==
+URL reference: https://www.reddit.com/r/mcp/comments/1jno64h/structured_humanintheloop_agent_workflow_with_mcp/
+DateReviewed: 2025-05-21
+Description: This is a discussion of using AI with a human to do some assistance to a human to get specific things done. The question is detailed, and a few answers dive deep, but it's clear this is an emerging topic.
+BottomLine: Interesting Reddit chat on using AI with human in the loop agent workflow
+==
