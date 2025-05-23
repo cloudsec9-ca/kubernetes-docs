@@ -103,3 +103,8 @@ DateReviewed: 2025-05-21
 Description: This is a discussion of using AI with a human to do some assistance to a human to get specific things done. The question is detailed, and a few answers dive deep, but it's clear this is an emerging topic.
 BottomLine: Interesting Reddit chat on using AI with human in the loop agent workflow
 ==
+URL reference: https://www.cncf.io/blog/2025/03/28/cedar-a-new-approach-to-policy-management-for-kubernetes/
+DateReviewed: 2025-05-22
+Description: Our article today is a toe dip into a new policy approach called Cedar. The basic idea seems to be of extending and unifying how access are granted or denied, with the consideration that this all be done in a single language. The do include a diagram, which is bonus points, showing that Cedar does function as a webhook at certain points. We get a feature list, some real world applications that might use it, and a bit of a look forward to see what else we can do. Actually a great intro.
+BottomLine: Quick intro to Cedar, a new way to do Kubernetes policies
+==
