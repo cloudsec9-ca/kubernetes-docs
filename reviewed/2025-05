@@ -108,3 +108,8 @@ DateReviewed: 2025-05-22
 Description: Our article today is a toe dip into a new policy approach called Cedar. The basic idea seems to be of extending and unifying how access are granted or denied, with the consideration that this all be done in a single language. The do include a diagram, which is bonus points, showing that Cedar does function as a webhook at certain points. We get a feature list, some real world applications that might use it, and a bit of a look forward to see what else we can do. Actually a great intro.
 BottomLine: Quick intro to Cedar, a new way to do Kubernetes policies
 ==
+URL reference: https://thenewstack.io/has-vmware-finally-caught-up-with-kubernetes/
+DateReviewed: 2025-05-23
+Description: The premise of this article is whether VMware has "caught up" with Kubernetes. The claim is that some of the features of VMware weren't well known or used, and while a good way to get started in Kubernetes, meant you weren't fully using the platform. So post Broadcom, they rolled out VMware Cloud Foundation, to have a single platform. We then get some marketing-speak from a manager, before a bit that explains that Tanzu bits have been added to VCF. My take is that it's hard to talk about VMware post-Broadcom without mentioning the weird and expensive licence changes, but this article manages to completely ignore that.
+BottomLine: Marketing speak about VMware re-alignment towards Kubernetes
+==
