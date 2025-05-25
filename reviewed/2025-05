@@ -113,3 +113,8 @@ DateReviewed: 2025-05-23
 Description: The premise of this article is whether VMware has "caught up" with Kubernetes. The claim is that some of the features of VMware weren't well known or used, and while a good way to get started in Kubernetes, meant you weren't fully using the platform. So post Broadcom, they rolled out VMware Cloud Foundation, to have a single platform. We then get some marketing-speak from a manager, before a bit that explains that Tanzu bits have been added to VCF. My take is that it's hard to talk about VMware post-Broadcom without mentioning the weird and expensive licence changes, but this article manages to completely ignore that.
 BottomLine: Marketing speak about VMware re-alignment towards Kubernetes
 ==
+URL reference: https://www.tigera.io/blog/calico-whisker-your-new-ally-in-network-observability/
+DateReviewed: 2025-05-24
+Description: Today's article talks about a new GUI entrant, Whisker. An add on to Calico, Whisker helps visualize your network flows so you can see what is, and isn't, working. There is 3 parts - the Whisker UI, the backend, and the Goldmane gRPC API server that powers the system. They go into why you might need Whisker, and have some animated screenshots to give a quick snapshot of how it works. 
+BottomLine: Interesting intro to a new network visualization tool for Calico/Kubernetes
+==
