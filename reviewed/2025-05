@@ -118,3 +118,8 @@ DateReviewed: 2025-05-24
 Description: Today's article talks about a new GUI entrant, Whisker. An add on to Calico, Whisker helps visualize your network flows so you can see what is, and isn't, working. There is 3 parts - the Whisker UI, the backend, and the Goldmane gRPC API server that powers the system. They go into why you might need Whisker, and have some animated screenshots to give a quick snapshot of how it works. 
 BottomLine: Interesting intro to a new network visualization tool for Calico/Kubernetes
 ==
+URL reference: https://thenewstack.io/how-to-put-guardrails-around-containerized-llms-on-kubernetes/
+DateReviewed: 2025-05-25
+Description: In keeping with hot things, today our article is a dive into AI, through guardrails on LLMs in containers. We start with some background, talking about some threats and how LLMs are generally deployed. A big threat is prompt injection, but multiple layers of security are needed. We get a diagram along with guardrails and network restrictions to reduce the attack surface. We then dive in, with them explaining what prompt injection can do, things like extracting confidential info or working around content filters. They present Nvidia guardrails as way to filter input, do content enforcement, and adaptively learn. There's a bit more discussion of how to do this, and the effects, but they are mostly more examples and details. Good topic and decent approach
+BottomLine: Good article on using Kubernetes with LLM guardrails
+==
