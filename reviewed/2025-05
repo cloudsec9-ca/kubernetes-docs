@@ -123,3 +123,8 @@ DateReviewed: 2025-05-25
 Description: In keeping with hot things, today our article is a dive into AI, through guardrails on LLMs in containers. We start with some background, talking about some threats and how LLMs are generally deployed. A big threat is prompt injection, but multiple layers of security are needed. We get a diagram along with guardrails and network restrictions to reduce the attack surface. We then dive in, with them explaining what prompt injection can do, things like extracting confidential info or working around content filters. They present Nvidia guardrails as way to filter input, do content enforcement, and adaptively learn. There's a bit more discussion of how to do this, and the effects, but they are mostly more examples and details. Good topic and decent approach
 BottomLine: Good article on using Kubernetes with LLM guardrails
 ==
+URL reference: https://bitcoinworld.co.in/unlock-kubernetes-management-plural-platform/
+DateReviewed: 2025-05-26
+Description: Our article today is an intro to Plural, a way to manage multiple Kubernetes clusters more easily. We start with a bit of background, and then launch into a bit about Plural. The idea is to manage all of your clusters from one spot. As a bonus, it includes AI smart optimization and proactive problem solving. Each of these points has a couple paras, so they are well explained. My take is that it's a bit of a puff piece and doesn't contain a lot of tech detail, but at a high level it seems interesting.
+BottomLine: Intro to a new player in the multiple cluster manager space - Plural
+==
