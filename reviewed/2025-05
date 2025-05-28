@@ -128,3 +128,8 @@ DateReviewed: 2025-05-26
 Description: Our article today is an intro to Plural, a way to manage multiple Kubernetes clusters more easily. We start with a bit of background, and then launch into a bit about Plural. The idea is to manage all of your clusters from one spot. As a bonus, it includes AI smart optimization and proactive problem solving. Each of these points has a couple paras, so they are well explained. My take is that it's a bit of a puff piece and doesn't contain a lot of tech detail, but at a high level it seems interesting.
 BottomLine: Intro to a new player in the multiple cluster manager space - Plural
 ==
+URL reference: https://thenewstack.io/chainguard-takes-aim-at-vulnerable-java-libraries/
+DateReviewed: 2025-05-27
+Description: This article looks at Java with a Chainguard lens. They announced they'll be tackling this with language libraries, with the aim of eliminating malware and minimizing the attack surface. They note many times things are built on a specifice dev's laptop, and then uploaded, so compromising the right person can introduce a bad library or stack piece. They also said that most devs use public repos of libs, and the emphasis is on ease of use and not security. Chainguard's approach is to grab source and build the libs from there, ensuring that they are secure in that way. Basically, the focus is on clean libs with known source, which gives assurance of what you are running. They do talk a bit about how this scales out, which is a bit more complex.
+BottomLine: Good initial view of Chainguard libs for Java developers
+==
