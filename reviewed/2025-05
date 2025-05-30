@@ -138,3 +138,8 @@ DateReviewed: 2025-05-28
 Description: Our article today is a walkthrough of Flyte, an Airflow look alike that seems to be aimed at MLOps. We start with a bit of background on what Flyte is. The author claims its simple, so let's dive in. First, we do the install of the software, verify it and finally start it up. We can then access the browser UI. Next we create the sample data, and upload it through the web UI. In the CLI, we then create a project, and then we see that show up in the GUI. We then use Python to set up workflows. We then use the CLI to run the workflow, and we can track the run and view the result in the web UI. Decent walkthrough.
 BottomLine: Intro to MLOps tool Flyte with a setup walkthrough
 ==
+URL reference: https://thenewstack.io/reframing-devsecops-software-security-to-software-safety/
+DateReviewed: 2025-05-29
+Description: This article talks about the promise of DevSecOps, and the failures that can happen with the process. We start with a bit of background, and then talk about tools and how the people aren't integrated. The weakness here is while we talk about doing security, we're missing the process and thus missing the ability to really improve security outcomes. They touch a bit on software supply chain safety, and talk about various building blocks to improve it. It talks abou using tools with strategy, and how process has to lead to ensure success.
+BottomLine: A good reflection on where DevSecOps is, and where it needs to be
+==
