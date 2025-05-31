@@ -143,3 +143,8 @@ DateReviewed: 2025-05-29
 Description: This article talks about the promise of DevSecOps, and the failures that can happen with the process. We start with a bit of background, and then talk about tools and how the people aren't integrated. The weakness here is while we talk about doing security, we're missing the process and thus missing the ability to really improve security outcomes. They touch a bit on software supply chain safety, and talk about various building blocks to improve it. It talks abou using tools with strategy, and how process has to lead to ensure success.
 BottomLine: A good reflection on where DevSecOps is, and where it needs to be
 ==
+URL reference: https://trustedsec.com/blog/kubernetes-for-pentesters-part-1
+DateReviewed: 2025-05-30
+Description: The article we're looking at today is a simple walk-through of various Kubrenetes terms and commands, from the viewpoint of a security tester. So we start with some small background, then a tour through all of the bits of a K8s cluster. Next is a quick overview of the commands, including installing the CLI, which you might need to access a cluster. Then a tour through some of the APIs and processes, and what ports different server listen at. Then a selection of URLs to probe to get info like versions and things running on the cluster.
+BottomLine: A decent quick overview of Kubernetes commands for a security tester
+==
