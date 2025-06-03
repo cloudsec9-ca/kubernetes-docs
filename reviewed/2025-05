@@ -148,3 +148,8 @@ DateReviewed: 2025-05-30
 Description: The article we're looking at today is a simple walk-through of various Kubrenetes terms and commands, from the viewpoint of a security tester. So we start with some small background, then a tour through all of the bits of a K8s cluster. Next is a quick overview of the commands, including installing the CLI, which you might need to access a cluster. Then a tour through some of the APIs and processes, and what ports different server listen at. Then a selection of URLs to probe to get info like versions and things running on the cluster.
 BottomLine: A decent quick overview of Kubernetes commands for a security tester
 ==
+URL reference: https://testkube.io/learn/infrastructure-testing-in-kubernetes
+DateReviewed: 2025-05-30
+Description: Today's article is about infra testing. We start with a bit of background, and then dive into various areas of testing. They begin at cluster health and availability, compute resource validation, network validation, and storage validation. Each section gets a couple paras, and there is a diagram thrown in for good measure. They talk about when to run tests, and even work through a few scenarios with YAML examples. Good intro.
+BottomLine: Discussion of using Infra testing on your Kubernetes clusters
+==
