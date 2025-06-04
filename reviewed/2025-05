@@ -153,3 +153,8 @@ DateReviewed: 2025-05-30
 Description: Today's article is about infra testing. We start with a bit of background, and then dive into various areas of testing. They begin at cluster health and availability, compute resource validation, network validation, and storage validation. Each section gets a couple paras, and there is a diagram thrown in for good measure. They talk about when to run tests, and even work through a few scenarios with YAML examples. Good intro.
 BottomLine: Discussion of using Infra testing on your Kubernetes clusters
 ==
+URL reference: https://thenewstack.io/kubecon-eu-2025-kubernetes-vnode-from-the-makers-of-vcluster/
+DateReviewed: 2025-05-31
+Description: This article looks at a new runtime called vNode, made be the same company that made virtualized Kubernetes clusters and multitenancy easier with vCluster. It is aimed at enterprises and will not be open source. They touch on K8s being used for both multi team and multi customer tenancy, and how they need different considerations. They point out while namespaces are a key tech, they don't solve all the issues with nodes. Pods are not isolated from each other on nodes, and noisy neighbors can cause issues. While other products have tried to address this, they argue they don't address all of the issues. The vNode tech uses a lightweight virtual layer within shared physical nodes to isolate workloads. They talk about how this is done and the benefits, and mention that it integrates with vCluster.
+BottomLine: Interesting intro to a new Kubernetes isolation tech called vNode
+==
