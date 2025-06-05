@@ -3,3 +3,8 @@ DateReviewed: 2025-06-01
 Description: Our article today goes into 13 Kubernetes alternatives you might consider using. Each alternative has specific use cases, and they as a group have a wide variety of interesting things they do. The format follows the same basics for each one - name of package, a small blurb, the website, key features and a when to use blurb. I'll list all the alternatives, which are each given the same treatment - OpenShift, Nomad, Mesos, Swarm, ECS, Tanzu, Netlify, Cloud run, Incus, CloudFoundry, Docker, Rancher and Azure Container instances (ACI). They range from single devel. focus to enterprise, from container runners to full general clusters. I think the idea is to see if your use case can be better served with a different approach, and there are a diversity of that here.
 BottomLine: Great survey of alternatives to Kubernetes for deployments
 ==
+URL reference: https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-containers-introduction
+DateReviewed: 2025-06-02
+Description: The article for today is an introduction to Defender for Containers written by Microsoft. It's a high level document, with an exec summary upfront and then a bit of a deeper dive further in. The four core areas it addresses are security posture management, vuln assessment, run time threat protection and Deployment and monitoring. Each gets a para upfront, then 3 to 4 paras in the deeper dive. For those on Azure, it might be a good option.
+BottomLine: Intro to Defender for Containers by Microsoft
+==
