@@ -8,3 +8,8 @@ DateReviewed: 2025-06-02
 Description: The article for today is an introduction to Defender for Containers written by Microsoft. It's a high level document, with an exec summary upfront and then a bit of a deeper dive further in. The four core areas it addresses are security posture management, vuln assessment, run time threat protection and Deployment and monitoring. Each gets a para upfront, then 3 to 4 paras in the deeper dive. For those on Azure, it might be a good option.
 BottomLine: Intro to Defender for Containers by Microsoft
 ==
+URL reference: https://www.portainer.io/solutions/enterprise
+DateReviewed: 2025-06-03
+Description: Today's article is a bit of a pitch, selling us on using Portainer as a service. The idea here is that you want to use containers, but you don't want to learn how to run or manage the container, but just focus on your own code. They cover all the important aspects, like security, scaling, and management. They provide tech experts to do the container management and grunt work. I'd say this is perfect for startups or dev-only teams looking to stay out of managing the orchestration of clusters. It does have a niche.
+BottomLine: Good pitch on using Portainer to run managed containers
+==
