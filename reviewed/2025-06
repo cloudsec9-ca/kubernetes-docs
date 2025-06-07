@@ -18,3 +18,8 @@ DateReviewed: 2025-06-04
 Description: Our article today is a short one on using probes the right way. Starts with a bit of background about what probes are and do, then talks about each one - startup, liveness and readiness. Each section has a para on what role the probe has, a sample config, and key takeaways to optimize each. It has some tips at the end and wraps with other configs that might be interesting.
 BottomLine: Good short intro to the various Kubernetes probes
 ==
+URL reference: https://arxiv.org/abs/2504.11126
+DateReviewed: 2025-06-05
+Description: This is an abstract fronting a paper on security hardening of the Kubernetes attack surface through a tool called KubeFence. The thesis here is that even with RBAC, it is possible to have misconfigs and vulns. So they use KubeFence to do filtering of API requests in a more fine grained way. Seems like a promising approach.
+BottomLine: Short intro to KubeFence - a Kubernetes tool to improve API security
+==
