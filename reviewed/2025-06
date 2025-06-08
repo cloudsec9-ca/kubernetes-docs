@@ -23,3 +23,8 @@ DateReviewed: 2025-06-05
 Description: This is an abstract fronting a paper on security hardening of the Kubernetes attack surface through a tool called KubeFence. The thesis here is that even with RBAC, it is possible to have misconfigs and vulns. So they use KubeFence to do filtering of API requests in a more fine grained way. Seems like a promising approach.
 BottomLine: Short intro to KubeFence - a Kubernetes tool to improve API security
 ==
+URL reference: https://kubenomicon.com/Pentesting%20Kubernetes.html
+DateReviewed: 2025-06-06
+Description: Today we dive into the 4 layers of Kubernetes security in this article. We start with a quick intro, and then dive into the 4 layers - Code, Container, Cluster and Cloud. They talk briefly about three offensive tools, some helpful commands, and then do a brief stint on enumeration. It's mostly a primer for security people needing to bang on K8s clusters.
+BottomLine: Decent quick intro to Kubernetes for security people
+==
