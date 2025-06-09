@@ -28,3 +28,8 @@ DateReviewed: 2025-06-06
 Description: Today we dive into the 4 layers of Kubernetes security in this article. We start with a quick intro, and then dive into the 4 layers - Code, Container, Cluster and Cloud. They talk briefly about three offensive tools, some helpful commands, and then do a brief stint on enumeration. It's mostly a primer for security people needing to bang on K8s clusters.
 BottomLine: Decent quick intro to Kubernetes for security people
 ==
+URL reference: https://istio.io/latest/blog/2025/ztunnel-security-assessment/
+DateReviewed: 2025-06-07
+Description: Our article today delves into an audit of the new mesh option in Istio called ztunnel. Written in Rust, it runs as a secure overlay in cooperation with the existing Envoy proxy. The audit result was good, with no vulns found and remarking that the code is already good. They did sugest some improvements, like beter dependency management and test coverage, as well as hardening HTTP header parsing.
+BottomLine: Interesting look at the Security audit for ztunnel from Istio
+==
