@@ -33,3 +33,8 @@ DateReviewed: 2025-06-07
 Description: Our article today delves into an audit of the new mesh option in Istio called ztunnel. Written in Rust, it runs as a secure overlay in cooperation with the existing Envoy proxy. The audit result was good, with no vulns found and remarking that the code is already good. They did sugest some improvements, like beter dependency management and test coverage, as well as hardening HTTP header parsing.
 BottomLine: Interesting look at the Security audit for ztunnel from Istio
 ==
+URL reference: https://medium.com/h7w/scaling-your-kubernetes-deployments-vertically-a-cool-in-depth-guide-94fe834ea3d8
+DateReviewed: 2025-06-08
+Description: This article tackles scaling Kubernetes deployments vertically, or moving them to a bigger machine. After a bit of background, they git into the meat with why requests and limits matter, talking about the needs. They then talk a bit about some tools, paticularly Kubecost and OpenCost, and the pros/cons of each. They then look at Vertical Pod Autoscalar (VPA), walking through install, defining an object in it, viewing the recommendations from it. The then look at centralizing metrics and things like visualizing and alerting, before touching on automatic updates.
+BottomLine: Good examination of limits and using recommendations on your Kubernetes cluster
+==
