@@ -43,3 +43,8 @@ DateReviewed: 2025-06-09
 Description: Okay, I'll admit this is more than I thought at first glance - the standard Kubernetes best practices for RBAC. I expected something short, and no, that isn't this. Starts with a point form "takeaways", then dives in with what is RBAC. Next is why it matters, before getting to setting up RBAC, a small tutorial. Not a bad walkthrough. Next we get into the best practices, and each one is named and gets a para; things like least priv and regular review of perms, with 7 covered. We then get 4 "bonus advanced" practices, pitfalls, and discussion of RBACs critical role, before some real world examples and a short product pitch.
 BottomLine: Great discussion and setup walkthrough of Kubernetes RBAC
 ==
+URL reference: https://www.refontelearning.com/blog/top-backend-skills-to-learn-in-2025
+DateReviewed: 2025-06-10
+Description: The article today is an exploration of skills to learn in 2025. We start with some background, basically talking about how tech is changing and we have to keep up, before getting into the topics. Each area gets 2 to 5 paras, and it's fairly well motivated. We start with Polyglot programming and Framework mastery, talking about using multiple langs and a variety of libs and frameworks. Next up is Cloud Native and serverless computing skills, followed by microservices arch and DevOps integration, next is Data mgmt and concludes with API evolution and Security first mindset and performance optimization. Actually well covered and talked through
+BottomLine: Interesting list of skills to tackle for 2025
+==
