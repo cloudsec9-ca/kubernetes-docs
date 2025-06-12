@@ -48,3 +48,8 @@ DateReviewed: 2025-06-10
 Description: The article today is an exploration of skills to learn in 2025. We start with some background, basically talking about how tech is changing and we have to keep up, before getting into the topics. Each area gets 2 to 5 paras, and it's fairly well motivated. We start with Polyglot programming and Framework mastery, talking about using multiple langs and a variety of libs and frameworks. Next up is Cloud Native and serverless computing skills, followed by microservices arch and DevOps integration, next is Data mgmt and concludes with API evolution and Security first mindset and performance optimization. Actually well covered and talked through
 BottomLine: Interesting list of skills to tackle for 2025
 ==
+URL reference: https://www.portainer.io/blog/governance-and-policy-for-kubernetes-balancing-control-with-developer-freedom
+DateReviewed: 2025-06-11
+Description: This article dives into governance, and tries to explain the role it plays and why it's important. We start with a bit of background, including how traditional governance works, and how Kubernetes changes things. They argue that this has to be done early while building clusters, and not afterwards. The emphasis is on guardrails and not controls preventing things from happening. They argue that there is a balance to be struck. To wrap, they do a bit of talking about Internal developor platforms, and how they can help in this.
+BottomLine: Good thinkpiece on Governance as applied to Kubernetes
+==
