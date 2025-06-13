@@ -53,3 +53,8 @@ DateReviewed: 2025-06-11
 Description: This article dives into governance, and tries to explain the role it plays and why it's important. We start with a bit of background, including how traditional governance works, and how Kubernetes changes things. They argue that this has to be done early while building clusters, and not afterwards. The emphasis is on guardrails and not controls preventing things from happening. They argue that there is a balance to be struck. To wrap, they do a bit of talking about Internal developor platforms, and how they can help in this.
 BottomLine: Good thinkpiece on Governance as applied to Kubernetes
 ==
+URL reference: https://thenewstack.io/toolhive-simplifies-mcp-server-orchestration-with-kubernetes/
+DateReviewed: 2025-06-12
+Description: Today's article is on ToolHive, a tool to help manage MCP servers you may be running. We start with some background, talking about what MCP is and some of the challenges of working with it. They talk a bit about things like dependencies needed for MCPs, and issues with things like logins. The advice is to manage them uniformly. They argue that K8s is well suited to this job, using things like RBAC and other policies. ToolHive connects the strengths of K8s with the flexibility of MCPs. Using GO, it's been around for a bit, and it uses StatefulSets to manage the apps.
+BottomLine: Good overview of ToolHive to manage MCP servers on Kubernetes
+==
