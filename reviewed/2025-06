@@ -58,3 +58,8 @@ DateReviewed: 2025-06-12
 Description: Today's article is on ToolHive, a tool to help manage MCP servers you may be running. We start with some background, talking about what MCP is and some of the challenges of working with it. They talk a bit about things like dependencies needed for MCPs, and issues with things like logins. The advice is to manage them uniformly. They argue that K8s is well suited to this job, using things like RBAC and other policies. ToolHive connects the strengths of K8s with the flexibility of MCPs. Using GO, it's been around for a bit, and it uses StatefulSets to manage the apps.
 BottomLine: Good overview of ToolHive to manage MCP servers on Kubernetes
 ==
+URL reference: https://sysdig.com/blog/sysdig-2025-cloud-native-security-and-usage-report/
+DateReviewed: 2025-06-13
+Description: Our article today talks about Kubernetes security, and argues that 2025 will be a breakthrough year. We start with some background, and then jump in. They let us know that AI adoption skyrocketed, and now it is more secure. More, as in a climb from 15 to 36% using, and less exposed to the Internet, down 38%. In acount access, good things too - especially in service accounts, where configs are better and IDs are being managed more securely. The also touch on defense pieces, saying these take time, and reiterating that secure clouds are a product of secure containers, their building blocks. 
+BottomLine: Good coverage of a few Kubernetes security concerns for 2025
+==
