@@ -63,3 +63,8 @@ DateReviewed: 2025-06-13
 Description: Our article today talks about Kubernetes security, and argues that 2025 will be a breakthrough year. We start with some background, and then jump in. They let us know that AI adoption skyrocketed, and now it is more secure. More, as in a climb from 15 to 36% using, and less exposed to the Internet, down 38%. In acount access, good things too - especially in service accounts, where configs are better and IDs are being managed more securely. The also touch on defense pieces, saying these take time, and reiterating that secure clouds are a product of secure containers, their building blocks. 
 BottomLine: Good coverage of a few Kubernetes security concerns for 2025
 ==
+URL reference: https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run
+DateReviewed: 2025-06-14
+Description: This article will talk about NOT using Kubernetes. We start with background, notably starting a company that offered a 3D editor. They started on bare metal, making the switch to K8s after a couple years. They switched away due to 3 main factors - cost overruns, difficulty managing large jobs volumes, and complexity overhead. They explain each in decent detail. They then talk about what they switched to, a bit on thoughts about K8s, and then some other details. I like it as an honest reckoning on K8s.
+BottomLine: Decent piece on why you might not want to run on Kubernetes
+==
