@@ -68,3 +68,8 @@ DateReviewed: 2025-06-14
 Description: This article will talk about NOT using Kubernetes. We start with background, notably starting a company that offered a 3D editor. They started on bare metal, making the switch to K8s after a couple years. They switched away due to 3 main factors - cost overruns, difficulty managing large jobs volumes, and complexity overhead. They explain each in decent detail. They then talk about what they switched to, a bit on thoughts about K8s, and then some other details. I like it as an honest reckoning on K8s.
 BottomLine: Decent piece on why you might not want to run on Kubernetes
 ==
+URL reference: https://krishnag.ceo/blog/owasp-kubernetes-top-ten-k10-outdated-and-vulnerable-kubernetes-components/
+DateReviewed: 2025-06-15
+Description: Our article today deals with one of the OWASP top 10 - outdated and vulnerable Kubernetes components. We start, as ususal, with a bit of background and stage setting, before diving in. They define what components are, and how they might be outdated. They then talk about the risks from running out of date stuff. We are then taken on a tour of TEN incidents, with an explaination of what happened, to whom, when, and the lessons to be learned. They use these to build a discussion, including why timely security is important and what the best practices are. Very well done piece.
+BottomLine: Good explaination focued on securing outdated/vulnerable Kubernetes components
+==
