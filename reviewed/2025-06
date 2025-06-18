@@ -78,3 +78,8 @@ DateReviewed: 2025-06-16
 Description: Today's article continues yesterdays OWASP theme, this time looking at Misconfigured cluster components. We start with background, and then they do a quick review of K8s cluster components. They then start to dig in on the security side, starting with Control plane components, and examining 5 of them. Each has a bit of an explaination, and then a security consideration. Next they look at Worker node components, examinng 3 of them. They then look at what they call additional components, which are used as resource or access managers; same idea applied here. We do a short best practices, and then dive into common Kubernetes misconfigs, and they go through 5 of them. They start with a short intro, explain the risks, give examples of misconfig, and show mitigation strategies. They then highlight 8 real-world incidents where misconfigs played a role, before addin more best practices and wrapping up.
 BottomLine: Good discussion of misconfigured Kubernetes components
 ==
+URL reference: https://www.infoq.com/news/2025/04/edera-protect-1-0/
+DateReviewed: 2025-06-17
+Description: This article announces a new product, Edera protect, to help enhance container isolation and security. It uses zones to create isolation between containers. It supports Amazon Linux 2023, warm zones and up to 250 zones per node. The announcement doesn't talk about how it is done, just what it supports.
+BottomLine: Interesting isolation announcement without too many tech details
+==
