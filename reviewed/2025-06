@@ -98,4 +98,13 @@ DateReviewed: 2025-06-20
 Description: Our article today will be looking and Kubernetes security best practices, with a focus on runtime code. We start with background and then go through a couple paras of what is K8s, so we start from first principles. Then we go on to talk about built-in K8s security bits, before hitting the challenges. Oddly the issues are numbered starting at 4, but they do go through 5 threat vectors, each with a bit of explaination. Their points are all decent, and then we go through a section on Vulns and threats, which talk about things like API exposures and supply chain attacks. We do a quick dive into AI benefits and challenges around K8s, then they have 6 recommendations on improving K8s security. It feels a bit stitched, but does cover some decent points.
 BottomLine: Okay coverage of a number of security best practices around Kubernetes
 ==
-
+URL reference: https://www.clouddatainsights.com/genai-for-kubernetes-breakthrough-or-breakdown/
+DateReviewed: 2025-06-21
+Description: The article today is a question on whether AI is good or a challenge for Kubernetes. We do a short bit of background and jump into a section called  Hallucinations waste valuable time and resources; obviously bad. Next they talk about a generic LLM w/o K8s context - and then the explain what the mean, namely that without K8s training, the AI is likely to give wrong or misleading suggestions. Next is training issues - garbage in, garbage out, or if your training data is nonsensical how can you expect your output to make sense? Next up is the important problem of where is your data going - or when you use a model or LLM, is your data going someplace you don't intend? Who can use your training data, and what access do they get? There are two other sections to finish up - uncovering cascading errors and integration with K8s and CI/CD pipelines.
+BottomLine: Interesting discussion of how to use AI with Kubernetes
+==
+URL reference: https://thenewstack.io/7-major-gaps-in-todays-gitops-tools/
+DateReviewed: 2025-06-22
+Description: Our article today will look at 7 gaps that exist today in GitOps tools. We start with a bit of an intro and background, before talking about a couple popular tools, Flux and ArgoCD. Then they surface the gaps, as they see them - multicluster management, policy based deployments missing, no native SLO based rollbacks, lack of GitOps promo capabilities to round things out. Each treatment gets a solid para explaining what it is and what is needed. Going through what is needed, we get the ad for the writer's tool - Devtron - in the last para.
+BottomLine: Good overview of gaps in the GitOps ecosystem
+==
