@@ -108,3 +108,8 @@ DateReviewed: 2025-06-22
 Description: Our article today will look at 7 gaps that exist today in GitOps tools. We start with a bit of an intro and background, before talking about a couple popular tools, Flux and ArgoCD. Then they surface the gaps, as they see them - multicluster management, policy based deployments missing, no native SLO based rollbacks, lack of GitOps promo capabilities to round things out. Each treatment gets a solid para explaining what it is and what is needed. Going through what is needed, we get the ad for the writer's tool - Devtron - in the last para.
 BottomLine: Good overview of gaps in the GitOps ecosystem
 ==
+URL reference: https://thenewstack.io/kelsey-hightower-on-nix-vs-docker-is-there-a-different-way/
+DateReviewed: 2025-06-23
+Description: This article is a take on Nix vs Docker, with the well known Kelsey Hightower chiming in. We start with a bit of background, where we learn how Kelsey started with Nix and what he thought at first glance. One influence was having more time; the other was being able to build repeatable software. He points out that at the end of a Docker build, you have this monster that you then have to ship to servers. We get to a section named Making problems better, which is a key promise. He contrasts the fact that Nix is "better" with the fact that more "know" Docker -- and shipping is important. Kelsey suggests you can even use Nix inside your Docker file for things like repeatable builds. They talk a bit about ecosystems, and wax about looking backwards and forwards. Great discussion.
+BottomLine: A chat with Kelsey Hightower contrasting Docker with Nix
+==
