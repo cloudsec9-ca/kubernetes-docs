@@ -113,3 +113,9 @@ DateReviewed: 2025-06-23
 Description: This article is a take on Nix vs Docker, with the well known Kelsey Hightower chiming in. We start with a bit of background, where we learn how Kelsey started with Nix and what he thought at first glance. One influence was having more time; the other was being able to build repeatable software. He points out that at the end of a Docker build, you have this monster that you then have to ship to servers. We get to a section named Making problems better, which is a key promise. He contrasts the fact that Nix is "better" with the fact that more "know" Docker -- and shipping is important. Kelsey suggests you can even use Nix inside your Docker file for things like repeatable builds. They talk a bit about ecosystems, and wax about looking backwards and forwards. Great discussion.
 BottomLine: A chat with Kelsey Hightower contrasting Docker with Nix
 ==
+URL reference: https://medium.tuanh.net/master-kubernetes-services-a-complete-guide-with-examples-9a6fdcfd97a7
+DateReviewed: 2025-06-24
+Description: Our article today is a skim through the range of Kubernetes services. There are some diagrams, a smattering of YAML snips and a lot of text to put things in perspective. We dive right in with K8s services, how they work and why we need them. They have extended discussions around clusterIP, nodePort and loadBalancers, so you what they do and which one you might want to use. They talk quickly about externalDNS, and do a toe dip into service mesh. A good all around exploration.
+BottomLine: Good intro to Kubernetes services for all levels
+==
+
