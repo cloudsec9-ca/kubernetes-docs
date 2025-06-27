@@ -118,4 +118,9 @@ DateReviewed: 2025-06-24
 Description: Our article today is a skim through the range of Kubernetes services. There are some diagrams, a smattering of YAML snips and a lot of text to put things in perspective. We dive right in with K8s services, how they work and why we need them. They have extended discussions around clusterIP, nodePort and loadBalancers, so you what they do and which one you might want to use. They talk quickly about externalDNS, and do a toe dip into service mesh. A good all around exploration.
 BottomLine: Good intro to Kubernetes services for all levels
 ==
+URL reference: https://www.youtube.com/watch?v=u5mM7O-iAIM
+DateReviewed: 2025-06-25
+Description: Today's entry is a vid short that talks about Kubestronauts, who have completed all the current Kubernetes certs.
+BottomLine: Quick point about what it is and why you might want it
+==
 
