@@ -123,4 +123,9 @@ DateReviewed: 2025-06-25
 Description: Today's entry is a vid short that talks about Kubestronauts, who have completed all the current Kubernetes certs.
 BottomLine: Quick point about what it is and why you might want it
 ==
+URL reference: https://dev.to/olalekan_oladiran_d74b7a6/end-to-end-devops-running-a-net-app-in-kubernetes-with-docker-acr-and-aks-32jj
+DateReviewed: 2025-06-26
+Description: For today's entry, we're going to do an old-fashioned tutorial. Let's hang on for the ride! Our intro here is a para, which talks about the platform (dotnet) but not much about what the app we're deploying does. We jump over to the requirements list, and then we're creating infrastructure. Or, at least, we're checking out a repo. We then test the app (?!) is running, which they mean the platform is properly installed; and if not, they show how to resolve that. We now do a build in the editor of the checked-out repo, and when it completes we then run it on dotnet. We follow the URL emitted in our browser. They edit a JSON file to update a setting and reload, to ensure things are working. They then build a dockerfile and containerize the app. They then run this on Kubernetes and Azure. My take is this is a good starting point, but it would be helpful to users if they explained what they were doing and why, and where choices and edits can be made, instead of having lots of screenshots. 
+BottomLine: Decent quick walkthrough to getting a dotnet Azure container put together.
+==
 
