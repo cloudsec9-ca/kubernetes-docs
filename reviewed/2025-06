@@ -133,3 +133,8 @@ DateReviewed: 2025-06-27
 Description: This repo is for multi-homing pods in a Kubernetes cluster, with a tool called Multus CNI. The way it works is that Multus is a meta-plugin, calling other CNIs to get them to do the grunt work. They explain that the newest release enables something called a thick plugin, which allows for things like metric collection; the older arch is now named thing, and it doesn't collect metrics and the like. The thick consumes more resources for it's extra features. 
 BottomLine: Repo for a CNI that allows a pod in Kubernetes to have multiple network interfaces
 ==
+URL reference: https://github.com/jumpserver/jumpserver
+DateReviewed: 2025-06-28
+Description: The repo we're looking at is called Jumpserver, and it's an auth solution to allow all of your roles access to various resources on your cluster. They have some diagrams and a short quick start video guide to get started. The goal here is to centrally manage access to RDP, SSH, K8s and DB points among others. A cool idea!
+BottomLine: A package to do auth management for Kubernetes clusters for end users
+==
