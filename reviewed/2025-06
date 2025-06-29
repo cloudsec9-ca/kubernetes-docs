@@ -128,4 +128,8 @@ DateReviewed: 2025-06-26
 Description: For today's entry, we're going to do an old-fashioned tutorial. Let's hang on for the ride! Our intro here is a para, which talks about the platform (dotnet) but not much about what the app we're deploying does. We jump over to the requirements list, and then we're creating infrastructure. Or, at least, we're checking out a repo. We then test the app (?!) is running, which they mean the platform is properly installed; and if not, they show how to resolve that. We now do a build in the editor of the checked-out repo, and when it completes we then run it on dotnet. We follow the URL emitted in our browser. They edit a JSON file to update a setting and reload, to ensure things are working. They then build a dockerfile and containerize the app. They then run this on Kubernetes and Azure. My take is this is a good starting point, but it would be helpful to users if they explained what they were doing and why, and where choices and edits can be made, instead of having lots of screenshots. 
 BottomLine: Decent quick walkthrough to getting a dotnet Azure container put together.
 ==
-
+URL reference: https://github.com/k8snetworkplumbingwg/multus-cni
+DateReviewed: 2025-06-27
+Description: This repo is for multi-homing pods in a Kubernetes cluster, with a tool called Multus CNI. The way it works is that Multus is a meta-plugin, calling other CNIs to get them to do the grunt work. They explain that the newest release enables something called a thick plugin, which allows for things like metric collection; the older arch is now named thing, and it doesn't collect metrics and the like. The thick consumes more resources for it's extra features. 
+BottomLine: Repo for a CNI that allows a pod in Kubernetes to have multiple network interfaces
+==
