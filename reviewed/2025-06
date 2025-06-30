@@ -138,3 +138,8 @@ DateReviewed: 2025-06-28
 Description: The repo we're looking at is called Jumpserver, and it's an auth solution to allow all of your roles access to various resources on your cluster. They have some diagrams and a short quick start video guide to get started. The goal here is to centrally manage access to RDP, SSH, K8s and DB points among others. A cool idea!
 BottomLine: A package to do auth management for Kubernetes clusters for end users
 ==
+URL reference: https://www.wiz.io/academy/kubernetes-bill-of-materials-kbom
+DateReviewed: 2025-06-29
+Description: Our article today is going to tackle Kubernetes bill of materials. Like a physical bill, this tells us about our K8s deployment. Here, we dive right in with a short key takeaways section before dropping into the main section. There we contrast what KBOMs are comparted to SBOMs. All BOMs use YAML to capture the definitions, but differ on what they capture. We put three different ones together, to get a sense of what is in each. They pull out the visibility and security benefits, and go through some best practices and tips. Oveall a decent piece.
+BottomLine: Tackles Kubernetes bill of materials in a decent way
+==
