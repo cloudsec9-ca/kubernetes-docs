@@ -1,0 +1,6 @@
+
+URL reference: https://www.nivelepsilon.com/2024/06/12/understanding-kubernetes-garbage-collection/
+DateReviewed: 2025-07-01
+Description: This article is going to dive into the way Kubernetes does garbage collection. We do a bit of background and introduce what GC is -- finding and cleaning up resources that are no longer needed, like completed jobs or old pods. They then lay out some concepts and explain why we need it, referencing resource management, cost efficiency, better performance and simplified ops. They explain how to set it up, with a YAML snippet, where they reference things like interval to check and max age before deletion. They then show setting up a TTL, and specifying how to limit historical replicas with another YAML snip. They then go through the pros and cons of GC.
+BottomLine: Good treatment of Garbage collection for Kubernetes
+==
