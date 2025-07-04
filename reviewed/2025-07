@@ -4,3 +4,8 @@ DateReviewed: 2025-07-01
 Description: This article is going to dive into the way Kubernetes does garbage collection. We do a bit of background and introduce what GC is -- finding and cleaning up resources that are no longer needed, like completed jobs or old pods. They then lay out some concepts and explain why we need it, referencing resource management, cost efficiency, better performance and simplified ops. They explain how to set it up, with a YAML snippet, where they reference things like interval to check and max age before deletion. They then show setting up a TTL, and specifying how to limit historical replicas with another YAML snip. They then go through the pros and cons of GC.
 BottomLine: Good treatment of Garbage collection for Kubernetes
 ==
+URL reference: https://cloudnativenow.com/topics/cloudnativedevelopment/kubernetes/security-in-kubernetes-your-stack-is-lying-to-you/
+DateReviewed: 2025-07-02
+Description: The thesis of this article is that you can't do traditional security with Kubenetes, and that is true. Old school notions like boundries and inside/outside are now in the past, and we have to pivot to new tech to cover things well. They outline this, and explain that K8s has a volatile nature, where pods spin up and down quickly. They then pivot to what to do -- Cloud native friendly approaches, like container-aware security tools, zero-trust arch, policy as code, runtime protections, using CI/CD and finally observability. Good piece.
+BottomLine: Highlight approach changes needed in security for Kubernetes
+==
