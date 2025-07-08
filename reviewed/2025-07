@@ -29,3 +29,8 @@ DateReviewed: 2025-07-06
 Description: Our author here was lamenting about how you actual secure a Kubernetes deployment, and tried to figure out what might help. So we start with a bit of personal background, and then zip into the fact that Kubernetes security isn't plug and play, with lots of defaults set on "easy but insecure". So he focuses on tools that are K8s friendly by default. He goes through them, detailing what he liked and what could be better. He looked at Sysdig secure, Palo Alto Prisma Cloud, and Aqua Security. He gives a list of things that are nice to haves, even. He also thinks security doesn't have to slow you down, if done right.
 BottomLine: Good discussion of a few secuirty tools that are Kubernetes friendly
 ==
+URL reference: https://blog.kubewise.io/strengthening-kubernetes-security-addressing-key-cloud-risks-in-2025-8ee0c0cda0f9
+DateReviewed: 2025-07-07
+Description: Our article today talks about working on Key cloud risks in 2025 related to Kubernetes. We start with an intro, where they point out that 25% of K8s CVEs see some traction in the wild before they are found by sec researchers. We dive into the meat with a key revelation - many vulns are known, but operators aren't patching/remidating quickly enough. They also point out a key culprit is misconfigured configs, which can be actioned if understood. We are also told that many approaches to fixes are traditional and slow. We now pivot to action, and they recommend things like vuln scanning, using good RBAC, and things like Network policies. Wrapping all of this is automation, to allow things to proceed quickly. Some good thoughts and recommendations here.
+BottomLine: Good advocacty for a paradigm shift in security approach for Kubernetes
+==
