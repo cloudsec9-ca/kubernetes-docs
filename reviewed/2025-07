@@ -44,3 +44,8 @@ DateReviewed: 2025-07-09
 Description: This article will talk a bit about setting up an operator to do cluster health checks. We jump right in, with kopf being the health checking piece, and using a CRD to do the health piece on the K8s side. We get a why K8s operators next, which explains why they use an operator with a CRD to do this. The focus of this project is ClusterHealthCheck, the piece that will do the actual checking. Now we're on to the walkthrough, and the first part is the YAML that configs the actual CRD. That done, they work on the Operator code, in this case a stub in Python that simply prints out the check passes. They then deploy the CRD, install kopf and run the operator, and finally configure a resource to do the checking in YAML, and run the check. They verify it is working, checking before and after status.
 BottomLine: Good walkthrough and explaination of Operator based CRD health checks on Kubernetes
 ==
+URL reference: https://blog.devsecopsguides.com/p/attacking-cicd
+DateReviewed: 2025-07-10
+Description: Our article is a compendium of info on CI/CD related attacks from a security perspective. We start with a bit of an overview, where they do a high-level explaination of about 8 attack categories, which gives us context. They then work through a myriad of hands-on bits, explaining what the issue is, what the implications are, and how to mitigate or remediate the security flaw(s). They even have an example in an RCE through a simple Git clone operation.
+BottomLine: Great piece showing areas that can be weak in a security sense that involve the development process of CI/CD
+==
