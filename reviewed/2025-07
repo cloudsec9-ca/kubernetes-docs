@@ -49,3 +49,8 @@ DateReviewed: 2025-07-10
 Description: Our article is a compendium of info on CI/CD related attacks from a security perspective. We start with a bit of an overview, where they do a high-level explaination of about 8 attack categories, which gives us context. They then work through a myriad of hands-on bits, explaining what the issue is, what the implications are, and how to mitigate or remediate the security flaw(s). They even have an example in an RCE through a simple Git clone operation.
 BottomLine: Great piece showing areas that can be weak in a security sense that involve the development process of CI/CD
 ==
+URL reference: https://info.nirmata.com/hubfs/2024/nirmata_gitops_whitepaper_v2.pdf
+DateReviewed: 2025-07-11
+Description: This article is actually a Nirmata whitepaper about GitOps. It starts with a diagram, so starting strong. They talk about the practice of GitOps, and some of the risks out of the box. Everything is about config, so configuration management is key - they talk about version control, automatic deployments, compliance, security - among other things. The platform they say can handle this is Nirmata, and they go through a laundry list of things it does, including the Dashboard, the CLI and pipeline scans. Everything is controlled with Policies, and they describe all of the ways you can put things together. While the piece is compact, it's pretty info dense, and it's aimed at a broader crowd, while still talking a lot about how things work. They finish with an outline of how to get things running, along with more reading and next steps. Well done.
+BottomLine: Good whitepaper going through how Nirmata approaches GitOps and security in Kubernetes
+==
