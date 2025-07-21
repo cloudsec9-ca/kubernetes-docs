@@ -94,3 +94,8 @@ DateReviewed: 2025-07-19
 Description: Today we're going to look into what Kubernetes security posture management is in an article. We start with background, and then jump into what KSPM is - a strategic approach to making sure your K8s env is secure proactively. They outline 5 areas that need attention, and give a decent para to each, including vuln mgmt, runtime security and identity mgmt. Next up, they have 5 best practices, each with a skinny para explaining what they are. They then identify and give a brief blurb on 4 security tools to help accomplish the job, ending with a plug for their training module.
 BottomLine: Good basic walkthrough of Kubernentes security approaches and strategies
 ==
+URL reference: https://realpython.com/python-microservices-grpc/
+DateReviewed: 2025-07-20
+Description: Our article today is on Python Microservices. It's actually a tutorial, and a decent sized one from the look of it. We start with an overview of microservices and an outline of what we'll be doing. Then a section on why microservices, which goes through a bit of stuff, before answering the question "how small is micro"? They take about the diffs between monoliths and ms, and give some example ms. They start diving into the programming parts, explaining APIs and the RPC bits we will use. They build both client and server, with lots of code snips, explainations and examples along the way. They then build the code, do Docker, network, build the Docker image and finally deploy to Kubernetes. There is a bunch more, but this is a good and long tutorial and it seems very solid.
+BottomLine: Great walkthrough of making a Python RPC app to deploy to Kubernetes
+==
