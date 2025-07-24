@@ -109,3 +109,8 @@ DateReviewed: 2025-07-22
 Description: Our article this time is about the "can-i" command included on the kubectl command line. The article isn't very long, but it does a good coverage job. We start with a bit of background of why you'd need this at all, then it talks about RBAC and how the command works with it to tell you what you need to know. Does a couple of simple kicking the tire examples to start off, and then dives into using some of the params to check something beyond your current account. Next up are a few advanced examples, like talking about and to perms around CRDs, which aren't default resources. A powerful tool, and a great intro to it.
 BottomLine: Very interesting discussion around the can-i command and verifying permissions with relation to Kubernetes
 ==
+URL reference: https://www.igmguru.com/blog/top-devops-certifications
+DateReviewed: 2025-07-23
+Description: This article I assumed would be a big table, but it's actually a decent survey of not only what certs you should look into, but why. We start off with a few paras of background, before jumping into "what is DevOps" to get started. Then they go through "why DevOps certs matter", before going through 8 certs. I don't think I'd agree with all of them, but this is their opinion and there are some solid choices in this.
+BottomLine: Decent motivation and coverage of the top DevOps certs
+==
