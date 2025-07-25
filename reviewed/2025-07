@@ -114,3 +114,8 @@ DateReviewed: 2025-07-23
 Description: This article I assumed would be a big table, but it's actually a decent survey of not only what certs you should look into, but why. We start off with a few paras of background, before jumping into "what is DevOps" to get started. Then they go through "why DevOps certs matter", before going through 8 certs. I don't think I'd agree with all of them, but this is their opinion and there are some solid choices in this.
 BottomLine: Decent motivation and coverage of the top DevOps certs
 ==
+URL reference: https://medium.com/@techpaul/my-favourite-kubernetes-audit-log-policy-385ab8a4200a
+DateReviewed: 2025-07-24
+Description: Our article today is on audit log policies in Kubernetes. We start off with a tiny bit of background before digging in - what do we need to monitor, which they break into unauth login attempts, container exec, role and rolebinding, and resource creation and mods. There is a number of different modes we can log in, and they take us through them all, and discuss a bit why you might not want to log everything always. They then start showing us various YAML snips that will allow us to log various items, starting with everything, and even show how to NOT log secrets. They give a glipse of a log entry, and then show us how to omit leases and events. For some things like resource creation, we now add the full requests and response, so we can see exactly what is going on. They build a few more items, and end up with a comprehensive file with all the items as a single YAML policy file. Very good approach.
+BottomLine: Excellent approach in crafting a YAML security policy for Kubernetes
+==
