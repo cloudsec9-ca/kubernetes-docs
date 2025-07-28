@@ -124,3 +124,8 @@ DateReviewed: 2025-07-25
 Description: We start this article with a small diagram and a brief intro to distroless images, where they note that their might not be a shell or debugging utils, making troubleshooting difficult. They are going to use two examples to take us through this - the first is a Java app in a distroless container. The first method they use is an ephemeral container, which runs in the same PID namespace as our Java container and generally has a shell as it's to be a debugger, and it comes with debugging tools. Another option is the so called "permanent" sidecar, with debug tools and we deploy this by updating the manifest and can then use that to do out debugging. Some interesting examples here.
 BottomLine: Interesting bit of hands on with debugging on Kubernetes distroless containers
 ==
+URL reference: https://www.fairwinds.com/blog/9-ai-infrastructure-terms-must-know-definitions
+DateReviewed: 2025-07-26
+Description: This article is a simple walk through of a bunch of AI related definitions. We start with a brief background before jumping right in; each definition is a small paragraph on what it is. They go through AI infra, AI-driven infra, Autonomous infra, AI Ops, GPU scheduling, Model serving infra, Feature store, Inference infra and MLOps to finish it off. Good piece.
+BottomLine: Decent discussion of a bunch of AI related definitions
+==
