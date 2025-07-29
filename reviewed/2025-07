@@ -129,3 +129,8 @@ DateReviewed: 2025-07-26
 Description: This article is a simple walk through of a bunch of AI related definitions. We start with a brief background before jumping right in; each definition is a small paragraph on what it is. They go through AI infra, AI-driven infra, Autonomous infra, AI Ops, GPU scheduling, Model serving infra, Feature store, Inference infra and MLOps to finish it off. Good piece.
 BottomLine: Decent discussion of a bunch of AI related definitions
 ==
+URL reference: https://github.com/volcano-sh/volcano
+DateReviewed: 2025-07-27
+Description: This repo is for a batch system called Volcano. It allows running of various workloads for AI/ML or deep learning by batch, through an agent. It is a CNCF incubation project, and includes a number of use cases and a quick start guide to get going. Interesting project.
+BottomLine: Batch system for Kubernetes that looks interesting
+==
