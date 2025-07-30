@@ -139,3 +139,8 @@ DateReviewed: 2025-07-28
 Description: Our article today is a bit of an interview with the Product manager for GKE. He calls himself a "cloud therapist", but really he's an advocate for running AI workloads on Google Cloud. He touts Google's own AI project, as well as customers that are using GC to run AI worklaods. They get into some of the weeds here, but it's an interesting conversation about Kubernetes and both specialized and commodity hardware being used. 
 BottomLine: Interesting interview about GKE Kubernetes from the product manager
 ==
+URL reference: https://cybersecuritynews.com/secure-kubernetes-clusters/
+DateReviewed: 2025-07-29
+Description: The article we'll be looking at today is on how to secure Kubenetes clusters from a cybersec perspective. We start with a bit of background, where they talk about why you want to secure K8s, and then dive in with the control plane. Obviously important, they start with API server hardening, move on to encryption at rest. Next is role based access, and we start by creating a granular role, and then review service account security. In each section, we spend a para or two talking about stuff, and they use CLI or YAML snips for examples. Next we look at a default deny network policy, and add stuff in with selective allow. They look at extern secrets, and secret rotation. For pod security, they look at a restricted security profile, and custom contexts. Lastly we look at monitoring and threat detection along with compliance an vuln management. Overall a good overview.
+BottomLine: Strong overview of the fundamentals of security for a Kubernetes cluster install
+==
