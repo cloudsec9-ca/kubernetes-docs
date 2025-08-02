@@ -149,3 +149,8 @@ DateReviewed: 2025-07-30
 Description: So, todays article purpots to be about distroless images in Docker, and it is, kinda. The whole article is in point form, mostly, and while it is long and comprehensive in coverage, it's like the outline of an article. It starts with a small intro, and then into the breach we go -- there is lots of YAML, some screenshots, and lots and lots of point form. It does do a good job of what it covers, but it is hard for me to read - it claims 14 mins, but I would figure about double for me. It covers what it is, what are available and why, how they compare with other images, building one mulitstage, and limitation.
 BottomLine: Decent walkthrough of using Distroless images for Kubernetes
 ==
+URL reference: https://thenewstack.io/no-ssh-what-is-talos-this-linux-distro-for-kubernetes/
+DateReviewed: 2025-07-31
+Description: This article is about an interview on Talos Linux. There is a podcast recording attached, and our background talks about another article that one of the interviewees authored on Talos. They start by talking about CoreOS, and how it was immutable, secure and minimal, which Talos took the cue from. The OS doesn't have systemd or bash, and it is managed by a custom process called machineD which is written in GO. They say that Talos is like an API approach to an OS layer, and it is aimed at Kubernetes. Very interesting discussion.
+BottomLine: Good interview about Talos OS for Kubernetes from some industry players
+==
