@@ -1,0 +1,5 @@
+URL reference: https://securityboulevard.com/2025/06/linuxfest-northwest-chaos-testing-of-a-postgres-cluster-on-kubernetes/
+DateReviewed: 2025-08-01
+Description: The article is really a stub around a presentation at a conference of Chaos testing PostgreSQL on Kubernetes. So the outline is running dbs in prod, why run dbs on K8s, running PG on K8s, observability - what's going on, an finally breaking things on purpose. They talk a bit about strategy for DBs, then a bit about DBaaS ... pros and cons, and posture that K8s allows you to change the approach to DBs. It makes things lighter and easier to do. They show a diagram about building a PG cluster, which is easier to do with pods and K8s. They go through a replica failure, and what an "app" sees in comparison. They also look at things if K8s is in the mix.
+BottomLine: Interesting discussion of how to use Postgres on Kubernetes
+==
