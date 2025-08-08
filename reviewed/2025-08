@@ -23,3 +23,8 @@ DateReviewed: 2025-08-05
 Description: Our article today is on Linux Patch management. We start with a bit of general background on patching, then dive into the crux - what is linux patch management? They say it's a network security strategy, which I think is an odd framing, but do say it's about staying up to date. Next, they talk about the benefits, things like reducting cyberattack risk, improving performance and adding new functionality. They also tackle the downsides, with things like service disruption, compatibility issues and resource limitations. Once all done, they go through what you have to do to start, and give a good checklist of how to get started and what to do.
 BottomLine: Good discussion on how patch mgmt can improve your security
 ==
+URL reference: https://www.youtube.com/shorts/g-3MikhtaRU
+DateReviewed: 2025-08-06
+Description: This video is about Kubernetes in 60 seconds. They start by talking about containers and how all the parts get pulled together. They point out that the complexities are hidden, making devs lives easier. They talk a bit about how multiple containers are run through Kubernetes, and does nod to things like autoscaling.
+BottomLine: Decent quick overview of Kubernetes in 60 seconds
+==
