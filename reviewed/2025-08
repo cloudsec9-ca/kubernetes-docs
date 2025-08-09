@@ -28,3 +28,8 @@ DateReviewed: 2025-08-06
 Description: This video is about Kubernetes in 60 seconds. They start by talking about containers and how all the parts get pulled together. They point out that the complexities are hidden, making devs lives easier. They talk a bit about how multiple containers are run through Kubernetes, and does nod to things like autoscaling.
 BottomLine: Decent quick overview of Kubernetes in 60 seconds
 ==
+URL reference: https://msdemo8.lll-ll.com/?i=4423448&li=27767012
+DateReviewed: 2025-08-07
+Description: Our article today talks about bringing your standard VM to a Kubernetes env. The solution is to use OpenShift according to our article, where they use a bit of the container approach along with a bit of the more traditional VM approach; the issue is that this is a bit of Fermat's last theorem, where they talk a bit about it in a short piece and don't give much more detail. Definately an interesting concept.
+BottomLine: Short piece about integrating VMs and Containers with Kubernetes
+==
