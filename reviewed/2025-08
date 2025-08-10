@@ -33,3 +33,8 @@ DateReviewed: 2025-08-07
 Description: Our article today talks about bringing your standard VM to a Kubernetes env. The solution is to use OpenShift according to our article, where they use a bit of the container approach along with a bit of the more traditional VM approach; the issue is that this is a bit of Fermat's last theorem, where they talk a bit about it in a short piece and don't give much more detail. Definately an interesting concept.
 BottomLine: Short piece about integrating VMs and Containers with Kubernetes
 ==
+URL reference: https://blueteamsec.net/2025/06/15/effective-incident-response-in-kubernetes-environments/
+DateReviewed: 2025-08-08
+Description: The article we'll be looking at today is about Kubernetes but from the perspective of a security responder -- we're looking at incident response. We start with a diagram of interactions, and I love diagrams. They do a bit of general background, then a short history on Kubernetes. They basically speedrun a glossary, giving you the names and short explainations of where they fit. We also get a chart of various namespaces. They then explain the workings, and we go through the various APIs/configs/pieces that do the backend work. Finally we get to the CLI, and they do a short runthrough on that. They then get into the part of doing an incident response - they go step by step, showing along the way what exactly to do. While not intended this way, this is a great intro to K8s in the beginning and then an awesome guide to troubleshooting. Recommended.
+BottomLine: Very decent guide for a beginner on Kubernetes with an emphasis on security
+==
