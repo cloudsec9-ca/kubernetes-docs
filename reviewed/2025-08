@@ -58,3 +58,8 @@ DateReviewed: 2025-08-12
 Description: Our piece today is a short but good one, on CRDs - Custom Resource Definitions. We start as often we do with a small bit of background, then a "what are CRDs" to get us going, along with "basic K8s functionality without CRDs". They lay out what K8s does natively, but then explain in the next section about the "need to extend K8s" -- basically having a way to add functionality without having a new server or API. They explain how CRDs interact with Controllers, which do the heavy lifting of creating or enacting the definitions of the CRDs. They then go through an example, YAML and all, of a CRD and it's controller. They do a second example of using an operator to manage a DB cluster, again with the YAML. A good walk through.
 BottomLine: Solid walkthrough of what CRDs are and how they work
 ==
+URL reference: https://nirmata.com/2025/04/28/level-up-your-kubernetes-security-automation-with-policy-as-code/
+DateReviewed: 2025-08-13
+Description: We start with a bit of background on Kubernetes and policy as code, and then pivot to some discussions at a recent KubeCon on the topic. They talk about how policy enforcement has evolved over time. They talk about how webhooks evolved into CEL, which is able to be written as YAML. They talk a bit about policy management with OPA Gatekeeper, before moving on to talking about using Kyverno to manage K8s policy stuff. Good discussion.
+BottomLine: Interesting exploration of Policy as Code for Kubernetes
+==
