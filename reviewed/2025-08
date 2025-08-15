@@ -63,3 +63,8 @@ DateReviewed: 2025-08-13
 Description: We start with a bit of background on Kubernetes and policy as code, and then pivot to some discussions at a recent KubeCon on the topic. They talk about how policy enforcement has evolved over time. They talk about how webhooks evolved into CEL, which is able to be written as YAML. They talk a bit about policy management with OPA Gatekeeper, before moving on to talking about using Kyverno to manage K8s policy stuff. Good discussion.
 BottomLine: Interesting exploration of Policy as Code for Kubernetes
 ==
+URL reference: https://idroot.us/install-kubectl-fedora-42/
+DateReviewed: 2025-08-14
+Description: We have an article with a bunch of ways to get Kubectl going on Fedora. We start as we often do with a bit of background, before looking at what Kubectl does inside Kubernetes. We then go through the pre-reqs required, like disk space and admin privs, and checking we're up to date security wise. They detail three methods - binary install, DNF package manager, and alternative package managers. To get configured, they detail setting up autocompletion, which helps you to reduce typing and typos when using K8s. We also look at common install issues and things like security considerations, best practices, the Fedora ecosystem and keeping Kubectl updated. Good read.
+BottomLine: Decent hands on to installing Kubernetes kubectl on Fedora
+==
