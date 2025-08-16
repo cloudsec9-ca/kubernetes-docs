@@ -68,3 +68,8 @@ DateReviewed: 2025-08-14
 Description: We have an article with a bunch of ways to get Kubectl going on Fedora. We start as we often do with a bit of background, before looking at what Kubectl does inside Kubernetes. We then go through the pre-reqs required, like disk space and admin privs, and checking we're up to date security wise. They detail three methods - binary install, DNF package manager, and alternative package managers. To get configured, they detail setting up autocompletion, which helps you to reduce typing and typos when using K8s. We also look at common install issues and things like security considerations, best practices, the Fedora ecosystem and keeping Kubectl updated. Good read.
 BottomLine: Decent hands on to installing Kubernetes kubectl on Fedora
 ==
+URL reference: https://engineering.omio.com/we-saved-30-on-kubernetes-using-70-more-expensive-vms-8aeea555f8b0
+DateReviewed: 2025-08-15
+Description: This is an interesting case study on using various vendor features to reduce the amount of spend on Kubernetes. They give a bit of background on the company, and then dive in -- one thing they talk about is using Spot VMs for Nodes. They tell the good and the bad -- big discounts but also unpredictable interruptions. They tell their story through a series of observations, they talk about where they found sweet spots and how K8s reacts under various conditions. For instance, they identify 16 core w 1:4 cpu:mem ratio as the best price/performance trade off for themselves. They do an interesting experiment at the end as well. Well done.
+BottomLine: Decent dive into various strategies around Kubernetes cost savings
+==
