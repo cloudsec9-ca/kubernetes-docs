@@ -108,3 +108,8 @@ DateReviewed: 2025-08-22
 Description: I thought this was a discussion of the future of Kubernetes, but it turns out this is more of a pitch to use a specific company, so we'll critique that. We start with a throwaway statement, and move on to interesting sounding statements and a lot of handwaving. The website is slick, but there is no actual meat there. They don't have testimonials, they don't mention any projects they've done, there is no product. They have two quotes at the end, which seem to pan to new ones, but it's just those two again and again. 
 BottomLine: Good example of an interesting website that says nothing.
 ==
+URL reference: https://nonmonotonic.dev/posts/halp-mcp/
+DateReviewed: 2025-08-23
+Description: This article is an exploration of doing weird things with various computing bits, with a utility called Halp. The idea is to send messages by blinking your CapsLock light in Morse code. We start with a brief background and talk about the groups he's trying to help with this type of project. He enlists the use of AI throught the Claude project for the code, and hooks in an MCP server to help with the invocation of the CLI tool that does the flashing. He shows and does some overview of the code, and then talks about how to make things even more fun. Actually a pretty cool project.
+BottomLine: Describes using Claude AI and MCP to blink a LED for a fun but practical project
+==
