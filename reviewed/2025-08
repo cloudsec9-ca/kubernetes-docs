@@ -113,3 +113,8 @@ DateReviewed: 2025-08-23
 Description: This article is an exploration of doing weird things with various computing bits, with a utility called Halp. The idea is to send messages by blinking your CapsLock light in Morse code. We start with a brief background and talk about the groups he's trying to help with this type of project. He enlists the use of AI throught the Claude project for the code, and hooks in an MCP server to help with the invocation of the CLI tool that does the flashing. He shows and does some overview of the code, and then talks about how to make things even more fun. Actually a pretty cool project.
 BottomLine: Describes using Claude AI and MCP to blink a LED for a fun but practical project
 ==
+URL reference: https://www.cncf.io/blog/2025/07/16/securing-kubernetes-1-33-pods-the-impact-of-user-namespace-isolation/
+DateReviewed: 2025-08-24
+Description: Today's blog entry talks a about user namespace isolation in Kubernetes. Basically this allows containers to get their own UID/GID mappings, meaning that when the processes run on the actual host they aren't in the priv space; and moreso, they don't share with each other, meaning if there is some way to spill between containers it doesn't give you any privs. The pods run unpriv'ed, and "root" on the pod is unique along with all other IDs. They explain how to enable it, along with what the prereas are. They also go through how filesystems support it.
+BottomLine: New security feature of user namespace isolation is explained for Kubernetes
+==
