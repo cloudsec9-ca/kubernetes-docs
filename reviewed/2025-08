@@ -133,3 +133,8 @@ DateReviewed: 2025-08-26
 Description: This piece is a short Q and A with a SUSE leader in Latin America. The focus is on the market in Mexico and how the digital and open source shift is changing the way software is working. The interview is short but touches on a lot of areas, including AI and support for enterprise tools, among other things. They also touch on Kubernetes a bit.
 BottomLine: Interesting Interview with a SUSE exec from Latin America
 ==
+URL reference: https://dilipkumar.medium.com/kubernetes-authentication-and-authorization-using-rbac-c32409ccad67
+DateReviewed: 2025-08-27
+Description: Today's piece is about RBAC in Kubernetes, and we start well with a clear little diagram. This is one of my least favorite formats, the point form long piece, but it's at least got some YAML and command lines mixed in. It doesn't have a TOC, but is arranged in "chapters". I'll give it points for being well arranged, but we don't get background or an overview, just starting with kubeconfig and moving on to user, where we talk about identities, before moving on to role and rolebinding, then cluster and clusterbinding. a look at service accounts, groups, role aggregation before finally verifying permissions (all of these are chapters). It's got a lot of coverage, so isn't a bad piece.
+BottomLine: Piece that cover RBAC auth in Kubernetes fairly well
+==
