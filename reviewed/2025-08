@@ -138,3 +138,8 @@ DateReviewed: 2025-08-27
 Description: Today's piece is about RBAC in Kubernetes, and we start well with a clear little diagram. This is one of my least favorite formats, the point form long piece, but it's at least got some YAML and command lines mixed in. It doesn't have a TOC, but is arranged in "chapters". I'll give it points for being well arranged, but we don't get background or an overview, just starting with kubeconfig and moving on to user, where we talk about identities, before moving on to role and rolebinding, then cluster and clusterbinding. a look at service accounts, groups, role aggregation before finally verifying permissions (all of these are chapters). It's got a lot of coverage, so isn't a bad piece.
 BottomLine: Piece that cover RBAC auth in Kubernetes fairly well
 ==
+URL reference: https://github.com/kubezero/kubezero
+DateReviewed: 2025-08-28
+Description: This is a repo for KubeZero - a prod ready Kubernetes platform, centered around IaC and GitOps with cost control in mind. There's a diagrram and arch explaination, along with a host of other docs. Interesting project.
+BottomLine: Project to manage Kubernetes IaC setup as well as costs
+==
