@@ -143,3 +143,8 @@ DateReviewed: 2025-08-28
 Description: This is a repo for KubeZero - a prod ready Kubernetes platform, centered around IaC and GitOps with cost control in mind. There's a diagrram and arch explaination, along with a host of other docs. Interesting project.
 BottomLine: Project to manage Kubernetes IaC setup as well as costs
 ==
+URL reference: https://pierson-tech.com/blog/f/container-security-101-images-registries-runtime-controls
+DateReviewed: 2025-08-29
+Description: Our article today is an introduction to container image scanning. They start with a scenario where a junior dev swaps in a "newer" image to speed up builds and ends up snagging a security issue which got deployed to prod and taken advantage of by attackers. I like their approach here - they divide things up into images, registries and runtime controls. They say approaches have to change, as things that originally went through a slow, methodical process are deployed in seconds, and that a few images have given way to many ephemeral builds. They advocate for a scan before approach, where you scan an image, approve and sign it, and then make that available to ship. Next they advocate using solid registries, along with real tags (not "latest") and other policy and assurance bits. One of the policies they dip into is Admission controllers, to ensure that images conform with the policies you lay out. They also advocate for runtime threat monitoring, and mention things like Falco, Sysdig and Mitre as things to look at. They have 10 actions SMBs and Enterprises can take, Frameworks and Benchmarks to look at, and a short bit on what is next in container security. Overall pretty good.
+BottomLine: Solid intro to Kubernetes container security - a proactive approach
+==
