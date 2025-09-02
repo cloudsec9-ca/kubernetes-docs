@@ -153,3 +153,8 @@ DateReviewed: 2025-08-30
 Description: This is the official Kubernetes docs for Admission controllers, which surprisingly we haven't ever covered it seems. We start with a bit of what these controllers are, which are checks the API does when asked to modify a resource in some way. They clarify they don't interact with read requests (get watch list) at all. Controllers may validate (check only) or mutate (modify the data) for the modify request. It lays out the control phases, or how the admission controller does it's job. They explain how to turn on a controller, which is running a CLI command, as well as how to turn off (another CLI command). They show how to list what are enabled as well as a list for v1.34. They then go through a few of the Admission Controllers and what they do, including examples and some parameters for it seems about a dozen of them. They even go through recommended controllers and why.
 BottomLine: Good intro and dive into Kubernetes Admission controllers and how to use them
 ==
+URL reference: https://thehackermaker.com/kenny-parsons-introduces-pwnkube-a-purposely-vulnerable-kubernetes-environment/
+DateReviewed: 2025-08-31
+Description: Our article today is a stub for a podcast episode, where Kenny Parsons talks about PwnKube - a purposely vulnerable Kubernetes env to allow penteesters, security researchers and hackers a way to practice against Kubernetes. They also talk about future goals, like using it in a CTF event.
+BottomLine: Small blurb about a podcast on PwnKube, a vulnerable Kubernetes env for researchers and pentesters
+==
