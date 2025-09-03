@@ -1,0 +1,6 @@
+
+URL reference: https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/
+DateReviewed: 2025-09-01
+Description: Our article today is a humorous take on you have built a compiler, where we poke fun at using a simple way to do what another tech does, but as you need more features you rebuild the other tech, just worse and way less maintainably.
+BottomLine: Good joking letter on why you shouldn't rebuild Kubernetes again
+==
