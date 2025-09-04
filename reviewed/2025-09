@@ -4,3 +4,8 @@ DateReviewed: 2025-09-01
 Description: Our article today is a humorous take on you have built a compiler, where we poke fun at using a simple way to do what another tech does, but as you need more features you rebuild the other tech, just worse and way less maintainably.
 BottomLine: Good joking letter on why you shouldn't rebuild Kubernetes again
 ==
+URL reference: https://securityboulevard.com/2025/08/love-your-kubernetes-add-ons-securing-kubernetes-beyond-the-core/
+DateReviewed: 2025-09-02
+Description: Today's article is on Kubernetes add ons and making them secure. After a bit of background, we get into what Kubernetes add ons are and why they matter. They talk about Kubernetes base and what K8s does when it starts, and then it talks about the required add-ons like CNI and DNS, and then dipping into the optional things like TLS and Ingress among other things. Then we move into the security side, explaining that add ons are often run with more privs. They make the point that an addon with a security issue can lead to an easier compromise for attackers. They do talk about why it is hard to keep add ons updated - compatibility, lack of rollbacks, and set it and forget it among others. They then talk about the issues that people had with K8s upgrades in the past, and a bit about how this is improving. They have great suggestions - bring the pain forward, using open source tools to automate the boring stuff. They also advocate using a staged approach and doing it more often, before wrapping up.
+BottomLine: A good discussion on security around Kubernetes add ons
+==
