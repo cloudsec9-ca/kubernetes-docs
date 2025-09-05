@@ -9,3 +9,8 @@ DateReviewed: 2025-09-02
 Description: Today's article is on Kubernetes add ons and making them secure. After a bit of background, we get into what Kubernetes add ons are and why they matter. They talk about Kubernetes base and what K8s does when it starts, and then it talks about the required add-ons like CNI and DNS, and then dipping into the optional things like TLS and Ingress among other things. Then we move into the security side, explaining that add ons are often run with more privs. They make the point that an addon with a security issue can lead to an easier compromise for attackers. They do talk about why it is hard to keep add ons updated - compatibility, lack of rollbacks, and set it and forget it among others. They then talk about the issues that people had with K8s upgrades in the past, and a bit about how this is improving. They have great suggestions - bring the pain forward, using open source tools to automate the boring stuff. They also advocate using a staged approach and doing it more often, before wrapping up.
 BottomLine: A good discussion on security around Kubernetes add ons
 ==
+URL reference: https://www.nivelepsilon.com/2024/06/19/understanding-kubernetes-network-policies-a-friendly-guide/
+DateReviewed: 2025-09-03
+Description: What we're looking at today is a friendly guide to Kubernetes network policies. We start with a bit of background, before digging into what Kubernetes network policies actually are. They go through concepts like what a network policy is, what selectors are, and what ingress and egress rules are. Next we look at how to craft the policies as YAML files, going through 3 examples before summing up. Good compact intro.
+BottomLine: Solid intro to Netowrk Policies in Kubernetes with YAML examples
+==
