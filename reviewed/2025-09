@@ -14,3 +14,8 @@ DateReviewed: 2025-09-03
 Description: What we're looking at today is a friendly guide to Kubernetes network policies. We start with a bit of background, before digging into what Kubernetes network policies actually are. They go through concepts like what a network policy is, what selectors are, and what ingress and egress rules are. Next we look at how to craft the policies as YAML files, going through 3 examples before summing up. Good compact intro.
 BottomLine: Solid intro to Netowrk Policies in Kubernetes with YAML examples
 ==
+URL reference: https://medium.com/@DynamoDevOps/12-kubernetes-security-anti-patterns-you-ship-every-week-and-the-one-line-fix-for-each-a5e3456ec605
+DateReviewed: 2025-09-04
+Description: This article is about quick security fixes to Kubernetes issues that occur all the time. We start with a short intro, and then dive right into the issues. The format is to list the issue, what the security badness is around it, and a one-line fix to it is in YAML format. The concerns include running pods as root, allowing priv. access, using "latest" tag in Prod, and hardcoding secrets. Good appraoch and execution.
+BottomLine: Good walkthrough of simple security concerns in Kubernetes and quick fixes
+==
