@@ -19,3 +19,8 @@ DateReviewed: 2025-09-04
 Description: This article is about quick security fixes to Kubernetes issues that occur all the time. We start with a short intro, and then dive right into the issues. The format is to list the issue, what the security badness is around it, and a one-line fix to it is in YAML format. The concerns include running pods as root, allowing priv. access, using "latest" tag in Prod, and hardcoding secrets. Good appraoch and execution.
 BottomLine: Good walkthrough of simple security concerns in Kubernetes and quick fixes
 ==
+URL reference: https://learnkube.com/issues/144
+DateReviewed: 2025-09-05
+Description: Today's article will look at Yoke, a possible replacement for Helm as a resource deployment system. We start with a short intro, we dive into the differences between them. They both map inputs to outputs basically, but the differences is that Helm uses Go to convert the templates to resources; they point out things like type disagreement. Yoke uses WebAssembly, which means anything that can produce a WA output can be used to write it. Where Helm calls the templates "charts", Yoke uses "flights". They also point out that Yoke can use Helm, because Go can be compiled to WA. The interesting thing is that a flight is a full program that writes resources to stdout. It does go through a code demo in Go using Yoke. Interesting project.
+BottomLine: New project with a new take on Helm for Kubernetes called Yoke
+==
