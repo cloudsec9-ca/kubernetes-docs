@@ -29,3 +29,8 @@ DateReviewed: 2025-09-06
 Description: This article is about new development in the Kubernetes core. It talks a bit aboug SIGs and surveys, what is coming up release wise, and a new way to delete nameSpace resources in an orderly way.
 BottomLine: Interesting updates on what is going on in core Kubernetes
 ==
+URL reference: https://www.fairwinds.com/blog/kubernetes-add-ons-increasing-cluster-security
+DateReviewed: 2025-09-07
+Description: Our article today is the transcript of an interview about Kubernetes add ons security. There is a linked YouTube video, and they are going through a number of good topics, but they also include here some good diagrams or bits of good advice for your cluster, like knowing what you are running and staying current, for instance. 
+BottomLine: Good interview over various bits of Kubernetes and add on security
+==
