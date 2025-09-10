@@ -34,3 +34,8 @@ DateReviewed: 2025-09-07
 Description: Our article today is the transcript of an interview about Kubernetes add ons security. There is a linked YouTube video, and they are going through a number of good topics, but they also include here some good diagrams or bits of good advice for your cluster, like knowing what you are running and staying current, for instance. 
 BottomLine: Good interview over various bits of Kubernetes and add on security
 ==
+URL reference: https://www.cncf.io/blog/2025/08/01/pac-in-the-cloud-native-landscape/
+DateReviewed: 2025-09-08
+Description: This is a toe dip into the area of Policy as Code as it applies to Kubernetes, and this is part 2 of 3. There's a bit of background before starting to talk about Cloud Native PaC, where they talk about various things like identity providers and runtime security among others. They surface a few tools like Kyverno and OPA with a bit of explaination. They then dive into PaC in Kubernetes, and look at it down to the YAML snip level. We then get a peek at the Maturity model, before wrapping up and giving some reading recommendations.
+BottomLine: Interesting article about Policy as Code applied to Kubernetes
+==
