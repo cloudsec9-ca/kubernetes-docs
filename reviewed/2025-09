@@ -39,3 +39,8 @@ DateReviewed: 2025-09-08
 Description: This is a toe dip into the area of Policy as Code as it applies to Kubernetes, and this is part 2 of 3. There's a bit of background before starting to talk about Cloud Native PaC, where they talk about various things like identity providers and runtime security among others. They surface a few tools like Kyverno and OPA with a bit of explaination. They then dive into PaC in Kubernetes, and look at it down to the YAML snip level. We then get a peek at the Maturity model, before wrapping up and giving some reading recommendations.
 BottomLine: Interesting article about Policy as Code applied to Kubernetes
 ==
+URL reference: https://cloudnativenow.com/sponsored-content/hedgehog-simplifies-on-premises-ai-network-configuration/
+DateReviewed: 2025-09-09
+Description: Our article today focuses on AI network configuration. We start with a bit of background, looking at various things like demands for high speed and complexity of all the pieces of the network. To solve this, our authors pose Hedgehog as the solution. One of the things they mention is doing all of this in a multi-tenant setup, which can complicate things. We then dig into how Hedgehog approaches this - first, with a low-level "wiring" diagram, where you describe through YAML how the physical topology is set up. Next is what they call Operational Abstraction, which uses YAML to partition using VPCs to have multiple tenants. We then do a feature tour, looking at things like Automated provisioning and lifecycle management, simplified multi-tennant and intelligent peering, and monitoring and troubleshooting to close things up. An interesting product.
+BottomLine: Intro and a bit of pitch for a new net mgmt player in the Kubernetes space
+==
