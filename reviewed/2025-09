@@ -49,3 +49,8 @@ DateReviewed: 2025-09-10
 Description: This is a CVE advisory about the Kubernetes Image Builder, a process used to create Windows containers. On certain providers, the image build process used hard coded creds which allowed root access. The vuln is limited, as at the conclusion of the build these containers are destroyed, but does allow anyone with knowledge to take over the build container as root.
 BottomLine: Good discussion on the implications of this vulnerability
 ==
+URL reference: https://medium.com/devsecops-community/serverless-vs-kubernetes-whats-best-for-your-devops-strategy-d7f02f8a1ea1
+DateReviewed: 2025-09-11
+Description: Today's article is a face off between Kubernetes and Serverless. We start as we often do with a brief intro, and this one dives into what is the best approach for DevOps. We dive in with a decent section on "what is serverless", which talks about what it is, the benefits, and also providers you can use for it. Next up we go thorough a "what is Kubernetes" section, where it speedruns an overview and touches on providers that do this service too. Next up is a head to head comparison, where they go through 5 key areas and explain how each approach tackles them. They wrap with some basic recommendations, and even talk about possibly running both - they hybrid approach. Ultimately, the decision that fits your enviornment is what works best for your company.
+BottomLine: Good walkthrough of Serverless vs. Kubernetes for hosting apps
+==
