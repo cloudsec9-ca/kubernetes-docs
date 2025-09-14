@@ -54,3 +54,8 @@ DateReviewed: 2025-09-11
 Description: Today's article is a face off between Kubernetes and Serverless. We start as we often do with a brief intro, and this one dives into what is the best approach for DevOps. We dive in with a decent section on "what is serverless", which talks about what it is, the benefits, and also providers you can use for it. Next up we go thorough a "what is Kubernetes" section, where it speedruns an overview and touches on providers that do this service too. Next up is a head to head comparison, where they go through 5 key areas and explain how each approach tackles them. They wrap with some basic recommendations, and even talk about possibly running both - they hybrid approach. Ultimately, the decision that fits your enviornment is what works best for your company.
 BottomLine: Good walkthrough of Serverless vs. Kubernetes for hosting apps
 ==
+URL reference: https://developers.redhat.com/articles/2025/08/19/smarter-memory-control-sql-server-rhel-cgroup-v2?sc_cid=RHCTG0240000434042#
+DateReviewed: 2025-09-12
+Description: This article focuses on MS SQL Server running on RedHat Linux. They start by talking a bit about cgroup v2, and how this impacts SQL Server. The cgroup allows the OS to control various resources like CPU usage and RAM, among others. Using version 2 allows a bit finer control, and they mention that it is enabled by default in most recent versions. It seems SQL server had limits set for bare metal or VMs, but not for containers or v2 until now. But a recent update makes it cgroup v2 aware, so it'll respect resource limits set through that.
+BottomLine: Interesting update of MS SQL Server for containers around cgroup v2
+==
