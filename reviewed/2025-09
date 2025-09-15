@@ -59,3 +59,8 @@ DateReviewed: 2025-09-12
 Description: This article focuses on MS SQL Server running on RedHat Linux. They start by talking a bit about cgroup v2, and how this impacts SQL Server. The cgroup allows the OS to control various resources like CPU usage and RAM, among others. Using version 2 allows a bit finer control, and they mention that it is enabled by default in most recent versions. It seems SQL server had limits set for bare metal or VMs, but not for containers or v2 until now. But a recent update makes it cgroup v2 aware, so it'll respect resource limits set through that.
 BottomLine: Interesting update of MS SQL Server for containers around cgroup v2
 ==
+URL reference: https://kube.fm/bulletproof-kubernetes-saptarshi
+DateReviewed: 2025-09-13
+Description: Our video today is a podcast interview talking about container security and rank it as Job zero. They talk a bit at a high level first, but then dive into security tools from a provider (in this case, AWS). They talk about various tools that support security, like protecting secrets or encryption bits. They then go on to talk about logging from the perspective of observability and talk about how to link these to real-world impacts. They then touch on performance and testing to improve both coverage and also make things safer. They do a bit of back and forward looking on where K8s started and where it is going in the next 10 years. Good episode.
+BottomLine: Interesting interview about AWS perspective on security in a podcast
+==
