@@ -64,3 +64,8 @@ DateReviewed: 2025-09-13
 Description: Our video today is a podcast interview talking about container security and rank it as Job zero. They talk a bit at a high level first, but then dive into security tools from a provider (in this case, AWS). They talk about various tools that support security, like protecting secrets or encryption bits. They then go on to talk about logging from the perspective of observability and talk about how to link these to real-world impacts. They then touch on performance and testing to improve both coverage and also make things safer. They do a bit of back and forward looking on where K8s started and where it is going in the next 10 years. Good episode.
 BottomLine: Interesting interview about AWS perspective on security in a podcast
 ==
+URL reference: https://kubernetes.io/blog/2025/08/19/tuning-linux-swap-for-kubernetes-a-deep-dive
+DateReviewed: 2025-09-14
+Description: This article will talk about using Linux swap and tuning it to use in Kubernetes. Traditionally, containers don't use swap to have guarantees of system performance. But with the upcoming v1.34 release, a new feature called NodeSwap will graduate to stable, allowing the use of swap with Kubernetes. After a bit of background, we dig it. First, we examine Linux swap, and talk about how memory and swap are managed in general. They talk about anonymous memory and file backed memory, and how they are different. We then get into various swap tunables, and how they work in general. Our author then runs some tests, to show how they work in practice. They talk about a bunch of risks around using swap on container clusters, and how to tune to mitigate these risks.
+BottomLine: Very interesting discussion about using Swap in a Kubernetes cluster
+==
