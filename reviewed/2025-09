@@ -74,3 +74,8 @@ DateReviewed: 2025-09-15
 Description: Our article today is on new stuff in Kubernetes v1.34, specifically around scheduling and resource management. We start with a bit of background as is usual, we dive into new and changed stuff. They do a bit of an overview, before diving into the nitty gritty - they list the item, what level it's at (alpha/beta etc) and how to enable it, and a few para description. We start with scheduling, covering async sched API calls (beta), Pod placement (alpha) and container stop signals. Next set is Dynamic Resource allocation related stuff for GPUs, FPGAs and smart NICs. Handle extended resource requests via DRA driver (alpha), device binding conditions (alpha), consumable capacity for devices (alpha), health status to PodStatus (beta).
 BottomLine: Decent article reviewing new features for Kubernetes v1.34
 ==
+URL reference: https://portswigger.net/burp/documentation/dast/setup/self-hosted/kubernetes/architecture-overview
+DateReviewed: 2025-09-16
+Description: Today's article has a companion video, which I think carries a lot more water then the text version. The video is concise and well narrated, explaining how the various components work - the enterprise server, the web server, and the scanning machines that generate the reports on what the eventual target machine(s) are running and what might be vulnerable. They do mention that everything is backed by a database, and things are managed by either users or API clients through the web server box.
+BottomLine: Quick overview of how to set up the Kubernetes Burp scanning suite
+==
