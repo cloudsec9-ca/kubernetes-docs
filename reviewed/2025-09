@@ -79,3 +79,8 @@ DateReviewed: 2025-09-16
 Description: Today's article has a companion video, which I think carries a lot more water then the text version. The video is concise and well narrated, explaining how the various components work - the enterprise server, the web server, and the scanning machines that generate the reports on what the eventual target machine(s) are running and what might be vulnerable. They do mention that everything is backed by a database, and things are managed by either users or API clients through the web server box.
 BottomLine: Quick overview of how to set up the Kubernetes Burp scanning suite
 ==
+URL reference: https://undercodetesting.com/the-caninesh-idp-a-new-dev-centric-kubernetes-or-a-security-blind-spot/
+DateReviewed: 2025-09-17
+Description: Our article today talks a bit about IDPs, and whether they are useful tools or security problems. The approach is as a learning exercise, setting it up and poking at it a bit. We start with the learning objectives, and then we dig into the actual stuff. They lay out how we gather info on the installed machines, and how we can move forward. We then take a peek at the container security bits along with the supply chain review. Next up is looking at the network policy, and we do that by looking at the templates for the IDP apps. Then we peek into resource limits, check for misconfigs, monitor server access and other logs, and finally reconcile for drift detection. They even have a link to try the lab live on their site.
+BottomLine: A walk through the security implications of an IDP with Kubernetes
+==
