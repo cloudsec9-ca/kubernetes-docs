@@ -89,3 +89,8 @@ DateReviewed: 2025-09-18
 Description: Today's article is a review of a repo which contains Kratos, which is a Identity, user mgmt and auth system for the cloud. Basically it's a multifaceted auth platform, supporting a huge number of protocols and used by lots of enterprise businesses. They have a big blurb on what it is, allowing registration and log in, MFA, verification, recovery, profile/account management and admin APIs. They link to a wide range of various docs and guides to get started, and claim in scales into the billions of users. Interesting tool.
 BottomLine: Platform to handle all Auth needs for user stuff in your app
 ==
+URL reference: https://www.darkreading.com/vulnerabilities-threats/quiet-revolution-kubernetes-security
+DateReviewed: 2025-09-19
+Description: Our article here talks about changes to bits around Kubernetes and how that impacts Kubernetes security. They talk about heavyweight traditional OSes like Ubuntu and RHEL as opposed to what many containers need. They then talk about newer approaches like Talos Linux which is a paradigm shift. While it brings in immutable, minimal and ephemeral to help with security, it also complicates things as it looks different and will require new security tooling and approaches. There is a bit of vebiage on the fact that Talos isn't FIPS certified, and speaks to what you have to explain to your CISO to be able to use such a system.
+BottomLine: Interesting take on Talos Linux and its security impact on Kubernetes
+==
