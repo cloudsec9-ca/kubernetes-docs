@@ -114,3 +114,8 @@ DateReviewed: 2025-09-23
 Description: Our article today is on how Ingress can reduce costs and do load balancing. We start with looking at how load balancing works, and the fact that each LB requires a static IP. They then go through a bit of history, with old systems using a single IP routing to many apps or sites, where now we have containers where many app parts may be deployed to different nodes, with more complexity and possibly cost. The authors advance K8s Ingress can solve these issues. They point out Ingress can do sticky sessions and a number of different routing strategies, including rate based, path or domain routes, and finally white and black listing of IPs. They do mention that you can use one of three Ingress controllers, best known is Nginx. They also briefly explain the interaction of Ingress resources and Controllers.
 BottomLine: Good intro to Ingress and was to save money with it on Kubernetes
 ==
+URL reference: https://www.e-spincorp.com/keys-conquer-container-security/
+DateReviewed: 2025-09-24
+Description: This article will deal mainly with container security. We start with a bit of background around the new security challenges from containers. They dive in with what is Container security, and enumerate a number of areas and give a bit of detail for each. They then pivot to what the main threats are, like misconfigs and vuln images. They address the threats with best practices, like harden the host or enact supply-chain security. They also give some advanced topics like micro segmentation and some real-world lessons to give some breadth.
+BottomLine: Interesting look at various container security approaches
+==
