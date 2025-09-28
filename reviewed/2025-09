@@ -129,3 +129,8 @@ DateReviewed: 2025-09-26
 Description: This article is actually a blurb and link to a book on Kubernetes at the edge. They explain the promise but complexity of using Kubernetes at the edge, with strategies and techniques to try to make things work. They work through best practices and touch on AI and go through the various edge vendors. Seems like an interesting read.
 BottomLine: Blurb about a book called Kubernetes at the Edge
 ==
+URL reference: https://tfir.io/qube-azul-one-click-kubernetes-deployment-for-java-apps/
+DateReviewed: 2025-09-27
+Description: Our article today is a bit of a promotional piece on Qube, a way to run Java apps. It's very light on technical details and very heavy on handwaving and biz stats - costs are down by 25%, brings down usage by 20% or more. It's not a horrible article, but without details it is hard to know if it is worthwhile.
+BottomLine: Interesting pitch for a product called Qube which simplifies Java deployment
+==
