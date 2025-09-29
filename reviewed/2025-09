@@ -134,3 +134,8 @@ DateReviewed: 2025-09-27
 Description: Our article today is a bit of a promotional piece on Qube, a way to run Java apps. It's very light on technical details and very heavy on handwaving and biz stats - costs are down by 25%, brings down usage by 20% or more. It's not a horrible article, but without details it is hard to know if it is worthwhile.
 BottomLine: Interesting pitch for a product called Qube which simplifies Java deployment
 ==
+URL reference: https://medium.com/@snaa.home_61919/the-story-of-operations-at-snaapro-facing-the-kubernetes-challenge-9ba10344b64f
+DateReviewed: 2025-09-28
+Description: Today's article is an overview of the Kubernetes process, with a pitch near the end. We jump in with a view of a made up company, and start with their growing pains - scaling up. They use K8s, and chronicle the issues. First is the learning issues, which meant learning curves. Once they'd mastered that, they had to figure out Helm, to manage dependencies. They also wanted to log and monitor, and that was different than typical approaches too. They had to deal with K8s upgrades too. They did invest in training, and the lesson learned is that while powerful, K8s needs people who know to get the most out of it.
+BottomLine: Good walkthrough of rolling out Kubernetes in a company
+==
