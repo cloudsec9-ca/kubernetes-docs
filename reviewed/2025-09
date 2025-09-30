@@ -139,3 +139,8 @@ DateReviewed: 2025-09-28
 Description: Today's article is an overview of the Kubernetes process, with a pitch near the end. We jump in with a view of a made up company, and start with their growing pains - scaling up. They use K8s, and chronicle the issues. First is the learning issues, which meant learning curves. Once they'd mastered that, they had to figure out Helm, to manage dependencies. They also wanted to log and monitor, and that was different than typical approaches too. They had to deal with K8s upgrades too. They did invest in training, and the lesson learned is that while powerful, K8s needs people who know to get the most out of it.
 BottomLine: Good walkthrough of rolling out Kubernetes in a company
 ==
+URL reference: https://www.linkedin.com/pulse/istio-must-know-certified-kubernetes-security-cks-exam-puru-tuladhar-dmhyf/
+DateReviewed: 2025-09-29
+Description: Our article today is going to talk about what you have to know about Istio from a cert exam perspective. After a bit of housekeeping on the exam front, we dive into things with a What is Istio section. They talk about the protocol it uses (Envoy), and how it is usually deployed with a sidecar. Even throw in a diagram, so bonus! They explain the high level parts, but then take us on a lab tour where we do a hands-on with deploying a mesh with Istio. A pretty good walkthrough, honestly.
+BottomLine: An overview of what Istio knowledge is needed for the Kubernetes cert plus a hands on
+==
