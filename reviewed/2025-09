@@ -144,3 +144,8 @@ DateReviewed: 2025-09-29
 Description: Our article today is going to talk about what you have to know about Istio from a cert exam perspective. After a bit of housekeeping on the exam front, we dive into things with a What is Istio section. They talk about the protocol it uses (Envoy), and how it is usually deployed with a sidecar. Even throw in a diagram, so bonus! They explain the high level parts, but then take us on a lab tour where we do a hands-on with deploying a mesh with Istio. A pretty good walkthrough, honestly.
 BottomLine: An overview of what Istio knowledge is needed for the Kubernetes cert plus a hands on
 ==
+URL reference: https://medium.com/@earayu/when-to-use-kubeblocks-vs-custom-kubernetes-database-operators-e37101438153
+DateReviewed: 2025-09-30
+Description: This article is going to compare KubeBlocks to more traditional database operators. They explain that traditional db operators are vendor specific, and only support a single DB; while KubeBlocks supports many under a single API. There are a bunch of things operators do, including provisioning of DB clusters, HA self healing, scaling, backup and recovery, and things like version upgrades and config tuning. We then go through a laundry list of things that KubeBlocks provides, including the single API for multiple DBs. They break out a comparison chart, noting the one advantage vendor operators have is they are optimized for their vendor DB. They have a handy list of "when to choose KubeBlocks" vs. "when to choose vendor DB operator" - it's very well done.
+BottomLine: Comparison of KubeBlocks and vendor DB operators for Kubernetes
+==
