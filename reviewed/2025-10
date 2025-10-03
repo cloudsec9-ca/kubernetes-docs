@@ -1,0 +1,6 @@
+
+URL reference: https://medium.com/@daniel.stefanelli.h/kubernetes-101-exposing-applications-services-load-balancers-and-ingress-f5e9b7f1212e
+DateReviewed: 2025-10-01
+Description: This article is the second part of a series - in the first part, they got an app working, and in this part they'll expose it to the Internet. We dive in by detailing the cluster network, where they explain all of the network paths. They go through different possibilities, including diagrams where helpful. We then talk about how K8s works and the way we can talk to different apps, with diagrams and the pros/cons. They summarize when you should use what, and then jump into a short hands-on part, to see how it all works.
+BottomLine: Short article on Kubernetes net and ways to expose your app to the world
+==
