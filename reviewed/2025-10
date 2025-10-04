@@ -4,3 +4,8 @@ DateReviewed: 2025-10-01
 Description: This article is the second part of a series - in the first part, they got an app working, and in this part they'll expose it to the Internet. We dive in by detailing the cluster network, where they explain all of the network paths. They go through different possibilities, including diagrams where helpful. We then talk about how K8s works and the way we can talk to different apps, with diagrams and the pros/cons. They summarize when you should use what, and then jump into a short hands-on part, to see how it all works.
 BottomLine: Short article on Kubernetes net and ways to expose your app to the world
 ==
+URL reference: https://www.linkedin.com/pulse/kernel-hardening-app-armor-seccomp-must-know-cks-exam-puru-tuladhar-li89f/
+DateReviewed: 2025-10-02
+Description: Our article today is about Kernel hardening with App Armor and how that applies to the CKS exam. We start with a bit of housekeeping, then a short acknowledgement that sys hardening is worth 10% on the exam, before jumping in. We start with what is Kernel hardening, where they explain securing the kernel to reduce vulns and mitigate attack risks. They look at two popular methods, App Armor and Seccomp. For each of them they explain the config process, and in the case of App Armor do a small walkthrough.
+BottomLine: Basic intro to using Kernel hardening to increase Kubernetes security
+==
