@@ -14,3 +14,8 @@ DateReviewed: 2025-10-03
 Description: This article talks about considerations around using AI on Kubernetes. Their approach is a bit odd, but they do cover a number of items. They start with an event driven infrastructure, talk a bit about serving LLMs in a cloud native env, dip ina bit on MLDevOps before tying things up. They do weave in a number of tech and various engines, to give a decent amount of coverage. Most of this is done point form, and it feels like there is a hefty pre-req to the piece.
 BottomLine: Interesting piece on what to focus on with AI in Kubernetes
 ==
+URL reference: https://medium.com/@mughal.asim/kubernetes-security-contexts-series-part-2-creating-a-non-privileged-pod-9b42aaf5115b
+DateReviewed: 2025-10-04
+Description: The article we're looking at today is about creating non-privileged pods. We start with a bit of background, where they note that this is then second post in a series. We jump in with an examination of what a non-privileged pod - basically disallowing things that require any elevated capabilities. They explain why this is helpful - a breach would leave an attacker not much to do. Next we examine a YAML snip specifying a non-priv container, with a breakdown of what the commands are and how they work. We then are shown how to deploy the pod and finally how to verify that capabilities are not available. They even try something that shouldn't be allowed - using SU and installing packages. Interesting article.
+BottomLine: Short article on deploying non-privileged pods on Kubernetes
+==
