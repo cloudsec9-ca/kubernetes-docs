@@ -44,3 +44,8 @@ DateReviewed: 2025-10-09
 Description: The article today is about managing databases on Kubernetes. The author thinks its best to use a package called KubeBlocks to do so. The ides of KubeBlocks is to provide an API to any DB, simplifying things on theh programming side. This article is a walkthrough, so we'll get our hands dirty. We start with installing the KubeBlocks CLI, and then adding the bits needed for Kubernetes, specifically the accompanying CRD. We then add the KubeBlocks Helm repo and install from Helm. At this point, we then verify things are up. Next, we create a PostgreSQL database with one line and a bit of patience. We then verify our cluster is up and running. One more quick command and we're logged into Postgres where we can create, insert and retrieve data. We get a few more points about the benefits of KubeBlocks, and we're done.
 BottomLine: Walkthrough of setting up KubeBlocks install
 ==
+URL reference: https://www.infoq.com/news/2025/09/kubernetes-1-34/
+DateReviewed: 2025-10-10
+Description: Our article today is about some new features in Kubernetes v1.34, paticularly KYAML and in cluster traffic improvements. They talk about a half dozen enhancements, with a sentence or two on each - the net traffic one talks about tuning how traffic gets to a service point. An alpha feature is the Kubernetes streamlined YAML (KYAML) aimed at improving readability and maintainability. An interesting read.
+BottomLine: Discussion about new features for Kubernetes v1.34
+==
