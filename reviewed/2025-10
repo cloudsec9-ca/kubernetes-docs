@@ -69,3 +69,8 @@ DateReviewed: 2025-10-14
 Description: Today's article talkls about AI and GitOps, and starts with a bit of background, assuring us Kubernetes is out of its early adoption phase. The claim here is that the real challenge isn't architectural matters, but rather operational ones. They proffer a study that shows AI/ML is becoming a core workload, denoting a shift in emphasis from traditional app workloads. They note that it helps to manage GPU heavy workloads, which is where things are moving to. They also talk about resource underuse, and how things such as K8s native GPU operators can assists. They then talk about GitOps, mentioning tools such as ArgoCD and Flux to help manage resources. They touch a bit on namespaces, but do mention some teams use different clusters for isolation. Finally, they talk a bit about complexity and how that can be helped with good platform engineering. By building a solid env for developers, you are laying a solid groundwork.
 BottomLine: Decent article touching on AI and using GitOps to manage Kubernetes
 ==
+URL reference: https://github.com/mysql/mysql-operator
+DateReviewed: 2025-10-15
+Description: This repo is the official MySQL operator for Kubernetes. The repo mentions it is a full lifecycle manager, with set up and maintenance including auto upgrades and backup. The repo shows how to download and set up the operator, as well as how to create a DB cluster with a root user to allow you to create databases and users generally. They also show how to connect to the MySQL shell and do port forwarding from the standard port to a specific node (for testing).
+BottomLine: Walkthrough on setting up the offical MySQL operator for Kubernetes
+==
