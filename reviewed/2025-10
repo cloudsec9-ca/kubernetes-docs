@@ -74,3 +74,8 @@ DateReviewed: 2025-10-15
 Description: This repo is the official MySQL operator for Kubernetes. The repo mentions it is a full lifecycle manager, with set up and maintenance including auto upgrades and backup. The repo shows how to download and set up the operator, as well as how to create a DB cluster with a root user to allow you to create databases and users generally. They also show how to connect to the MySQL shell and do port forwarding from the standard port to a specific node (for testing).
 BottomLine: Walkthrough on setting up the offical MySQL operator for Kubernetes
 ==
+URL reference: https://go.veeam.com/kubernetes-enterprise-trends
+DateReviewed: 2025-10-16
+Description: So our article today is actually a blurb and a download form about something interesting but with not much of a hook to get things going. They are talking about enterprise trends for Kubernetes, and they say that enterprise are no longer simply asking about K8s but actually running it at scale. I'd think they could have at least included some highlights or snips from it, but naw.
+BottomLine: Just a signup for a report - skip
+==
