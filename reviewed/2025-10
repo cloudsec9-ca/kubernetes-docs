@@ -79,3 +79,8 @@ DateReviewed: 2025-10-16
 Description: So our article today is actually a blurb and a download form about something interesting but with not much of a hook to get things going. They are talking about enterprise trends for Kubernetes, and they say that enterprise are no longer simply asking about K8s but actually running it at scale. I'd think they could have at least included some highlights or snips from it, but naw.
 BottomLine: Just a signup for a report - skip
 ==
+URL reference: https://www.linkedin.com/pulse/kubernetes-node-maintenance-security-patching-zero-pdg1f
+DateReviewed: 2025-10-17
+Description: Today's article is more of a collection of point form bits of info, but it does a decent job of explaining the steps required to do an upgrade. They start with some background in general, and then explain the setup - a Kubernetes cluster with a critical vuln and immediate patching needed. They explain the stack we are dealing with, and the fact that this has to be done w/o downtime. They start by doing a bunch of checklist/prep items, then picking some nodes and isolating them out of the cluster. They then SSH in, apply patches to the node and update the containers, and restart kubelet. They then bring the nodes back out of isolation and into the cluster. They then validate they are working as expected, and also add the documentation to a central spot. 
+BottomLine: Good walkthrough of a security upgrade without downtime on Kubernetes
+==
