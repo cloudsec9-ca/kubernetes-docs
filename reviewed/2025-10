@@ -84,3 +84,8 @@ DateReviewed: 2025-10-17
 Description: Today's article is more of a collection of point form bits of info, but it does a decent job of explaining the steps required to do an upgrade. They start with some background in general, and then explain the setup - a Kubernetes cluster with a critical vuln and immediate patching needed. They explain the stack we are dealing with, and the fact that this has to be done w/o downtime. They start by doing a bunch of checklist/prep items, then picking some nodes and isolating them out of the cluster. They then SSH in, apply patches to the node and update the containers, and restart kubelet. They then bring the nodes back out of isolation and into the cluster. They then validate they are working as expected, and also add the documentation to a central spot. 
 BottomLine: Good walkthrough of a security upgrade without downtime on Kubernetes
 ==
+URL reference: https://kubernetes.io/blog/2025/09/15/kubernetes-v1-34-decoupled-taint-manager-is-now-stable/
+DateReviewed: 2025-10-18
+Description: Our article today is about the latest Kubernetes having the decoupled taint manager as stable. Basically they explain that previously the node lifecycle controller handled both marking nodes as unhealthy and evicting pods from them, whereas now there is a dedicated taint manager that controls the eviction process. This allows finer controls and better code organisation, as well as allowing custom implementations.
+BottomLine: Update to stable of the decoupled taint manager in Kubernetes
+==
