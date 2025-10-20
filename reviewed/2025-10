@@ -89,3 +89,8 @@ DateReviewed: 2025-10-18
 Description: Our article today is about the latest Kubernetes having the decoupled taint manager as stable. Basically they explain that previously the node lifecycle controller handled both marking nodes as unhealthy and evicting pods from them, whereas now there is a dedicated taint manager that controls the eviction process. This allows finer controls and better code organisation, as well as allowing custom implementations.
 BottomLine: Update to stable of the decoupled taint manager in Kubernetes
 ==
+URL reference: https://cloud.google.com/blog/products/containers-kubernetes/2025-gartner-magic-quadrant-for-container-management-leader
+DateReviewed: 2025-10-19
+Description: This article is a bit of a victory lap for Google - where they are announcing that they are a "leader" in the Gartner magic quadrant for a third year in a row. They do pay homage to GKE, which is their main motivator for the win, but also talk about all workloads in general, before toe dipping into GKE being an AI ready platform and talkign a bit about Cloud Run.
+BottomLine: Celebration of Google being a leader for Kubernetes as per Gartner
+==
