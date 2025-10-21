@@ -94,3 +94,8 @@ DateReviewed: 2025-10-19
 Description: This article is a bit of a victory lap for Google - where they are announcing that they are a "leader" in the Gartner magic quadrant for a third year in a row. They do pay homage to GKE, which is their main motivator for the win, but also talk about all workloads in general, before toe dipping into GKE being an AI ready platform and talkign a bit about Cloud Run.
 BottomLine: Celebration of Google being a leader for Kubernetes as per Gartner
 ==
+URL reference: https://jurgenallewijn.nl/azure-kubernetes-security-demystified-from-nodes-to-pods-6339210fcad5
+DateReviewed: 2025-10-20
+Description: The article today will focus on Kubernetes security as it applies to Azure. We start with a bit of an intro, with a bit on AKS before talking about Kubernetes and the various layers it has, explaining that combined they make up a defense in depth. They explain that worker nodes are just ordinary VMs, and that it is our responsibility to keep these up to date. There are some tools to help manage this in AKS. They talk a bit about encryption at rest and how this is critical, and what you need to do to enable this in AKS. There is three areas they divide things into - Host, Cluster, and finally Pod security, each with their own supporting pieces. We then jump into a long section on Cluster security, with some YAML examples and diagrams for effect. Next up is Pod security, with some YAML and diagrams as well, with a bit less text. to tie everything up, they have a section on Security as a continuous process. Very decent article.
+BottomLine: Introduction to Kubernetes security on Azure Kubernetes Service (AKS)
+==
