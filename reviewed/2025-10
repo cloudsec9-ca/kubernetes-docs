@@ -104,3 +104,8 @@ DateReviewed: 2025-10-21
 Description: Today we have an adapted article on 12 Kubernetes security best practices. We start with a short background bit, before diving in. The approach here is to name the practice, then talk shortly about it, and then to explain how to (or not to) do things, often with a snip of YAML to clarify. We go through using non-root containers, priv containers, not using hostPath vols, not using hostPort, not sharing host namespace, as well as a half dozen more. Many of these are not typical recommendations, and they are quite well done. They finish up with an a Kubernetes action plan.
 BottomLine: Well done and diverse Kubernetes security best practice approach
 ==
+URL reference: https://dev.to/aws-builders/introducing-the-aws-eks-best-practices-mindmap-30lc
+DateReviewed: 2025-10-22
+Description: What we're looking at today is an article that explains a mindmap. I'm a big fan of alternative approaches to presenting info, and a mind map is a great variation. They present the visual mindmap, and then have 8 sections with  3 to 4 points explaining what is going on and how this works. Very interesting.
+BottomLine: This is a mind map of EKS best practices and is a great alternate approach
+==
