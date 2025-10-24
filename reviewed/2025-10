@@ -109,3 +109,8 @@ DateReviewed: 2025-10-22
 Description: What we're looking at today is an article that explains a mindmap. I'm a big fan of alternative approaches to presenting info, and a mind map is a great variation. They present the visual mindmap, and then have 8 sections with  3 to 4 points explaining what is going on and how this works. Very interesting.
 BottomLine: This is a mind map of EKS best practices and is a great alternate approach
 ==
+URL reference: https://devtron.ai/blog/beyond-adoption-what-it-takes-to-scale-kubernetes/
+DateReviewed: 2025-10-23
+Description: This article will talk about what it takes to scale Kubernetes. After a bit of general background on K8s uptake, they get into the issue - scaling K8s. They talk about the scaling paradox, where success cretes problems. They heavily recommend automation to help with this. They also try a new approach on how to scale. They have three general headings - making Governance useful, where automation pays off, and using AI where humans can't keep up. Each of these has a number of paras, and some solid points and expansion on things. To wrap things, they do a small pitch for their tools at Devtron.
+BottomLine: Good look at the problems around scaling Kubernetes
+==
