@@ -129,3 +129,8 @@ DateReviewed: 2025-10-26
 Description: This article will talk about finding Kubernetes problems and fixing them - troubleshooting with a tool. The tool they use is preq, and they use it to be proactive with Kubernetes issues. After a bit of background, they dive right in, going through the install and showing how to do things with the CLI. They go through some of things that preq can do, like go through pod logs, services and even jobs/cronjobs. They also look at using it with ConfigMaps and K8s events. Finally, they pull out some example CREs, show what symptoms they display, talk about the crashes it causes and what the effects are (and how preq finds them), and finally how to mitigate this. Finally, it recommends and talks a bit about how to use it in your daily workflow.
 BottomLine: Good walk through of the troubleshooting tool preq for Kubernetes
 ==
+URL reference: https://sadservers.com/scenario/amygdala
+DateReviewed: 2025-10-27
+Description: This is the intro to a Kubernetes scenario, where there is a desired output/result and you have to figure out what is missing/needed to make the result happen. In this case, you have to echo a paticular string, and they give the CLI invocation to have it come out. They give a time limit, and some general params, and then you do it like a lab.
+BottomLine: Good lab on Kubernetes to show how troubleshooting works hands on
+==
