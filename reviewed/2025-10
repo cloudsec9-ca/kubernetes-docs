@@ -134,3 +134,8 @@ DateReviewed: 2025-10-27
 Description: This is the intro to a Kubernetes scenario, where there is a desired output/result and you have to figure out what is missing/needed to make the result happen. In this case, you have to echo a paticular string, and they give the CLI invocation to have it come out. They give a time limit, and some general params, and then you do it like a lab.
 BottomLine: Good lab on Kubernetes to show how troubleshooting works hands on
 ==
+URL reference: https://www.docker.com/blog/docker-hardened-images-helm-charts-beta/
+DateReviewed: 2025-10-28
+Description: Today's topic is about Docker Hardened images, directly on the Docker site. We start with a bit of background, talking about securing supply chains and building security partnerships. They focus on Helm, which they say 75% of users prefer. With the Helm charts, they say it makes building secure deployments that much easier. They also talk about Broadcom changes with regards to Bitnami, where they have moved images into commercial subscriptions and archived older versions without updates, and how Docker is handling that. They offer two paths - free Docker images, or Hardened images with enterprise security that seems to be a paid service. They go through what features will be in the DHI area, and they explain there will be a catalog of a bunch of images.
+BottomLine: Discussion piece about the new Docker Hardened images - how they work and why they are here
+==
