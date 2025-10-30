@@ -139,3 +139,8 @@ DateReviewed: 2025-10-28
 Description: Today's topic is about Docker Hardened images, directly on the Docker site. We start with a bit of background, talking about securing supply chains and building security partnerships. They focus on Helm, which they say 75% of users prefer. With the Helm charts, they say it makes building secure deployments that much easier. They also talk about Broadcom changes with regards to Bitnami, where they have moved images into commercial subscriptions and archived older versions without updates, and how Docker is handling that. They offer two paths - free Docker images, or Hardened images with enterprise security that seems to be a paid service. They go through what features will be in the DHI area, and they explain there will be a catalog of a bunch of images.
 BottomLine: Discussion piece about the new Docker Hardened images - how they work and why they are here
 ==
+URL reference: https://thenewstack.io/18-popular-npm-packages-compromised-in-attack/
+DateReviewed: 2025-10-29
+Description: This article talks about the NPM package compromise, where 18 popular projects fell victim to attacks. In this one we dive right in - Aikido security discovered the issue, in which the client of a website has their crypto/web3 activity intercepted and redirected to unknown 3rd parties with any user facing indication. It's simple malware, but buried in NPM packages and possibly sent to client browsers by websites. They list the affected packages with noted download numbers, and clarify both network traffic and app APIs are targeted.
+BottomLine: Quick stroy on popular NPM packages which got compromised
+==
