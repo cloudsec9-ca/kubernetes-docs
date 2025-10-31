@@ -154,3 +154,8 @@ DateReviewed: 2025-10-31
 Description: This article focuses on the differences between observability and just logs in a Kubernetes context. They start by drawing out why logs or single tools aren't enough - during an incident, they only give a partial view, and what security staff need is a correlated account to be able to understand how things interact to be able to trace cause and effect. They map out what observability should actually look like, touching on how K8s audit logs work in, and where they should live (provider log store or in K8s logger). There is more, like some apps they like an building a security dashboard, to help practitioners see issues.
 BottomLine: Interesting perspective on observability as a security function on Kubernetes
 ==
+URL reference: https://dinukakasunmedis.medium.com/kubernetes-simplifying-container-management-at-scale-1c4e5277b38f
+DateReviewed: 2025-10-31
+Description: So this article's title is grand, but the content is much simpler. I assumed it would be about the really hard stuff, but it's really a super basic intro to Kubernetes. We start with what is K8s, why K8s, then go on to core components of K8s. Most of the sections are bullet point, and it's decent info, but elementary type stuff. We then go through benefits of using K8s, talk a bit about container orchestration and then finish with K8s architecture.
+BottomLine: Very basic overview of Kubernetes
+==
