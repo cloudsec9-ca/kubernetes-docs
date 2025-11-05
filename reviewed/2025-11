@@ -9,3 +9,8 @@ DateReviewed: 2025-11-02
 Description: Today's article is a bit of a unicorn - long, in depth, and pretty well written. We start with a short intro, where they explain how they'll tackle this subject. They start with a multi-para on what is K8s arch, the big picture overview, before diving into the cluster as a foundation and looking at how they work. After a bit more on clusters, we pivto to Control Plane components, where they outline the various bits in dives and then explain how they work together. We next look at worker node components, and they look at what makes that up and how they fit into the K8s arch. They look at pods, do a deep dive into how applications run on K8s, and talk about differences between workers and control nodes, before including a small pitch for their visual manager tool.
 BottomLine: Very good walkthrough of many of the pieces of Kubernetes
 ==
+URL reference: https://openliberty.io/guides/microprofile-health.html
+DateReviewed: 2025-11-03
+Description: This is a hands-on lab, where you add health reports in to your microservices. It has a linked Git repo, and ways to do the exercises on Window, Mac and Linux. It has a couple ways to run the lab, including on the webpage, which is pretty cool. Recommended.
+BottomLine: Lab which shows you how to add health reports to microservices
+==
