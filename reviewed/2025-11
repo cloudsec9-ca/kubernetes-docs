@@ -14,3 +14,8 @@ DateReviewed: 2025-11-03
 Description: This is a hands-on lab, where you add health reports in to your microservices. It has a linked Git repo, and ways to do the exercises on Window, Mac and Linux. It has a couple ways to run the lab, including on the webpage, which is pretty cool. Recommended.
 BottomLine: Lab which shows you how to add health reports to microservices
 ==
+URL reference: https://www.devopschat.co/articles/beyond-namespaces-why-kubernetes-needs-real-workload-isolation
+DateReviewed: 2025-11-04
+Description: So, this is not actually the article, but a three paragraph summary of the article, which does sound interesting. They talk about the fact that namespacs and the Kubernetes approach to workload isolation is decent but not perfect -- there are holes that errant apps can fall into, causing performance issues and more. It appears they propose an alternative, but since the linked article is sign-in only, we don't know.
+BottomLine: Interesting topic but only a summary linking to a sign in wall
+==
