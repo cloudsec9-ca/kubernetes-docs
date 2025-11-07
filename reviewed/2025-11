@@ -19,3 +19,8 @@ DateReviewed: 2025-11-04
 Description: So, this is not actually the article, but a three paragraph summary of the article, which does sound interesting. They talk about the fact that namespacs and the Kubernetes approach to workload isolation is decent but not perfect -- there are holes that errant apps can fall into, causing performance issues and more. It appears they propose an alternative, but since the linked article is sign-in only, we don't know.
 BottomLine: Interesting topic but only a summary linking to a sign in wall
 ==
+URL reference: https://www.latacora.com/blog/2025/09/22/introducing-replik8s/
+DateReviewed: 2025-11-05
+Description: Today's article talks about replik8s, an open source tool while allows users to clone their cluster (log) data to do analysis on it. We start with a bit of background on the company, and then they explain how their original use case was to capture data from diverse sources for future queries. They do a bit of a walkthrough, starting with what they call snapshots, which is the process to grab data from a Kubernetes cluster. You can then serve the data, which functions as a "mirror" of the data collected in the snapshot for interrogation. You can query with Kubernetes tools, or use tools that would work against a K8s cluster, like Trivy. They have a way, through multiple snapshots, to allow an MCP server to interact with an AI to look into changes over time. Last but not least,  you can visualize the data with a web-based "notebook" to allow easy looks into the whole cluster. Interesting tool.
+BottomLine: Intro and brief walkthrough of new open source Replik8s tool for Kubernetes logging and API data
+==
