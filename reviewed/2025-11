@@ -54,3 +54,8 @@ DateReviewed: 2025-11-11
 Description: Today's article talks about Zero Trust Kubernetes and using webhooks to help with security and multi-tenancy. The focus here is on Admission webhooks, and what we can do with them to ensure that workloads conform to what we expect before launching them. They talk about validating and mutating controllers, that let you check and possibly change what is going to be run. They advocate partnering this with Kyverno and OPA gatekeeper so you have Policy as code and a YAML policy engine to help you out. They lay out a number of solid policies you should consider rolling out in your cluster. They even do a diagram of how things work, tracing a request through the API server and onto the Zero-trust webhook controller before it gets sent to a Kubernetes pod for fullfillment. They have a 5 step walkthrough, with YAML snips included, to get things set up. Finally they have a section on Multi-tenant and shared envs, including YAML snips before closing off with best practices. Good read.
 BottomLine: Interesting article on setting up workload security on Kubernetes with admission controllers
 ==
+URL reference: https://community-charts.github.io/blog/actualbudget-chart-version-1.8.4-released
+DateReviewed: 2025-11-12
+Description: This is a blog entry on the newest version of the actualbudget chart. Truth be told, I thought these charts were to keep your Kubernetes cluster costs under control, but it's actually for a home focused budgeting software package which looks very slick. The bump here is aimed at bringing the Helm managed deployment to the very latest version. Quite neat, will try it.
+BottomLine: Short blog on the actualbudget Helm chart
+==
