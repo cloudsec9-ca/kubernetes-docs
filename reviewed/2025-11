@@ -59,3 +59,8 @@ DateReviewed: 2025-11-12
 Description: This is a blog entry on the newest version of the actualbudget chart. Truth be told, I thought these charts were to keep your Kubernetes cluster costs under control, but it's actually for a home focused budgeting software package which looks very slick. The bump here is aimed at bringing the Helm managed deployment to the very latest version. Quite neat, will try it.
 BottomLine: Short blog on the actualbudget Helm chart
 ==
+URL reference: https://dev.to/aws-builders/how-i-overlooked-the-problem-and-shot-myself-in-the-foot-2ok8
+DateReviewed: 2025-11-13
+Description: This is a great hands-on story about the pitfalls about carefully planning but not seeing something and the effect of that biting you. Our story starts simply, where the author is migrating from IAM users to SSO on AWS; they were even careful, and noted they disabled the IAM users for about a month before deleting them, to ensure things were all working as expected. The wrinkle was that they had used KMS, and the key was tied to one of the now deleted IAM users. He thought he had a solution -- blow away the existing Key and let TF recreate it, and he got no errors, so success, right? Turns out there is a restriction here, so he'd actually need to get access back to the KMS keys. Reaching out to AWS support, there were some hoops (and manual juggling) needed to get things working. The end result is that he noted he needed to do the KMS key bits BEFORE deleting the IAM users - lesson learned. Good story.
+BottomLine: Awesome narration of an odd issue with a small improvement and how it was resolved
+==
