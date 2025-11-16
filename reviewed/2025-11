@@ -69,3 +69,8 @@ DateReviewed: 2025-11-14
 Description: I kinda love this article; it's about stuff that can go wrong in Kubernetes and how to try to avoid it. After a bit of background, we dive into the meat, and it has a format - the pitfall, a bit of context, how to avoid it, and a short my reality check to give you assurance. The seven things that can bite you are - skipping resource requests/limits, using liveness and readiness probes right, relying on container logs, treating dev and prod the exact same, leaving old stuff around, diving too deep into networking stuff too soon, and finally, going too light on security and RBAC. Love the practical perspective on this.
 BottomLine: Great article on common things that bite us using Kubernetes
 ==
+URL reference: https://saikiranpikili.medium.com/critical-security-warning-for-kubernetes-users-ae7a620ef6e0
+DateReviewed: 2025-11-15
+Description: This is a decent and concise piece on a critical vuln in Kubernetes Ingress. They start with a naming of the vuln, then a quick check to see if you may be affected, before we get into the nitty gritty. They talk about what Ingress Nginx is, what the issue is, and how serious it is. Then it does a more detailed command to see if you are using the serious feature that is affected. They then go through possible mitigations. Good piece.
+BottomLine: Short but strong piece on serious Kubernetes Ingress issue
+==
