@@ -74,3 +74,8 @@ DateReviewed: 2025-11-15
 Description: This is a decent and concise piece on a critical vuln in Kubernetes Ingress. They start with a naming of the vuln, then a quick check to see if you may be affected, before we get into the nitty gritty. They talk about what Ingress Nginx is, what the issue is, and how serious it is. Then it does a more detailed command to see if you are using the serious feature that is affected. They then go through possible mitigations. Good piece.
 BottomLine: Short but strong piece on serious Kubernetes Ingress issue
 ==
+URL reference: https://zigmax.net/cloud-native-rejekts-na-2025/
+DateReviewed: 2025-11-16
+Description: Today's article is some highlights from the Cloud rejekts alternae conference. I love the way that they approached this - they picked their top 5 presentations, and gave a short blurb on each. They included a real world container escape story, talking about using GPUs in you K8s cluster, a bit about IDPs, and a couple related to security and AI. Pretty cool retrospective, good to see if a new rejekts would be worth considering going to.
+BottomLine: Recap on 5 good presentations at a Kubernetes convention
+==
