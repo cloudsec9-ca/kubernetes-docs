@@ -79,3 +79,8 @@ DateReviewed: 2025-11-16
 Description: Today's article is some highlights from the Cloud rejekts alternae conference. I love the way that they approached this - they picked their top 5 presentations, and gave a short blurb on each. They included a real world container escape story, talking about using GPUs in you K8s cluster, a bit about IDPs, and a couple related to security and AI. Pretty cool retrospective, good to see if a new rejekts would be worth considering going to.
 BottomLine: Recap on 5 good presentations at a Kubernetes convention
 ==
+URL reference: https://medium.com/@panstou/building-a-high-availability-kubernetes-stack-with-rancher-rke2-and-cilium-7aee1da07dc1
+DateReviewed: 2025-11-17
+Description: Our article today is about building a High Avail. Kubernetes stack that includes Rancher, RKE2 and Cilium. This is part 2 of a series, and we start by going over a few objectives, before going over the prereqs and doing an Arch overview. Finally we dig into the hands-on, which is done as 4 main steps. Step one is setting up HA proxy and keepalived, which we do the install at the CLI, config each of HA proxy and keepalived, and restart the daemons. Step two is to create the cluster in the Rancher GUI, which they walk us through the steps. Step three is registering the Nodes to Rancher, which is slightly different on master and worker nodes, but they show us both aspects. The final step we check in the GUI that things are Active and run some CLI commands to ensure things are working properly. They tie up with some troubleshooting tips an a summary of what we've accomplished.
+BottomLine: Good walkthrough of setting up HA Kubernetes with Rancher
+==
