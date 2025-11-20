@@ -94,3 +94,8 @@ DateReviewed: 2025-11-18
 Description: This article leans on AI to help you author Policy as Code with an agent, where you describe in English what you want and leverage AI to write the code. We start with some background, and then dive into the agent. The idea is that it produces valid and testable Kyverno policies that lighten the load on your developers. The next section talks about the why, which mentions not needing Kyveno experts and feeling confident through testing. The next section details that it works flexibly, so can use a CLI interface as well as an integrated MCP server if you want to integrate it that way. They talk about some expected outcomes, including shifting left w/o burdening devs among some other wins. 
 BottomLine: Interesting option for doing Kyveno Policy as Code in Kubernetes
 ==
+URL reference: https://virtualizationreview.com/articles/2025/11/13/kubecon-cloudnativecon-north-america-2025-day-1.aspx?Page=2
+DateReviewed: 2025-11-19
+Description: Our article today is a quick summary of the events of KubeCon day 1. Oddly the link is to page 2, so if we go back we see them lay the groundwork for the conf by talking attendance and opening remarks, before moving on to the key theme - convergence of Cloud Native and AI. CNCF announced an initiative to help K8s embrace AI, and there were some talks around it to. There was also some sessions around security and supply chain issues, and how to improve there. Then a bullet point section on industry keynotes and sponsored sessions, with the title and speaker noted, and a quick recap of evening events. Overall a good read.
+BottomLine: Summary of what went down on day one of KubeCon NA in 2025
+==
