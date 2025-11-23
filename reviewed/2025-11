@@ -109,3 +109,8 @@ DateReviewed: 2025-11-21
 Description: Our article today tackles some issue with runC, the runtime piece that underlies both Docker and Kubernetes containers. We start with background and the various CVE numbers, and pointing out this breaks seperation (or enables a container escape). The weakness is from allowing certain paths to be mounted inside the container with writer perms -- which allows attackers to change or overwrite files. The idea is for an attacker to create a symlink to the file he wants to control, and then use that as a mount which will allow whatever the attacker wants. They do note that this is now fixed, but that exploitable clusters are still out there in the wild.
 BottomLine: Short overview of a runC vuln that works agaisnt Kubernetes and Docker
 ==
+URL reference: https://thenewstack.io/red-hat-openshift-4-20-boosts-ai-security-hybrid-cloud/
+DateReviewed: 2025-11-22
+Description: We're back with another piece from KubeCon NA 2025, and this one talks about the release of a new version of OpenShift, being 4.20. They mention that MCP is now supported by OpenShift, which opens the ability for things like AI to control or inspect bits of it. They talk about multiclusters with Lightspeed and it's AI support, and also about security in Advanced Cluster Security 4.9. Oddly they do a couple paras on the vision for OpenShift 4.20 at the end.
+BottomLine: Article on new release of OpenShift 4.20 at KubeCon NA
+==
