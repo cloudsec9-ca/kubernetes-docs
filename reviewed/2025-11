@@ -114,3 +114,8 @@ DateReviewed: 2025-11-22
 Description: We're back with another piece from KubeCon NA 2025, and this one talks about the release of a new version of OpenShift, being 4.20. They mention that MCP is now supported by OpenShift, which opens the ability for things like AI to control or inspect bits of it. They talk about multiclusters with Lightspeed and it's AI support, and also about security in Advanced Cluster Security 4.9. Oddly they do a couple paras on the vision for OpenShift 4.20 at the end.
 BottomLine: Article on new release of OpenShift 4.20 at KubeCon NA
 ==
+URL reference: https://sathvikab.medium.com/kubernetes-architecture-a-deep-dive-into-control-plane-and-data-plane-df91a9fa5b57
+DateReviewed: 2025-11-23
+Description: Whenever I flag one of these, I think it's going to be deep detailed piece, but mostly these are just point-form lists, including this one. Now, this one isn't horrible -- it actually does a good job of explainging things, just with lots of icons and no diagrams. With a tiny bit of background, they tell us there are to main areas of K8s - control and data planes. Helpfully they explain how Docker runs a container, then pivots to how Kubernetes runs a pod. Then then go through the master node (control) and worker node (data) sides of K8s with charts, explaining what the main things do on each. Then then work through a pod being deployed, and answer the question of why the Control plane is important. They also explain the role of CCM and how it integrates with cloud providers. We end with some points about why K8s is a game changer. 
+BottomLine: Interesting piece on Kubernetes architecture from a simple perspective
+==
