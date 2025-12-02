@@ -149,3 +149,8 @@ DateReviewed: 2025-11-29
 Description: Today's article tackles a big topic in Kubernetes - Ingress, the piece that allows K8s apps to talk to the world. We start with a bit of background, before diving in. Basically Ingress is the front end for many smaller services running on K8s. We dive in with a section on how does it work,, where it explains how it uses HTTP to talk to clients and then send requests to K8s services, acting as a proxy. We even get a diagram. They go through the process, step by step, to explain the entire data flow. They then talk a bit about HAProxy, and how it integrates with Ingress to do it's work, as the piece is authored by them.
 BottomLine: Decent short piece going through the fundamentals of Ingress on Kubernetes
 ==
+URL reference: https://solution-soft.com/products/time-machine-containers#TMCO
+DateReviewed: 2025-11-30
+Description: Our piece today is a bit more of a product pitch then an article, but on an interesting concept - a time machine for containers. The idea is that you can either fast forward or rewind your container, to see how they do in various enviroments. They mention things like billing cycles and month/year end, so likely focused on testing. It's an interesting approach - they say that with just a pod deployed in the right namespace, you can now have a virtual clock that helps you to travel through time. They have a diagram which does show they need some external helpers for you Kubernetes cluster, but the idea is simple.
+BottomLine: Interesting idea of allowing Kubernetes clusters to time travel for testing purposes
+==
