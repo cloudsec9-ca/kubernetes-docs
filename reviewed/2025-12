@@ -4,3 +4,8 @@ DateReviewed: 2025-12-01
 Description: Our article today has a few stories, as it's a wrap for the week, but our interest is on the K8s being the new Linux. The newsletter has a bunch of basket categories, including Cloud Native highlights, Technical practices, and Open Source project recommendations. Upfront they have two projects, one of which tries to enable more fine-grained control. In tech practice, there are three artcile summaries, including our new Linux one. They make the strong point that now orgs are customizing K8s highly, even adopting specialized Kernels to tune things up. There are also orgs that are building pieces that are widely used. We close up with 4 projects, including Kftray, a way to manage runtime envs from a visual tool.
 BottomLine: Decent coverage and overviews of many Kubernetes and Cloud Native items
 ==
+URL reference: https://www.emadibrahim.com/k8s-guide
+DateReviewed: 2025-12-02
+Description: This is a guide to Kubernetes in production - well thought out, in various chapters, and quite beefy. I only skimmed it so far, but it is well set up and also well organized, you can tell they put a lot of thought into the appraoch and layout. Definately a thing to check out.
+BottomLine: A substantial guide to running Kubernetes in production
+==
