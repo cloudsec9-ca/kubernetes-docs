@@ -9,3 +9,8 @@ DateReviewed: 2025-12-02
 Description: This is a guide to Kubernetes in production - well thought out, in various chapters, and quite beefy. I only skimmed it so far, but it is well set up and also well organized, you can tell they put a lot of thought into the appraoch and layout. Definately a thing to check out.
 BottomLine: A substantial guide to running Kubernetes in production
 ==
+URL reference: https://www.cncf.io/blog/2025/11/28/runc-container-breakout-vulnerabilities-a-technical-overview/
+DateReviewed: 2025-12-03
+Description: Today's article is about vulnerabilities in runc that were recently disclosed. Our article starts with a bit of background, and then we dive into the vulns - and there are three of them. First is an issue with how masked paths function, and can mean a well chosen mount can cause a breakout or host crash. Next issue is a similar problem with /dev/console based mounts, allowing read/write access to a sensititve filesystem. The final issue is more complex, allowing bypass of LSM (linux security modules) and then allows redirected writes which can cause host crashes or container breakouts. They talk a bit about exploitation scenarios, the biggest of which is multi-tenant scenarios, where one tenant can gain access to containers they don't own. We then go through affected versions and then mitigations, which include not using the root user in the container, adding things like SELinux or AppArmor, and using namespaces without the host root user mapped into it. They do mention other runtimes are also affected.
+BottomLine: Good walkthrough of runc issues and mitigations on Kubernetes
+==
