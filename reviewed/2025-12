@@ -24,3 +24,8 @@ DateReviewed: 2025-12-05
 Description: Today's article is on how AI might change our underlying infrastructure. We start with a bit of background, focused on cloud providers and their offerings now. They say that MLOps, or the ingestion/train/inference cycle is something that CPU centric stacks don't meet. The shift, they claim, is going to move from CPUs to GPUs, or Graphical processing units. They mention that GPUs, having specialized cores have an advantage over typical CPUs. They mention that Kubernetes is key here; and making sure that the GPUs aren't idle or underutilized is critical. They also play up Vector databases, which is what they say AI will leverage to access data. The piece goes on for a bit more, but it is very abstract and doesn't really dive into how to operationalize any of these interesting ideas.
 BottomLine: Good thinkpiece, but is very abstract on AI infra shifts
 ==
+URL reference: https://dev.to/aws-builders/amazon-eks-capabilities-quick-summary-1po7
+DateReviewed: 2025-12-06
+Description: This article is a quick summary of EKS capabilities by a third party. The focus is a recently introduced feature called EKS Auto mode, which simplifies the management of Kubernetes infra; and talk about new additions like ArgoCD and other tools. The pros they say are that you don't pay for CD or the tools, because you aren't running them; the cons are that it is charged as part of EKS capability pricing, and you can't customize them. The piece also includes a nice infographic about the offerings.
+BottomLine: Short piece about new EKS auto mode and related offerings
+==
