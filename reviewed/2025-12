@@ -34,3 +34,8 @@ DateReviewed: 2025-12-07
 Description: This is more opinion piece than article, but it brings up a good question - should Open Source projects be paid for in some way? This paticular article focuses on Ingress Nginx, which is winding down in March due to lack of maintainer interest. The reason this is a big deal is that this particular tool has been used extensively throughout the K8s ecosystem, but it was bleeding maintainers for years and was kept on life support for a while until finally being retired by CNCF in the next few months. Could funding/paying devs helped? It could, but plumbing is challenging and not as sexy, so it is harder.
 BottomLine: Discussion piece on whether Open Source should be formally funded
 ==
+URL reference: https://www.cve.org/CVERecord?id=CVE-2025-66404
+DateReviewed: 2025-12-08
+Description: This article is a short piece on a CVE that is present in the MCP Server in Kubernetes. This server allows connection for management purposes, usually from an AI agent. The issue is that in one case, the server takes user input and without validation uses it a shell interpreter, allowing escape characters to be sent through and possibly compromising the pod where the command is run. The issue is fixed in MCP server v2.9.8.
+BottomLine: A security issue in MCP on Kubernetes allows unintended shell command execution
+==
