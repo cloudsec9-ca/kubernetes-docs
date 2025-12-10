@@ -39,3 +39,8 @@ DateReviewed: 2025-12-08
 Description: This article is a short piece on a CVE that is present in the MCP Server in Kubernetes. This server allows connection for management purposes, usually from an AI agent. The issue is that in one case, the server takes user input and without validation uses it a shell interpreter, allowing escape characters to be sent through and possibly compromising the pod where the command is run. The issue is fixed in MCP server v2.9.8.
 BottomLine: A security issue in MCP on Kubernetes allows unintended shell command execution
 ==
+URL reference: https://thenewstack.io/knative-has-finally-graduated-from-the-cncf/
+DateReviewed: 2025-12-09
+Description: Our article today talks about the graduation of Knative, the Kubernetes native tool for building, deploying and running serverless and event-driven apps. We start with a bit of background, and I'll note graduating in this case means "out of beta", or fully supported. We even get a quote from the co-founder of the project! The article now explains the core of Knative - serving and eventing, which allows containerized apps to scale to zero if not in use. Knative becomes esentially the glue that binds event-driven architectures together. The hope is that this will be an alternative to AWS Lambda and Azure functions as ways of doing serverless, which have different approaches and philosophies.
+BottomLine: Announcment and a bit about Knative - the CNCF take on serverless
+==
