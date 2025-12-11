@@ -44,3 +44,8 @@ DateReviewed: 2025-12-09
 Description: Our article today talks about the graduation of Knative, the Kubernetes native tool for building, deploying and running serverless and event-driven apps. We start with a bit of background, and I'll note graduating in this case means "out of beta", or fully supported. We even get a quote from the co-founder of the project! The article now explains the core of Knative - serving and eventing, which allows containerized apps to scale to zero if not in use. Knative becomes esentially the glue that binds event-driven architectures together. The hope is that this will be an alternative to AWS Lambda and Azure functions as ways of doing serverless, which have different approaches and philosophies.
 BottomLine: Announcment and a bit about Knative - the CNCF take on serverless
 ==
+URL reference: https://medium.com/@dmosyan/kubernetes-services-explained-b0502ace45c7
+DateReviewed: 2025-12-10
+Description: This article is a mix of hands on and background explaination, centered around Kubernetes services. We start with an overview, where the author explains a bit about how pods function and why we need services at all. It also explains how a service works broadly, and mixes in a bit of YAML to illustrate. We dive more into services, and he presents a chart with the different kinds, with a short blurb on how they work. They walk us through setting up a sample service, including YAML and explaining what needs to be done. He then explains why we should use DNS, as the IP addresses can change as pods are created and destroyed.
+BottomLine: Good quick intro to setting up a Kubernetes service
+==
