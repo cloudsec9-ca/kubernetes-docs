@@ -49,3 +49,8 @@ DateReviewed: 2025-12-10
 Description: This article is a mix of hands on and background explaination, centered around Kubernetes services. We start with an overview, where the author explains a bit about how pods function and why we need services at all. It also explains how a service works broadly, and mixes in a bit of YAML to illustrate. We dive more into services, and he presents a chart with the different kinds, with a short blurb on how they work. They walk us through setting up a sample service, including YAML and explaining what needs to be done. He then explains why we should use DNS, as the IP addresses can change as pods are created and destroyed.
 BottomLine: Good quick intro to setting up a Kubernetes service
 ==
+URL reference: https://labs.iximiuz.com/courses/computer-networking-fundamentals
+DateReviewed: 2025-12-11
+Description: Our article for today is actually a short ad for a course on Computer Networking. This course is part of a series of courses by Ivan Velichko, and this one and many others are provided for free. The blurb gives a high level description of what the course covers, along with a number of points which cover moer specific parts of networking, like LANs, bridges and switches, and differences between L2 and L3.
+BottomLine: Good blurb for a free course on Computer Networking
+==
