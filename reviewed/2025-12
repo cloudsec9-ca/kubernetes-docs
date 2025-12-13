@@ -54,3 +54,8 @@ DateReviewed: 2025-12-11
 Description: Our article for today is actually a short ad for a course on Computer Networking. This course is part of a series of courses by Ivan Velichko, and this one and many others are provided for free. The blurb gives a high level description of what the course covers, along with a number of points which cover moer specific parts of networking, like LANs, bridges and switches, and differences between L2 and L3.
 BottomLine: Good blurb for a free course on Computer Networking
 ==
+URL reference: https://thenewstack.io/ai-can-deliver-deployment-aware-risk-analysis-for-kubernetes/ 
+DateReviewed: 2025-12-12
+Description: This article talks about using AI to do risk analysis that is reflective of your own usage and dependencies. We start with a background where they describe onboarding a tool with 1000 screaming indictors, and no understanding of what is actually important or vulnerable. The solution, the author contend, depends on filling in the "context gap" as they call it, and whether possible vulnerabilities are something that can actually be exploited. They do say that more traditional indicators, like unusual net activity or unauth access attempts can also feed into the system. They develop what they call a "risk investigation agent" which draws the data from multiple sources, and figures out a risk score based on your actual deployment. They go through an actual scenario, showing how it might discover a few possible vulns and how it tries to classify them. They speculate that a future version may even help in remediation.
+BottomLine: Interseting new approach to using AI to build a contextual risk analysis
+==
