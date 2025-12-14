@@ -59,3 +59,8 @@ DateReviewed: 2025-12-12
 Description: This article talks about using AI to do risk analysis that is reflective of your own usage and dependencies. We start with a background where they describe onboarding a tool with 1000 screaming indictors, and no understanding of what is actually important or vulnerable. The solution, the author contend, depends on filling in the "context gap" as they call it, and whether possible vulnerabilities are something that can actually be exploited. They do say that more traditional indicators, like unusual net activity or unauth access attempts can also feed into the system. They develop what they call a "risk investigation agent" which draws the data from multiple sources, and figures out a risk score based on your actual deployment. They go through an actual scenario, showing how it might discover a few possible vulns and how it tries to classify them. They speculate that a future version may even help in remediation.
 BottomLine: Interseting new approach to using AI to build a contextual risk analysis
 ==
+URL reference: https://factory.faun.dev/newsletters/iw/kubernetes-v135-a-deep-dive-into-the-biggest-changes-ec9a569c-e932-49f1-b6d2-35f38d941fca
+DateReviewed: 2025-12-13
+Description: Our article today is actually a newsletter, and it has a lot going on. The focus is the new version of Kubernetes, but they give space to things like Ingress Nginx retiring and a set of courses they have that are going live. For the Kubernetes stuff, the biggest changes is cgroup v1 seeing an exit, but they do mention ipvs mode. I like how they break their bits of news into distinct postings, akin to your social media timeline.
+BottomLine: Interesting newsletter with some good tidbits about Kubernetes changes
+==
