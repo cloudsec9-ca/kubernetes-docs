@@ -64,3 +64,8 @@ DateReviewed: 2025-12-13
 Description: Our article today is actually a newsletter, and it has a lot going on. The focus is the new version of Kubernetes, but they give space to things like Ingress Nginx retiring and a set of courses they have that are going live. For the Kubernetes stuff, the biggest changes is cgroup v1 seeing an exit, but they do mention ipvs mode. I like how they break their bits of news into distinct postings, akin to your social media timeline.
 BottomLine: Interesting newsletter with some good tidbits about Kubernetes changes
 ==
+URL reference: https://undercodetesting.com/kubernetes-demystified-from-pods-to-proactive-security-your-ultimate-guide-to-container-orchestration-and-threat-mitigation/
+DateReviewed: 2025-12-14
+Description: This article starts how I like it - with a few diagrams. The focus here is on getting into Kubernetes, so it looks like a basic approach. We start with a short overview, and then get into learning objectives. We then do a bit of architecture, where we talk briefly about what goes where, before getting a couple command line snips. They then talk a bit about security, looking at contexts and policies. They then have a quick hands-on, where they show us the YAML and how to deploy a security context. We move on to network policy, which they call the "Kubernetes firewall", and look at isolating a namespace as a hands on example. They then look at secrets management, and ways to do with a hands on portion. Finally they look at some forensics. Overall an intersting article, with more of a security slant but still coming from a very basic spot.
+BottomLine: Decent walkthrough of a bunch of Kubernetes various security features
+==
