@@ -74,3 +74,8 @@ DateReviewed: 2025-12-15
 Description: The article today is a "sneak peek" at what will come in the new Kubernetes release. This will include sunsetting of cgroup v1 and retiring the ipvs functionality in favor of newer versions, along with deprecating older containerd support. New features include a way for nodes to let the backplane know what features they support, in so called "node declared features" item. Also in this version is CPU and memory adjustment support on the fly, whereas previously this required a pod/container restart. Another feature is Pod certificates, to allow secure pod to pod communication with built in identity confirmation. There are a bunch more features covered for the release.
 BottomLine: Good thorough walkthrough of all the changes for Kubernetes v1.35 
 ==
+URL reference: https://www.sygnia.co/blog/from-crisis-to-strategy-toolshell-enterprise-resilience/
+DateReviewed: 2025-12-16
+Description: Our article today tries to build on the lessons of a publicly disclosed vuln that is quickly exploited in the wild. They look at ToolShell, the SharePoint vuln and its response. They note that while MS quickly released patches, the remediation was multi-step and not a complete solution. While some were able to do what MS advised, they point out that taking down prod or even knowing they needed to be updated was a struggle for some orgs. Speed was helpful in reducing attack surface, but having a consistent response and knowing it was needed was also important. They deep dive into the issue, it's a good read.
+BottomLine: Highlights a recent cloud vuln and the response to it.
+==
