@@ -79,3 +79,8 @@ DateReviewed: 2025-12-16
 Description: Our article today tries to build on the lessons of a publicly disclosed vuln that is quickly exploited in the wild. They look at ToolShell, the SharePoint vuln and its response. They note that while MS quickly released patches, the remediation was multi-step and not a complete solution. While some were able to do what MS advised, they point out that taking down prod or even knowing they needed to be updated was a struggle for some orgs. Speed was helpful in reducing attack surface, but having a consistent response and knowing it was needed was also important. They deep dive into the issue, it's a good read.
 BottomLine: Highlights a recent cloud vuln and the response to it.
 ==
+URL reference: https://kubaik.github.io/balance-done/
+DateReviewed: 2025-12-17
+Description: This article is about load balancing in Kubernetes. We dive right in with an intro to what load balancing is, and why we might need it. They cover types of load balancers and various load balancing techniques. They do a hands-on with HAProxy as well as a toe dip into using Cloud providers to do so. They then tackle some real-world cases and common problems and solutions.
+BottomLine: A decent intro to Load balancing on Kubernetes 
+==
