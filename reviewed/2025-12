@@ -84,3 +84,8 @@ DateReviewed: 2025-12-17
 Description: This article is about load balancing in Kubernetes. We dive right in with an intro to what load balancing is, and why we might need it. They cover types of load balancers and various load balancing techniques. They do a hands-on with HAProxy as well as a toe dip into using Cloud providers to do so. They then tackle some real-world cases and common problems and solutions.
 BottomLine: A decent intro to Load balancing on Kubernetes 
 ==
+URL reference: https://visualpathblogs.com/aiops/aiops-for-kubernetes/
+DateReviewed: 2025-12-18
+Description: Our article today is about AI Ops, or using AI to help out with IT operations comes in. After a bit of background on terms and general motivations on the benefits. While I like the format of this article, with it's clean divisions and short packages of info, the issue is that there isn't much meat on the bones. We start with why we need AI for IT ops, and while there is lots of good reasons, they handwave a bit and don't explain much of the help it brings. Next is monitoring, and while it is for "IT", the list seems very K8s centered. It goes on like this, using benefits of K8s (like autoscaling and self healing) to advocate for AI. The end bit leads to a plug for a course, but with such little info I question the value a course would bring.
+BottomLine: A very flat delivery of how AI can help IT which is an interesting topic
+==
