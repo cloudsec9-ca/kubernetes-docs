@@ -99,3 +99,8 @@ DateReviewed: 2025-12-20
 Description: We have an excellent resource today, covering how to restart Kubernetes pods using kubectl. They go through how to list and delete quickly at the start, but why and how can we restart one? On the why, there is a laundry list - config changes, app failures, debugging, pod stuck/not responding. They then take us through the various states a Pod can be in - pending, running, succeeded, failed, and unknown. They note there is no simple "restart" command, so they take us through some approaches to restarting. With a deployment, we can use a rollout to restart the pods. We can delete pods to force new starts; we can scale replicas to fire up new pods. You can even tweak some Env variable to cause a restart. Finally, you can manually spawn a new pod from a YAML snip.
 BottomLine: Good article explaining pod states and ways to restart them
 ==
+URL reference: https://github.com/piomin/hands-on-java-with-kubernetes
+DateReviewed: 2025-12-21
+Description: Today's repo is a companion to the book Hands on Java with Kubernetes book. It features the code parts of the book, in an effort to avoid having people needing to type in things by hand. I like this idea; an author can keep the book programs up to date in a fast-moving ecosystem like Kubernetes, while still letting book readers have a way to explore the more abstract content in written form. There are updates, so I'd say the author is keeping up his end of the deal so far. I would have one suggestion -- I'd put a sample chapter online, maybe an early one, to allow people to get a feel for the content and style and see if they like the book. I love the layout and idea.
+BottomLine: Great idea of updatable companion site to a written book about SpringBoot on Kubernetes
+==
