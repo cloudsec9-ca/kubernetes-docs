@@ -114,3 +114,8 @@ DateReviewed: 2025-12-23
 Description: Today's article is troubleshooting space issues in a deployed Kubernetes cluster. Our author gets the dreaded "no space left on device" error, but usual checks seem to indicate everything is okay and there is space. Well, it turns out the issue was a unit problem in their YAML file - an "m" instead of a "Mi", which cause the memory allocation not to work, and thus not have a TMP device available, and causing zero space to be there. So, why didn't K8s flag this? It turns out this is parsed as 0.512 bytes, which is obviously not a useful size.
 BottomLine: Neat bit of troubleshooting on a weird Kubernetes error
 ==
+URL reference: https://techcrunch.com/2025/12/10/google-is-going-all-in-on-mcp-servers-agent-ready-by-design/
+DateReviewed: 2025-12-24
+Description: This article talks about Google's new effort to bridge the gap between AI agents and external systems to get useful work done. The idea here is for MCP to be enabled and managed by Google for various services, which allows a service to be accessed through an AI-friendly API. The idea is to speed up connections between AI and services and make them more robust. The initial MCP servers will be for Maps, BigQuery, Compute engine and Kubernetes engine. So this would enable an analytic agent or an infrastructure manager, depending on what you were hooked up to. They are right now just in preview for existing customers, but soon they'll be available for all in the coming months. Sounds very interesting. 
+BottomLine: New Google managed MCP offering for their services
+==
