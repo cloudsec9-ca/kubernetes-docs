@@ -124,3 +124,8 @@ DateReviewed: 2025-12-25
 Description: This article is an announcement of an additional security feature for AWS EKS clusters -- the ability to use Kubernetes NetworkPolicies inside of your EKS cluster, for various things like network isolaton in general and sementing your pod to pod comms in paticular. It works through their Container network interface (VPC CNI) plugin, and works for Kubernetes clusters in EKS that are v1.29 or later.
 BottomLine: AWS announcing a new security ability for EKS with NetworkPolicies
 ==
+URL reference: www.youtube.com/watch?v=DjaQxtAwnUk
+DateReviewed: 2025-12-26
+Description: This video goes through setting up guardrails to be able to use various AI tools in your environment. One note - what is with the music that competes with the narrator's voice here? They start with installing and configuring Kyverno, which they will use to enforce the guardrails. They then show and apply a policy which restricts which registry a pod can pull images from. They then try an unapproved registry which fails then try an approved one which goes through (but fails because the image doesn't exist). 
+BottomLine: Decent walkthrough of using Kyverno to restrict image registries
+==
