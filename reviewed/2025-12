@@ -129,3 +129,8 @@ DateReviewed: 2025-12-26
 Description: This video goes through setting up guardrails to be able to use various AI tools in your environment. One note - what is with the music that competes with the narrator's voice here? They start with installing and configuring Kyverno, which they will use to enforce the guardrails. They then show and apply a policy which restricts which registry a pod can pull images from. They then try an unapproved registry which fails then try an approved one which goes through (but fails because the image doesn't exist). 
 BottomLine: Decent walkthrough of using Kyverno to restrict image registries
 ==
+URL reference: https://goteleport.com/resources/videos/kube-tricks-treats-security-scale-without-scary-stuff/
+DateReviewed: 2025-12-27
+Description: Our article today seems to stem from a Haloween era presentation on Kubernetes security stuff. We start, as always, with a bit of background, before getting to the overview - the trick of access sprawl, the treat of simpilified access, and the pitch. A bit more housekeeping and ... it's a transcript of the webinar. Now, it's actually content-filled, and a bit sectioned up, but it's odd that every para starts with the presenters name (Dan), as if anyone else ever speaks here. They even do a Demo, but since they don't seem to link the actual presentation, that's a bit less impactful. So, yeah.
+BottomLine: Transcript of a webinar on Kubernetes security, so just okay
+==
