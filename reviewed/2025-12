@@ -144,3 +144,8 @@ DateReviewed: 2025-12-29
 Description: Our repo today is for an MCP server that connects in to Helm. The idea here is that instead of guessing what might be needed for Helm, this server now allows an AI agent to query the charts and grab the key values needed to understand a deployment, rather than guessing. They go through a few ways to install and configure it, depending on what platform you are using. They even go through a few questions in the readme.
 BottomLine: New project to allow AI agents the ability to talk to Helm through MCP
 ==
+URL reference: https://github.com/kgateway-dev/kgateway/
+DateReviewed: 2025-12-29
+Description: This is a repo for kgateway, an API but also an AI gateway for Kubernetes. It is powered by Envoy and is open source, and allows you to build your auth engine and limits in one spot, no matter where your services are running. As of a recent version, the AI gateway and the API gateway apps have been merged into one single repo, allowing both to be run in one spot. They present a bunch of use cases which people might want to use kgateway for, and links to a lot of docs. They note it was formerly called Gloo.
+BottomLine: An API and AI gateway for Kubernetes
+==
