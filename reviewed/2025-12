@@ -149,3 +149,8 @@ DateReviewed: 2025-12-29
 Description: This is a repo for kgateway, an API but also an AI gateway for Kubernetes. It is powered by Envoy and is open source, and allows you to build your auth engine and limits in one spot, no matter where your services are running. As of a recent version, the AI gateway and the API gateway apps have been merged into one single repo, allowing both to be run in one spot. They present a bunch of use cases which people might want to use kgateway for, and links to a lot of docs. They note it was formerly called Gloo.
 BottomLine: An API and AI gateway for Kubernetes
 ==
+URL reference: https://heilancoos.github.io/research/2025/12/16/kubernetes.html?v=1
+DateReviewed: 2025-12-30
+Description: Our article today talks about attacking and defending Kubernetes security. We start with a short intro, where the author admits he tried but was overwhelmed to enumerate all K8s threats. Then we get into how Kubernetes works. They start from basics, and work through control plane and nodes, then some of the other bits like namespaces and secrets. With this, we then look at threat hunting, specifically with Falco. We then look at techniques and strategies, talking about attack opportunities, defensive tools and prep, and some examples. They talk about anon access, how the API server works, and some ways to use Falco. It's actually got some interesting techniques, described in detail, to get you started. I'd say this would be better as a couple of articles, or at least a bit more logically broken up; the content is good, with YAML snips and decent diagrams.
+BottomLine: Interesting security piece on attacking and defending Kubernetes
+==
