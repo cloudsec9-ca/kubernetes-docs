@@ -4,3 +4,8 @@ DateReviewed: 2026-01-01
 Description: While this is a very interesting title, it turns out the article is not much of one. This article is three paragraphs, and it doesn't say anything deep or meaningful, just that auditing is important and handwaving at some tools, as one would expect from a short summary.
 BottomLine: Best to skip this cut down summary on monitoring Kubernetes
 ==
+URL reference: https://www.hashicorp.com/en/blog/deliver-secrets-to-kubernetes-pods-without-storing-in-etcd-using-vso
+DateReviewed: 2026-01-02
+Description: Our article today talks about a take on secrets - namely one called the Vault Secrets Operator, or VSO. The upside is that it doesn't store anything in etcd, like ordinary K8s secrets would be. We start by noting you can actually use etcd as the backend if you wish - but they recommend something more secure. They explain how you can add RBAC and access them instead through a resource, where they are more secure. They even include diagrams! They have a comparison of the pros and cons of both.
+BottomLine: Good short piece on a new tech for managing Kubernetes secrets
+==
