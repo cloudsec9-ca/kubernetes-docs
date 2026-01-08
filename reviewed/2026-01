@@ -24,3 +24,8 @@ DateReviewed: 2026-01-05
 Description: Our article looks at various Kubernetes security developments, highlighting features from 2025 and a sneak peak at what might come in 2026. We start with a chart (love it) of the stable grads of 25, where they list the version it appeared, the name, what it does, and a link for more info. I'll mention a few - sidecar containers, recursive read-only mounts, fine grained auth via selectors and ordered namespace deletion. After that, we have a chart of another 8 features that are likely in 26, with the name, stage in current release, KEP, description and more info link included. I think they could have talked about a couple of the features in each set, but this is a good baseline.
 BottomLine: Interesting highlight of new 2025 and coming 2026 security features for Kubernetes
 ==
+URL reference: https://hackernoon.com/strengthen-kubernetes-security-with-vault-agent-injector
+DateReviewed: 2026-01-06
+Description: Today's article will deal with Vault agent injector for Kubernetes, a way to deliver secrets to pods. We start with why we might want to use this (no hardcoded creds), and talk a bit about advantages, like that it is auditable and supports dynamic secrets that expire and rotate. It has a few moving parts - an init container to do initial auth and fetch the secrets; a sidecar to refresh secrets as needed; and a shared mem volume to store the secrets. We then do a multi-step walk through, setting up the vault for use with a K8s cluster. It's a 7 step process, with lots of configs and screenshots to help you follow the explaination.
+BottomLine: Good walk through and background on Vault, a Kubernetes secret solution
+==
