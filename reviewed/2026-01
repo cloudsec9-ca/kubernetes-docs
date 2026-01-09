@@ -29,3 +29,8 @@ DateReviewed: 2026-01-06
 Description: Today's article will deal with Vault agent injector for Kubernetes, a way to deliver secrets to pods. We start with why we might want to use this (no hardcoded creds), and talk a bit about advantages, like that it is auditable and supports dynamic secrets that expire and rotate. It has a few moving parts - an init container to do initial auth and fetch the secrets; a sidecar to refresh secrets as needed; and a shared mem volume to store the secrets. We then do a multi-step walk through, setting up the vault for use with a K8s cluster. It's a 7 step process, with lots of configs and screenshots to help you follow the explaination.
 BottomLine: Good walk through and background on Vault, a Kubernetes secret solution
 ==
+URL reference: https://hwchiu.medium.com/why-and-why-not-of-enabling-swap-in-kubernetes-08c094a8d427
+DateReviewed: 2026-01-07
+Description: Interesting topic of swap, and how Kubernetes up until now has mostly avoided using it. We start with a quick primer on swap, which is just using disk space to free up RAM for something else temporarily. They then explain why K8s avoids swap - mostly for performance and quality of service reasons, because swap brings in an unknown variable when allocating or using memory. The issue is that without swap, you are limited to physical memory, and subject to dreaded OOM (out of memory) errors. With better management and newer practices, there is a revisit going on to thing about enabling swap in K8s in certain cases. So, something to consider - it's a good topic and article.
+BottomLine: Why to use or not use swap on Kubernetes
+==
