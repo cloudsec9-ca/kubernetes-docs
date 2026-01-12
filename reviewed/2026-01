@@ -49,3 +49,8 @@ DateReviewed: 2026-01-10
 Description: This article/blog is a refreshing change of pace on the Kubernetes scene. It's a bit of the author describing things, but it's also a backwards way to do an intro to Kubernetes from an overall perspective. He is looking to actually explain K8s from a different perspective, but he ends up covering a lot of what goes in to K8s in doing so. There is a bit of assumption here, but also it's a good way to draw comparisons with other fields. He also does a good job of explaining how K8s works -- not by doing things, but by asking for a desired outcome and letting K8s make that happen. It's a great walk through how you should use K8s as an orchestrator, and a short into to GitOps. Very well written.
 BottomLine: Good blog on a different way to think about Kubernetes
 ==
+URL reference: https://www.youtube.com/shorts/ztVU5B8hDAs
+DateReviewed: 2026-01-11
+Description: This short vid talks about the difference between ephemeral data and persistent storage inside of Kubernetes. In two minutes, it explains how by default pods are given storage that disappears once the pod goes away, while persistent volumes allow you to store things beyond the life of a single pod.
+BottomLine: Good short video on persistent vs ephemeral storage on Kubernetes
+==
