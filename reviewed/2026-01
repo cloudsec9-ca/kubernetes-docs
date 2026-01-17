@@ -74,3 +74,8 @@ DateReviewed: 2026-01-15
 Description: Today's article is about Cloud certs that can get you hired in 2026. So let's dive in. We start with a bit of fluff, then they explain a bit why Cloud certs are important - that they "validate" practical skills. Then we finally get to the certs. First up, is certified solutions architect - associate, from AWS. It's in many job postings, and AWS dominates the cloud market. Next is MS Azure admin assoc., and it has demand in Gov't and enterprise sectors. Third is Google professional cloud architect, and it is desirable for recognition, and it pairs well with AI, data and general cloud native projects. Next is the CKA, or certified Kubernetes admin, and it helps with SaaS, containers and orchestration, and K8s is a core DevOps/cloud native skill. Finally, we have AWS security specialist, which is attractive as cloud security is such a high priority. They end up with a bit of discussion on which the best cert is for you, and what kind of pay you could expect with it.
 BottomLine: Good overview of a handful of Cloud Native and Kubernetes adjacent certs
 ==
+URL reference: https://x.com/techyoutbe/status/2005014003953926378/photo/1
+DateReviewed: 2026-01-16
+Description: For this installment we have a packed infographic to look at, overall titled as Kubernete Deployment workflow. It's really 4 smaller diagrams, covering security, networking, observability and what I'll call computer aspects. They are well illustrated, cover all the basics and actually convey a good bit of info.
+BottomLine: Infographics that cover various aspects of Kubernetes clusters
+==
