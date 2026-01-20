@@ -89,3 +89,8 @@ DateReviewed: 2026-01-18
 Description: Todays article is actually a list posting about a security issue. The issue is interesting but fairly tame - if you use Headlamp and Helm and have them enabled in the K8s UI, cached credentials can cause an exposure. What seems to happen is a user with Helm access logs in to the UI, and gains Helm access. Then, subsequent users can re-use this Helm access without any authentication, so the auth isn't tied to the original session. The fix is just to upgrade -- it's unclear from the posting if they disable cache or actually track the auths right going forward.
 BottomLine: Interesting vuln with Headlamp and Helm in the Kubernetes UI
 ==
+URL reference: https://kubezilla.io/what-is-kubeflow-and-how-can-it-be-used/
+DateReviewed: 2026-01-19
+Description: Our article today is on Kubeflow, an open source ML platform built on Kubernetes. We start with a short background and then launch into what problem is solved - management of ML workflows, with 6 different pain points mentioned. We then get into a definition of Kubeflow, which is cloud native and K8s based, supports ML from end to end, is framework agnostic and open source. They then dive into the components, with Pipelines, Notebooks, Katib (parameter tuning), KServe (model serving), training operators, and Kubeflow dashboard all covered. They give examples of use, including computer vision, NLP, recommend systems, time series forecasting, and fraud detection. While there is a lot covered here, it's all very surface; the one upside is they do have a quick getting started section.
+BottomLine: An intro to the Kubeflow ML tool for Kubernetes
+==
