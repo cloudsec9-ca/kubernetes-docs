@@ -99,3 +99,8 @@ DateReviewed: 2026-01-20
 Description: This article will be a beginner's intro to Kubernetes. I like this author, they have a no-nonsense approach to their topic. They assume you've done a Docker container or maybe two, and have heard the container hype, but don't know what it's about. Well, what if after deploying your container, you need another 10 or 20 spun up? How do you manage that, across servers and geo areas while managing security and logs? We now pivot to why Docker is a problem -- it being that it's a dev area, not a production one mostly. So K8s runs containers, but it does so in a way that is better managed; our author uses a kitchen analogy to explain the how. He then explains different issues and how K8s handles them. He even explains how you interact with K8s by desired state and K8s makes it happen. Part of a series, this is a good start.
 BottomLine: Quick intro for beginners to Kubernetes
 ==
+URL reference: https://www.thefastmode.com/technology-solutions/46436-cloudbolt-aws-partner-to-optimize-cloud-and-kubernetes-workload
+DateReviewed: 2026-01-21
+Description: So today's piece is a PR release about CloudBolt software signing a collab agreement with AWS. While the piece waxes on about things getting better with the partnership, they don't mention what the software does or why this might make people who aren't using their software jump on board. Don't get me wrong, teams should push out bits when they release, but it would be nice if they used one para to explain what their product does in the first place.
+BottomLine: Skippable PR blurb about a company colab with AWS
+==
