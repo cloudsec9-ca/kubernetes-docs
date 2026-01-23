@@ -104,3 +104,8 @@ DateReviewed: 2026-01-21
 Description: So today's piece is a PR release about CloudBolt software signing a collab agreement with AWS. While the piece waxes on about things getting better with the partnership, they don't mention what the software does or why this might make people who aren't using their software jump on board. Don't get me wrong, teams should push out bits when they release, but it would be nice if they used one para to explain what their product does in the first place.
 BottomLine: Skippable PR blurb about a company colab with AWS
 ==
+URL reference: https://kubezilla.io/cilium-tetragon-ebpf-powered-runtime-security-for-kubernetes-and-docker/
+DateReviewed: 2026-01-22
+Description: Our article today focuses on Cilium Tetragon - runtime security for Kubernetes and Docker. At first, I thought this would be lightweight, as they use what feels like an AI illustration in their opening bit. They start with a bit of background and an intro on runtime security, before diving in and explaining the vulns and enumerating some threats. We move from that into eBPF, the backbone of Cilium, and then what Tetragon adds on top - Hook points, Selectors and Actions. After this brief intro, they drop into a hands-on getting started, going through some CLI bits and YAML files. It's hefty, my main complaint being the text areas are a bunch of point-form lists, rather than flowing prose, but that is my angle. Decent and long, looks pretty good.
+BottomLine: Intro and walk through of Tetragon Cilium - a runtime security tool for Kubernetes
+==
