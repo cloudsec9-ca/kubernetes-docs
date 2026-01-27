@@ -124,3 +124,8 @@ DateReviewed: 2026-01-25
 Description: Today's piece is aimed at simplifying Kubernetes down to the basics, tackling explaining Kubernetes like I am five. We use a shipping anaology, and need to put our containers spots; we need someone to help organize. We don't dive into too much detail, but they cover the basics from a business side while explaining well what Kubernetes does, while going light on the how it does it. They touch on too much traffic, very light traffic, a container issue and a few more. A gret light intro.
 BottomLine: Pretty decent lightweight biz focused intro to Kubernetes
 ==
+URL reference: https://www.suse.com/c/kubecon-na-2025-suse-application-collection/
+DateReviewed: 2026-01-26
+Description: Our piece today is actually a marketing blurb for a new SUSE product for a FIPS validated app collection. I don't mind promos, but this one starts with the phrase *subscription free* which scares me. Aimed at devs, it allows access to some curated images and integrates access to Rancher, a popular K8s altenative. The focus is on strong security and strong compliance, but not much is nitty gritty in this piece.
+BottomLine: Blurb about SUSE app offerings that are secure and offer FIPS
+==
