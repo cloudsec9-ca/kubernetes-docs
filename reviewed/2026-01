@@ -129,3 +129,8 @@ DateReviewed: 2026-01-26
 Description: Our piece today is actually a marketing blurb for a new SUSE product for a FIPS validated app collection. I don't mind promos, but this one starts with the phrase *subscription free* which scares me. Aimed at devs, it allows access to some curated images and integrates access to Rancher, a popular K8s altenative. The focus is on strong security and strong compliance, but not much is nitty gritty in this piece.
 BottomLine: Blurb about SUSE app offerings that are secure and offer FIPS
 ==
+URL reference: https://www.linkedin.com/pulse/when-perfect-cicd-project-still-failed-sachidananda-sabar-n8hsc/
+DateReviewed: 2026-01-27
+Description: Today's article is about a perfect CI CD project still fails. So, an upside is it has lots of screenshots, and starts by telling us that the tools were all well known names, and a similar project on Docker had worked. He shows us a pipeline that seems complete, and then tells us most of it worked. Actually, the pipeline all worked. But the app didn't - no UI, no completion screenshot. So, I generally love failure stories that teach, but it seems this is still stuck, so more just a failure story.
+BottomLine: Story about how passing CICD doesn't mean your Kubernetes app works
+==
