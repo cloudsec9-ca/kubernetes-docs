@@ -149,3 +149,8 @@ DateReviewed: 2026-01-30
 Description: This article does a dive into Image Pull Policy, the config bit that either allows or denies container images from specific repos. We do a tiny bit of background and then dive right in, starting with how the rules work at a high level. They note you can even prefer that images be up to date, as well as whether a new image is pulled or we use an already present version. They note that while it isn't directly a security control, it does have some security implications. They go through what it looks like - the repo, the tag, and finally the policy. After that, we get a little hands on, where we go through a YAML policy file. They talk about the settings, how to set things up, and finally troubleshooting and best practices. Good piece.
 BottomLine: Good intro piece on using ImagePullPolicy to control image retrieval on Kubernetes
 ==
+URL reference: https://github.com/Caprox-eu/Proxmox-Kubernetes-Engine/
+DateReviewed: 2026-01-31
+Description: Our review today is of the Proxmox Kubernetes engine. The idea here is to deploy K8s directly onto a Proxmox maanged set of machines. Exposes Proxmox storage and does load balancing and networking while being API driven. Looks like an interesting option for small or homelab setups.
+BottomLine: Details a way to run Kubernetes directly on Proxmox
+==
