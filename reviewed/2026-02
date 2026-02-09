@@ -34,3 +34,8 @@ DateReviewed: 2026-02-07
 Description: This article, if you can call it that, seems to be the last part of a multi-part exercise, of which part this is the checklist. It does give us the purpose, which is turning on security before starting workloads, which is sensible. Now the checklists are decent and detailed, but there isn't any explaination for any of it. So, if your looking for a checklist, this is decent, and possibly earlier this series might be helpful? But this isn't a great part all on its own.
 BottomLine: Decent checklist but lacks explaination for Kubernetes security
 ==
+URL reference: https://techstackguide.com/azure-kubernetes-service-network-policies/
+DateReviewed: 2026-02-08
+Description: Our article for today is about using Azure for Kubernetes. One thing I'd say is it would be nice to have a layout of the big picture, but instead we dive right in with Network Policy implementation. They have a few YAML/CLI snips which is helpful, and they walked through scaling and security, before going through monitoring and logging. They also talk about cost mgmt. Next up we move into enabling network policy, crafting a policy, applying it then verifying it. Then they go through troubleshooting and more strategic verification.
+BottomLine: Decent piece on Network Policy for Kubernetes on Azure
+==
