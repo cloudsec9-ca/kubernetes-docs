@@ -44,3 +44,8 @@ DateReviewed: 2026-02-09
 Description: Today's article dives into Kubernetes v1.35 features that will make your life easier in the longer run. In this context, we call this "day 2" ops, after the hub-bub of the initial launch quiets down. The downside is that this discussion is super high level, with no hands on or examples. They talk about the new Pod Management policy and how it allows better management of lifecycle events, and also things like advanced resource mgmt controls and GPU resource simplification. But all high level.
 BottomLine: Good update but no details or hands on for Kubernetes v1.35 new features
 ==
+URL reference: https://codesmash.dev/why-i-ditched-docker-for-podman-and-you-should-too
+DateReviewed: 2026-02-10
+Description: This article makes the argument to ditch Docker for Podman, and shows how and why the author did so. We start with a bit of nostalgia, going back to Vagrant and then Docker and how that it was a game changer in how Dev was done. We now confront a bunch of Docker CVEs, so docker is now scary and insecure. So, the author ponders other tools - enter Podman. One issue the author raises is Docker's daemon, which runs as root -- but Podman doesn't do it that way. The apps you run are spawned as you with your permissions, which is more secure. They mention an exploit that ran Docker w/o TLS so people could spin up containers without controls. He notes a few other things he likes, and it seems good. He notes what changed, and actually does a walk through of how to do it. Interesting.
+BottomLine: Very good guide on how to try Podman from Docker
+==
