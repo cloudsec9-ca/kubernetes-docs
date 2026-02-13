@@ -61,3 +61,8 @@ em on bare metal from an enterprise perspective. We start with a bit of backgrou
 nd, then talk about why VMs are used now. We then dive into a discussion of how bare metal works, and contrast that with VMs. The idea is that K8s has a lot of flexibility in contrast to bare metal, and things like security and isolation are stronger with K8s. It's an interesting analysis.
 BottomLine: What is better - VM with Kubernetes or bare metal
 ==
+URL reference: https://www.naviteq.io/blog/oke-vs-eks-vs-gke-vs-aks-kubernetes-compared/
+DateReviewed: 2026-02-12
+Description: Today's article is a face off among the top 4 Kubernetes cloud providers. They look at Oracle, AWS, Google and Azure (Microsoft). We start with an intro, where they hype up K8s and explain that enterprise is very interested in it. They then dig into managed Kubernetes, and contrast it with self-managed clusters. We then dive into each provider, with a 3-5 para summary of what they offer and pros/cons. We then go through a chart of comparison, for quick reference. Then they ask some interesting questions, like how K8s pricing differs by provider, with a lot of detail explored. They go through some managed K8s use cases, do another bit of selling on managed K8s, then wrap it up.
+BottomLine: Decent comparison of the top 4 Kubernetes cloud providers
+==
