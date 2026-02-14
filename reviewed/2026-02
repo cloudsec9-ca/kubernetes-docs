@@ -66,3 +66,8 @@ DateReviewed: 2026-02-12
 Description: Today's article is a face off among the top 4 Kubernetes cloud providers. They look at Oracle, AWS, Google and Azure (Microsoft). We start with an intro, where they hype up K8s and explain that enterprise is very interested in it. They then dig into managed Kubernetes, and contrast it with self-managed clusters. We then dive into each provider, with a 3-5 para summary of what they offer and pros/cons. We then go through a chart of comparison, for quick reference. Then they ask some interesting questions, like how K8s pricing differs by provider, with a lot of detail explored. They go through some managed K8s use cases, do another bit of selling on managed K8s, then wrap it up.
 BottomLine: Decent comparison of the top 4 Kubernetes cloud providers
 ==
+URL reference: https://www.cncf.io/blog/2025/04/22/these-kubernetes-mistakes-will-make-you-an-easy-target-for-hackers/
+DateReviewed: 2026-02-13
+Description: Okay, so I love the topic and thought process for this piece, but not so impressed with the layout. We start with a bit of background, and the usual "K8s is insecure because of misconfigs and design errors by implementers". So far, so good. But going on, each nugget comes as a pearl of wisdom from some corporate guy, as a soundbite. Now the advice in the piece isn't bad, but it feels like it's a panel session where we go around the table rather than a solid security piece. So, I'm 50 - 50 on it.
+BottomLine: Okay piece that covers lots but seems over quotey on Kubernetes security
+==
