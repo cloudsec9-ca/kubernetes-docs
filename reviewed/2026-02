@@ -71,3 +71,8 @@ DateReviewed: 2026-02-13
 Description: Okay, so I love the topic and thought process for this piece, but not so impressed with the layout. We start with a bit of background, and the usual "K8s is insecure because of misconfigs and design errors by implementers". So far, so good. But going on, each nugget comes as a pearl of wisdom from some corporate guy, as a soundbite. Now the advice in the piece isn't bad, but it feels like it's a panel session where we go around the table rather than a solid security piece. So, I'm 50 - 50 on it.
 BottomLine: Okay piece that covers lots but seems over quotey on Kubernetes security
 ==
+URL reference: https://undercodetesting.com/kubernetes-nightmare-how-attackers-are-pwning-your-clusters-and-what-you-must-do-now-video/
+DateReviewed: 2026-02-14
+Description: So this article talks about Kubernetes nightmare, but it's actually more of a walk through of what attackers might do to your cluster. It alludes to being AI written, so maybe? Let's dig in. First up is an intro, where they talk about issues around security that come up with Kubernetes. Next we have a learning objectives, which suggests it's a teaching piece rather than an article. Next up they describe the attack process - recon and discovery, grab a service token, use a misconfiged RBAC to gain K8s access as a start. Then they use priv escalation to move from pod to the host node, and finally grab secrets and config info from the admmin are of the cluster. There is a bit of commentary at the end, but it's a very good walkthrough.
+BottomLine: Walkthrough of how to attack a Kubernetes clusters security
+==
