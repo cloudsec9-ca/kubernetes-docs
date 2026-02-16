@@ -76,3 +76,8 @@ DateReviewed: 2026-02-14
 Description: So this article talks about Kubernetes nightmare, but it's actually more of a walk through of what attackers might do to your cluster. It alludes to being AI written, so maybe? Let's dig in. First up is an intro, where they talk about issues around security that come up with Kubernetes. Next we have a learning objectives, which suggests it's a teaching piece rather than an article. Next up they describe the attack process - recon and discovery, grab a service token, use a misconfiged RBAC to gain K8s access as a start. Then they use priv escalation to move from pod to the host node, and finally grab secrets and config info from the admmin are of the cluster. There is a bit of commentary at the end, but it's a very good walkthrough.
 BottomLine: Walkthrough of how to attack a Kubernetes clusters security
 ==
+URL reference: https://twitter.com/techyoutbe/status/2014792077008310461
+DateReviewed: 2026-02-15
+Description: Today our item is an infographic, or a series of infographics, all related to Kubernetes security. Our first one is on net policies, but the slides are all about either DNS or services. The previous one which is Quoted is about net policy and traffic control, and that is more accurate. They talk about net defaults and how net policies work, and actually have commands to show status and such. Clicking one more deep, the title of this one is pod security and hardening, and goes through them. Talks about secure pods, running as non root, dropping unneeded capabilities and goes through some CLI commands. These are fairly decent, terse and well laid out snippets. Recommened to browse through.
+BottomLine: Decent infograpics on some Kubernetes security pieces
+==
