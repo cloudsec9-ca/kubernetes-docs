@@ -81,3 +81,8 @@ DateReviewed: 2026-02-15
 Description: Today our item is an infographic, or a series of infographics, all related to Kubernetes security. Our first one is on net policies, but the slides are all about either DNS or services. The previous one which is Quoted is about net policy and traffic control, and that is more accurate. They talk about net defaults and how net policies work, and actually have commands to show status and such. Clicking one more deep, the title of this one is pod security and hardening, and goes through them. Talks about secure pods, running as non root, dropping unneeded capabilities and goes through some CLI commands. These are fairly decent, terse and well laid out snippets. Recommened to browse through.
 BottomLine: Decent infograpics on some Kubernetes security pieces
 ==
+URL reference: https://thenewstack.io/cncf-kubernetes-is-foundational-infrastructure-for-ai/
+DateReviewed: 2026-02-16
+Description: This article tries to argue that Kubernetes is integral to AI as infrastructure. We start with a cite the says 82% are using K8s for prod containers. They talk a little about the role of GPUs, TPUs, and AI focused ASICs on training AI, and note they are not used for using it. People using are looking to deploy, and usually they do so with GitOps. They note further that a lot of CI/CD usage is also using/targeting K8s clusters. They talk about WASM seemingly underperforming, at only 5% having used it in prod.
+BottomLine: Interesting perspective on AI and its use in Kubernetes
+==
