@@ -86,3 +86,8 @@ DateReviewed: 2026-02-16
 Description: This article tries to argue that Kubernetes is integral to AI as infrastructure. We start with a cite the says 82% are using K8s for prod containers. They talk a little about the role of GPUs, TPUs, and AI focused ASICs on training AI, and note they are not used for using it. People using are looking to deploy, and usually they do so with GitOps. They note further that a lot of CI/CD usage is also using/targeting K8s clusters. They talk about WASM seemingly underperforming, at only 5% having used it in prod.
 BottomLine: Interesting perspective on AI and its use in Kubernetes
 ==
+URL reference: https://medium.com/@razeen.abdal-rahman/kubernetes-when-you-need-it-and-when-you-dont-88afb9787e5d
+DateReviewed: 2026-02-17
+Description: Our article today looks at when to use Kubernetes, as well as when not to use it. It starts with a diagram (love them), and a depressing tale of YAML files and complexity to do K8s. We dive in by looking at the problem that K8s solves - running a LOT of containers at scale. The thesis here is if your use case is small, you can work with just Docker in a simpler way. We move on to core concepts where they go through how K8s works at a basic level. The author recommends using things to understand how they work. Next up is what he calls the complexity tax, where he explains using K8s for many containers; but using it for one or two can be complex without the upside. I actually like this article.
+BottomLine: Compares Docker and Kubernetes and explains which one to choose
+==
