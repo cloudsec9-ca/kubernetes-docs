@@ -96,3 +96,8 @@ DateReviewed: 2026-02-18
 Description: This article is about taking back "control" by switching from other DBs (proprietary?) to open source ones. One wrinkle upfront - instead of being an article you can scroll through, you have to keep clicking to the next page; very annoying. They start by talking a bit about the shift to cloud, and then hone in a bit on why - and a lot of that is cost savings. They also point out that while DBaaS is simple and quick, it can be more expensive then a self-hosted alternative. They then go through a layout of where things fall, going from ad-hoc up until unified, with lift/shift and fragmented being in the middle -- and these are levels, starting at 1 and ending at 4; and they claim many or in the middle at 2 and 3. And ... that's it, as you now have to enter info to go further. A promising start, but no time for bait and switch articles.
 BottomLine: After teaser need signup to see article so recommend skipping
 ==
+URL reference: https://github.com/psviderski/uncloud
+DateReviewed: 2026-02-19
+Description: We're looking at a repo for uncloud, a tool that orchestrates like Kubernetes but does so in a simpler and more lightweight way. The main gist seems to be running Docker in a distributed way. They go through a laundry list of features, have a demo and a bunch of tutorials. They have a diagram for a three provider case (here two mid-sized clouds and a home lab). I like the idea and it seems like a serious contender for those who want to do more than Docker can do, but less then a full K8s install with all the overhead.
+BottomLine: Interersting alternative to smaller Kubernetes cluster installs
+==
