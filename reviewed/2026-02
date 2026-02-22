@@ -106,3 +106,8 @@ DateReviewed: 2026-02-20
 Description: Our blog entry today is our author reflecting on 2025 and thinking ahead to 2026. They have a "home" app setup (dare I say lab?), and they go through it in a laundry list. They mention that Docker and LXC are the underpinning; he does mention using Kubernetes at work, but maybe not yet for home stuff. They dive a bit into their hardware setup, mentioning that with elevated prices they are trying to hold steady. They do talk quickly about DNS/registry stuff, before moving on to proxies. He talks a bit about Nginx and Traefik, and does handwave a bit at Caddy. He goes through a way to track/parking lot links, and while he's used Wallabag in the past, he tried Linkwarden and Karakeep. He does a little pitch for a URL shortner he wrote that is open source, as a more precise way to do what he'd done with a service before. He talks a bit about a photo archive he uses called Immich. We go on small SSO and RSS journeys, dipping into storage with Minio and a file-sync tool. Actually a good introspection.
 BottomLine: Good blog on a wide range of home friendly tools for devs
 ==
+URL reference: https://vulmon.com/vulnerabilitydetails?qid=CVE-2026-22039
+DateReviewed: 2026-02-21
+Description: Our blurb today is actually a vulnerability report against Kyverno. It seems that versions before 1.16.3 and 1.15.3 allow a boundary bypass where Kubernetes namespace isolation is broken and allows policies to be added or changed on any or even a cluster basis, possibly removing protections. It's classified as 9.9, which is the most severe; basically patch immediately.
+BottomLine: Short piece on a Kyverno vuln which breaks Kubernetes namespace isolation
+==
