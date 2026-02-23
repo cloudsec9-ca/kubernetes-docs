@@ -111,3 +111,8 @@ DateReviewed: 2026-02-21
 Description: Our blurb today is actually a vulnerability report against Kyverno. It seems that versions before 1.16.3 and 1.15.3 allow a boundary bypass where Kubernetes namespace isolation is broken and allows policies to be added or changed on any or even a cluster basis, possibly removing protections. It's classified as 9.9, which is the most severe; basically patch immediately.
 BottomLine: Short piece on a Kyverno vuln which breaks Kubernetes namespace isolation
 ==
+URL reference: https://kubaik.github.io/write-to-inform/
+DateReviewed: 2026-02-22
+Description: Today, we're going to look at getting into Technical writing. We start with an overview of what technical writing is, and what the overall goal is. Next, we start to dive in, and they go over the principles of tech writing - clarity, accuracy, completeneess and consistency. We then move on to tech writing skills, and they cover 5 important ones. They then go into what I'll call examples, using Markdown and Python to create aspects of a report. They go through some fields that use it, and even cover tools with costs that are useful in producing it. Interesting piece!
+BottomLine: Very solid piece introducing Technical Writing
+==
