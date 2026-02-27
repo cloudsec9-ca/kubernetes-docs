@@ -131,3 +131,8 @@ DateReviewed: 2026-02-25
 Description: Our article today is a string of blurbs about Clawdbot, the latest AI craze tool. Apparently it is not securely written and configured by default, and users are spinning it up and leaving it exposed to the Internet. What a surprise! So these weaknesses are exposing API keys, private chat logs and there may even be RCEs in the mix. They say they recommend whitelisting, which is the least you should be doing in these circumstances.
 BottomLine: Clawdbot AI config issues causing a number of security concerns and issues
 ==
+URL reference: https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/
+DateReviewed: 2026-02-26
+Description: Today were going to look a bit at what Kubernetes considers ready, and a controller which might help with that. We start with the current situation, which is that Pods are able to handle traffic when they come "ready", a simple binary condition. But with GPUs, firmware, network agents, the pod running might not be a strong signal. To assist with this, the Kubernetes project is introducing the Node readiness controller. This allows different conditions to hold if your env is heterogenous in composition. They go through the options and the enforcement, which comes in bootstrap only or continuous. The controller reacts to node conditions which allow some flexibility and decoupling from the health checks. They finish up with an example and link a video.
+BottomLine: Announcement of Kubernetes readiness controller
+==
