@@ -136,3 +136,8 @@ DateReviewed: 2026-02-26
 Description: Today were going to look a bit at what Kubernetes considers ready, and a controller which might help with that. We start with the current situation, which is that Pods are able to handle traffic when they come "ready", a simple binary condition. But with GPUs, firmware, network agents, the pod running might not be a strong signal. To assist with this, the Kubernetes project is introducing the Node readiness controller. This allows different conditions to hold if your env is heterogenous in composition. They go through the options and the enforcement, which comes in bootstrap only or continuous. The controller reacts to node conditions which allow some flexibility and decoupling from the health checks. They finish up with an example and link a video.
 BottomLine: Announcement of Kubernetes readiness controller
 ==
+URL reference: https://github.com/okwilkins/h8s
+DateReviewed: 2026-02-27
+Description: Here we look at a home infra project called Homernetes. It is a Talos OS based project. The creator uses 2 N100 CPU mini PCs for the cluster. He's put this project together for fun.
+BottomLine: Interesting home infrastructure project with Kubernetes and Talos OS
+==
