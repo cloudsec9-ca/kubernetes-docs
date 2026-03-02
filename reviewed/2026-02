@@ -141,3 +141,8 @@ DateReviewed: 2026-02-27
 Description: Here we look at a home infra project called Homernetes. It is a Talos OS based project. The creator uses 2 N100 CPU mini PCs for the cluster. He's put this project together for fun.
 BottomLine: Interesting home infrastructure project with Kubernetes and Talos OS
 ==
+URL reference: https://medium.com/@devamit/stop-drowning-in-yaml-how-i-built-my-own-kubernetes-controller-in-python-c117c94f9708
+DateReviewed: 2026-02-28
+Description: In today's article, we have a Python programmer who wanted to write operators but didn't have time to learn Go. We jump in with the problem -- pods that do work, but then sit there, completed and dead. We then learn about Kopf, a Python interface for K8s. He then shows us how to install Kopf, set up the operator to do it's job in Python, explains it, and finally runs through the test. It works. He then goes through the config to deploy it to a cluster. Good piece.
+BottomLine: Walk through of writing a Kubernetes operator in Python
+==
