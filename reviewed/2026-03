@@ -1,0 +1,5 @@
+URL reference: https://medium.com/@Ibraheemcisse/how-i-set-up-a-kubernetes-home-lab-on-ubuntu-wsl-53b8866121e9
+DateReviewed: 2026-03-01
+Description: On tap for today is a walkthrough of setting up a Kubernetes cluster on Windows through WSL. We start with a bit of background on the author and how he kicked this project off. We start by installing Docker on WSL, and then verify by running the hello world image. Next up is intalling k3d, a slimmed down version of Kubernetes for Docker, along with kubectl. Next is spinning up the cluster, which consists of running a single CLI command, and finally verifying things work. Well done!
+BottomLine: Walkthrough of installing Kubernetes on Windows with WSL
+==
