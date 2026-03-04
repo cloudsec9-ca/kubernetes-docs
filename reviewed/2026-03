@@ -3,3 +3,8 @@ DateReviewed: 2026-03-01
 Description: On tap for today is a walkthrough of setting up a Kubernetes cluster on Windows through WSL. We start with a bit of background on the author and how he kicked this project off. We start by installing Docker on WSL, and then verify by running the hello world image. Next up is intalling k3d, a slimmed down version of Kubernetes for Docker, along with kubectl. Next is spinning up the cluster, which consists of running a single CLI command, and finally verifying things work. Well done!
 BottomLine: Walkthrough of installing Kubernetes on Windows with WSL
 ==
+URL reference: https://theoneamin.medium.com/i-built-kubernetes-event-watcher-b677e926a10d
+DateReviewed: 2026-03-02
+Description: Kubernetes is an event driven manager, and today our author explains a bit about events while he shows us something he built - a watcher. We start with background - K8s by default keeps events for an hour, but they can sometimes help in debugging so this is adjustable. However, the author notes, some cloud providers might not let you do this. So the author built the event watcher, which is fully customizable even in the cloud. He shows us the config, which is a filter on which events you are capturing. Now the author uses the captured events as a basis to provide notifications through Slack and e-mail, for instance. He then shows us the architecture (with diagram!). We need a service account to enable this, and so he shows us the RBAC that allows what we need. The way it's used is to deploy it as a pod - that's it. It has a test system, which allows simulation of K8s events, allows notification verification and validation of config changes.
+BottomLine: Short walkthrough of an event monitor and notification system for Kubernetes
+==
