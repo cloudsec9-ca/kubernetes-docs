@@ -13,3 +13,8 @@ DateReviewed: 2026-03-03
 Description: Today we're going to dive in and see if eBPF is ready for prime time on Arm and RISC machines. We start with a bit of background and orientation on eBPF, and how it's been super helpful in x86 configs. Recently, devs announced they'd be including Windows, Arm and RISC in their coverage. The touch on talks that explain that it's working, but things are not all perfect, as in different archs the edges is where you feel pain. They say that Arm is pretty good, but where there is work to do is in the RISC-V area. Paticularly of concern are thing like JIT compilers and verifiers. They mention that a sandbox using RISC-V should be approached as a learning expriment and not a prod env quite yet. The dig into the gaps, but the gist is that eBPF devs are working hard to bring things into parity, but it's right now still a work in progress.
 BottomLine: Interesting piece on using eBPF for Arm and RISC-V architectures
 ==
+URL reference: https://www.youtube.com/watch?v=UxZlCho7-KI
+DateReviewed: 2026-03-04
+Description: The videos we're looking at today is about Kubernetes persistent storage. We start by looking at a pod, then deleting it - but then we try to access it and get a 404, because all of the added stuff is gone. To fix this, the creator will go through and show us how to set up K8s with persistent storage. He goes through creating the storage, and showing how the storage is claimed to a specific pod. Then he creates some local files, deletes and creates a new pod, and the files are still there. Decent walkthrough.
+BottomLine: Video piece showing how Kubernetes persistent storage works
+==
