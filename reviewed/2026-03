@@ -18,3 +18,8 @@ DateReviewed: 2026-03-04
 Description: The videos we're looking at today is about Kubernetes persistent storage. We start by looking at a pod, then deleting it - but then we try to access it and get a 404, because all of the added stuff is gone. To fix this, the creator will go through and show us how to set up K8s with persistent storage. He goes through creating the storage, and showing how the storage is claimed to a specific pod. Then he creates some local files, deletes and creates a new pod, and the files are still there. Decent walkthrough.
 BottomLine: Video piece showing how Kubernetes persistent storage works
 ==
+URL reference: https://grahamhelton.com/blog/nodes-proxy-rce
+DateReviewed: 2026-03-05
+Description: Our article today will walk through being able to execute code on every pod with certain permissions. The author explains that with nodes/proxy GET permission, this allows what he feels is an RCE. He states that admins may be granting this perm to monitoring tools, not intending to allow arbitrary code to be allowed. They explain that the lack of "exec" perms which is on a different endpoint don't matter in this case. The author does enumerate which tools request this perm, and goes through a proof of concept. My take is that this is a specific issue which is a weakness, but may not be as severe as it sounds.
+BottomLine: Interesting RBAC issue where allowing read enables exec in Kubernetes
+==
