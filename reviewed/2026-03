@@ -23,3 +23,8 @@ DateReviewed: 2026-03-05
 Description: Our article today will walk through being able to execute code on every pod with certain permissions. The author explains that with nodes/proxy GET permission, this allows what he feels is an RCE. He states that admins may be granting this perm to monitoring tools, not intending to allow arbitrary code to be allowed. They explain that the lack of "exec" perms which is on a different endpoint don't matter in this case. The author does enumerate which tools request this perm, and goes through a proof of concept. My take is that this is a specific issue which is a weakness, but may not be as severe as it sounds.
 BottomLine: Interesting RBAC issue where allowing read enables exec in Kubernetes
 ==
+URL reference: https://visualpathblogs.com/openshift/openshift-in-devops/
+DateReviewed: 2026-03-06
+Description: Today we're going to explore OpenShift, with an eye on how it is used in DevOps. We start with an intro, where they talk briefly about DevOps and a bit about OpenShift overall. We then dive into OpenShift itself, which is a Kubernetes based container app platform. It provides a bunch of things, including CI/CD and enterprise tools by default. Next we pivot to why it is used - dipping into CI/CD, K8s mgmt, Security for DevOps, app scaling and microservices support, and finally hybrid and multi-cloud devops. We now move on to a real world example, which is very theoritcal. They then go through a list of people who might use OpenShift, before going through some FAQs. 
+BottomLine: Good intro to OpenShift from a high level
+==
