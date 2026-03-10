@@ -38,3 +38,8 @@ DateReviewed: 2026-03-08
 Description: Today we're going to look at a repo for K3s - a lightweight Kubernetes that is production ready. They start with a laundry list of possible usages, then explain what they are - a full featured but very lightweight version of Kubernetes, all packed in one 100MB binary. They aim for reasonable defaults and no OS dependencies. They explain that all core functionality is there, the big things they've removed are in-tree storage drivers and cloud providers. They point out that each of these does have CSI and CCM alternatives, so it is possible to use those things. They have lots of docs links and have a great approach.
 BottomLine: Look at the lightweight Kubernetes distro K3s
 ==
+URL reference: https://medium.com/@browncoder/kubernetes-taints-and-tolerations-explained-like-youre-5-067c7a92712a
+DateReviewed: 2026-03-09
+Description: Our article today is about taints and tolerations, and how they affect where Kubernetes runs your workloads. Our author is going to try to simplify things in their description of how they work. They describe taints as a "keep out" sign of sorts; a way to tag nodes as only accepting certain kinds of pods. A toleration is a "get out of jail free" card, which allows a pod not to worry about the sign. There are also varying degrees of taint - they can be NoSchedule, so unless you are okay (or have a toleration) you won't run here; PreferNoSchedule - will try to avoid, but will schedule if need to; and NoExecute, which aggressively removes unwanted pods. Well written and short.
+BottomLine: Good primer on Kubernetes taints and tolerations
+==
