@@ -43,3 +43,8 @@ DateReviewed: 2026-03-09
 Description: Our article today is about taints and tolerations, and how they affect where Kubernetes runs your workloads. Our author is going to try to simplify things in their description of how they work. They describe taints as a "keep out" sign of sorts; a way to tag nodes as only accepting certain kinds of pods. A toleration is a "get out of jail free" card, which allows a pod not to worry about the sign. There are also varying degrees of taint - they can be NoSchedule, so unless you are okay (or have a toleration) you won't run here; PreferNoSchedule - will try to avoid, but will schedule if need to; and NoExecute, which aggressively removes unwanted pods. Well written and short.
 BottomLine: Good primer on Kubernetes taints and tolerations
 ==
+URL reference: https://www.tencentcloud.com/products/tke
+DateReviewed: 2026-03-10
+Description: So, this isn't so much an article but a sales pitch -- it's a bunch of claims from the TenCent people, about how good their Kubernetes engine is. They have a big SECOND LEVEL bit of wording, but it took me a few seconds to realize they were talking about startup speed. It would be more helpful to explain what benefits this offering has over others, rather than some seemingly random NUMBERS they have ... 300% increase if resource usage rate, 50% biz peformance ... waht do these mean? Am I half as performant if I'm a business user? Are they chargint 3x what competition do? Likely not, but thses aren't helpful.
+BottomLine: Sign up page for a cloud Kubernetes provider and their offerings
+==
