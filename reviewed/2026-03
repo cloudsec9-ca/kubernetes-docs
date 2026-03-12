@@ -48,3 +48,8 @@ DateReviewed: 2026-03-10
 Description: So, this isn't so much an article but a sales pitch -- it's a bunch of claims from the TenCent people, about how good their Kubernetes engine is. They have a big SECOND LEVEL bit of wording, but it took me a few seconds to realize they were talking about startup speed. It would be more helpful to explain what benefits this offering has over others, rather than some seemingly random NUMBERS they have ... 300% increase if resource usage rate, 50% biz peformance ... waht do these mean? Am I half as performant if I'm a business user? Are they chargint 3x what competition do? Likely not, but thses aren't helpful.
 BottomLine: Sign up page for a cloud Kubernetes provider and their offerings
 ==
+URL reference: https://www.pulsepatch.io/posts/cleanstart-2026-jr03360-external-secrets-hostname-error-vulnerability/
+DateReviewed: 2026-03-11
+Description: Our article today is an analysis of some vulnerability related to Kubernetes. It refers to external secrets (which it calls a "product"), and makes mention of hostname errors. After reading through the entire article, it just talks about issues and never explains what the problem is. So I'm not sure if this is a crafted input attack or a DNS resolution vector, or if it's a badly formatted config file. It is solved by updating, so that is good.
+BottomLine: Odd writeup of a Kubernetes vuln involving hostames and external sectrets in Kubernetes
+==
