@@ -53,3 +53,8 @@ DateReviewed: 2026-03-11
 Description: Our article today is an analysis of some vulnerability related to Kubernetes. It refers to external secrets (which it calls a "product"), and makes mention of hostname errors. After reading through the entire article, it just talks about issues and never explains what the problem is. So I'm not sure if this is a crafted input attack or a DNS resolution vector, or if it's a badly formatted config file. It is solved by updating, so that is good.
 BottomLine: Odd writeup of a Kubernetes vuln involving hostames and external sectrets in Kubernetes
 ==
+URL reference: https://github.com/mysticaltech/terraform-hcloud-kube-hetzner
+DateReviewed: 2026-03-12
+Description: I misread today's article description and thought it was for a trial version of Kubernetes similar to the AWS free tier thing. It's actually a way to deploy K8s on Hetzner in a minimal maint way. They say it's prod ready and HA by default, which sounds good. Well documented and with a good amount of releases and support, feels like a cool project.
+BottomLine: Easy way to run Kubernetes on the Hetzner cloud
+==
