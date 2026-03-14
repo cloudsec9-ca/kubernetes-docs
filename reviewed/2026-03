@@ -58,3 +58,8 @@ DateReviewed: 2026-03-12
 Description: I misread today's article description and thought it was for a trial version of Kubernetes similar to the AWS free tier thing. It's actually a way to deploy K8s on Hetzner in a minimal maint way. They say it's prod ready and HA by default, which sounds good. Well documented and with a good amount of releases and support, feels like a cool project.
 BottomLine: Easy way to run Kubernetes on the Hetzner cloud
 ==
+URL reference: https://dzone.com/articles/oci-images-as-kubernetes-volumes-a-new-era
+DateReviewed: 2026-03-13
+Description: Today's article is about a feature available in Kubernetes v1.35 ane later as beta, image volumes. We dive right in, with the author telling us that until now you could only use S3 or GCS for external files, so this development simplifies things. You can reuse your image-scanning tools, and this also allows you to update your data without doing code updates. They do go through how to create it, and then how to utilize it from your code as a mount in the config. They even show how to try it out today.
+BottomLine: New Kubernetes feature allowing mounting of OCI volumes for data
+==
