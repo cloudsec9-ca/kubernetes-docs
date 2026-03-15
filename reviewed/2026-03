@@ -63,3 +63,8 @@ DateReviewed: 2026-03-13
 Description: Today's article is about a feature available in Kubernetes v1.35 ane later as beta, image volumes. We dive right in, with the author telling us that until now you could only use S3 or GCS for external files, so this development simplifies things. You can reuse your image-scanning tools, and this also allows you to update your data without doing code updates. They do go through how to create it, and then how to utilize it from your code as a mount in the config. They even show how to try it out today.
 BottomLine: New Kubernetes feature allowing mounting of OCI volumes for data
 ==
+URL reference: https://twitter.com/japtain__cack/status/2024003195912286651
+DateReviewed: 2026-03-14
+Description: This is a walkthrough in point form of someone's entire home lab. They go through all of the eqiupment, starting at the 54U rack and going through their various gear, including various Intel and Arm based compute, netwroking, power and storage. I'd have loved a bit more of a writeup on what and why, but this is a good sample of all the bits neeeded and how they fit together. They even go a bit through what types of apps they use and how that runs.
+BottomLine: Walkthrough of one persons full home lab setup
+==
