@@ -73,3 +73,8 @@ DateReviewed: 2026-03-15
 Description: Today's article is on a auth bypass vuln in Kargo. They explain the big picture of what is going on, namely that Kargo provides API endpoints and the impact could be creating, modifying or deleting resources that users don't have permissions to change. They don't detail the actual issue that caused the problem, but note it is serious and likely exploitable, but not seen as too worrisome by sentiment analysis. They note that upgrading solves the issue, and if that isn't possible locking down who can access the API and from where can provide some mitigation.
 BottomLine: Decent discussion of a Kargo auth bypass vulnerability
 ==
+URL reference: https://pedrotchang.dev/posts/cert-manager-letsencrypt-kubernetes/
+DateReviewed: 2026-03-16
+Description: Our article today will talk about using Let's Encrypt to automate certificate renewal. On Kubernetes, we use something called cert-manager to do this process. They make a few solid points about why having automated certs are important. We then go through some Helm charts and the author explain what they do and why they are needed. Now that we have cert-manager set up, now we need to set up the process that does the issuing on the cluster - in this case ClusterIssuer. The author explains why you might need to use DNS instead of HTTP for the process -- if you want a wildcard cert, or if you want to have non-public certs. They then show us how to request a certificate, and also how inbound services leverage the cert using Gateway API.
+BottomLine: Walk through on setting up automatic certificate issue and renew on Kubernetes
+==
