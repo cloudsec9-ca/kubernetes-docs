@@ -78,3 +78,8 @@ DateReviewed: 2026-03-16
 Description: Our article today will talk about using Let's Encrypt to automate certificate renewal. On Kubernetes, we use something called cert-manager to do this process. They make a few solid points about why having automated certs are important. We then go through some Helm charts and the author explain what they do and why they are needed. Now that we have cert-manager set up, now we need to set up the process that does the issuing on the cluster - in this case ClusterIssuer. The author explains why you might need to use DNS instead of HTTP for the process -- if you want a wildcard cert, or if you want to have non-public certs. They then show us how to request a certificate, and also how inbound services leverage the cert using Gateway API.
 BottomLine: Walk through on setting up automatic certificate issue and renew on Kubernetes
 ==
+URL reference: https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/index.html
+DateReviewed: 2026-03-17
+Description: So today's article is actually a collection of info and techniques. It feels like a security person put this together when first tasked with doing a pentest that involved Kubernetes, so they might not know a lot about it. It starts with a K8s basics and some learning resources, then a K8s harderning link. Then we dive in with manual K8s pentest bits - from the outside, enum inside a pod, enum with K8s creds, doing priv escalation with K8s namespaces, and finally pivoting to the cloud. This resource has a few different resources for various cloud providers.
+BottomLine: Good primer to get started with a Kubernetes pentest
+==
