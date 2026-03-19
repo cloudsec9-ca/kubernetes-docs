@@ -83,3 +83,8 @@ DateReviewed: 2026-03-17
 Description: So today's article is actually a collection of info and techniques. It feels like a security person put this together when first tasked with doing a pentest that involved Kubernetes, so they might not know a lot about it. It starts with a K8s basics and some learning resources, then a K8s harderning link. Then we dive in with manual K8s pentest bits - from the outside, enum inside a pod, enum with K8s creds, doing priv escalation with K8s namespaces, and finally pivoting to the cloud. This resource has a few different resources for various cloud providers.
 BottomLine: Good primer to get started with a Kubernetes pentest
 ==
+URL reference: https://portallinuxferramentas.blogspot.com/2026/02/suse-kubernetes-security-update-2026.html
+DateReviewed: 2026-03-18
+Description: This article details SUSE updates which address issues with Kubernetes and Go in their system. Oddly, this site is wrapped in Portuguese, but the article content is all English. Now it explains that due to a concern in the SUSE Go compiler, it's advised to upgrade all of SUSE enterprise K8s; this is a good practice. What I don't like is they don't detail the issue, other than it becomes a "supply chain issue", so there is no way to understand the impact. They do go through a detailed upgrade/mitigation process, so that is good.
+BottomLine: Important security related Kuberentes update for SUSE enterprise
+==
