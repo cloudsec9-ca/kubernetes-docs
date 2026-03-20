@@ -88,3 +88,8 @@ DateReviewed: 2026-03-18
 Description: This article details SUSE updates which address issues with Kubernetes and Go in their system. Oddly, this site is wrapped in Portuguese, but the article content is all English. Now it explains that due to a concern in the SUSE Go compiler, it's advised to upgrade all of SUSE enterprise K8s; this is a good practice. What I don't like is they don't detail the issue, other than it becomes a "supply chain issue", so there is no way to understand the impact. They do go through a detailed upgrade/mitigation process, so that is good.
 BottomLine: Important security related Kuberentes update for SUSE enterprise
 ==
+URL reference: https://github.com/achetronic/kubernetes-mcp
+DateReviewed: 2026-03-19
+Description: The repo we'll be looking at today is for Kubernetes MCP, basically a way to hook up AI assistants to your Kubernetes cluster. The idea is to have a way to inspect K8s clusters and reflect back what might be needed to keep them running well. They go through 3 different setups, so allow you to use different AI tooling with the MCP backend. They also go through a number of different scenarios, with some discussion of what types of security/guardrails might be helpful for different situations. For example, maybe you want it to be able to spin up pods but not access secrets. Interesting tool.
+BottomLine: Repo of an MCP server for Kubernetes with guardrails available
+==
