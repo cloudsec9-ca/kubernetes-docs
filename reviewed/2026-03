@@ -98,3 +98,8 @@ DateReviewed: 2026-03-20
 Description: This is a piece about the possibility that some workloads are not good containerization candidates. The starting scenario is the author is running n8n for workflow automation, and he wants to use Claude Code to optimize this a bit more. The author mentions that Claude expects a .claude directory under home, and he had some trouble with this. Claude also needs OAuth tokens that expire periodically; the issue is at renewal, the process needs to write it somewhere. Initially the author tried K8s secrets, but switched to a writable location. These were all solved, but issues persisted for the author. Claude code and his infra was memory intensive, and suffered from OOM issues. Startup times ran to a minute, meaning interactive flows were too slow. State was complex, OAuth token renewals were brittle, and debugging was challenging. He ties it up with how he got things to work, and lessons learned.
 BottomLine: Solid piece about choosing and using tools right
 ==
+URL reference: https://www.boot.dev/
+DateReviewed: 2026-03-21
+Description: Okay, today's piece is actually promotional material for a learning site. It's actually decently done, with interesting approached and two broad paths - backend and DevOps. The have a "demo" path, which I guess is supposed to give you the flavor of what courses are like? I'd like to have seen a full sample lesson on some topic, where they did a simulated one. Also, I get using "XP" as a gamification technique, but I'd rather opt for better feedback. For example, they show a "math error" which is an inverted sign; I'd say this is a logic error, but I'm being nit picky too. But interesting nonetheless.
+BottomLine: Promo piece for a few cloud course related learning paths
+==
