@@ -108,3 +108,8 @@ DateReviewed: 2026-03-22
 Description: Today we'll go through yet another list of twelve tools that someone thinks are essential for Kubernetes security. We start with a few paras on background, and then jump in to tools - we start with the name, a brief overview, a screen shot and then a bit about how to use it. We start with KubeLinter then Checkov, touch on Trivy and Kubescape, look at Cosign/Sigstore and Kyverno for the first half. Next is OPA Gatekeeper and Falco, then Cilium and Calico, and finishing up with Kube-hunter and Kube-bench. All interesting tools, so not a bad tour. 
 BottomLine: Decent list of 12 security tools to help with Kubernetes clusters
 ==
+URL reference: https://github.com/metantesan/ansible-kube-cluster
+DateReviewed: 2026-03-22
+Description: Our article today is on spinning up a Kubernetes cluster with Ansible. It seems like a sensible approach, where the repo walks through the prereqs, what configs you need to tweak, and then how to actually get everything working with Ansible. They have a number of playbooks, logically org'd by function. Interesting approach.
+BottomLine: Decent repo using Ansible to spin up a Kubernetes cluster
+==
