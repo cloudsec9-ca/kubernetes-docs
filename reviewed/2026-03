@@ -113,3 +113,8 @@ DateReviewed: 2026-03-22
 Description: Our article today is on spinning up a Kubernetes cluster with Ansible. It seems like a sensible approach, where the repo walks through the prereqs, what configs you need to tweak, and then how to actually get everything working with Ansible. They have a number of playbooks, logically org'd by function. Interesting approach.
 BottomLine: Decent repo using Ansible to spin up a Kubernetes cluster
 ==
+URL reference: https://labs.iximiuz.com/courses/kubernetes-the-very-hard-way-0cbfd997/control-plane/kube-scheduler#overview
+DateReviewed: 2026-03-23
+Description: Today's article is actually a lesson from a Kubernetes course, and this lesson is focused on how a container or pod gets scheduled. As this is done directly by K8s, it's important to understand the process. They talk about how the scheduler does its job - how it picks which nodes to run pods on, and how a pod actually gets running. Great walkthrough.
+BottomLine: Strong lesson on the Kubernetes pod scheduler
+==
