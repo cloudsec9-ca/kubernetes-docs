@@ -118,3 +118,8 @@ DateReviewed: 2026-03-23
 Description: Today's article is actually a lesson from a Kubernetes course, and this lesson is focused on how a container or pod gets scheduled. As this is done directly by K8s, it's important to understand the process. They talk about how the scheduler does its job - how it picks which nodes to run pods on, and how a pod actually gets running. Great walkthrough.
 BottomLine: Strong lesson on the Kubernetes pod scheduler
 ==
+URL reference: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/
+DateReviewed: 2026-03-24
+Description: This article is the announcement of the open-sourcing of the node monitoring agent for Amazon EKS. The article gets right down to tacks, talking about what is monitored on a node. The addition of transparent source allows users to know exactly what is going on and even enhance the agent if they find a missing feature. The overall gist is that the agent monitors for problems, and if it discovers one it then tries to repair any issues.
+BottomLine: Announcement of the open-sourcing of the EKS monitoring agent
+==
