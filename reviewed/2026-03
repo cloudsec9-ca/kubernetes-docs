@@ -123,3 +123,8 @@ DateReviewed: 2026-03-24
 Description: This article is the announcement of the open-sourcing of the node monitoring agent for Amazon EKS. The article gets right down to tacks, talking about what is monitored on a node. The addition of transparent source allows users to know exactly what is going on and even enhance the agent if they find a missing feature. The overall gist is that the agent monitors for problems, and if it discovers one it then tries to repair any issues.
 BottomLine: Announcement of the open-sourcing of the EKS monitoring agent
 ==
+URL reference: https://developers.redhat.com/learn/openshift/learn-kubernetes-using-developer-sandbox
+DateReviewed: 2026-03-25
+Description: This article is really more of an ad for a course, but it's more of a learning and outcome outline, so is decent in terms of approach and coverage. They do a little bit of hype, and then get into the actual objectives. They expect the activity to take 60 to 90 minutes, and it's broken up into 4 sections - set up env, create back end service, create front end web page, create and populate database. Well laid out actually, but requires a RedHat account - not sure if that requires paying a fee to use the learning sandbox though.
+BottomLine: Basic app deployment using Kubernetes on RedHat sandbox
+==
