@@ -128,3 +128,8 @@ DateReviewed: 2026-03-25
 Description: This article is really more of an ad for a course, but it's more of a learning and outcome outline, so is decent in terms of approach and coverage. They do a little bit of hype, and then get into the actual objectives. They expect the activity to take 60 to 90 minutes, and it's broken up into 4 sections - set up env, create back end service, create front end web page, create and populate database. Well laid out actually, but requires a RedHat account - not sure if that requires paying a fee to use the learning sandbox though.
 BottomLine: Basic app deployment using Kubernetes on RedHat sandbox
 ==
+URL reference: https://www.splunk.com/en_us/blog/security/kubernetes-attack-simulations-ebpf-tetragon-splunk.html
+DateReviewed: 2026-03-26
+Description: Our article today is about attack detection and simulations, which is a pretty cool topic. Now, attacks are usually interesting, but this is a learning piece on them, so they aren't as fun as they might otherwise be. If you aren't a security head, there are no diagrams or charts to help out, so that isn't great. The commands are helpful and well explained, with real-world examples on each, and things are not badly laid out -- but there isn't a game plan, or maybe there is because this is part 2, but it isn't enumerated here. There are a bunch of log queries that help detect bad behavior, but if you don't understand the attack development it'll be hard to figure out why they are helpful. So, not an awful piece, but would be better with some tie-togthers to a bigger picture.
+BottomLine: Okay Splunk learning article about attacks and discovering them
+==
