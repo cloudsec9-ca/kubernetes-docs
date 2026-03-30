@@ -143,3 +143,8 @@ DateReviewed: 2026-03-28
 Description: Okay, so this is on the whole a decent piece, but at the end it's a bit of an ad pitch too, so there is that. It starts off talking about the impeding Ingress Nginx retirement, and what that means at a high level. They then dive in, starting with what is Ingress Nginx, Kubernetes interface to the world for apps. They then talk about Kubernetes Gateway API, which is the successor to Ingress for out-of-cluster conversations. They then talk a bit more about the retirement, including tech debt, lack of contribs and burnout, and a bunch of security issues. They then talk about how Gateway addresses the issues that Ingress had encountered. Finally, there is a pitch for their own WS02 K8s gateway, which I'm guessing extends the built-in one?
 BottomLine: Good article about the Ingress Nginx retirement and replacements for Kubernetes
 ==
+URL reference: https://awesomeagents.ai/guides/how-to-secure-openclaw-hardening-guide/
+DateReviewed: 2026-03-29
+Description: Our article today is about hardening your OpenClaw AI deployment. Honestly, at first I thought it would be mostly hype, but they actually have good and solid recommendations for tackling a number of things. They start with the easiest stuff - don't run a version that doesn't require a login, only allow local connections, and make sure your file permissions are solid, in addtion to running a recent version of the base software. They then talk about restricting tool access, sandboxing, and a number of other recommendations. All are solid, and most are easy to do. Highly recommended.
+BottomLine: Walk through many solid suggestions on securing your OpenClaw deployment
+==
