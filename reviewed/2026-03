@@ -158,3 +158,8 @@ DateReviewed: 2026-03-30
 Description: This article tries to appear to be informative, but is actually a huge product ad. Now, some articles I've reviewed are pitches, and some are more on the advertising side, but this one has one short blurb at the top and like a hundred links to various things. Usually the redeeming features is when the describe a weakness or an issue to be mitigated, but this doesn't even do that. There is a short vid that may be useful at the top, but there is no content to speak of on this page, so it's a definite skip.
 BottomLine: Easy skip as there is virtually no content on this bad ad
 ==
+URL reference: https://linuxsecurity.com/news/cloud-security/what-is-kubernetes-security
+DateReviewed: 2026-03-31
+Description: Interesting article on the paradigm shift that Kubernetes represents - running things differently than on a traditional machine or VM. They talk about how even though K8s are running Linux processes, they don't fit the traditional way an app runs on Linux. A container might only last for 6 minutes, as opposed to a traditional deployment that would last months or years. While things shift, they argue, if you stay ahead of the shift then you'll make a strong transition. One key is that attackers don't need root - if they can compromise an RBAC account with the right privs, then asking the API server they can get whatever they need. So etcd and the API server become the new "root" account. This is actually a bit longer of an article, and it goes through a good amount of hardening and making things secure. Recommended.
+BottomLine: Very strong article on securing Kubernetes from a Linux admin perspective
+==
