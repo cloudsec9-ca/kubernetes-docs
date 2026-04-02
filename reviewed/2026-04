@@ -1,0 +1,5 @@
+URL reference: https://thenewstack.io/how-webassembly-plugins-are-simplifying-kubernetes-extensibility/
+DateReviewed: 2026-04-01
+Description: Our article today is on how WebAssembly helps with Kubernetes extensibility. They focus in here on a new Helm integration, which allows WASI compliant binaries across different envs. Helm helps add security by utilizing Kubernetes-native segmentation. There is also a speed impact, of up to 39% between a Helm 3 and Helm 4 WASM plugin. They talk about whether WASM might replace K8s completely -- but they feel this is something far off. But it does give hope to the promise of "write once, run everywhere" that has been elusive in the modern web app space. Very interesting.
+BottomLine: Good article about how Helm 4 is using WASM to allow plugins on Kubernetes
+==
