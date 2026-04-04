@@ -3,3 +3,8 @@ DateReviewed: 2026-04-01
 Description: Our article today is on how WebAssembly helps with Kubernetes extensibility. They focus in here on a new Helm integration, which allows WASI compliant binaries across different envs. Helm helps add security by utilizing Kubernetes-native segmentation. There is also a speed impact, of up to 39% between a Helm 3 and Helm 4 WASM plugin. They talk about whether WASM might replace K8s completely -- but they feel this is something far off. But it does give hope to the promise of "write once, run everywhere" that has been elusive in the modern web app space. Very interesting.
 BottomLine: Good article about how Helm 4 is using WASM to allow plugins on Kubernetes
 ==
+URL reference: https://www.sysdig.com/blog/leveling-up-kubernetes-posture-from-baselines-to-risk-aware-admission
+DateReviewed: 2026-04-02
+Description: This article talks about Kubernetes security posture - how you set up your cluster to respond to various threats. We dive right in, talking a bit about some different pieces that are built into K8s by default. They do point out that some of these tools aren't fine grained - they permit or deny, but don't always take context into account - should this pod be able to do this NOW and HERE? They then contrast usual things like admission controllers with Kyverno and OP gatekeeper - stopping something from running at all vs checking at runtime. This is an interesting discussion, and shows the need for understanding on the security front.
+BottomLine: Good discussion and thought piece on Kubernetes secuity approaches
+==
