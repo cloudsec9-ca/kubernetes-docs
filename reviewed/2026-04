@@ -8,3 +8,8 @@ DateReviewed: 2026-04-02
 Description: This article talks about Kubernetes security posture - how you set up your cluster to respond to various threats. We dive right in, talking a bit about some different pieces that are built into K8s by default. They do point out that some of these tools aren't fine grained - they permit or deny, but don't always take context into account - should this pod be able to do this NOW and HERE? They then contrast usual things like admission controllers with Kyverno and OP gatekeeper - stopping something from running at all vs checking at runtime. This is an interesting discussion, and shows the need for understanding on the security front.
 BottomLine: Good discussion and thought piece on Kubernetes secuity approaches
 ==
+URL reference: https://www.kanvas.new/
+DateReviewed: 2026-04-03
+Description: Today's article is just a product pitch - for a Kubernetes IaC tool called Kanvas. Neat name, very slick website, but a little lacking -- I looked all over for pricing, but don't see any. The advocate for moving away from YAML, and towards a "visual infra management" approach. They talk about targets, how they support GitOps pipelines, how it has many integrations and finally how it's open source. It seems like a promising tool and might be worth a look.
+BottomLine: Pitch for new IaC tool for Kubernetes called Kanvas
+==
