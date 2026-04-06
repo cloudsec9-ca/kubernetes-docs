@@ -13,3 +13,8 @@ DateReviewed: 2026-04-03
 Description: Today's article is just a product pitch - for a Kubernetes IaC tool called Kanvas. Neat name, very slick website, but a little lacking -- I looked all over for pricing, but don't see any. The advocate for moving away from YAML, and towards a "visual infra management" approach. They talk about targets, how they support GitOps pipelines, how it has many integrations and finally how it's open source. It seems like a promising tool and might be worth a look.
 BottomLine: Pitch for new IaC tool for Kubernetes called Kanvas
 ==
+URL reference: https://github.com/okwilkins/h8s
+DateReviewed: 2026-04-04
+Description: Our target today is a repo called Homernetes, a take on Kubernetes using Talos OS and targeted at home labs. For a home lab distro, it's fairly well featured and contains a good amount of automoation and simplification. It's got tools I haven't used, and I think it would be interesting to try out, just to see how the tools work.
+BottomLine: Home lab focused Homernetes is an adaption of Kubernetes w Talos OS
+==
