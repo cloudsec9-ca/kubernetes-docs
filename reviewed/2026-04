@@ -18,3 +18,8 @@ DateReviewed: 2026-04-04
 Description: Our target today is a repo called Homernetes, a take on Kubernetes using Talos OS and targeted at home labs. For a home lab distro, it's fairly well featured and contains a good amount of automoation and simplification. It's got tools I haven't used, and I think it would be interesting to try out, just to see how the tools work.
 BottomLine: Home lab focused Homernetes is an adaption of Kubernetes w Talos OS
 ==
+URL reference: https://michaeldurkan.com/2026/03/05/aks-networking-ingress-and-egress-traffic-flow/
+DateReviewed: 2026-04-05
+Description: The article we'll tackle today is on AKS networking, looking at Ingress and Egress traffic flows. Part of a series, the previous installment talked about how networking worked in a cluster, where this one looks at the actual traffic. I like that he explains up front what we'll cover. We dive right in - starting with North-south traffic, which is with hosts external to the cluster. Contrast this with East-west traffic, that stays all inside the cluster. They provide examples of each type. They then dive deeper, start with inbound or Ingress traffic. They dig into different ingress approaches, and the pros/cons of each. They then talk about internal ingress, and designing it for resilience, as it becomes a dependency in the data flow. They then pivot to pure east-west, looking at mTLS, policies and traffic observability among other things. They next look at outbound or Egress traffic, with things like NAT, firewall and endpoints. Very interesting.
+BottomLine: Kubernetes networking tackled from the Azure perspective
+==
