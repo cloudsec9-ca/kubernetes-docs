@@ -28,3 +28,8 @@ DateReviewed: 2026-04-06
 Description: So, rather than being an actual article, this is a blurb for a linked video interview; but I'll do a writeup on just the blurb. We start with a question - should K8s clusters run on general purpose Linux distros, before doing a bit of a dive on the person being interviewed. Then they get into the major themes of the vid, including Linux fundamentals like cgroups and namespaces, talk about how Kairos move a distro into an immutable OS, what trusted boot, secure boot and TPM measurements do for edge deployments, and finally look at 3 tools to help make your clusters more secure.
 BottomLine: Blurb for an attached interview which seems might be interesting
 ==
+URL reference: https://twitter.com/dvineet9/status/2030897733880692807
+DateReviewed: 2026-04-07
+Description: While this is just a tweet, it's actually got a lot of into packed into it. If some Kubernetes resources becomes unhealthy, they list commands to help diagnose the issue. They focus on a DaemonSet, first checking the status, looking at scheduling issues; seeing where the pods are. He notes some of the common issues, and then looks at the app logs to go on. Terse but info laden.
+BottomLine: Good quick guide to troubleshooting DaemonSets on Kubernetes
+==
