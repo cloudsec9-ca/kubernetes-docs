@@ -33,3 +33,8 @@ DateReviewed: 2026-04-07
 Description: While this is just a tweet, it's actually got a lot of into packed into it. If some Kubernetes resources becomes unhealthy, they list commands to help diagnose the issue. They focus on a DaemonSet, first checking the status, looking at scheduling issues; seeing where the pods are. He notes some of the common issues, and then looks at the app logs to go on. Terse but info laden.
 BottomLine: Good quick guide to troubleshooting DaemonSets on Kubernetes
 ==
+URL reference: https://www.cvefind.com/CVE-2026-3288
+DateReviewed: 2026-04-08
+Description: This is a vuln disclosure notice, revolving around Kubernetes Ingress. Basically it comes down to an input validation issue, where inputs aren't properly checked, and that allows the possibility of config changes or info disclosure from the visibility of the Ingress resource, which by default is allowed access to all secrets cluster-wide. The impact graphs show that it has a low likelyhood of exploitation or impact, but you should still check on your install.
+BottomLine: Simple vulerability in Kubernetes with low impact - good intro to reading these
+==
