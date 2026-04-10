@@ -38,3 +38,8 @@ DateReviewed: 2026-04-08
 Description: This is a vuln disclosure notice, revolving around Kubernetes Ingress. Basically it comes down to an input validation issue, where inputs aren't properly checked, and that allows the possibility of config changes or info disclosure from the visibility of the Ingress resource, which by default is allowed access to all secrets cluster-wide. The impact graphs show that it has a low likelyhood of exploitation or impact, but you should still check on your install.
 BottomLine: Simple vulerability in Kubernetes with low impact - good intro to reading these
 ==
+URL reference: https://medium.com/@anjidevops1996/what-is-saas-software-as-a-service-81a9da1031a3
+DateReviewed: 2026-04-09
+Description: Today's article is digging in to what SaaS is. SaaS, or software as a service, is where you use a remote server (over the internet) to accomplish your software task, often using a web browser. Since you don't need to install anything locally, it eliminates costly updates and reduced the security risks end users face. They have a list of pros and cons, along with another list of examples of current SaaS products.
+BottomLine: Simple intro to what SaaS (Software as a Service) is
+==
