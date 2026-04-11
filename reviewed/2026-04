@@ -43,3 +43,8 @@ DateReviewed: 2026-04-09
 Description: Today's article is digging in to what SaaS is. SaaS, or software as a service, is where you use a remote server (over the internet) to accomplish your software task, often using a web browser. Since you don't need to install anything locally, it eliminates costly updates and reduced the security risks end users face. They have a list of pros and cons, along with another list of examples of current SaaS products.
 BottomLine: Simple intro to what SaaS (Software as a Service) is
 ==
+URL reference: https://twitter.com/HackingLZ/status/2036430980584559072
+DateReviewed: 2026-04-10
+Description: This graphic describes what LiteLLM does as a Python pip install. After invoking install, it copies something to site-packages. From there, any invocation of Python spins off a background process, where it collects sensitive info like credentials for all things it can access. It then spins up a service for persistence. It encrypts all of the data, and then exfils it to a website. The service polls every 50 mins and pulls new binaries and executes them as requested.
+BottomLine: Walkthrough of the scope of the LiteLLM Python malware
+==
