@@ -48,3 +48,9 @@ DateReviewed: 2026-04-10
 Description: This graphic describes what LiteLLM does as a Python pip install. After invoking install, it copies something to site-packages. From there, any invocation of Python spins off a background process, where it collects sensitive info like credentials for all things it can access. It then spins up a service for persistence. It encrypts all of the data, and then exfils it to a website. The service polls every 50 mins and pulls new binaries and executes them as requested.
 BottomLine: Walkthrough of the scope of the LiteLLM Python malware
 ==
+URL reference: https://www.nivelepsilon.com/2023/12/17/simplifying-stateful-application-management-with-operators/
+DateReviewed: 2026-04-11
+Description: Our article today is going to talk about using operators to help with Kubernetes app states. We start with background - in this case comparing a conductor to what Kubernetes does - in paticular, operators. We then dive in with what is an operator - which is an app specific controller to help manage a K8s app. The idea is that an operator knows what it's app needs, storage, runtime, install and update wise. They then talk about the differences between stateless and stateful apps - starting with stateless. This is easy, as we just need to run the image and have the number of copies/replicas as requested -- no special handling needed. For stateful, you need to keep the data safe -- which makes running, stopping and replacing pods more work. For instance, with a DB, you'd need to save the DB on exit, and restore it on pod creation, along with other things. The authors argue this makes life simpler.
+BottomLine: Exploration of what a Kubernetes Operator does at a high level
+==
+
