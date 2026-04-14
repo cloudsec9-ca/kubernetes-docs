@@ -58,3 +58,8 @@ DateReviewed: 2026-04-12
 Description: Today's article will dig into where you have to look if you are having problems but nothing obvious is wrong - Kernel logs. They dive in, explaining there are things, like OOM errors, network issues at a low level or filesystem corruption that only show up in kernel logs. He then shows us how to look for issues in the kernel logs. Using a tool like grep you can find events, like net/mem/fs issues. It's a good thing to check.
 BottomLine: Quick piece on using kernel logs to find low level issues on Kubernetes clusters
 ==
+URL reference: https://www.cncf.io/blog/2026/03/24/tekton-becomes-a-cncf-incubating-project/
+DateReviewed: 2026-04-13
+Description: This article introduces us to Tekton, a project the CNCF has decided to incubate. It's a CI/CD system, with security and K8s in mind. It's Pipelines component has recently reached stable v1.0 release. It integrates and co-operates with a variety of build tools. After some community comments, they go through Tekton's components, including Pipelines, trigers, CLI, Dashboard and Chains, with definition for each. Interesting project.
+BottomLine: Intro to Tekton - a newly incubated CNCF project
+==
