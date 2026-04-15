@@ -63,3 +63,8 @@ DateReviewed: 2026-04-13
 Description: This article introduces us to Tekton, a project the CNCF has decided to incubate. It's a CI/CD system, with security and K8s in mind. It's Pipelines component has recently reached stable v1.0 release. It integrates and co-operates with a variety of build tools. After some community comments, they go through Tekton's components, including Pipelines, trigers, CLI, Dashboard and Chains, with definition for each. Interesting project.
 BottomLine: Intro to Tekton - a newly incubated CNCF project
 ==
+URL reference: https://medium.com/@shaoyunjian/getting-started-with-helm-kubernetes-package-manager-45e4f4545465
+DateReviewed: 2026-04-14
+Description: Our article today is an intro to Helm, and we start with a diagram, which is my favorite. We start with a short backstory, before getting into what is Helm. They explain it's a package manager, where a chart is an application, and it manages all aspects of the rollout. While you can use YAML directly, Helm helps manage all of the bits in a central place. We then go through how a Helm chart is built, and what files make it up and how they work. They go through some key concepts, like chart, release, reporisitory and values.YAML, with a bit of explaination of what each of these mean. They also contrast what Helm is with what a Helm Chart is. Finally, they walk through some of the Helm actions - like installing, updrading, uninstalling, listing and how a dry-run works. They also touch on versions and how to roll back.
+BottomLine: A good intro on what Helm is and how Helm charts work on Kubernetes
+==
