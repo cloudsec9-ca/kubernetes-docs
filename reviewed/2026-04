@@ -68,3 +68,8 @@ DateReviewed: 2026-04-14
 Description: Our article today is an intro to Helm, and we start with a diagram, which is my favorite. We start with a short backstory, before getting into what is Helm. They explain it's a package manager, where a chart is an application, and it manages all aspects of the rollout. While you can use YAML directly, Helm helps manage all of the bits in a central place. We then go through how a Helm chart is built, and what files make it up and how they work. They go through some key concepts, like chart, release, reporisitory and values.YAML, with a bit of explaination of what each of these mean. They also contrast what Helm is with what a Helm Chart is. Finally, they walk through some of the Helm actions - like installing, updrading, uninstalling, listing and how a dry-run works. They also touch on versions and how to roll back.
 BottomLine: A good intro on what Helm is and how Helm charts work on Kubernetes
 ==
+URL reference: https://www.empiricapps.com/zenithal/download
+DateReviewed: 2026-04-15
+Description: Today we have what appears to be an ad disguised as a new package to manage Kubernetes on MacOS. The package is called Zenithal, and while it has a free version, it also has a "pro" version which does other things, like integrate with Trivy. Now I don't mind apps that charge money to provide value, but Trivy is just being wrapped here -- and there isn't much of a blurb of what it does, except for "container management and Docker compose - 2 projects". If your going to pitch, tell me what I'm getting, at least.
+BottomLine: Bad sort of pitch for a MacOS Kubernetes/Container app
+==
