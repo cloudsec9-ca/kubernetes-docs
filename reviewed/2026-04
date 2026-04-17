@@ -73,3 +73,8 @@ DateReviewed: 2026-04-15
 Description: Today we have what appears to be an ad disguised as a new package to manage Kubernetes on MacOS. The package is called Zenithal, and while it has a free version, it also has a "pro" version which does other things, like integrate with Trivy. Now I don't mind apps that charge money to provide value, but Trivy is just being wrapped here -- and there isn't much of a blurb of what it does, except for "container management and Docker compose - 2 projects". If your going to pitch, tell me what I'm getting, at least.
 BottomLine: Bad sort of pitch for a MacOS Kubernetes/Container app
 ==
+URL reference: https://aviatrix.ai/threat-research-center/trivy-security-scanner-github-actions-breach-2026/
+DateReviewed: 2026-04-16
+Description: Our article today is focused on issues with the well regarded Trivy security scanner. An AI based attack agent found and exploited flaws in the CI/CD pipeline used to build Trivy, causing code execution and secret exposure. The initial vector was a stolen developer token, which was leveraged to add malicious code across a large variety of tags. The attacker then added an infostealer to gather things like SSH keys, cloud service creds and K8s tokens. Good writeup.
+BottomLine: Good explaination of the Trivy scanner compromise
+==
