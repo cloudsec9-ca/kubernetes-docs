@@ -78,3 +78,8 @@ DateReviewed: 2026-04-16
 Description: Our article today is focused on issues with the well regarded Trivy security scanner. An AI based attack agent found and exploited flaws in the CI/CD pipeline used to build Trivy, causing code execution and secret exposure. The initial vector was a stolen developer token, which was leveraged to add malicious code across a large variety of tags. The attacker then added an infostealer to gather things like SSH keys, cloud service creds and K8s tokens. Good writeup.
 BottomLine: Good explaination of the Trivy scanner compromise
 ==
+URL reference: https://undercodenews.com/ransomware-strikes-luxury-cruise-line-and-kubernetes-clusters-a-dual-cybersecurity-threat-emerges/
+DateReviewed: 2026-04-17
+Description: This article details attacks against a cruise line and Kubernetes clusters worldwide. The cruise line had their internal systems accessed without authorization; it seems like this was a backend biz issue and not a cruise boat targeting. The K8s issue was by the actor group TeamPCP and used CanisteWorm to target various clusters outside, with wipers aimed inside Iran. Both showed the evolving nature of threats and that both Niche industries and large geopolitical targets are in play.
+BottomLine: Decent high level description of some cyber attacks including a Kubernetes impact
+==
