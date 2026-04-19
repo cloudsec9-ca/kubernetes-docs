@@ -83,3 +83,8 @@ DateReviewed: 2026-04-17
 Description: This article details attacks against a cruise line and Kubernetes clusters worldwide. The cruise line had their internal systems accessed without authorization; it seems like this was a backend biz issue and not a cruise boat targeting. The K8s issue was by the actor group TeamPCP and used CanisteWorm to target various clusters outside, with wipers aimed inside Iran. Both showed the evolving nature of threats and that both Niche industries and large geopolitical targets are in play.
 BottomLine: Decent high level description of some cyber attacks including a Kubernetes impact
 ==
+URL reference: https://github.com/dapr/dapr-agents
+DateReviewed: 2026-04-18
+Description: We're going to look at a repo today which is a framework for building AI agents. The idea here is to start on a foundation that includes things like observability and resilience, and they did that by using the Dapr project as their starting point. They have a long list of pros, including it being Kubernetes native. They have a lot of docs and guides to get the ball rolling.
+BottomLine: Reop for AI agent development built with Kubernetes natively in mind
+==
