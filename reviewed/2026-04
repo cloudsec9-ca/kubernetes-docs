@@ -86,5 +86,10 @@ BottomLine: Decent high level description of some cyber attacks including a Kube
 URL reference: https://github.com/dapr/dapr-agents
 DateReviewed: 2026-04-18
 Description: We're going to look at a repo today which is a framework for building AI agents. The idea here is to start on a foundation that includes things like observability and resilience, and they did that by using the Dapr project as their starting point. They have a long list of pros, including it being Kubernetes native. They have a lot of docs and guides to get the ball rolling.
-BottomLine: Reop for AI agent development built with Kubernetes natively in mind
+BottomLine: Repo for AI agent development built with Kubernetes natively in mind
+==
+URL reference: https://github.com/openrundev/openrun
+DateReviewed: 2026-04-19
+Description: Looking at this repo which claims to be a solid internal tools platform. They position as an alternative to Google cloud run and AWS app runner, and called OpenRun. The idea here is to use Kubernetes or a single container to build all of the pieces needed for a typical web app. Well documented and solid looking.
+BottomLine: Container based dev platform repo for running dev tools
 ==
