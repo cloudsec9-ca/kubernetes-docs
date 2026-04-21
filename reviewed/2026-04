@@ -93,3 +93,8 @@ DateReviewed: 2026-04-19
 Description: Looking at this repo which claims to be a solid internal tools platform. They position as an alternative to Google cloud run and AWS app runner, and called OpenRun. The idea here is to use Kubernetes or a single container to build all of the pieces needed for a typical web app. Well documented and solid looking.
 BottomLine: Container based dev platform repo for running dev tools
 ==
+URL reference: https://abhinav332.medium.com/kubernetes-1-33-in-action-hands-on-implementation-insights-96d59d3eaac6
+DateReviewed: 2026-04-20
+Description: Our article today takes a different approach to a new Kubernetes release - instead of just checking the release notes, this is a hands on feedback from someone using it. He used a sandbox system called KodeKloud to do his implementation. We start with a show of a sidecar container; he uses it to generate content for the main web serving container. Next he digs into multiple CIDR ranges, which allows your cluster to grow if you have a lot of IPs for various pods in your cluster. They show the YAML needed to add this into your cluster. We then get a tour of trafficDistribution, which is a way to pick servers that are in some way "close" to clients network wise. A short blurb on kubectl config file .kuberc as an alpha feature. Decent tour.
+BottomLine: Different take on new features in a Kubernetes release - a walk through
+==
