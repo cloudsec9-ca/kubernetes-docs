@@ -123,3 +123,8 @@ DateReviewed: 2026-04-25
 Description: This article dives into using backups right on Kubernetes. We start with the background, which is that backups are easy and the author was doing a weekend project with them. The author talks about VMs and snapshots, but quick sidebar -- if you aren't testing your backups with restores, then you aren't actually doing backups. Back on track, he does point out that with a decoupled arch, things can spread out. He narrows in on CSI drivers, but mentions PVCs, storage classes, objects .. any of which can fail. He says he started with Velcro, but had some confusion with that, which prompted him to move to Veeam Kasten K10. But due to a mismatch in versions, his Ceph CSI wasn't working and his snapshots were unusable. In his case, they were not marked ready, but he does mention you have to perform a restore to ensure things are working. Good piece.
 BottomLine: Strong piece on doing backups and confirming restores on Kubernetes for a home lab
 ==
+URL reference: https://www.thestack.technology/kubernetes-cluster-management-at-scale/
+DateReviewed: 2026-04-26
+Description: Our article today talks about how a big financial firm uses GitOps to manage a large number of prod Kubernetes clusters. We're looking at Morgan Stanley, who is using 500 K8s clusters with 100K containers and 2K nodes. They talk about having common underlying bits, and then we get hit up to subscribe for more. Now subscription is free, but our review ends here as any gateway is a no in out reviews here.
+BottomLine: Skip as there is a teaser then a subscribe link mid article
+==
