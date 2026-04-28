@@ -128,3 +128,8 @@ DateReviewed: 2026-04-26
 Description: Our article today talks about how a big financial firm uses GitOps to manage a large number of prod Kubernetes clusters. We're looking at Morgan Stanley, who is using 500 K8s clusters with 100K containers and 2K nodes. They talk about having common underlying bits, and then we get hit up to subscribe for more. Now subscription is free, but our review ends here as any gateway is a no in out reviews here.
 BottomLine: Skip as there is a teaser then a subscribe link mid article
 ==
+URL reference: https://multikernel.io/2026/04/03/ai-agent-sandboxes-got-security-wrong/
+DateReviewed: 2026-04-27
+Description: Today's article is about how the current approach to AI agent sandboxing is flawed. The explain the current approach, which is wrapping agents in microVMs and isolating hardware, to get defense-grade isolation, is wrong. They advance 4 reasons why this is so. First is that AI agents are not adversaries; next is isolation isn't security; third is you don't need root, probably; and finally, one box for everything is not security at all. Each of these has a good discussion that goes on at least serveral paragraphs, explaining what their reasoning is and why the conventional wisdom doesn't work. They to include a short pitch for their own tool, which they say tackles security in this context in a better way.
+BottomLine: Interesting discussion of what is needed to secure AI agents in the cloud
+==
