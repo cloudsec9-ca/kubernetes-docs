@@ -133,3 +133,8 @@ DateReviewed: 2026-04-27
 Description: Today's article is about how the current approach to AI agent sandboxing is flawed. The explain the current approach, which is wrapping agents in microVMs and isolating hardware, to get defense-grade isolation, is wrong. They advance 4 reasons why this is so. First is that AI agents are not adversaries; next is isolation isn't security; third is you don't need root, probably; and finally, one box for everything is not security at all. Each of these has a good discussion that goes on at least serveral paragraphs, explaining what their reasoning is and why the conventional wisdom doesn't work. They to include a short pitch for their own tool, which they say tackles security in this context in a better way.
 BottomLine: Interesting discussion of what is needed to secure AI agents in the cloud
 ==
+URL reference: https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html
+DateReviewed: 2026-04-28
+Description: Our article today is a cheat sheet for Docker - we actually looked in the past at their Kubernetes one. There is a tiny intro, and the way that things are laid out is that they propose rules, and then explain why they need those rules to be followed. Rule 0 is keep host and Docker up to date, which is an easy one. One thing I do like is they name issues that exploit not following the rule, to help you understand why it's important to follow. They explore setting a user, limiting capabilities and socket access, limit in-container privs, and that's just to get started. They have a laundry list of good advice, including the possiblity to use Podman.
+BottomLine: Good walkthrough of a lot of solid advice for securing Docker
+==
