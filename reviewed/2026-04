@@ -143,3 +143,8 @@ DateReviewed: 2026-04-29
 Description: This article talks a bit about a new CNCF sandbox project in the AI area - llm-d. They go through a diagram, a bit of why they did it (a neutral steward), and their goal - any model, any accelerator, any cloud. They talk a bit about inference states and how that changes things like orchestration and caches. It seems like a neat project to get AI bits going, and well written.
 BottomLine: New AI project in CNCF sandbox called llm-d
 ==
+URL reference: https://twitter.com/e_opore/status/2042664883414524262/photo/1
+DateReviewed: 2026-04-30
+Description: Today's item is actually a Kubernetes security hardening infographic. It's actually pretty thorough, touching on RBAC, service accts, Pod security, Network policies, Image/Supply chain sec, runtime security and admission controllers. It even has a bit of YAML thrown in. Good high level overview to get the ball rolling.
+BottomLine: Good infographic on Kubernetes security hardening
+==
