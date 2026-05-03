@@ -1,0 +1,6 @@
+
+URL reference: https://dplacencia.com/blog/why-i-run-a-homelab/
+DateReviewed: 2026-05-01
+Description: For today's article, we're going to look at a homelab with a twist - not just a toy, but a way to experiment with GPUs and AI. We start with background of everything moving to the cloud, and then how GPUs are a bit more pricey in the cloud, and why doing this on-prem may make economic sense. Our author details his setup, which is a Mac Mini M1 alongside a Proxmox host with 2 RTX3060 GPUs. He then goes through the software stack, which is a K3s cluster for CI/CD, Vault for PKI and secrets, a bastion host for SSH and a self hosted GitHub runner for CI pipelines. He mentions how the Mac Mini figures in, before explaining his external networking with Cloudflare tunnels and Wireguard. His reflection is that while this setup isn't prod ready, it's capable of experiments and prototyping in a decent way. I like the approach and the piece is a great read with solid work. Recommended.
+BottomLine: Good piece on using a Homelab to do GPU and AI work
+==
