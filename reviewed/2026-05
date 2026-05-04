@@ -9,3 +9,8 @@ DateReviewed: 2026-05-02
 Description: What I thought was an article is actually an ad for a Kubernetes-like alternative called virtuoso. They have an ISO for doing an on-prem install, and ability to do a cloud deploy in AWS. Their target seems to be homelabs and small envs, and it looks early but pretty solid. It's a VM wrangler, so a bit different then K8s, but might be K8s compatible. The dashboards look very slick. Worth a look I'd say.
 BottomLine: Neat app that allows coordination of local and cloud VMs
 ==
+URL reference: https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/
+DateReviewed: 2026-05-03
+Description: Our article today is going to dive into using Slurm to manage GPU workloads. We start with a short background on what Slurm is - an open source cluster mgmt and job scheduler. While used on its own, the challenge they pose is to integrate it with Kubernetes. To accomplish this, they use Slinky, which has two parts - slurm-bridge, allowing Slurm scheduling to work with K8s workloads, and slurm-operator, which leans on K8s infra to do the full Slurm lifecycle. The focus of the rest of this piece is on this second part of Slinky. We get a diagram, and they explain how Slurm is run using K8s native resources in many spots. They then dive into how different types of workloads would work, and mention that running on K8s works very similarly to how it would work without K8s. They talk a bunch more about it, but the interesting thing is that they've used up to 8K GPUs on it - quite impressive.
+BottomLine: Decent piece on using Slurm with Kubernetes to manage GPU workloads
+==
