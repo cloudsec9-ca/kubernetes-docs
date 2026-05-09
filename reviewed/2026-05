@@ -34,3 +34,8 @@ DateReviewed: 2026-05-07
 Description: Our article today will talk about attackers exploiting Kubernetes misconfigs. We start with a bit of background - K8s is popular, that draws attention, and the goal is to get access to cloud accounts. We're then given scary stats, and told attacks aren't random. Service tokens are a target, as well as container escapes. In a story old as time, the pattern is familiar - gain foothold (code exec in container), pivot and look for creds, look for exposures (API or other lines), and seek to move up the chain. They then move on to some examples, like a Crypto exchange compromise through a developer who was phished. They used an active session to deploy a container and obtain a token, allowing far-ranging access to the cluster. They parlayed this into cloud access and finally were able to access and steal millions in crypto coins. They also detail a react2shell expoit.
 BottomLine: Walkthroughs of two recent exploits to show Kubernetes admins what they are up against
 ==
+URL reference: https://k8sgames.com/
+DateReviewed: 2026-05-08
+Description: Today's uh .. site? .. is a spot where you can learn Kubernetes by playing. It has a campaign mode, where you build from simple pods all the way to prod, a chaos mode that simulates trouble, a sandbox to try things out and challenges to test your skills. Open source and free, very cool.
+BottomLine: Neat tool to learn Kubernetes in various ways hands on
+==
