@@ -39,3 +39,8 @@ DateReviewed: 2026-05-08
 Description: Today's uh .. site? .. is a spot where you can learn Kubernetes by playing. It has a campaign mode, where you build from simple pods all the way to prod, a chaos mode that simulates trouble, a sandbox to try things out and challenges to test your skills. Open source and free, very cool.
 BottomLine: Neat tool to learn Kubernetes in various ways hands on
 ==
+URL reference: https://www.wwt.com/wwt-research/ai-at-scale-on-kubernetes-why-platform-discipline-determines-accelerator-efficiency
+DateReviewed: 2026-05-09
+Description: Our article today focuses on how AI changes the equation on how much scheduling slack you can afford. We start with and Exec summary, and we transition into recommendations on first moves, including seperating training and inference, using admission control and queue based schedules, instrument accelerator, model and pipeline telemetry and standardize cluster and sec policy. They talk a bit more before coming to their point - inefficiency at scale -- where by underutilizing accelerators you are paying for busy wait cycles. The discussion is actually very interesting.
+BottomLine: Interesting approach to Kubernetes utilization when using AI
+==
