@@ -44,3 +44,8 @@ DateReviewed: 2026-05-09
 Description: Our article today focuses on how AI changes the equation on how much scheduling slack you can afford. We start with and Exec summary, and we transition into recommendations on first moves, including seperating training and inference, using admission control and queue based schedules, instrument accelerator, model and pipeline telemetry and standardize cluster and sec policy. They talk a bit more before coming to their point - inefficiency at scale -- where by underutilizing accelerators you are paying for busy wait cycles. The discussion is actually very interesting.
 BottomLine: Interesting approach to Kubernetes utilization when using AI
 ==
+URL reference: https://ergaster.org/til/kubernetes-crash-shell/
+DateReviewed: 2026-05-10
+Description: Today's article is a quick post on how to get insight into a crashing container. Our author explains how to use the K8s debug command to see into a container that might not be behaving; it's a quick into, but something people might not know about.
+BottomLine: Quick intro into the Kubernetes debug command for crashing containers
+==
