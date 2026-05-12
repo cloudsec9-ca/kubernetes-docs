@@ -49,3 +49,8 @@ DateReviewed: 2026-05-10
 Description: Today's article is a quick post on how to get insight into a crashing container. Our author explains how to use the K8s debug command to see into a container that might not be behaving; it's a quick into, but something people might not know about.
 BottomLine: Quick intro into the Kubernetes debug command for crashing containers
 ==
+URL reference: https://www.nutanix.com/tech-center/blog/the-importance-of-openness-for-kubernetes-at-scale
+DateReviewed: 2026-05-11
+Description: Our article today dives into the importance of Openness for Kubernetes at scale. We start with a bit of background, touching on the popularity of K8s as a platform, before doing an intro the includes going through all the features that are included out of the box. Now we pivot to "differentiation", which is where vendors use K8s as a building block and then add proprietary extensions and APIs, and talk a bit about why that is bad. The arguement here is if you use an open-source adhering provider, you get more flexibility and the ability to run anywhere (including on-prem). It's an interesting perspecitve.
+BottomLine: Good piece on wanting to keep your whole Kubernetes cluster on open source software
+==
