@@ -64,3 +64,8 @@ DateReviewed: 2026-05-13
 Description: This article is about Kubernetes health checks, and is part of a series about Kubernetes. We start with numbered lists, and go through what they do and the conditions they have to meet to be considered successful. We go through Health, Liveness, and Readiness, and we even mix a bit of YAML in. Last but not least they do mix in a Startup probe. A bit terse, but worth a look.
 BottomLine: Very short intro to Health probes on Kubernetes
 ==
+URL reference: https://twitter.com/Yash_s33244/status/2048758694851354842/photo/1
+DateReviewed: 2026-05-14
+Description: Our focus today is an infographic on new Kubernetes v1.30 security features. Most prominent is simplified security policies, which is always helping admins and operators. They also talk about enhanced autoscaling and better stability and performance.
+BottomLine: Short infographic on new Kubernetes enhancements for Kubernetes v1.30
+==
