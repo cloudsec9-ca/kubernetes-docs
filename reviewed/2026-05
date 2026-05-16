@@ -69,3 +69,8 @@ DateReviewed: 2026-05-14
 Description: Our focus today is an infographic on new Kubernetes v1.30 security features. Most prominent is simplified security policies, which is always helping admins and operators. They also talk about enhanced autoscaling and better stability and performance.
 BottomLine: Short infographic on new Kubernetes enhancements for Kubernetes v1.30
 ==
+URL reference: https://hashicorpengineering.substack.com/p/nomad-on-openshift-the-control-plane
+DateReviewed: 2026-05-15
+Description: Today's article talks about using OpenShift with Nomad as your control plane, and more importantly why you should trust it. We start with a bit of background - trying to run containers and orchestrate them at the edge, on devices that are usually lighter weight with less memory and CPU capability. Enter Red Hat with a compromise - leverage RH instances for compute while using a control backplane that is more beefy, on OpenShift. We get an arch diagram, then an intensive discussion of the benefits of Nomad and how it works well in constrained envs. It's a great discussion and something to consider.
+BottomLine: Zones in on using Nomad with Kubernetes to run at the edge
+==
