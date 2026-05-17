@@ -74,3 +74,8 @@ DateReviewed: 2026-05-15
 Description: Today's article talks about using OpenShift with Nomad as your control plane, and more importantly why you should trust it. We start with a bit of background - trying to run containers and orchestrate them at the edge, on devices that are usually lighter weight with less memory and CPU capability. Enter Red Hat with a compromise - leverage RH instances for compute while using a control backplane that is more beefy, on OpenShift. We get an arch diagram, then an intensive discussion of the benefits of Nomad and how it works well in constrained envs. It's a great discussion and something to consider.
 BottomLine: Zones in on using Nomad with Kubernetes to run at the edge
 ==
+URL reference: https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/
+DateReviewed: 2026-05-16
+Description: Our article today dives into user namespaces finally going GA in Kubernetes v1.36. We start with background - this has been in the pipe for a long time, and it's foundational to getting to true rootless security. The basic idea is inside the container the process looks like root; but in the host process system, it's an unprivledged user. It allows access to privledged system calls, but only in the context of the container. Previously, if you needed to make a priv. system call, you had to be root on the host or it would fail; no uid 0, no success. Not anymore. This also extends to volumes - at first, kubelet would chown all the files, but now, the kernel remaps them at mount time. They even have a short example with YAML.
+BottomLine: Good piece on User Namespaces and how they help in Kubernetes
+==
