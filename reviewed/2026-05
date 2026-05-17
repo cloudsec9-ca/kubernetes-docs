@@ -79,3 +79,8 @@ DateReviewed: 2026-05-16
 Description: Our article today dives into user namespaces finally going GA in Kubernetes v1.36. We start with background - this has been in the pipe for a long time, and it's foundational to getting to true rootless security. The basic idea is inside the container the process looks like root; but in the host process system, it's an unprivledged user. It allows access to privledged system calls, but only in the context of the container. Previously, if you needed to make a priv. system call, you had to be root on the host or it would fail; no uid 0, no success. Not anymore. This also extends to volumes - at first, kubelet would chown all the files, but now, the kernel remaps them at mount time. They even have a short example with YAML.
 BottomLine: Good piece on User Namespaces and how they help in Kubernetes
 ==
+URL reference: https://copy.fail/
+DateReviewed: 2026-05-16
+Description: This article talks about a simple proof of concept that exploits an issue in a privledged system call to get a root shell. The program is a small Python script, and the vulnerability stretches back to 2017, making every Linux distro vulnerable. They have a video walkthrough on 4 different distros to show the simplicity of it. They go through a laundry list of what you should patch and in what order, which makes a lot of sense. K8s clusters and multi-tenant hosts are first, then SaaS, CI runners and so on until we get to single-user workstations. They have a detailed discussion, including a quick workaround and patch suggestions, and what isn't affected at all and what might be affected. They then have a FAQ section and a timeline. Recommended reading.
+BottomLine: Great coverage of a timely vulnerability affecting lots of cloud systems
+==
