@@ -104,3 +104,8 @@ DateReviewed: 2026-05-20
 Description: This article is a tutorial on using kubeadm for high availability, primarily on-prem. We do a bit of background and even compare on-prem HA options. Next up we have prereqs, and dive into OS prep for our nodes. They then set up the cgroup driver that containerd uses, under systemd. Then we finally set up kubeadm, kubelet and kubectl for the K8s side. We then set up the first control plane node, and then the CNI. We join the rest of the nodes and spin up the local LB service. Finally we set up the storage manager. Good walkthrough.
 BottomLine: Solid walkthrough to set up Kubernetes on prem with High Availability
 ==
+URL reference: https://www.virtualgraffiti.com.au/partner/?name=Tigera
+DateReviewed: 2026-05-21
+Description: So, this is more of a product pitch then an article, but let's review. It dives into "unified" net security and observability for Kubernetes, has a couple diagrams and a pretty layout. The copy is a bunch of buzzword laden quips, before getting into the "product" .. which are all variations of Calico. I'm not really sure what I'm buying here, esp. in the open source and free tier levels, but they have cloud and enterprise, so maybe it's setup and operational stuff? It's not clear, in any case. Neat idea, not well conveyed.
+BottomLine: Avoidable pitch piece without much real info on Calico for Kubernetes
+==
