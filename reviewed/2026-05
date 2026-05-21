@@ -99,3 +99,8 @@ DateReviewed: 2026-05-19
 Description: With this article, we're going to look at using a default container on Kubernetes. We start with a bit of background talking about a pod that runs multiple containers. We do this for sidecars to handle logging, monitoring or service mesh tasks; but then using kubectl we have to specify the target contaainer; if we don't, then we get the first one in the manifest, which may not be the right one. The fix is using an annotation, default-container, to mark the one we usually want to deal with. They note it can be done at create time or applied to an existing pod. They then go through an example, showing us snagging the wrong container, and then the YAML for startup that solves this. 
 BottomLine: Simple way to specify which container in a pod you want to interact with on Kubernetes
 ==
+URL reference: https://sinapti.ca/post/en/on-premise-kubernetes-in-production-step-by-step-ha-cluster--flrompua
+DateReviewed: 2026-05-20
+Description: This article is a tutorial on using kubeadm for high availability, primarily on-prem. We do a bit of background and even compare on-prem HA options. Next up we have prereqs, and dive into OS prep for our nodes. They then set up the cgroup driver that containerd uses, under systemd. Then we finally set up kubeadm, kubelet and kubectl for the K8s side. We then set up the first control plane node, and then the CNI. We join the rest of the nodes and spin up the local LB service. Finally we set up the storage manager. Good walkthrough.
+BottomLine: Solid walkthrough to set up Kubernetes on prem with High Availability
+==
