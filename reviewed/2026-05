@@ -109,3 +109,8 @@ DateReviewed: 2026-05-21
 Description: So, this is more of a product pitch then an article, but let's review. It dives into "unified" net security and observability for Kubernetes, has a couple diagrams and a pretty layout. The copy is a bunch of buzzword laden quips, before getting into the "product" .. which are all variations of Calico. I'm not really sure what I'm buying here, esp. in the open source and free tier levels, but they have cloud and enterprise, so maybe it's setup and operational stuff? It's not clear, in any case. Neat idea, not well conveyed.
 BottomLine: Avoidable pitch piece without much real info on Calico for Kubernetes
 ==
+URL reference: https://2i2c.org/blog/copyfail-mitigation/
+DateReviewed: 2026-05-22
+Description: This is a good summary and public discussion of a provider trying to explain if they are vulnerable to an exploit and giving the evidence that they used to make that conclusion. In this case, they used proof of concepts (PoC) that should demonstrate the issue and found they don't work. Good blueprint of how to handle such an incident.
+BottomLine: Disclosure of possible vuln and discussion of why they feel they are not vuln
+==
