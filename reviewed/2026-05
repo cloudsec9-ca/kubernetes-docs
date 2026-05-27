@@ -134,3 +134,8 @@ DateReviewed: 2026-05-26
 Description: Today's piece isn't an article, but a high level summary of another article. We start with a para that talks about secrets, and what the different soft spots are - like API abuse or local access. They then go through a point-form list of the various points that the article brings out, and then they touch on another list of the MITRE techniques that are used to get or expand access. Finally, they wrap up with indicators of compromise and a link to the original article. While I'm not a big fan of this format, it isn't done badly here.
 BottomLine: Solid summary of security of Kubernetes secrets article
 ==
+URL reference: https://medium.com/@goenkaharsh27/deploying-istio-service-mesh-on-amazon-eks-a-practical-guide-8778f9c5f407
+DateReviewed: 2026-05-26
+Description: This time, we're going to do a walk-through on using Istio mesh on Amazon EKS. We start with how microservices make things easier on a programming level, but complicate things on the network side - security, traffic shaping and reliability are wrinkles to address. They explain a bit of how Istio works to solve this, by using Envoy sidecars for network stuff. They give a list of benefits, before going through a list of needed pre-reqs. They then spin up a cluster and verify it, before doing the Istio install part. Next is setting up Istios control plane and the sidecar injection. They then verify the control bits are happy. They then walk through deploying an app into the cluster, and verify it is also running okay. They walk through observability and enabling mTLS for encryption in flight. To wrap up, they have some prod tips. Very solid.
+BottomLine: Good piece on how to install Istio as a mesh for your cluster
+==
