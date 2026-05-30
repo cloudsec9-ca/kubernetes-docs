@@ -149,3 +149,8 @@ DateReviewed: 2026-05-28
 Description: Our article today dives into security issues with Next.js. In paticular, 13 new vulns including CVE-2026-44578. This last CVE is an SSRF, or a request forgery, which by using an X-Forwarded-Host which doesn't validate properly and allows a local resource to be improperly proxied possibly to a remote actor. They note that Vercel has patched this on their servers, so you are unaffected if using them; but if you are self-hosting, there is danger. They include ways to check if you are vulnerable, how to update, and how to block metadata endpoints which can be used to mitigate temporarily. They have solid recommendations for going forward. They do reflect why there has been a few issues with Next.js recently.
 BottomLine: Solid piece on some recent Next.js related security vulnerabilities
 ==
+URL reference: https://github.com/doitintl/kube-no-trouble
+DateReviewed: 2026-05-29
+Description: Today we're looking at a repo that does something simple - checks for deprecated API use. It's intended to stop upgraded Kubernetes and giving yourself a problem when your workloads call outdated APIs and fail. 
+BottomLine: Neat repo to flag deprecated API use on Kubernetes apps
+==
