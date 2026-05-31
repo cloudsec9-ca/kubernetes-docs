@@ -159,3 +159,8 @@ DateReviewed: 2026-05-30
 Description: Today's article is part of a series on Kubernetes; this part is on inbound connections, specifically ClusterIP, NodePort and LoadBalancer. We start with a visual that is kind of great, talking a bit about a bunch of little things. We dive in by talking about the background -- why we need a service and not just a specific IP. Now I thought it would be another fluffy explaination, but this is a hands-on tutorial where you explore things -- and it's pretty long. Good job!
 BottomLine: Hands on walkthrough of how services work at the network level on Kubernetes
 ==
+URL reference: https://medium.com/nttlabs/improvements-to-rootless-mode-in-docker-v29-5-4e0347464ad0
+DateReviewed: 2026-05-30
+Description: Our article talks about new improvements to Docker's rootless mode in v29.5. We start with a quick new features mention, before diving in to what is rootless mode. They talk about some of the issues this mode had, and how the new updates improve things like network throughput. Good read.
+BottomLine: New Docker updates for rootless mode
+==
