@@ -154,3 +154,8 @@ DateReviewed: 2026-05-29
 Description: Today we're looking at a repo that does something simple - checks for deprecated API use. It's intended to stop upgraded Kubernetes and giving yourself a problem when your workloads call outdated APIs and fail. 
 BottomLine: Neat repo to flag deprecated API use on Kubernetes apps
 ==
+URL reference: https://medium.com/@varungopal286/kubernetes-services-explained-clusterip-nodeport-and-loadbalancer-aa356abc801f
+DateReviewed: 2026-05-30
+Description: Today's article is part of a series on Kubernetes; this part is on inbound connections, specifically ClusterIP, NodePort and LoadBalancer. We start with a visual that is kind of great, talking a bit about a bunch of little things. We dive in by talking about the background -- why we need a service and not just a specific IP. Now I thought it would be another fluffy explaination, but this is a hands-on tutorial where you explore things -- and it's pretty long. Good job!
+BottomLine: Hands on walkthrough of how services work at the network level on Kubernetes
+==
