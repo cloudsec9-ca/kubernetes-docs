@@ -9,3 +9,8 @@ DateReviewed: 2026-06-02
 Description: Today's article is more of an ad blurb then an actual piece. It talks about DeepSource SCA, which it appears is a software scanner. The big news in this blurb is that it supports monorepos, which ends up allowing a big older type of repo to be scanned - each dependency gets it's own report/tab. It appears to use AI to do reviews, and has a laundry list of languages where this capability is available. Not much on how it works or what it does; maybe that is in another doc or blurb, but not here at all.
 BottomLine: Mostly an advertising blurb for a source code scanner now for monorepos
 ==
+URL reference: https://medium.com/@Luna_Writes/the-kubernetes-era-is-fading-heres-why-top-tech-companies-are-choosing-these-5-simpler-tools-bea0e1146d76
+DateReviewed: 2026-06-03
+Description: Our article today is a toe-dip into the world of Kubernetes alternatives, because it isn't just a one man show anymore. While they don't think K8s is going away anytime soon, they do want to look at the competition, and see what they offer. So, we have 5 alts they cover - Nomad, Docker Swarm, Amazon ECS, Google Cloud Run and Fly.io. Each is covered with a few sentences, and explains what they offer and how they differ from K8s. It's always good to look at the options, and this is a good piece for that.
+BottomLine: Short piece which explores alternatives for Kubernetes
+==
