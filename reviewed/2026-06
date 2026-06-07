@@ -24,3 +24,8 @@ DateReviewed: 2026-06-05
 Description: Our article today is a step by step walkthrough of how to use Jenkins to deploy to Kubernetes, which is of great interest for developers that might not be familiar with containers or K8s. We get a tiny bit of motivational background before going through the pre-reqs, and then straight in. First it's installing a plug in, then credential config, a Jenkins file and a K8s manifest, then create the pipeline. They have some troubleshooting tips and next steps, like doing blue/green or other more sophisticated stuff.
 BottomLine: Good solid piece doing a walkthrough of using Jenkins to deploy to Kubernetes
 ==
+URL reference: https://securityonline.info/fleet-security-vulnerabilities-kubernetes/
+DateReviewed: 2026-06-06
+Description: This article dives into issues that fleets of clusters might have, paticularly in the area of GitOps. They actually detail 3 very seperate vulns, and how they can be leveraged together to compromise a cluster and more. Each vuln is given it's own section, and pulling up the rear is a mitigation and resolution section for people affected. Short but to the point.
+BottomLine: Article on 3 Kubernetes ecosystem vulns and their impacts
+==
