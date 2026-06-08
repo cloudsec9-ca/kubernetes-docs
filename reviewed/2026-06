@@ -29,3 +29,8 @@ DateReviewed: 2026-06-06
 Description: This article dives into issues that fleets of clusters might have, paticularly in the area of GitOps. They actually detail 3 very seperate vulns, and how they can be leveraged together to compromise a cluster and more. Each vuln is given it's own section, and pulling up the rear is a mitigation and resolution section for people affected. Short but to the point.
 BottomLine: Article on 3 Kubernetes ecosystem vulns and their impacts
 ==
+URL reference: https://edjgeek.com/blog/deploy-fastapi-aws-60-seconds/
+DateReviewed: 2026-06-07
+Description: Today's article details deploying FastAPI to AWS in 60 seconds - but I'd say it is more then that, as the explaination is at least that long. They do a quick job of motivating this, and then move on to explaining how it works overall and then what you need to do to get it working. This is all focused on Lambda, AWS way to run serverless -- and they focus on how you have to make no changes to your program code to use this. It actually seems fairly simple and would be something neat to try.
+BottomLine: New approach to deploying apps for Serverless with FastAPI
+==
