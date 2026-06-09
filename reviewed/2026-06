@@ -34,3 +34,8 @@ DateReviewed: 2026-06-07
 Description: Today's article details deploying FastAPI to AWS in 60 seconds - but I'd say it is more then that, as the explaination is at least that long. They do a quick job of motivating this, and then move on to explaining how it works overall and then what you need to do to get it working. This is all focused on Lambda, AWS way to run serverless -- and they focus on how you have to make no changes to your program code to use this. It actually seems fairly simple and would be something neat to try.
 BottomLine: New approach to deploying apps for Serverless with FastAPI
 ==
+URL reference: https://arunnsm.medium.com/kubernetes-architecture-whats-under-the-hood-93907aa18686
+DateReviewed: 2026-06-08
+Description: Our article today tries to dig into how and why Kubernetes actually works - the architecture layer. They postulate that K8s works on two layers - Control plane and Node layers, with additional optional bits. They do a decent job of diving into each layer, explaining the setup, the high level bits, and how they are invoked and what they do.
+BottomLine: Strong basic explaination of Kubernetes architecture
+==
