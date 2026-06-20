@@ -89,3 +89,8 @@ DateReviewed: 2026-06-18
 Description: Our article today is talking about a security vulnerability in the Linux kernel. They start with a tiny bit of background, before diving into the details, which is a flaw in how the kernel's packet filtering subsystem works. They then talk about the fix and the disclosure a while later of a working exploit. We pivot back to the details of the vuln which is a use after free memory issue, which allows attackers to corrupt kernel memory and execute arbitrary code. There were a wide variety of systems affected, including Ubuntu, Debian, Red Hat and CentOS, and the patch was issued Feb 5. The exploit arrived on on Jun 8, but the scope meant not all systems were patched. The article points out the dangers for systems like IoT, web servers and even cloud or container envs are vulnerable. They have a section on regional impacts, as this is an African blog. They then go through solid mitigation and resolution advice.
 BottomLine: Good complete walkthrough of a vulnerability and resolution of a Linux kernel issue
 ==
+URL reference: https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/
+DateReviewed: 2026-06-19
+Description: Today's article is about what you can discover about Kubernetes through the interview process. The interesting bit to me is that a lot of teams use K8s to have uniform deployments, GitOps traceable processes for compliance, and not just for technical scaling ability. Originally was a foursignals link, but the actual blog entry is posted as the other was just a weighted summary.
+BottomLine: Good article and insights about what teams are using Kubernetes fory
+==
