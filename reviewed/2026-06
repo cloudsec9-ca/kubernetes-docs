@@ -92,5 +92,10 @@ BottomLine: Good complete walkthrough of a vulnerability and resolution of a Lin
 URL reference: https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/
 DateReviewed: 2026-06-19
 Description: Today's article is about what you can discover about Kubernetes through the interview process. The interesting bit to me is that a lot of teams use K8s to have uniform deployments, GitOps traceable processes for compliance, and not just for technical scaling ability. Originally was a foursignals link, but the actual blog entry is posted as the other was just a weighted summary.
-BottomLine: Good article and insights about what teams are using Kubernetes fory
+BottomLine: Good article and insights about what teams are using Kubernetes for
+==
+URL reference: https://twitter.com/yourclouddude/status/2066928261528199634
+DateReviewed: 2026-06-20
+Description: This article takes a look at AWS from a totally different angle. They start by mentioning a laundry list of AWS services that people memorize, but explain that Kubernetes is made up of systems. They then list those system - access, network, compute, storage, database, monitoring, reliability and cost. They explain by approaching it this way, a seasoned practioner will build something solid, unlike a beginner that may craft a weak layer and weaken the system. For IAM, they pose a good walkthrough - giving full admin access is easy for beginners, but does your service need to delete every resource to function? They dive in for each layer in turn - VPCs/network, compute, storage, etc. They talk about the beginner approach and how a production eng. would approach it. To tie things up, they end with a case study and some final thought. Great piece.
+BottomLine: Solid piece with a different appraoch to AWS cloud services in production
 ==
