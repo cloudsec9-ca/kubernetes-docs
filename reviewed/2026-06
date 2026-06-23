@@ -104,3 +104,8 @@ DateReviewed: 2026-06-21
 Description: Today's article is on why humans won't disappear in autonomous databases. Our expert claims the DBA role with shift, from operational upkeep to someone specialized on the structure of the data itself. The idea is that normal maint - patching, scaling and integral maintenance done by humans now - will be done by ML and AI agents. They also speculate a shift from SQL to an internal and more efficient "machine" comms standard. Humans would stay in charge of data integrity, access patterns and systems architecture. They dive in a bit to the overlap between Kubernetes and Percona tools, and how they compliment each other. They also touch on vendor lock in and security. Interesting piece.
 BottomLine: Interesting perspective on where the DBA role is going with more AI agents in databases
 ==
+URL reference: https://planetscale.com/blog/the-feedback-loops-behind-kubernetes
+DateReviewed: 2026-06-22
+Description: Our article today is a deep dive into why Kubernetes is good at running workloads at scale. And then, the author tells us his thesis that the important thing is feedback loops, and to prove it, he's going to walk us through using K8s to run a Postgres database. It's actually brilliant, as he starts from nothing and builds everything manually at first, so you see all the issues and bits that need something. He then uses a watch script to enforce things. Next, he shows how to build it in K8s, and has a bunch of great diagrams to illustrate things. Great piece.
+BottomLine: Awesome piece explaining how to use Kubernetes to run a workload with bells and whistles
+==
