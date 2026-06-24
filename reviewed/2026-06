@@ -109,3 +109,8 @@ DateReviewed: 2026-06-22
 Description: Our article today is a deep dive into why Kubernetes is good at running workloads at scale. And then, the author tells us his thesis that the important thing is feedback loops, and to prove it, he's going to walk us through using K8s to run a Postgres database. It's actually brilliant, as he starts from nothing and builds everything manually at first, so you see all the issues and bits that need something. He then uses a watch script to enforce things. Next, he shows how to build it in K8s, and has a bunch of great diagrams to illustrate things. Great piece.
 BottomLine: Awesome piece explaining how to use Kubernetes to run a workload with bells and whistles
 ==
+URL reference: https://github.com/zero-objects/Pipewright
+DateReviewed: 2026-06-23
+Description: Our repo today is all about ensuring your software supply chain is working well from a security perspective. The idea is that it verified in both directions, both from your config files and your deployed state, so you aren't bitten by a drifted config. It live in your CI/CD pipeline and validates 17 platforms. Well documented and well thought out, it has components to cover all parts of the pipeline - inspect, plan, run, capabilities, migrate, render and compose. It is nearing its 1.0 release, having RC'd about 3 weeks ago.
+BottomLine: Solid tool to assist with software supply chain security
+==
