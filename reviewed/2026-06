@@ -114,3 +114,8 @@ DateReviewed: 2026-06-23
 Description: Our repo today is all about ensuring your software supply chain is working well from a security perspective. The idea is that it verified in both directions, both from your config files and your deployed state, so you aren't bitten by a drifted config. It live in your CI/CD pipeline and validates 17 platforms. Well documented and well thought out, it has components to cover all parts of the pipeline - inspect, plan, run, capabilities, migrate, render and compose. It is nearing its 1.0 release, having RC'd about 3 weeks ago.
 BottomLine: Solid tool to assist with software supply chain security
 ==
+URL reference: https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter
+DateReviewed: 2026-06-24
+Description: This article highlights an important current attack vector. A threat actor was able to compromise the account of a co-founder fro GPT-pilot, a 33K star AI coding tool and deploy a cred-stealing Shai-Hulud payload. Ironically, the deployment didn't get caught by a sophisticated security tool, but rather by a simple Python linter called ruff, which flagged the new code as not conforming to formatting and linting rules. So while the code never made it to the public, the attacker did have a vector to do so. The authors then dig through what the intention was supposed to do, showing it to be a sophisticated and well put together attack. They explain that they piggybacked on an Aug 25 commit which they modified, making it appear like a very old commit to the casual observer. Great analysis, recommended.
+BottomLine: Great look at interesting hijack attempt that didn't succeed
+==
