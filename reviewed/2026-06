@@ -124,3 +124,8 @@ DateReviewed: 2026-06-25
 Description: This article and its accompanying webcast feature a chat with the Sr. Solutions Arch. at NetApp, focusing on Kubernetes growth, automation, security and scalability. There is a bit on blind spots that are common and an often overlooked topic - data protection. Interesting discussion.
 BottomLine: Neat chat about Kubernetes and areas to increase focus on to improve resilience and get more Cloud native
 ==
+URL reference: https://twitter.com/jhulsinger/status/2066599780701057446
+DateReviewed: 2026-06-25
+Description: Our article touches on what went down with Fable and Mythos models from Anthropic around the US Govt putting them under export restrictions. It talks about how the restriction happened, addresses the theory that the restriction might have been due to lacking capacity to run the new models, which they mostly are able to dismiss. They address Amazon raising an alarm and whether that was anti-competitive. They also address the person who found some of the guardrail workarounds - explaining they had done this before, and have a history of doing so. They also mention the previous dispute Anthropic had with the DoD. The article goes on, and has a bunch of interesting rabbit holes and stances - definitely an interesting read.
+BottomLine: Interesting read on Fable model and the AI market in general
+==
