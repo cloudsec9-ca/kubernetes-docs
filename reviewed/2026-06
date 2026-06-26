@@ -119,3 +119,8 @@ DateReviewed: 2026-06-24
 Description: This article highlights an important current attack vector. A threat actor was able to compromise the account of a co-founder fro GPT-pilot, a 33K star AI coding tool and deploy a cred-stealing Shai-Hulud payload. Ironically, the deployment didn't get caught by a sophisticated security tool, but rather by a simple Python linter called ruff, which flagged the new code as not conforming to formatting and linting rules. So while the code never made it to the public, the attacker did have a vector to do so. The authors then dig through what the intention was supposed to do, showing it to be a sophisticated and well put together attack. They explain that they piggybacked on an Aug 25 commit which they modified, making it appear like a very old commit to the casual observer. Great analysis, recommended.
 BottomLine: Great look at interesting hijack attempt that didn't succeed
 ==
+URL reference: https://steminists.podbean.com/e/ep-65-less-panic-more-platform-virtualization-reimagined
+DateReviewed: 2026-06-25
+Description: This article and its accompanying webcast feature a chat with the Sr. Solutions Arch. at NetApp, focusing on Kubernetes growth, automation, security and scalability. There is a bit on blind spots that are common and an often overlooked topic - data protection. Interesting discussion.
+BottomLine: Neat chat about Kubernetes and areas to increase focus on to improve resilience and get more Cloud native
+==
