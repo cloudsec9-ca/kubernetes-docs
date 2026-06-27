@@ -129,3 +129,8 @@ DateReviewed: 2026-06-25
 Description: Our article touches on what went down with Fable and Mythos models from Anthropic around the US Govt putting them under export restrictions. It talks about how the restriction happened, addresses the theory that the restriction might have been due to lacking capacity to run the new models, which they mostly are able to dismiss. They address Amazon raising an alarm and whether that was anti-competitive. They also address the person who found some of the guardrail workarounds - explaining they had done this before, and have a history of doing so. They also mention the previous dispute Anthropic had with the DoD. The article goes on, and has a bunch of interesting rabbit holes and stances - definitely an interesting read.
 BottomLine: Interesting read on Fable model and the AI market in general
 ==
+URL reference: https://pi.dev/
+DateReviewed: 2026-06-26
+Description: This article/website goes through Pi, an AI agent harness to allow you to get into using AI. The idea is that it is a minimal harness, and that it adapts to your workflows rather than vice-versa. It even allows you to add to it, you can ask Pi to add a tool or workflow and do a reload and voila, you have new functionality. It has flexibility, able to interface to 15+ providers and hundreds of models that they make available. Quite a great runthrough, with live snip demos and endless examples in this overview, with links to the docs (and reminders you can also ask Pi about Pi). Very interesting, worth a read.
+BottomLine: Excellent intro and article to AI agent harness Pi
+==
