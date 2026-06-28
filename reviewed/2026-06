@@ -134,3 +134,8 @@ DateReviewed: 2026-06-26
 Description: This article/website goes through Pi, an AI agent harness to allow you to get into using AI. The idea is that it is a minimal harness, and that it adapts to your workflows rather than vice-versa. It even allows you to add to it, you can ask Pi to add a tool or workflow and do a reload and voila, you have new functionality. It has flexibility, able to interface to 15+ providers and hundreds of models that they make available. Quite a great runthrough, with live snip demos and endless examples in this overview, with links to the docs (and reminders you can also ask Pi about Pi). Very interesting, worth a read.
 BottomLine: Excellent intro and article to AI agent harness Pi
 ==
+URL reference: https://tracetest.io/blog/event-driven-kubernetes-testing-with-testkube-and-tracetest
+DateReviewed: 2026-06-27
+Description: Our article today talks about event-driving Kubernetes testing. This is a tutorial format, and focus on two tools - testkube and tracetest. We start with a tiny bit of background, before moving in to what is Testkube - a K8s native testing framework. Next up is what is Tracetest, which builds end to end tests with OpenTelemetry traces. They laud them working together, before diving into the how to do that. They go through setting up a demo app for testing, and install all the bits needed. Very interesting.
+BottomLine: Different take on doing app testing on Kubernetes
+==
