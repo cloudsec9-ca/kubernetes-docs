@@ -139,3 +139,8 @@ DateReviewed: 2026-06-27
 Description: Our article today talks about event-driving Kubernetes testing. This is a tutorial format, and focus on two tools - testkube and tracetest. We start with a tiny bit of background, before moving in to what is Testkube - a K8s native testing framework. Next up is what is Tracetest, which builds end to end tests with OpenTelemetry traces. They laud them working together, before diving into the how to do that. They go through setting up a demo app for testing, and install all the bits needed. Very interesting.
 BottomLine: Different take on doing app testing on Kubernetes
 ==
+URL reference: https://linuxsecurity.com/news/government/europe-open-source-strategy
+DateReviewed: 2026-06-27
+Description: Today's article looks at Europe's appraoch to open source maint as a strategy. The idea is that simple items that do the grunt work become building blocks for more complex systems, but they can expose governance, supply chain or straight up vulnerabilities without a clear way to get things actioned. The idea here, in a paper published by the EU, is to identify and enumerate such systems, and work to enhance their robustness and reliability. The thing they point out is that a key maintainer leaving a project can start a slow degradation that isn't now showing up until consequences happen, like a vuln. They talk about recenct examples, like Heartbleed and Log4Shell. The idea is to solve some of this with a funding path, chanelling money from the Government to maintainers so that software is kept up and secure. They do point out that it doesn't solve all issues, though. It's a very interesting discussion and approach.
+BottomLine: Dives into the EU approach to Open Source maintenance
+==
