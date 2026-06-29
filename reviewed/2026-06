@@ -144,3 +144,8 @@ DateReviewed: 2026-06-27
 Description: Today's article looks at Europe's appraoch to open source maint as a strategy. The idea is that simple items that do the grunt work become building blocks for more complex systems, but they can expose governance, supply chain or straight up vulnerabilities without a clear way to get things actioned. The idea here, in a paper published by the EU, is to identify and enumerate such systems, and work to enhance their robustness and reliability. The thing they point out is that a key maintainer leaving a project can start a slow degradation that isn't now showing up until consequences happen, like a vuln. They talk about recenct examples, like Heartbleed and Log4Shell. The idea is to solve some of this with a funding path, chanelling money from the Government to maintainers so that software is kept up and secure. They do point out that it doesn't solve all issues, though. It's a very interesting discussion and approach.
 BottomLine: Dives into the EU approach to Open Source maintenance
 ==
+URL reference: https://edka.io/blog/bare-metal-kubernetes-hetzner-edka/
+DateReviewed: 2026-06-28
+Description: This article covers using Hetzner with Kubernetes on bare metal, with a package called Edka. It turns out Edka is a SaaS that helps you run a hybrid of metal servers with cloud; it runs the K8s control plane in the cloud, but with some provider magic allows things like DBs to run on metal while other workloads can use cloud servers. It's a cool approach, and they talk about what's needed and what warts you have to watch out for.
+BottomLine: Interesting way to use bare metal for Kubernetes clusters
+==
