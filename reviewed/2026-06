@@ -154,3 +154,8 @@ DateReviewed: 2026-06-28
 Description: Today's repo is about Kubernetes config hygiene - Kogaro. They aim to stop silent failures happening from overlooked or wrong config directives. It consists of a validator and agent, a desktop app and a public website. It covers security, bad refs, resource issues and network policy gaps. Includes a quick start and lots of explaination, with a large feature set. Very interesting.
 BottomLine: Interesting approach to handling Kubernetes config issues
 ==
+URL reference: https://safedep.io/miasma-worm-hits-leoplatform-20-npm-packages/
+DateReviewed: 2026-06-29
+Description: Our article digs into the attack on LeoPlatform NPM ecosystem by the Miasma worm. They dive right in, explaining that 20 packages updated with infected code in a 3 second burst, once a maintainer's account got compromised. In an update the include the immobiliarelabs malware, which add 4 more packages. They do a great TL-DR blurb. They explain that by using a clever command expansion, the worm can bypass scanners looking for commands, as it is done during an apparent indexing command. The payload is brought in through a modified index.js, using encryption, bun and bun-based java malware blob. The actual malware does cred theft, secret scanning, AI code tool targeting, npm propogation and GitHub actions scanning. They do dive into the maintainers account compromise and how they found out what was up, and how the code is actually executed. Very interesting.
+BottomLine: Walkthrough of recent Miasma worm attack on two NPM ecosystems
+==
