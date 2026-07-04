@@ -4,3 +4,8 @@ DateReviewed: 2026-07-01
 Description:  Today's article is about on-prem API security for Kubernetes. We first get into thinking about where your APIs actually run. They talk about how it's not always clear where security bits should run, made more complicated by the way the cloud often works. They also surface the difference between running a pre-prod static scan vs. the actual runtime, where certain things may not be present. Next they talk about the API security "gap", or the fact that teams can miss as many as 50 or more API endpoints when moving off the cloud. What is important is that while we focus on what we're building now, we have to mitigate risks for a project that was attempted but got put on hold, but the API code is still in the wind. They pivot to talking about WAFs, and how the right thing for them is based on proper intelligence of the threat enviro. Very interesting approach.
 BottomLine: Good article on risks to cloud/on-prem deploys that aren't immediately obvious
 ==
+URL reference: https://gitrated.com/vchinnipilli/kubestriker
+DateReviewed: 2026-07-02
+Description: This is a blurb article on a tool called Kubestriker. It's a security auditing tool for cluster and cloud managed misconfigs. They mention it has a CLI, solid docs and a web app option with CI CD integration. This blurb does mention it doesn't have a recent release and that some of the execution choices seem less then ideal. Nice pro/con section, with recommendations to close out.
+BottomLine: Solid walkthough on a cluster and cloud native security scanning tool
+==
