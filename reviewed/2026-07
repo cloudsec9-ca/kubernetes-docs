@@ -9,3 +9,8 @@ DateReviewed: 2026-07-02
 Description: This is a blurb article on a tool called Kubestriker. It's a security auditing tool for cluster and cloud managed misconfigs. They mention it has a CLI, solid docs and a web app option with CI CD integration. This blurb does mention it doesn't have a recent release and that some of the execution choices seem less then ideal. Nice pro/con section, with recommendations to close out.
 BottomLine: Solid walkthough on a cluster and cloud native security scanning tool
 ==
+URL reference: https://medium.com/@ismailkovvuru/updating-kubernetes-deployments-services-without-recreation-496da6cfe025
+DateReviewed: 2026-07-03
+Description: Our article today talks about updating Kubernetes deployments without recreation. They explain that there are a lot of moving parts in an update, and to have an interruption free deployment requires lots of little things. Now, this is sort of a tutorial on how to do things - as they walk us through figuring out where the service port is; what the version of the image is, and how many replicas we have running; then show us how to modify/increase all of these items. Pretty compact but good walkthrough.
+BottomLine: Solid walkthrough on doing modifications to a Kubernetes deployment
+==
