@@ -14,3 +14,8 @@ DateReviewed: 2026-07-03
 Description: Our article today talks about updating Kubernetes deployments without recreation. They explain that there are a lot of moving parts in an update, and to have an interruption free deployment requires lots of little things. Now, this is sort of a tutorial on how to do things - as they walk us through figuring out where the service port is; what the version of the image is, and how many replicas we have running; then show us how to modify/increase all of these items. Pretty compact but good walkthrough.
 BottomLine: Solid walkthrough on doing modifications to a Kubernetes deployment
 ==
+URL reference: https://twitter.com/termdotworks/status/2071685291987833000
+DateReviewed: 2026-07-04
+Description: This article talks about Termworks. So, it seems that this is some kind of shell hook that displays ads? I'm kind of hoping there is some point like it lets you have free access to some AI or other, because why would you want MORE ads (and especially in your shell)? It grabs the command name you run, likely to know what tools you are using (to target the ads better). They do try to be somewhat transparent, explaining how the thing functions and that it is a GO source program.
+BottomLine: Blurb about an ad tool called Termworks
+==
