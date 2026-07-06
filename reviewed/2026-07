@@ -19,3 +19,8 @@ DateReviewed: 2026-07-04
 Description: This article talks about Termworks. So, it seems that this is some kind of shell hook that displays ads? I'm kind of hoping there is some point like it lets you have free access to some AI or other, because why would you want MORE ads (and especially in your shell)? It grabs the command name you run, likely to know what tools you are using (to target the ads better). They do try to be somewhat transparent, explaining how the thing functions and that it is a GO source program.
 BottomLine: Blurb about an ad tool called Termworks
 ==
+URL reference: https://thenewstack.io/kubernetes-rightsizing-trust-gap/
+DateReviewed: 2026-07-05
+Description: Our article today talks about how to fix soaring cloud bills. But it seems that people worry about automating the bits that turn down resources for some reason. So while right-sizing is a priority, a big majority of engs don't allow automation to control things like shutting down or downsizing resources. 
+BottomLine: Short discussion about automating cost control measures on Kubernetes
+==
