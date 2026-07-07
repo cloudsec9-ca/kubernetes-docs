@@ -24,3 +24,8 @@ DateReviewed: 2026-07-05
 Description: Our article today talks about how to fix soaring cloud bills. But it seems that people worry about automating the bits that turn down resources for some reason. So while right-sizing is a priority, a big majority of engs don't allow automation to control things like shutting down or downsizing resources. 
 BottomLine: Short discussion about automating cost control measures on Kubernetes
 ==
+URL reference: https://medium.com/@selvarajmurugesan90/kubeflow-empowering-machine-learning-on-kubernetes-305e8ee46296
+DateReviewed: 2026-07-06
+Description: Today's article is about how Kubeflow works with Machine Learning. WWe start with a bit of background as is usual, then dive in. Kubeflow is an open source ML platform, and this article talks about what Kubeflow is, how it works, how to use it on K8s, and some use cases. Kubeflow is a middle piece, which enables things like ML frameworks (tensorflow), interactive bits (like Jupyter), let's you automate pipelines and also train, serve and monitor models. It goes through the benefits, before diving into the how to run it on K8s. We start with prereqs, then the install and verify. They go through 3 use cases in detail, and to wrap up end with some best practices for production. 
+BottomLine: Solid piece on an ML framework for Kubernetes
+==
