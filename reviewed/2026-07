@@ -29,3 +29,8 @@ DateReviewed: 2026-07-06
 Description: Today's article is about how Kubeflow works with Machine Learning. WWe start with a bit of background as is usual, then dive in. Kubeflow is an open source ML platform, and this article talks about what Kubeflow is, how it works, how to use it on K8s, and some use cases. Kubeflow is a middle piece, which enables things like ML frameworks (tensorflow), interactive bits (like Jupyter), let's you automate pipelines and also train, serve and monitor models. It goes through the benefits, before diving into the how to run it on K8s. We start with prereqs, then the install and verify. They go through 3 use cases in detail, and to wrap up end with some best practices for production. 
 BottomLine: Solid piece on an ML framework for Kubernetes
 ==
+URL reference: https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/
+DateReviewed: 2026-07-07
+Description: This article talks a bit about the announcement at MS build 2026 that container devel for Linux is being supported directly on WSL. After giving a bit of background, this actually does a bit of a walkthrough to show you what the features are and talks a bit about the API. Very interesting.
+BottomLine: Announcment of direct Linux container dev on WSL on Windows
+==
