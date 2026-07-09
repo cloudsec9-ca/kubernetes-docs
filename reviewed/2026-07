@@ -34,3 +34,8 @@ DateReviewed: 2026-07-07
 Description: This article talks a bit about the announcement at MS build 2026 that container devel for Linux is being supported directly on WSL. After giving a bit of background, this actually does a bit of a walkthrough to show you what the features are and talks a bit about the API. Very interesting.
 BottomLine: Announcment of direct Linux container dev on WSL on Windows
 ==
+URL reference: https://www.prplbx.com/blog/kubernetes-security
+DateReviewed: 2026-07-08
+Description: Today's article is about Kubernetes pentesting. This is more from the perspective of a security person, rather than a K8s person. It's also fairly high level, as well as being quite short and to the point. It give the layout of the typical cluster, before quickly jumping into methodologies. Like typical security, we have info gathering, authentication and authorization teting, pod security, network security, api security and finally config reviews. They then go through some pentest tools, before doing a bit of hands on with a CTF exploration. Quite solid.
+BottomLine: Kubernetes pentesting from the perspective of a security person
+==
