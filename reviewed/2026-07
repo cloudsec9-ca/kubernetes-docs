@@ -39,3 +39,8 @@ DateReviewed: 2026-07-08
 Description: Today's article is about Kubernetes pentesting. This is more from the perspective of a security person, rather than a K8s person. It's also fairly high level, as well as being quite short and to the point. It give the layout of the typical cluster, before quickly jumping into methodologies. Like typical security, we have info gathering, authentication and authorization teting, pod security, network security, api security and finally config reviews. They then go through some pentest tools, before doing a bit of hands on with a CTF exploration. Quite solid.
 BottomLine: Kubernetes pentesting from the perspective of a security person
 ==
+URL reference: https://akuity.io/2026-gitops-best-practices
+DateReviewed: 2026-07-09
+Description: While today's piece is supposed to be an ebook, I actually got got and it's just a signup LINK to an ebook. While it has a little blurb on what is in the book, including Helm and Kustomize, Git workflow and GitOps repos, CI CD bits and some other stuff, NONE of that is shown here, and we don't review what we can't see without paywall or signups.
+BottomLine: Might be interesting topics but an ebook behind signup
+==
