@@ -44,3 +44,8 @@ DateReviewed: 2026-07-09
 Description: While today's piece is supposed to be an ebook, I actually got got and it's just a signup LINK to an ebook. While it has a little blurb on what is in the book, including Helm and Kustomize, Git workflow and GitOps repos, CI CD bits and some other stuff, NONE of that is shown here, and we don't review what we can't see without paywall or signups.
 BottomLine: Might be interesting topics but an ebook behind signup
 ==
+URL reference: https://linuxsecurity.com/news/security-projects/dark-moon-ai-penetration-testing-linux
+DateReviewed: 2026-07-10
+Description: Our article this week talks about a tool called Dark Moon and how AI pentesting is changing things up. We start with some background, and then pivot to talking a bit about the tool, which works on a variety of endpoints and uses Docker based tools. The idea here is instead of a human tester reading output of one tool to decide what flags to pass to the next tool, it automatically figures out what the output says that is interesting and creates tests based on what might be interesting going forward. They explain that by using Docker containers, it isolates the testing tools from the tested host. It's an interesting approach and a novel use of AI to supercharge pen tests.
+BottomLine: Interesting discussion on using AI to enhance traditional pentests
+==
