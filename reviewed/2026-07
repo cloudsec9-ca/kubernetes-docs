@@ -69,7 +69,7 @@ DateReviewed: 2026-07-14
 Description: This article is a PR request in response to CVS 2026-53359 or Januscape, which is a guest to host escape on Linux KVM in x86. The root cause is a use-after-free bug, but it can only be exploited if nested virtualization is turned on, which this PR asks to be turned off. Well explained vuln with known exploit, and this is the initial mitigation for that.
 BottomLine: Good high level walkthrough of a serious container escape bug
 ==
-URL reference: https://x.com/sudiprokaya/status/2074158809803874723
+URL reference: https://twitter.com/sudiprokaya/status/2074158809803874723
 DateReviewed: 2026-07-15
 Description: Our article today talks about how people are structuring their AI approaches; not using a single model for all work, but rather using one model for decisions, another for volume requests and a third smaller one for the easy ones. Our authors argue that the router layer for AI should also act as an admission layer, with context, data perms, tools allowed, budget and when it needs approval. They argue the "request" has turned into the "delegated job" as a unit of software measurement. They consider the request "research this customer", and what that means practially - it could mean just reading notes, or it could be combining info from 5 disperate systems. And it's hard to manage from a governance perspective thinking about it like that. They point out that while a lot of agent tools are being run in production, it isn't always clear when AI is doing something, as opposed to a human making a request. They point out people have defined permissions, where often agents do not. They argue the true issue is an agent spending $400 on a $4 task. To solve this, our authors propose six gates that can guardrail AI actions. The gates are Identity, Workload class, Context, Tools, Approval, and finally the reciept. They argue this is the key piece, a summary of what the agent did, what it used, what it cost, and what the final result was. 
 BottomLine: Very interesting discussion on approaches to AI controls
@@ -88,4 +88,9 @@ URL reference: https://clawdlinux.org/
 DateReviewed: 2026-07-18
 Description: This website is basically a fancy blurb on a layer to give governance to your AI agents. The website looks impressive, but the linked repo less so. There are no public contributors and only three code stores, one of them being the website. So, while the idea they present is interesting, I'd say we want to approach this project with a bit of caution, as it all feels very new.
 BottomLine: Interesting idea for AI agents but the backers seem new
+==
+URL reference: https://twitter.com/nuonjon/status/2074980632418206136
+DateReviewed: 2026-07-19
+Description: Our article today tackles the issue of BYOC, or bring your own code, basically allowing customers to deploy their own local SaaS software stacks where they need them -- paticuarly for highly secure data or on-prem apps and data. The author laments that "the bar is low", because most customers ask can things run in their Env or if it might even be possible to run. They are expecting pain. They posit that Enterprise software has been left out of the SaaS revolution, mired in complexity and fixed requirements. He argues that not only should it be possible, but that such deployments should be easy in this day and time. He says the hard part for vendors should be the abundance of variations you might support, because different customers will have different lifecycles. Interesting perspective.
+BottomLine: Good piece about how all software should be able to run in a customers environment no matter the size
 ==
